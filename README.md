@@ -45,7 +45,7 @@ Hard Drivers is a customer budget based Custom PC Building company. Customers ca
 * Index Page Wireframe: [Link](./assets/wireframes/index-wireframe.pdf)
 * About Page Wireframe: [Link](./assets/wireframes/about-wireframe.pdf)
 * Packages Wireframe: [Link](./assets/wireframes/packages-wireframe.pdf)
-* Enquire Wireframe: [Link](./assets/wireframes/enquiry-wireframe.pdf)
+* Enquire Wireframe: [Link](./assets/wireframes/enquire-wireframe.pdf)
 
 ---
 
