@@ -177,6 +177,34 @@ TBC
     * Instigate engagement.
     * Obtain customer information to proceed with service.
     
+
+**Packages Page: A Discussion on Informational Architecture**
+
+As a Business, Hard Drivers would primarily make the most amount of profit from the additional services provided on top of the custom build computers. 
+As such, an additional page was initially planned called _"Packages"_, which provided the customer with a detailed breakdown of the additional services 
+they could purchase in conjunction with their the computer. This can be seen from the original wireframe designs.
+
+After reviewing the original plans and wireframes, and after additional consideration, it was considered that this information in isolation appeared to be quite _'content thin'_,
+and could potentially make having a seperate page for this content feel empty and isolated. In addition to this, it would be entirely possible for a customer to visit the index page,
+engage with the site immediately as intended, and forgoe this page entirely.  Given this information is integral for the business, consideration needed to be made as to 
+where this content could be added. Having this information appear on the _"Index"_ page would defer from its minimalistic design and intention, and could potentially feel like 
+over-selling from a customer pespective, and considering the intention, context, and grouping of information on the _"About"_ page, it was decided that the _"packages"_ information would 
+overload this page or side-track its intention.
+
+From a business perspective, this information needed to be accessible and hard to miss. However, as a consumer, you would not want to be over-burdened with aggressive overselling. 
+The positioning of this information needed to be relevant, compliment the flow and structure of the other pages, along with their features and content, and needed to fulfil it's business purpose
+of being a mandatory part of the selling process, without being intrusive. 
+
+A work-around to this was explored, and has been considered for implementation, whereby the _"packages"_ page is removed entirely, and reference can be made in the _"About"_ page, under Cost, 
+to additional services being provided. This reference will link to a modal whereby the content initially planned for the _"packages"_ page is displayed. In doing this, the services can be subtly referenced,
+without being intrusive, and can provide the user with the additional information if they request it. Furthermore, in the _"Enquire"_ page, under the _"packages"_ section, the decision has been made
+to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
+however is not obliged to delve into the the additional information if they do not wish to do so, which would potentially fulfill the customer need of not being overwhelmed with information unneccessarily.
+Furthermore, given the base-line package will be Free, if all costs are disclosed in the package selection, the user can choose to select the free package without having to obtain further information about
+the packages.
+
+
+
 ### Design
 
 ### Wireframes
