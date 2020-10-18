@@ -123,6 +123,10 @@ Based on the research undertaken in the Strategy plane, and the considerations o
     * Be transparent about cost of additional services and peripherals. 
     * Provide detailed yet convincing breakdown of cost of service
 
+### Future Feature Consideration
+
+TBC
+
 ---
 
 ### Design
