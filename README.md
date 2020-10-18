@@ -203,24 +203,17 @@ however is not obliged to delve into the additional information if they do not w
 Furthermore, given the base-line package will be Free, if all costs are disclosed in the package selection, the user can choose to select the free package without having to obtain further information about
 the packages.
 
+---
 
-
-### Design
+## Structure
 
 ### Wireframes
 
-* Header/Footer Wireframe: [Link](./assets/wireframes/header-footer-wireframe.pdf)
-* Index Page Wireframe: [Link](./assets/wireframes/index-wireframe.pdf)
-* About Page Wireframe: [Link](./assets/wireframes/about-wireframe.pdf)
-* Packages Wireframe: [Link](./assets/wireframes/packages-wireframe.pdf)
-* Enquire Wireframe: [Link](./assets/wireframes/enquire-wireframe.pdf)
-
----
-
-## Features
-
-
-
+* Header/Footer Wireframe: [Version 1](./assets/wireframes/header-footer-wireframe.pdf) | [Version 2](./assets/wireframes/header-footer-wireframe-v2.pdf)
+* Index Page Wireframe: [Version 1](./assets/wireframes/index-wireframe.pdf)
+* About Page Wireframe: [Version 1](./assets/wireframes/about-wireframe.pdf) | [Version 2](./assets/wireframes/about-wireframe-v2.pdf)
+* Packages Wireframe: [Version 1](./assets/wireframes/packages-wireframe.pdf) | [Version 2](./assets/wireframes/packages-wireframe-v2.pdf)
+* Enquire Wireframe: [Version 1](./assets/wireframes/enquire-wireframe.pdf) | [Version 2](./assets/wireframes/enquire-wireframe-v2.pdf)
 
 ---
 
