@@ -37,6 +37,48 @@ _“I want to be able to contact the company straight away”._
 
 [Chillblast](https://www.chillblast.com/ "Chillblast Homepage"): Not very user friendly, a lot of information, a lot of options, and high selling point is pre-build next day PCs.
 
+### Project and Company Goals
+
+**Psychological Factors**
+* Envoke a positive emotional response from the branding of Hard Drivers.
+  * Make the logo strong, bold, and stand out.
+  * Make the logo unique, and aesthetically pleasing.
+  * Use the logo consistently throughout the website.
+  * Align the style and design of the pages to match the logo.
+  * Minimalistic design approach, so as to not overwhelm the customer.
+* Appeal to the customer by personalising the service.
+  * Address the customer directly by repeately using the term _"You"_ and _"Your"_.
+  * Make it clear that each customer is unique, and each computer will be build specificly for their needs.
+
+**Pricing**
+
+* Be transparent with cost.
+    * The user decides the cost of the computer.
+    * No hidden costs.
+* Upsell as a seperate entity.
+    * Peripherals and Service packages are not included in initial budget.
+    * The customer is not required to spend any more than their budget.
+
+**Buyer Making Decision**
+
+* Offer a _"No Obligation"_ quote/specification.
+    * The customer will therefore not need to justify engaging with the company/website.
+    * As such, they do not need to plan to engage with the company/website, other than stating a budget.
+* Communicate that the hard work is taken away from the customer.
+    * This suggests the user only needs to put in a small amount of effort to receive a full service in return.
+
+**Product Considerations and Content Strategy**
+
+* Minimalistic design, so at to draw attention, avoid overwhelming the customer, and encourage engagement.
+    * The product is the _service_ provided by Hard Drivers, therefore strong colors, images, and headlines to engage with customer.
+* Thin content where neccessary, providing only the most important information from the outset.
+    * Provide fuller content in sections of the website where the customer specifically wants further information.
+* Every page has multiple "Enquire Now" buttons, so as to allow a user to immediately engage when they want to.
+    * This "Enquire Now" should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible.
+
+
+    
+
 ### User Stories
 
 | **User Story**        | **Considerations of Satisfaction**          |
