@@ -22,8 +22,10 @@ Hard Drivers is a customer budget based Custom PC Building company. Customers ca
 ### Stakeholder Interview
 
 _“I don’t want to have to keep adding parts to see the costs skyrocket, then have to start removing things I think I need or want,  to keep it within a budget”._  
-_“I want someone to recommend exactly what I need”._  
-_“I want to be able to contact the company straight away”._  
+
+_“I want someone to recommend exactly what I need”._    
+
+_“I want to be able to contact the company straight away”._    
 
 ### Competitor Review
 
