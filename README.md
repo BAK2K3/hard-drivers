@@ -47,15 +47,15 @@ _“I want to be able to contact the company straight away”._
   * Align the style and design of the pages to match the logo.
   * Minimalistic design approach, so as to not overwhelm the customer.
 * Appeal to the customer by personalising the service.
-  * Address the customer directly by repeately using the term _"You"_ and _"Your"_.
-  * Make it clear that each customer is unique, and each computer will be build specificly for their needs.
+  * Address the customer directly by repeatedly using the term _"You"_ and _"Your"_.
+  * Make it clear that each customer is unique, and each computer will be build specifically for their needs.
 
 **Pricing**
 
 * Be transparent with cost.
     * The user decides the cost of the computer.
     * No hidden costs.
-* Upsell as a seperate entity.
+* Upsell as a separate entity.
     * Peripherals and Service packages are not included in initial budget.
     * The customer is not required to spend any more than their budget.
 
@@ -71,7 +71,7 @@ _“I want to be able to contact the company straight away”._
 
 * Minimalistic design, so at to draw attention, avoid overwhelming the customer, and encourage engagement.
     * The product is the _service_ provided by Hard Drivers, therefore strong colors, images, and headlines to engage with customer.
-* Thin content where neccessary, providing only the most important information from the outset.
+* Thin content where necessary, providing only the most important information from the outset.
     * Provide fuller content in sections of the website where the customer specifically wants further information.
 * Every page has multiple "Enquire Now" buttons, so as to allow a user to immediately engage when they want to.
     * This "Enquire Now" should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible.
