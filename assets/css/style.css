@@ -8,3 +8,39 @@ body {
     margin: 0;
 }
 
+/******************** Header */
+
+header {
+    max-height: 120px;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.navbar-brand {
+    margin-right: 0;
+    text-align: center;
+}
+
+.navbar-toggler {
+    border: none;
+    padding-top:20px;
+}
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+}
+
+/*************** Headings */
+
+.main-logo {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.heading-text {
+    text-align: center;
+    font-family: "Staatliches", sans-serif;
+    letter-spacing: 4px;
+}
