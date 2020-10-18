@@ -31,7 +31,7 @@ _“I want to be able to contact the company straight away”._
 
 [Box](https://www.box.co.uk/ "Box Homepage"): A less specific focus on builds, with immediate attention drawn to peripherals rather than computer.
 
-[Chillblast](https://www.chillblast.co.uk/ "Chillblast Homepage"): Not very user friendly, a lot of information, a lot of options, and high selling point is pre-build next day PCs.
+[Chillblast](https://www.chillblast.com/ "Chillblast Homepage"): Not very user friendly, a lot of information, a lot of options, and high selling point is pre-build next day PCs.
 
 ### User Stories
 
