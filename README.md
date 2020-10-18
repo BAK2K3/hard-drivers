@@ -15,6 +15,8 @@ hɑːd ˈdraɪvə | **Noun**
 
 Hard Drivers is a customer budget based Custom PC Building company. Customers can obtain a “no obligation” free specification for a custom build PC based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand new tailor-made computer. 
 
+---
+
 # UX
 
 ## Strategy
@@ -76,9 +78,6 @@ _“I want to be able to contact the company straight away”._
 * Every page has multiple "Enquire Now" buttons, so as to allow a user to immediately engage when they want to.
     * This "Enquire Now" should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible.
 
-
-    
-
 ### User Stories
 
 | **User Story**        | **Considerations of Satisfaction**          |
@@ -95,6 +94,37 @@ _“I want to be able to contact the company straight away”._
 |                                                                           | Make enquiry feature clear, and stand out.      |
 |                                                                           | Make the initial enquiry form simple and intuitive.     |
 
+---
+
+## Scope
+
+### Features
+
+Based on the research undertaken in the Strategy plane, and the considerations of satisfaction, the following features were considered for implementation:
+
+* **Encourage and Allow User Engagement**
+    * Every page must allow a user to engage with the business.
+    * The ability to engage is clear and stands out from other interactive aspects of the site.
+    * Engagement is done through completing an simple and intuitive enquiry form.
+
+* **Convey Ethos/Purpose**
+    * Outline key services on home page.
+    * Present further details on key services on seperate page.
+    * Make sure the details provided are important, sellable, and merit being detailed in isolation.
+    * Make the descriptions bite sized and easy to digest.
+
+* **Instil User Confidence**
+    * The branding is clear, distinguishable, and recognisable.
+    * Relate to and refer to the customer.
+    * The website is minimalistic where neccessary, intuitive, and user friendly. 
+
+* **Present Cost Approach**
+    * Communicate that the computer is customer budget based.
+    * Be transparent about cost of additional services and peripherals. 
+    * Provide detailed yet convincing breakdown of cost of service
+
+---
+
 ### Design
 
 ### Wireframes
@@ -109,9 +139,23 @@ _“I want to be able to contact the company straight away”._
 
 ## Features
 
+
+
+
+---
+
+## Features
+
 ### Existing Features
 
 ### Features Left to Implement
+
+    
+* **Provide Live Service**
+
+* **Gain Presence**
+
+* **Smart Specification**
 
 ---
 
