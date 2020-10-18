@@ -21,7 +21,9 @@ Hard Drivers is a customer budget based Custom PC Building company. Customers ca
 
 ### Stakeholder Interview
 
-_“I don’t want to have to keep adding parts to see the costs skyrocket, then have to start removing things I think I need or want,  to keep it within a budget”._  
+**What are some of your most important considerations when using a company to buy a custom build computer?**
+
+_“I don’t want to have to keep adding parts to see the costs skyrocket, then have to start removing things I think I need or want, in order to keep it within a budget”._  
 
 _“I want someone to recommend exactly what I need”._    
 
