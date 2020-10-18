@@ -129,6 +129,54 @@ TBC
 
 ---
 
+## Structure
+
+**Index Page**
+
+* Provides a full breakdown of the company, it's ethos, and it's purpose.
+* Grabs customer's attention, engages, and encourages user to make an enquiry.
+
+* User Goal:
+    * Simple to interact with.
+    * Explains business purpose.
+    * Allows and encourages easy engagement.
+* Business Goal:
+    * Interest the user.
+    * Engage the user.
+    * Sustain the user.
+    * Convey Company ethos and purpose.
+
+**About Page**
+
+* Explains how cost works.
+* Instils trust by selling the brand and the service.
+* Explains ethos and purpose.
+
+* User Goals:
+    * Obtain information about the company.
+    * Understand how the cost works.
+    * Understand how to use the service.
+* Business Goals:
+    * Convey company ethos.
+    * Sell the brand.
+    * Convince customer to engage with company.
+    * Be transparent about cost, services, and purpose.
+
+**Enquire Page**
+
+* Allows customer to submit enquiry by providing a small amount of information.
+* Offers a simple and intuitive method of enquiring.
+* Uses a user-friendly interface.
+* The feeling of achieving a lot from a small amount of input from the customer.
+
+* User Goals:
+    * A simple an intuitive form of communication.
+    * Feel like little information needed to instigate engagement.
+    * A positive user experience during form filling.
+* Business Goals:
+    * Instigate engagement.
+    * Obtain customer information to proceed with service.
+    
 ### Design
 
 ### Wireframes
