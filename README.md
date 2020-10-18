@@ -7,21 +7,33 @@ It is developed primarily using HTML and CSS, with a small amount of javascript 
 
 ---
 
-## Company Concept
+## Project Concept
 
 >**Hard Driver**  
 hɑːd ˈdraɪvə | **Noun**  
 *A CompTIA A+ certified computer magician, who has an abundance of love and pride for making your dream computer become a reality.*  
 
-Hard Drivers is a customer budget based Custom PC Building company. Customers can obtain a “no obligation” free specification for a custom build PC based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand new computer. 
+Hard Drivers is a customer budget based Custom PC Building company. Customers can obtain a “no obligation” free specification for a custom build PC based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand new tailor-made computer. 
 
+# UX
 
+## Strategy
 
-## UX
+### Stakeholder Interview
+
+_“I don’t want to have to keep adding parts to see the costs skyrocket, then have to start removing things I think I need or want,  to keep it within a budget”._  
+_“I want someone to recommend exactly what I need”._  
+_“I want to be able to contact the company straight away”._  
+
+### Competitor Review
+
+[PC Specialist](https://www.pcspecialist.co.uk/ "Pc Specialist Homepage"): A huge amount of options from the outset, with quite significant price ranges. Onus is on the customer to know what they want/need.
+
+[Box](https://www.box.co.uk/ "Box Homepage"): A less specific focus on builds, with immediate attention drawn to peripherals rather than computer.
+
+[Chillblast](https://www.chillblast.co.uk/ "Chillblast Homepage"): Not very user friendly, a lot of information, a lot of options, and high selling point is pre-build next day PCs.
 
 ### User Stories
-
-
 
 | **User Story**        | **Considerations of Satisfaction**          |
 | -------------         |-------------|
