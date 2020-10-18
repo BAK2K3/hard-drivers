@@ -4,43 +4,73 @@
 /******************** CSS Body Reset */
 
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-/******************** Header */
+/******************** Nav Bar */
 
-header {
-    max-height: 120px;
+/* 'Lava' render from Gimp (www.gimp.com) */
+#banner {
+  background: url("/assets/images/full-banner.png") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  max-height: 140px;
+  padding-bottom: 20px;
 }
 
+/* Radial gradient (centre transparent, outer black) */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient */
+.central-gradient {
+  max-height: 140px;
+  background: radial-gradient(circle, transparent 0%, black 50%);
+}
+
+/* General Nav elements*/
 .navbar {
-    text-align: right;
+  text-align: right;
 }
 
 .navbar-brand {
-    margin-right: 0;
-    text-align: center;
+  margin-right: 0;
+  text-align: center;
+  color: #fafafa;
 }
 
 .navbar-toggler {
-    border: none;
-    padding-top:20px;
+  border: none;
+  padding-top: 20px;
 }
 
-.nav-link {
-    font-family: "Montserrat", sans-serif;
+.navbar-light .navbar-nav .nav-link {
+  color: #fafafa;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fafafa;
 }
 
 /*************** Headings */
 
 .main-logo {
-    margin: 0 auto;
-    padding-top: 20px;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .heading-text {
-    text-align: center;
-    font-family: "Staatliches", sans-serif;
-    letter-spacing: 4px;
+  text-align: center;
+  font-family: "Staatliches", sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 6px;
+  color: #fafafa;
+}
+
+.header-red {
+  color: rgba(228, 22, 22, 0.75);
 }
