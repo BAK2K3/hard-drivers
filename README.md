@@ -217,6 +217,15 @@ the packages.
 
 ---
 
+## Design
+
+### Logo Mock-Ups
+
+Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo.png)
+
+---
+
+
 ## Features
 
 ### Existing Features
