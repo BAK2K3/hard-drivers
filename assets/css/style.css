@@ -92,7 +92,6 @@ footer {
 /*************** Main Body */
 
 .body-content {
-
   background: black;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -100,17 +99,32 @@ footer {
 }
 
 .main-features {
-
-
-
 }
+
+
 
 /**************** Footer */
 
 .footer {
-  height: 150px;
+  height: 100px;
   background-color: white;
   z-index: 1;
+}
+
+.footer .row {
+  height: inherit;
+}
+
+.personal-logo {
+  background-color: red;
+}
+
+.company-logo {
+  background-color: blue;
+}
+
+.socials {
+  background-color: yellow;
 }
 
 /*************** Media Queries */
@@ -120,8 +134,9 @@ footer {
     font-size: 3rem;
   }
 
-  ul{
+  ul {
     position: absolute;
     right: 0;
-}
-}
+  }
+
+
