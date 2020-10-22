@@ -67,12 +67,12 @@ footer {
   letter-spacing: 2px;
 }
 
-  .navbar-nav .nav-item .nav-link {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+.navbar-nav .nav-item .nav-link {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link:hover {
@@ -160,6 +160,36 @@ footer {
   .navbar-nav .nav-item .nav-link {
     padding-right: 15px;
   }
+
+  /* Dropdown Transition */
+  /* https://stackoverflow.com/questions/12115833/adding-a-slide-effect-to-bootstrap-dropdown */
+
+  .navbar-collapse .navbar-nav {
+    -webkit-transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
+    -moz-transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
+    -ms-transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
+    -o-transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
+    transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    -webkit-transition: max-height 0.3s, opacity 0.2s, visibility 0s;
+    -moz-transition: max-height 0.3s, opacity 0.2s, visibility 0s;
+    -ms-transition: max-height 0.3s, opacity 0.2s, visibility 0s;
+    -o-transition: max-height 0.3s, opacity 0.2s, visibility 0s;
+    transition: max-height 0.3s, opacity 0.2s, visibility 0s;
+
+    max-height: 190px;
+    opacity: 1;
+    visibility: visible;
+  }
+/*  /Dropdown Transition */
 
   .hero-image {
     background: url("/assets/images/hero-image.jpg") no-repeat bottom center;
