@@ -59,6 +59,11 @@ footer {
 .navbar-toggler {
   border: none;
   padding-top: 20px;
+  padding-right: 25px;
+}
+
+.navbar-toggler-icon {
+    color: #fafafa;
 }
 
 .primary-link {
