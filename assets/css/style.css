@@ -39,19 +39,19 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: inherit;
+  padding: 0;
 }
 
 /* Radial gradient (centre transparent, outer black) */
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient */
+/* https://www.quirksmode.org/css/images/position.html */
 .banner-gradient {
-  background: radial-gradient(circle, transparent 0%, black 50%);
+  background: radial-gradient(at top, transparent 0%, black 70%);
   padding: inherit;
 }
 
 .navbar-brand {
   margin-right: 0;
-  padding: 0;
+  padding-top: 10px;
   text-align: center;
   color: #fafafa;
 }
@@ -90,11 +90,14 @@ footer {
   font-family: "Staatliches", sans-serif;
   font-size: 4rem;
   letter-spacing: 6px;
-  color: #fafafa;
 }
 
 .header-red {
   color: rgba(228, 22, 22, 0.75);
+}
+
+.header-white {
+  color: #fafafa;
 }
 
 /*************** Main Body */
@@ -189,7 +192,7 @@ footer {
     opacity: 1;
     visibility: visible;
   }
-/*  /Dropdown Transition */
+  /*  /Dropdown Transition */
 
   .hero-image {
     background: url("/assets/images/hero-image.jpg") no-repeat bottom center;
