@@ -185,6 +185,7 @@ footer {
 .socials i {
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 1.6em;
 }
 
 .personal-logo,
@@ -193,6 +194,11 @@ footer {
   text-align: center;
   margin: auto;
   color: #fafafa;
+}
+
+.socials-pair-one,
+.socials-pair-two {
+  display: inline-flex;
 }
 
 /*************** Media Queries */
