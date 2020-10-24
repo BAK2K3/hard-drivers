@@ -45,7 +45,7 @@ footer {
 /* Radial gradient (centre transparent, outer black) */
 /* https://www.quirksmode.org/css/images/position.html */
 .banner-gradient {
-  background: radial-gradient(at top, transparent 0%, black 70%);
+  background: radial-gradient(at top, transparent 0%, black 80%);
   padding: inherit;
 }
 
@@ -163,7 +163,7 @@ footer {
 /* Radial gradient (centre transparent, outer black) */
 /* https://www.quirksmode.org/css/images/position.html */
 .footer-gradient {
-  background: radial-gradient(at bottom, transparent 0%, black 50%);
+  background: radial-gradient(at bottom, transparent 0%, black 70%);
   padding: 0;
 }
 
