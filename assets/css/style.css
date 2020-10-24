@@ -60,13 +60,13 @@ footer {
   border: none;
   padding-top: 25px;
   padding-right: 25px;
-  padding-left:0;
+  padding-left: 0;
   height: auto;
 }
 
 .navbar-toggler-icon {
-    color: #fafafa;
-    font-size: 2em;
+  color: #fafafa;
+  font-size: 2em;
 }
 
 .primary-link {
@@ -109,8 +109,8 @@ footer {
 }
 
 .header-icon {
-    color: #fafafa;
-    font-size: 3.5rem;
+  color: #fafafa;
+  font-size: 3.5rem;
 }
 
 /*************** Main Body */
@@ -142,36 +142,53 @@ footer {
 /**************** Footer */
 
 .footer {
+  /* 'Lava' render from Gimp Software (www.gimp.com) */
+  background: url("/assets/images/full-banner.png") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 75px;
   padding: 0;
-  max-width: 100%
+  /* max-width: 100%; */
+  /* box-sizing: border-box; */
+}
+
+/* Radial gradient (centre transparent, outer black) */
+/* https://www.quirksmode.org/css/images/position.html */
+.footer-gradient {
+  background: radial-gradient(at bottom, transparent 0%, black 50%);
+  padding: 0;
 }
 
 .footer .row {
   height: inherit;
+  width: 100%;
+  margin: 0;
 }
 
 .personal-logo {
- 
 }
 
 .company-logo {
-
 }
 
 .socials {
- 
 }
 
 .socials i {
-    padding-left: 10px;
-    padding-right: 10px;
-} 
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-.personal-logo, .company-logo, .socials {
-    text-align: center;
-    margin: auto;
-    color: #fafafa;
+.personal-logo,
+.company-logo,
+.socials {
+  text-align: center;
+  margin: auto;
+  color: #fafafa;
+  /* padding:0; */
 }
 
 /*************** Media Queries */
@@ -180,12 +197,12 @@ footer {
 
 @media only screen and (max-width: 576px) {
   .heading-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-left: 10px;
   }
 
   .header-icon {
-      font-size:2.5rem;
+    font-size: 2rem;
   }
 
   #navbarNavDropdown ul {
@@ -240,8 +257,7 @@ footer {
 
 /* Large Desktop View */
 
-@media only screen and (min-width : 1200px) {
-
+@media only screen and (min-width: 1200px) {
   .hero-image {
     background: url("/assets/images/hero-image.jpg") no-repeat bottom right;
     -webkit-background-size: 50%;
@@ -249,14 +265,11 @@ footer {
     -o-background-size: 50%;
     background-size: 50%;
   }
-
 }
-
 
 /* Extra Large Desktop View */
 
-@media only screen and (min-width : 1400px) {
-
+@media only screen and (min-width: 1400px) {
   .hero-image {
     background: url("/assets/images/hero-image.jpg") no-repeat bottom right;
     -webkit-background-size: 40%;
@@ -264,5 +277,4 @@ footer {
     -o-background-size: 40%;
     background-size: 40%;
   }
-
 }
