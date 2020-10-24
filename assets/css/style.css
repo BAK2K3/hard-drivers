@@ -269,6 +269,19 @@ footer {
     -o-background-size: 100%;
     background-size: 100%;
   }
+
+    .socials i {
+    font-size: 1.2em;
+}
+
+    .socials-pair-one, .socials-pair-two {
+        display: block;
+    }
+
+    .socials-pair-one {
+        margin-bottom: 10px; 
+    }
+
 }
 
 /*  /Mobile View */
