@@ -58,12 +58,15 @@ footer {
 
 .navbar-toggler {
   border: none;
-  padding-top: 20px;
+  padding-top: 25px;
   padding-right: 25px;
+  padding-left:0;
+  height: auto;
 }
 
 .navbar-toggler-icon {
     color: #fafafa;
+    font-size: 2em;
 }
 
 .primary-link {
@@ -105,6 +108,11 @@ footer {
   color: #fafafa;
 }
 
+.header-icon {
+    color: #fafafa;
+    font-size: 3.5rem;
+}
+
 /*************** Main Body */
 
 .body-content {
@@ -134,7 +142,9 @@ footer {
 /**************** Footer */
 
 .footer {
-  height: 100px;
+  height: 75px;
+  padding: 0;
+  max-width: 100%
 }
 
 .footer .row {
@@ -142,15 +152,26 @@ footer {
 }
 
 .personal-logo {
-  background-color: red;
+ 
 }
 
 .company-logo {
-  background-color: blue;
+
 }
 
 .socials {
-  background-color: yellow;
+ 
+}
+
+.socials i {
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.personal-logo, .company-logo, .socials {
+    text-align: center;
+    margin: auto;
+    color: #fafafa;
 }
 
 /*************** Media Queries */
@@ -160,6 +181,11 @@ footer {
 @media only screen and (max-width: 576px) {
   .heading-text {
     font-size: 3rem;
+    padding-left: 10px;
+  }
+
+  .header-icon {
+      font-size:2.5rem;
   }
 
   #navbarNavDropdown ul {
