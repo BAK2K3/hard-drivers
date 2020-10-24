@@ -33,7 +33,7 @@ footer {
 
 /* 'Lava' render from Gimp Software (www.gimp.com) */
 .banner-background {
-  background: url("/assets/images/full-banner.png") no-repeat center center
+  background: url("/assets/images/full-banner.png") black no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -133,7 +133,7 @@ footer {
 }
 
 .hero-image {
-  background: url("/assets/images/hero-image.jpg") no-repeat bottom right;
+  background: url("/assets/images/hero-image.jpg") black no-repeat bottom right;
   -webkit-background-size: 60%;
   -moz-background-size: 60%;
   -o-background-size: 60%;
@@ -150,7 +150,7 @@ footer {
 
 .footer {
   /* 'Lava' render from Gimp Software (www.gimp.com) */
-  background: url("/assets/images/full-banner.png") no-repeat center center
+  background: url("/assets/images/full-banner.png") black no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
