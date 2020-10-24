@@ -58,15 +58,13 @@ footer {
 
 .navbar-toggler {
   border: none;
-  padding-top: 25px;
-  padding-right: 25px;
-  padding-left: 0;
-  height: auto;
 }
 
 .navbar-toggler-icon {
   color: #fafafa;
-  font-size: 2em;
+  font-size: 1.2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .primary-link {
@@ -91,26 +89,36 @@ footer {
 
 .main-logo {
   margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .heading-text {
   text-align: center;
   font-family: "Staatliches", sans-serif;
-  font-size: 4rem;
   letter-spacing: 6px;
+
+  /* Removing spaces around span elements */
+  /* https://stackoverflow.com/questions/25667401/how-to-remove-the-space-between-two-span-tags */
+  font-size: 0;
 }
 
 .header-red {
   color: rgba(228, 22, 22, 0.75);
+  font-size: 4rem;
+  letter-spacing: 6px;
 }
 
 .header-white {
   color: #fafafa;
+  font-size: 4rem;
+  letter-spacing: 6px;
 }
 
 .header-icon {
   color: #fafafa;
   font-size: 3.5rem;
+  letter-spacing: 6px;
 }
 
 /*************** Main Body */
@@ -118,7 +126,6 @@ footer {
 .body-content {
   background: black;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
   flex: auto;
 }
 
@@ -151,8 +158,6 @@ footer {
   background-size: cover;
   height: 75px;
   padding: 0;
-  /* max-width: 100%; */
-  /* box-sizing: border-box; */
 }
 
 /* Radial gradient (centre transparent, outer black) */
@@ -188,7 +193,6 @@ footer {
   text-align: center;
   margin: auto;
   color: #fafafa;
-  /* padding:0; */
 }
 
 /*************** Media Queries */
@@ -197,12 +201,16 @@ footer {
 
 @media only screen and (max-width: 576px) {
   .heading-text {
-    font-size: 2.5rem;
-    padding-left: 10px;
+    line-height: 24px;
+  }
+
+  .header-red,
+  .header-white {
+    font-size: 3rem;
   }
 
   .header-icon {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   #navbarNavDropdown ul {
@@ -212,6 +220,10 @@ footer {
 
   .navbar-nav .nav-item .nav-link {
     padding-right: 15px;
+  }
+
+  .navbar-brand {
+    padding-left: 60px;
   }
 
   /* Dropdown Transition */
