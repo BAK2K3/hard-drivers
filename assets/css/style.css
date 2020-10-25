@@ -201,7 +201,7 @@ footer {
 }
 
 .main-features {
-  padding-top: 25px;
+  padding-top: 50px;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -217,22 +217,25 @@ footer {
 .main-pitch {
   text-align: center;
   background: transparent;
-  padding-top: 25px;
   color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-pitch h2 {
+  font-size: 1.5rem;
 }
 
 .hero-image {
   background: url("/assets/images/hero-image.jpg") no-repeat bottom center;
-  -webkit-background-size: 50%;
-  -moz-background-size: 50%;
-  -o-background-size: 50%;
-  background-size: 50%;
-  position: absolute;
-  right: 0;
-  height: 100%;
-  bottom: 75px;
+  -webkit-background-size: 45%;
+  -moz-background-size: 45%;
+  -o-background-size: 45%;
+  background-size: 45%;
+  object-fit: cover;
   padding: 0;
-  z-index: 0;
+  height: 35vh;
 }
 /**************** Footer */
 
@@ -312,9 +315,9 @@ footer {
     right: 0;
   }
 
-.navbar-nav{
+  .navbar-nav {
     padding-top: 13px;
-}
+  }
 
   .navbar-nav .nav-item .nav-link {
     padding-right: 15px;
@@ -354,9 +357,18 @@ footer {
   }
   /*  /Dropdown Transition */
 
+.main-features {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
   .main-features h1 {
     font-size: 1.5rem;
     text-align: left;
+  }
+
+  .main-pitch {
+
   }
 
   .main-pitch h2 {
@@ -364,11 +376,12 @@ footer {
   }
 
   .hero-image {
-    background: url("/assets/images/hero-image.jpg") no-repeat bottom center;
-    -webkit-background-size: 80%;
-    -moz-background-size: 80%;
-    -o-background-size: 80%;
-    background-size: 80%;
+    background: url("/assets/images/hero-image.jpg") no-repeat center center;
+    -webkit-background-size: 75%;
+    -moz-background-size: 75%;
+    -o-background-size: 75%;
+    background-size: 75%;
+    height: 40vh;
   }
 
   .socials i {
@@ -398,26 +411,51 @@ footer {
 
 /*  /Mobile View */
 
-/* Large Desktop View */
+/*  Tablet View */
 
 @media only screen and (min-width: 992px) {
   .hero-image {
-    background: url("/assets/images/hero-image.jpg") no-repeat bottom right;
-    -webkit-background-size: 40%;
-    -moz-background-size: 40%;
-    -o-background-size: 40%;
-    background-size: 40%;
+    background: url("/assets/images/hero-image.jpg") no-repeat center center;
+    -webkit-background-size: 75%;
+    -moz-background-size: 75%;
+    -o-background-size: 75%;
+    background-size: 75%;
+    height: 35vh;
+  }
+
+  .main-features h1 {
+    font-size: 2rem;
+  }
+
+  .main-pitch h2 {
+    font-size: 1.75rem;
   }
 }
 
-/* Extra Large Desktop View */
+/*  Desktop View */
+
+@media only screen and (min-width: 1200px) {
+  .hero-image {
+    -webkit-background-size: 70%;
+    -moz-background-size: 70%;
+    -o-background-size: 70%;
+    background-size: 70%;
+    height: 45vh;
+  }
+}
+
+/* Large Desktop View */
 
 @media only screen and (min-width: 1400px) {
   .hero-image {
-    background: url("/assets/images/hero-image.jpg") no-repeat bottom right;
-    -webkit-background-size: 30%;
-    -moz-background-size: 30%;
-    -o-background-size: 30%;
-    background-size: 30%;
+    height: 50vh;
+  }
+
+  .main-features h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-pitch h2 {
+    font-size: 2rem;
   }
 }
