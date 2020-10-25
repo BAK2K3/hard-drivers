@@ -132,6 +132,7 @@ footer {
   font-weight: 600;
   border: none;
   border-radius: 25%;
+  text-align: center;
 }
 
 .glass-button a {
@@ -268,15 +269,30 @@ footer {
 }
 
 .company-logo {
+  padding: 0;
 }
 
 .socials {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .socials i {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 1.6em;
+  color: #fafafa;
+}
+
+.personal-logo i,
+.personal-logo a {
+  color: #fafafa;
+}
+
+.personal-logo i:hover,
+.personal-logo a:hover {
+  color: #fafafa;
+  text-decoration: none;
 }
 
 .personal-logo,
@@ -357,10 +373,10 @@ footer {
   }
   /*  /Dropdown Transition */
 
-.main-features {
+  .main-features {
     padding-top: 25px;
     padding-bottom: 25px;
-}
+  }
 
   .main-features h1 {
     font-size: 1.5rem;
@@ -368,7 +384,6 @@ footer {
   }
 
   .main-pitch {
-
   }
 
   .main-pitch h2 {
@@ -385,7 +400,9 @@ footer {
   }
 
   .socials i {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    padding-left: 6px;
+    padding-right: 6px;
   }
 
   .socials-pair-one,
@@ -394,7 +411,7 @@ footer {
   }
 
   .socials-pair-one {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   /* Radial gradient (centre transparent, outer black) */
@@ -442,6 +459,19 @@ footer {
     background-size: 70%;
     height: 45vh;
   }
+
+.personal-logo {
+  font-size: 1.2em;
+}
+
+.socials i {
+    font-size: 1.8em;
+}
+
+  .glass-button a {
+  font-size: 1.3em;
+}
+
 }
 
 /* Large Desktop View */
@@ -458,4 +488,6 @@ footer {
   .main-pitch h2 {
     font-size: 2rem;
   }
+
+
 }
