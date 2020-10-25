@@ -201,20 +201,38 @@ footer {
 }
 
 .main-features {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.main-features h1 {
+  color: #fafafa;
+}
+
+.red-feature {
+  color: rgb(228, 22, 22, 0.75);
+}
+
+.main-pitch {
+  text-align: center;
+  background: transparent;
+  padding-top: 25px;
+  color: #fafafa;
 }
 
 .hero-image {
   background: url("/assets/images/hero-image.jpg") no-repeat bottom center;
-  -webkit-background-size: 70%;
-  -moz-background-size: 70%;
-  -o-background-size: 70%;
-  background-size: 70%;
+  -webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%;
   position: absolute;
   right: 0;
   height: 100%;
   bottom: 75px;
   padding: 0;
-  z-index: -1;
+  z-index: 0;
 }
 /**************** Footer */
 
@@ -294,6 +312,10 @@ footer {
     right: 0;
   }
 
+.navbar-nav{
+    padding-top: 13px;
+}
+
   .navbar-nav .nav-item .nav-link {
     padding-right: 15px;
   }
@@ -332,12 +354,21 @@ footer {
   }
   /*  /Dropdown Transition */
 
+  .main-features h1 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .main-pitch h2 {
+    font-size: 1rem;
+  }
+
   .hero-image {
     background: url("/assets/images/hero-image.jpg") no-repeat bottom center;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: 80%;
+    -moz-background-size: 80%;
+    -o-background-size: 80%;
+    background-size: 80%;
   }
 
   .socials i {
@@ -372,10 +403,10 @@ footer {
 @media only screen and (min-width: 992px) {
   .hero-image {
     background: url("/assets/images/hero-image.jpg") no-repeat bottom right;
-    -webkit-background-size: 50%;
-    -moz-background-size: 50%;
-    -o-background-size: 50%;
-    background-size: 50%;
+    -webkit-background-size: 40%;
+    -moz-background-size: 40%;
+    -o-background-size: 40%;
+    background-size: 40%;
   }
 }
 
@@ -384,9 +415,9 @@ footer {
 @media only screen and (min-width: 1400px) {
   .hero-image {
     background: url("/assets/images/hero-image.jpg") no-repeat bottom right;
-    -webkit-background-size: 40%;
-    -moz-background-size: 40%;
-    -o-background-size: 40%;
-    background-size: 40%;
+    -webkit-background-size: 30%;
+    -moz-background-size: 30%;
+    -o-background-size: 30%;
+    background-size: 30%;
   }
 }
