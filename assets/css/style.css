@@ -121,6 +121,43 @@ footer {
   letter-spacing: 6px;
 }
 
+/*************** Buttons */
+
+.glass-button {
+    display: inline-block;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background: none;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 25%;
+}
+
+.glass-button a {
+    text-decoration: none;
+    color: #fafafa;
+    letter-spacing: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* Button Glow */
+/* https://codepen.io/jpost-design/pen/EKZLzK */
+/* Double box-shadow */
+/* https://css-tricks.com/almanac/properties/b/box-shadow/ */
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75), inset 0 0 0px rgb(228, 22, 22, 0.75); }
+  40% { box-shadow: 0 0 20px rgb(228, 22, 22, 0.75), inset 0 0 10px rgb(228, 22, 22, 0.75); }
+  60% { box-shadow: 0 0 20px rgb(228, 22, 22, 0.75), inset 0 0 10px rgb(228, 22, 22, 0.75); }
+  100% { box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px rgb(228, 22, 22, 0.75)); }
+}
+
+.button-glow {
+  animation: glowing 5000ms infinite;
+}
+
 /*************** Main Body */
 
 .body-content {
