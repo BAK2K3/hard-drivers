@@ -269,11 +269,11 @@ footer {
 
   .header-red,
   .header-white {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .header-icon {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   #navbarNavDropdown ul {
@@ -339,6 +339,18 @@ footer {
   .socials-pair-one {
     margin-bottom: 10px;
   }
+
+  /* Radial gradient (centre transparent, outer black) */
+/* https://www.quirksmode.org/css/images/position.html */
+
+.banner-gradient {
+  background: radial-gradient(at top, transparent 0%, black 100%);
+}
+
+.footer-gradient {
+  background: radial-gradient(at bottom, transparent 0%, black 90%);
+}
+
 }
 
 /*  /Mobile View */
