@@ -52,6 +52,7 @@ footer {
 .navbar-brand {
   margin-right: 0;
   padding-top: 10px;
+  padding-bottom: 4px;
   text-align: center;
   color: #fafafa;
 }
@@ -198,15 +199,22 @@ footer {
 .body-content {
   background: black;
   overflow: auto;
-  flex: auto;
 }
 
 /*************** Index Page*/
+
+.viewport-control {
+  height: calc(100vh - 225px);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
 .main-features {
   padding-top: 50px;
   padding-bottom: 10px;
   text-align: center;
+  align-self: flex-start;
 }
 
 .main-features h1 {
@@ -217,13 +225,26 @@ footer {
   color: rgb(228, 22, 22, 0.75);
 }
 
+.lower-screen {
+  display: flex;
+  flex-grow: 1;
+}
+
 .main-pitch {
   text-align: center;
   background: transparent;
   color: #fafafa;
   display: flex;
   align-items: center;
-  justify-content: center;
+  align-self: start;
+  padding-top: 35px;
+}
+
+.lower-screen .row {
+  width: 100%;
+  margin: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .main-pitch h2 {
@@ -231,51 +252,15 @@ footer {
 }
 
 .hero-image {
-  background: url("/assets/images/hero-image.jpg") no-repeat bottom center;
-  -webkit-background-size: 45%;
-  -moz-background-size: 45%;
-  -o-background-size: 45%;
-  background-size: 45%;
-  object-fit: cover;
+  background: url("/assets/images/hero-image.jpg") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   padding: 0;
-  height: 35vh;
+  display: flex;
+  flex-grow: 1;
 }
-
-/*************** About Page*/
-
-.about-page {
-    color: #fafafa;
-}
-
-.about-section {
-
-    padding-left:30px;
-    padding-right:30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-
-.about-title {
-
-    text-align: center;
-    
-}
-
-.about-image {
-
-    background-color: #fafafa;
-    border-radius: 50%;
-
-
-}
-
-.about-text {
-
-
-
-}
-
 
 /**************** Footer */
 
@@ -347,7 +332,7 @@ footer {
   display: inline-flex;
 }
 
-/*************** Media Queries */
+/************************************************************* Media Queries */
 
 /* Mobile View */
 
@@ -412,6 +397,10 @@ footer {
   }
   /*  /Dropdown Transition */
 
+  .viewport-control {
+    height: calc(100vh - 173px);
+  }
+
   .main-features {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -423,19 +412,11 @@ footer {
   }
 
   .main-pitch {
+    padding-top: 0px;
   }
 
   .main-pitch h2 {
     font-size: 1rem;
-  }
-
-  .hero-image {
-    background: url("/assets/images/hero-image.jpg") no-repeat center center;
-    -webkit-background-size: 75%;
-    -moz-background-size: 75%;
-    -o-background-size: 75%;
-    background-size: 75%;
-    height: 40vh;
   }
 
   .socials i {
@@ -470,17 +451,18 @@ footer {
 /*  Tablet View */
 
 @media only screen and (min-width: 992px) {
-  .hero-image {
-    background: url("/assets/images/hero-image.jpg") no-repeat center center;
-    -webkit-background-size: 75%;
-    -moz-background-size: 75%;
-    -o-background-size: 75%;
-    background-size: 75%;
-    height: 35vh;
-  }
-
   .main-features h1 {
     font-size: 2rem;
+  }
+
+  .lower-screen .row {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .main-pitch {
+    padding: 0;
+    align-self: stretch;
   }
 
   .main-pitch h2 {
@@ -491,35 +473,22 @@ footer {
 /*  Desktop View */
 
 @media only screen and (min-width: 1200px) {
-  .hero-image {
-    -webkit-background-size: 70%;
-    -moz-background-size: 70%;
-    -o-background-size: 70%;
-    background-size: 70%;
-    height: 45vh;
+  .personal-logo {
+    font-size: 1.2em;
   }
 
-.personal-logo {
-  font-size: 1.2em;
-}
-
-.socials i {
+  .socials i {
     font-size: 1.8em;
-}
+  }
 
   .glass-button a {
-  font-size: 1.3em;
-}
-
+    font-size: 1.3em;
+  }
 }
 
 /* Large Desktop View */
 
 @media only screen and (min-width: 1400px) {
-  .hero-image {
-    height: 50vh;
-  }
-
   .main-features h1 {
     font-size: 2.5rem;
   }
@@ -527,5 +496,4 @@ footer {
   .main-pitch h2 {
     font-size: 2rem;
   }
-
 }
