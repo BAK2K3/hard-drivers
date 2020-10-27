@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /******************** Google Font Imports */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap");
 
@@ -5,21 +12,29 @@
 
 body,
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   padding: 0;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: "Montserrat", sans-serif;
   background: black;
 }
 
 header,
 footer {
-  flex: none;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
 }
 
 /******************** Nav Bar */
@@ -35,9 +50,6 @@ footer {
 .banner-background {
   background: url("/assets/images/full-banner.png") black no-repeat center
     center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   padding: 0;
 }
@@ -45,6 +57,7 @@ footer {
 /* Radial gradient (centre transparent, outer black) */
 /* https://www.quirksmode.org/css/images/position.html */
 .banner-gradient {
+  background: -o-radial-gradient(at top, transparent 0%, black 80%);
   background: radial-gradient(at top, transparent 0%, black 80%);
   padding: inherit;
 }
@@ -149,27 +162,63 @@ footer {
 /* Double box-shadow */
 /* https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
-@keyframes glowing {
+@-webkit-keyframes glowing {
   0% {
-    box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75),
+    -webkit-box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75),
+      inset 0 0 0px rgb(228, 22, 22, 0.75);
+            box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75),
       inset 0 0 0px rgb(228, 22, 22, 0.75);
   }
   40% {
-    box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
+    -webkit-box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
+      inset 0 0 10px rgb(228, 22, 22, 0.75);
+            box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
       inset 0 0 10px rgb(228, 22, 22, 0.75);
   }
   60% {
-    box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
+    -webkit-box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
+      inset 0 0 10px rgb(228, 22, 22, 0.75);
+            box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
       inset 0 0 10px rgb(228, 22, 22, 0.75);
   }
   100% {
-    box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px
+    -webkit-box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px
+          rgb(228, 22, 22, 0.75));
+            box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px
+          rgb(228, 22, 22, 0.75));
+  }
+}
+
+@keyframes glowing {
+  0% {
+    -webkit-box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75),
+      inset 0 0 0px rgb(228, 22, 22, 0.75);
+            box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75),
+      inset 0 0 0px rgb(228, 22, 22, 0.75);
+  }
+  40% {
+    -webkit-box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
+      inset 0 0 10px rgb(228, 22, 22, 0.75);
+            box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
+      inset 0 0 10px rgb(228, 22, 22, 0.75);
+  }
+  60% {
+    -webkit-box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
+      inset 0 0 10px rgb(228, 22, 22, 0.75);
+            box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
+      inset 0 0 10px rgb(228, 22, 22, 0.75);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px
+          rgb(228, 22, 22, 0.75));
+            box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px
           rgb(228, 22, 22, 0.75));
   }
 }
 
 .button-glow {
-  animation: glowing 5000ms infinite;
+  -webkit-animation: glowing 5000ms infinite;
+          animation: glowing 5000ms infinite;
 }
 
 /* Hover.css Effects */
@@ -181,17 +230,24 @@ footer {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+     transition-duration: 0.3s;
   -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
   transition-property: transform;
+  transition-property: transform, -webkit-transform;
 }
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+      transform: scale(1.1);
 }
 
 /*************** Main Body */
@@ -205,16 +261,23 @@ footer {
 
 .viewport-control {
   height: calc(100vh - 225px);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .main-features {
   padding-top: 50px;
   padding-bottom: 10px;
   text-align: center;
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .main-features h1 {
@@ -226,25 +289,38 @@ footer {
 }
 
 .lower-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .main-pitch {
   text-align: center;
   background: transparent;
   color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  align-self: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: start;
+      align-self: start;
   padding-top: 35px;
 }
 
 .lower-screen .row {
   width: 100%;
   margin: 0;
-  flex-direction: column;
-  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .main-pitch h2 {
@@ -253,13 +329,14 @@ footer {
 
 .hero-image {
   background: url("/assets/images/hero-image.jpg") no-repeat center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
   background-size: contain;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 /*************** About Page*/
@@ -302,9 +379,6 @@ footer {
   /* 'Lava' render from Gimp Software (www.gimp.com) */
   background: url("/assets/images/full-banner.png") black no-repeat center
     center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   height: 75px;
   padding: 0;
@@ -313,6 +387,7 @@ footer {
 /* Radial gradient (centre transparent, outer black) */
 /* https://www.quirksmode.org/css/images/position.html */
 .footer-gradient {
+  background: -o-radial-gradient(at bottom, transparent 0%, black 70%);
   background: radial-gradient(at bottom, transparent 0%, black 70%);
   padding: 0;
 }
@@ -363,6 +438,8 @@ footer {
 
 .socials-pair-one,
 .socials-pair-two {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -406,8 +483,6 @@ footer {
 
   .navbar-collapse .navbar-nav {
     -webkit-transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
-    -moz-transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
-    -ms-transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
     -o-transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
     transition: max-height 0.3s, opacity 0.2s 0.1s, visibility 0s 0.3s;
 
@@ -420,8 +495,6 @@ footer {
 
   .navbar-collapse.show .navbar-nav {
     -webkit-transition: max-height 0.3s, opacity 0.2s, visibility 0s;
-    -moz-transition: max-height 0.3s, opacity 0.2s, visibility 0s;
-    -ms-transition: max-height 0.3s, opacity 0.2s, visibility 0s;
     -o-transition: max-height 0.3s, opacity 0.2s, visibility 0s;
     transition: max-height 0.3s, opacity 0.2s, visibility 0s;
 
@@ -472,10 +545,12 @@ footer {
   /* https://www.quirksmode.org/css/images/position.html */
 
   .banner-gradient {
+    background: -o-radial-gradient(at top, transparent 0%, black 100%);
     background: radial-gradient(at top, transparent 0%, black 100%);
   }
 
   .footer-gradient {
+    background: -o-radial-gradient(at bottom, transparent 0%, black 90%);
     background: radial-gradient(at bottom, transparent 0%, black 90%);
   }
 }
@@ -490,13 +565,19 @@ footer {
   }
 
   .lower-screen .row {
-    flex-direction: row;
-    flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 
   .main-pitch {
     padding: 0;
-    align-self: stretch;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
 
   .main-pitch h2 {
