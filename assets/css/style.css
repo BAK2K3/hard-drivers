@@ -262,6 +262,40 @@ footer {
   flex-grow: 1;
 }
 
+/*************** About Page*/
+
+.about-page {
+  color: #fafafa;
+}
+
+.about-heading {
+  padding-top: 50px;
+  text-align: left;
+}
+
+.about-heading h1 {
+  font-size: 1.5em;
+}
+
+.about-section {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-image {
+  background-color: #fafafa;
+  border-radius: 50%;
+}
+
+.about-text {
+}
+
 /**************** Footer */
 
 .footer {
