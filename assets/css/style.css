@@ -201,6 +201,8 @@ footer {
   flex: auto;
 }
 
+/*************** Index Page*/
+
 .main-features {
   padding-top: 50px;
   padding-bottom: 10px;
@@ -238,6 +240,43 @@ footer {
   padding: 0;
   height: 35vh;
 }
+
+/*************** About Page*/
+
+.about-page {
+    color: #fafafa;
+}
+
+.about-section {
+
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.about-title {
+
+    text-align: center;
+    
+}
+
+.about-image {
+
+    background-color: #fafafa;
+    border-radius: 50%;
+
+
+}
+
+.about-text {
+
+
+
+}
+
+
 /**************** Footer */
 
 .footer {
@@ -488,6 +527,5 @@ footer {
   .main-pitch h2 {
     font-size: 2rem;
   }
-
 
 }
