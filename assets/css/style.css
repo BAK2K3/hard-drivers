@@ -360,7 +360,8 @@ footer {
   padding-bottom: 5px;
   text-align: center;
   margin: 0;
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .about-heading h1 {
@@ -408,10 +409,16 @@ footer {
 .about-section {
   margin: 0;
   padding-bottom: 5px;
-  flex-grow: 1;
-  flex-basis: 0;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .about-section .row {
@@ -420,9 +427,15 @@ footer {
 
 .about-title {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-title h2 {
@@ -436,9 +449,11 @@ footer {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 90%;
-  box-shadow: 0 0 8px 8px black inset;
+  -webkit-box-shadow: 0 0 8px 8px black inset;
+          box-shadow: 0 0 8px 8px black inset;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -462,7 +477,8 @@ footer {
   padding-bottom: 5px;
   text-align: center;
   margin: 0;
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 /************************************************************* Footer */
@@ -563,19 +579,35 @@ footer {
   }
 
   .navbar-nav {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     width: 100%;
   }
 
   .navbar-nav .nav-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-grow: 1;
-    flex-basis: 0;
-    justify-content: center;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .navbar-nav .nav-item .nav-link {
