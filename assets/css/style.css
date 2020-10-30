@@ -361,10 +361,31 @@ footer {
 .about-heading h1 {
 }
 
-.about-cost {
+.about-cost .about-image {
+  background: url("/assets/images/computer.jpg") no-repeat center center;
+  background-size: contain;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .about-experts {
+}
+
+.about-experts .about-image {
+  background: url("/assets/images/experts.jpg") no-repeat center center;
+  background-size: contain;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .about-experts .about-title {
@@ -374,12 +395,27 @@ footer {
 .about-computer {
 }
 
+.about-computer .about-image {
+  background: url("/assets/images/processor.jpg") no-repeat center center;
+  background-size: contain;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
 .about-section {
   margin: 0;
   flex-grow: 1;
   flex-basis: 0;
   align-items: center;
-  
+}
+
+.about-section .row {
+  height: 100%;
 }
 
 .about-title {
@@ -393,12 +429,19 @@ footer {
 }
 
 .about-image {
-  background-color: #fafafa;
-  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 100%;
+  box-shadow: 0 0 8px 8px black inset;
 }
 
 .about-text {
-  order: 2;
   text-align: justify;
 }
 
@@ -639,10 +682,6 @@ footer {
 
   .hero-image {
     padding-bottom: 0px;
-  }
-
-  .about-text {
-    order: 0;
   }
 }
 
