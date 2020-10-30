@@ -407,7 +407,7 @@ footer {
   flex-basis: 0;
   align-items: center;
   justify-content: space-around;
- }
+}
 
 .about-section .row {
   height: 100%;
@@ -442,9 +442,9 @@ footer {
   text-align: justify;
 }
 
- .about-text p {
-    font-size: 0.9rem;
-  }
+.about-text p {
+  font-size: 0.9rem;
+}
 
 /************************************************************* Footer */
 
@@ -682,7 +682,7 @@ footer {
     padding-bottom: 0px;
   }
 
-   .about-text p {
+  .about-text p {
     font-size: 1rem;
   }
 }
@@ -702,7 +702,7 @@ footer {
     font-size: 1.3em;
   }
 
-   .about-text p {
+  .about-text p {
     font-size: 1.1rem;
   }
 }
@@ -718,7 +718,7 @@ footer {
     font-size: 2rem;
   }
 
-   .about-text p {
+  .about-text p {
     font-size: 1.2rem;
   }
 }
