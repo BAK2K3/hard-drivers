@@ -135,6 +135,10 @@ footer {
   letter-spacing: 6px;
 }
 
+.red-feature {
+  color: rgb(228, 22, 22, 0.75);
+}
+
 /************************************************************* Buttons */
 
 .glass-button {
@@ -283,10 +287,6 @@ footer {
   color: #fafafa;
 }
 
-.red-feature {
-  color: rgb(228, 22, 22, 0.75);
-}
-
 .lower-screen {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -351,11 +351,13 @@ footer {
 
 .about-heading {
   padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
+  margin: 0;
 }
 
 .about-heading h1 {
-  font-size: 1.5em;
+
 }
 
 .about-section {
@@ -368,6 +370,13 @@ footer {
 
 .about-title {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title h2 {
+  font-size: 1.5em;
 }
 
 .about-image {
@@ -377,6 +386,7 @@ footer {
 
 .about-text {
   order: 2;
+  text-align: justify;
 }
 
 .about-text {
@@ -536,6 +546,14 @@ footer {
 
   .main-features h1 {
     font-size: 1.5rem;
+  }
+
+  .about-heading h1 {
+    font-size: 1.5em;
+  }
+
+  .about-text p {
+    font-size: 1rem;
   }
 
   .main-pitch h2 {
