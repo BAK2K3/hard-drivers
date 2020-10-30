@@ -88,6 +88,11 @@ footer {
   letter-spacing: 2px;
 }
 
+.active-page {
+    color:  rgba(228, 22, 22, 0.75);
+    font-weight: 700;
+}
+
 .navbar-nav .nav-item .nav-link {
   padding-right: 15px;
   padding-left: 15px;
@@ -444,6 +449,20 @@ footer {
 
 .about-text p {
   font-size: 0.9rem;
+}
+
+/************************************************************* Enquire Page*/
+
+.enquire-page {
+  color: #fafafa;
+}
+
+.enquire-heading {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin: 0;
+  align-self: flex-start;
 }
 
 /************************************************************* Footer */
