@@ -352,7 +352,7 @@ footer {
 
 .about-heading {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
   text-align: center;
   margin: 0;
   align-self: flex-start;
@@ -363,8 +363,7 @@ footer {
 
 .about-cost .about-image {
   background: url("/assets/images/computer.jpg") no-repeat center center;
-  background-size: contain;
-  padding: 0;
+  background-size: 100% auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,8 +377,7 @@ footer {
 
 .about-experts .about-image {
   background: url("/assets/images/experts.jpg") no-repeat center center;
-  background-size: contain;
-  padding: 0;
+  background-size: 100% auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -388,17 +386,12 @@ footer {
   flex-grow: 1;
 }
 
-.about-experts .about-title {
-  flex-direction: row-reverse;
-}
-
 .about-computer {
 }
 
 .about-computer .about-image {
   background: url("/assets/images/processor.jpg") no-repeat center center;
-  background-size: contain;
-  padding: 0;
+  background-size: 100% auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,10 +402,12 @@ footer {
 
 .about-section {
   margin: 0;
+  padding-bottom: 5px;
   flex-grow: 1;
   flex-basis: 0;
   align-items: center;
-}
+  justify-content: space-around;
+ }
 
 .about-section .row {
   height: 100%;
@@ -422,6 +417,7 @@ footer {
   text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .about-title h2 {
@@ -436,17 +432,19 @@ footer {
   -ms-flex-positive: 1;
   flex-grow: 1;
   object-fit: cover;
-  height: 100%;
-  border-radius: 100%;
+  height: 90%;
   box-shadow: 0 0 8px 8px black inset;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .about-text {
   text-align: justify;
 }
 
-.about-text {
-}
+ .about-text p {
+    font-size: 0.9rem;
+  }
 
 /************************************************************* Footer */
 
@@ -683,6 +681,10 @@ footer {
   .hero-image {
     padding-bottom: 0px;
   }
+
+   .about-text p {
+    font-size: 1rem;
+  }
 }
 
 /*  Desktop View */
@@ -699,6 +701,10 @@ footer {
   .glass-button a {
     font-size: 1.3em;
   }
+
+   .about-text p {
+    font-size: 1.1rem;
+  }
 }
 
 /* Large Desktop View */
@@ -710,5 +716,9 @@ footer {
 
   .main-pitch h2 {
     font-size: 2rem;
+  }
+
+   .about-text p {
+    font-size: 1.2rem;
   }
 }
