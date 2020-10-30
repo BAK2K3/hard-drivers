@@ -14,6 +14,7 @@ body,
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  height: 100%;
 }
 
 body {
@@ -261,10 +262,8 @@ footer {
   overflow: auto;
 }
 
-/************************************************************* Index Page*/
-
 .viewport-control {
-  height: calc(100vh - 225px);
+  height: calc(100% - 225px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,6 +274,8 @@ footer {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
+/************************************************************* Index Page*/
 
 .main-features {
   padding-top: 35px;
@@ -341,7 +342,6 @@ footer {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  
 }
 
 /************************************************************* About Page*/
@@ -355,25 +355,37 @@ footer {
   padding-bottom: 30px;
   text-align: center;
   margin: 0;
+  align-self: flex-start;
 }
 
 .about-heading h1 {
+}
 
+.about-cost {
+}
+
+.about-experts {
+}
+
+.about-experts .about-title {
+  flex-direction: row-reverse;
+}
+
+.about-computer {
 }
 
 .about-section {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
   margin: 0;
+  flex-grow: 1;
+  flex-basis: 0;
+  align-items: center;
+  
 }
 
 .about-title {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .about-title h2 {
@@ -468,6 +480,10 @@ footer {
 /* Mobile View */
 
 @media only screen and (max-width: 576px) {
+  .viewport-control {
+    height: calc(100% - 173px);
+  }
+
   .heading-text {
     line-height: 24px;
   }
@@ -537,13 +553,9 @@ footer {
   }
   /*  /Dropdown Transition */
 
-  .viewport-control {
-    height: calc(100vh - 173px);
-  }
-
   .lower-screen .row {
-  padding-bottom: 75px;
-}
+    padding-bottom: 75px;
+  }
 
   .main-features {
     padding-top: 35px;
@@ -553,12 +565,16 @@ footer {
     font-size: 1.5rem;
   }
 
+  .about-heading {
+    padding-bottom: 10px;
+  }
+
   .about-heading h1 {
     font-size: 1.5em;
   }
 
   .about-text p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .main-pitch h2 {
@@ -566,8 +582,6 @@ footer {
   }
 
   .about-section {
-    padding-top: 15px;
-    padding-bottom: 0;
   }
 
   .socials i {
