@@ -353,6 +353,8 @@ footer {
 
 .about-page {
   color: #fafafa;
+
+ 
 }
 
 .about-heading {
@@ -657,6 +659,10 @@ footer {
     font-size: 1.5rem;
   }
 
+  .viewport-control.about-page {
+   justify-content: flex-start;
+  }
+
   .about-heading {
     padding-bottom: 10px;
   }
@@ -674,6 +680,7 @@ footer {
   }
 
   .about-section {
+
   }
 
   .socials i {
