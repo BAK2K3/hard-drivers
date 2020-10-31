@@ -657,10 +657,6 @@ footer {
     font-size: 1.5rem;
   }
 
-  .viewport-control.about-page {
-    justify-content: flex-start;
-  }
-
   .about-heading {
     padding-bottom: 10px;
   }
@@ -671,6 +667,7 @@ footer {
 
   .about-text p {
     font-size: 0.8rem;
+    margin-bottom: 5px;
   }
 
   .main-pitch h2 {
@@ -678,6 +675,7 @@ footer {
   }
 
   .about-section {
+    padding-bottom: 0;
   }
 
   .socials i {
