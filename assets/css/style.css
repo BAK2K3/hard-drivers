@@ -89,8 +89,8 @@ footer {
 }
 
 .active-page {
-    color:  rgba(228, 22, 22, 0.75);
-    font-weight: 700;
+  color: rgba(228, 22, 22, 0.75);
+  font-weight: 700;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -353,8 +353,6 @@ footer {
 
 .about-page {
   color: #fafafa;
-
- 
 }
 
 .about-heading {
@@ -363,7 +361,7 @@ footer {
   text-align: center;
   margin: 0;
   -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 .about-heading h1 {
@@ -412,15 +410,15 @@ footer {
   margin: 0;
   padding-bottom: 5px;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   -ms-flex-preferred-size: 0;
-      flex-basis: 0;
+  flex-basis: 0;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .about-section .row {
@@ -433,11 +431,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .about-title h2 {
@@ -452,10 +450,10 @@ footer {
   -ms-flex-positive: 1;
   flex-grow: 1;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 90%;
   -webkit-box-shadow: 0 0 8px 8px black inset;
-          box-shadow: 0 0 8px 8px black inset;
+  box-shadow: 0 0 8px 8px black inset;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -480,7 +478,7 @@ footer {
   text-align: center;
   margin: 0;
   -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 /************************************************************* Footer */
@@ -586,15 +584,15 @@ footer {
     display: inline-flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
     width: 100%;
   }
 
@@ -603,13 +601,13 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-preferred-size: 0;
-        flex-basis: 0;
+    flex-basis: 0;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -660,7 +658,7 @@ footer {
   }
 
   .viewport-control.about-page {
-   justify-content: flex-start;
+    justify-content: flex-start;
   }
 
   .about-heading {
@@ -680,7 +678,6 @@ footer {
   }
 
   .about-section {
-
   }
 
   .socials i {
