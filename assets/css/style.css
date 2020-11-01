@@ -492,7 +492,23 @@ footer {
   flex: 1;
   flex-direction: column;
   overflow: auto;
+  padding: 0;
 }
+
+.enquire-wrapper .row {
+  margin: 0;
+  padding-bottom: 5px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+} 
 
 .enquire-form {
   margin-left: 20px;
