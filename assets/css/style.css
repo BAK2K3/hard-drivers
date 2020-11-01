@@ -503,9 +503,7 @@ footer {
   flex-grow: 1;
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  align-items: flex-start;
   -ms-flex-pack: distribute;
   justify-content: space-around;
 } 
@@ -562,6 +560,13 @@ textarea {
 
 .submit-enquiry button {
   color: #fafafa;
+}
+
+/************************************************************* Package Table */
+
+.sub-cell {
+    display:inline-block;
+    text-align: center;
 }
 
 /************************************************************* Footer */
