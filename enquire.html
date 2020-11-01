@@ -294,12 +294,90 @@
         <!-- Your Package Fieldset -->
         <fieldset class="your-package">
           <legend>Your Package</legend>
+
+          <!-- Package -->
+          <div class="form-group row">
+            <label
+              for="packages"
+              class="col-sm-2 col-form-label col-form-label-sm primary-label"
+              >Your Package</label
+            >
+            <div class="col-sm-10 text-center">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="yourPackage"
+                  id="basic"
+                  value="Basic"
+                />
+                <label class="form-check-label sub-label" for="basic"
+                  >Basic</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="yourPackage"
+                  id="advanced"
+                  value="Advanced"
+                />
+                <label class="form-check-label sub-label" for="advanced"
+                  >Advanced</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="yourPackage"
+                  id="Professional"
+                  value="Professional"
+                />
+                <label class="form-check-label sub-label" for="professional"
+                  >Professional</label
+                >
+              </div>
+            </div>
+          </div>
         </fieldset>
 
         <!-- Your Request Fieldset -->
         <fieldset class="your-request">
           <legend>Your Request</legend>
+
+          <div class="form-group row">
+            <label
+              for="yourRequest"
+              class="col-sm-2 col-form-label col-form-label-sm primary-label"
+              >Leave a note for your Hard Driver:</label
+            >
+
+            <div class="col-sm-10 text-center">
+              <div class="form-check form-check-inline">
+                <textarea
+                  class="form-control"
+                  id="yourRequest"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+          </div>
         </fieldset>
+
+
+        <div class="form-group row submit-enquiry">
+        <div class="col-12">
+
+                  <button class="glass-button button-glow hvr-grow" type="submit">
+            <a>Submit</a>
+          </button>
+        </div>
+
+        </div>
+
+
       </form>
     </section>
 
