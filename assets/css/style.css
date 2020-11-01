@@ -487,9 +487,18 @@ footer {
   align-self: flex-start;
 }
 
+.enquire-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: auto;
+}
+
 .enquire-form {
   margin-left: 20px;
   margin-right: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 fieldset {
@@ -736,7 +745,7 @@ textarea {
     padding-bottom: 0;
   }
 
-  .enquire-form, .about-wrapper {
+  .about-wrapper {
     overflow-x: hidden;
     overflow-y: auto;
   }
