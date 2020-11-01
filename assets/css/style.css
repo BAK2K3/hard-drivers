@@ -367,6 +367,12 @@ footer {
 .about-heading h1 {
 }
 
+.about-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
 .about-cost .about-image {
   background: url("/assets/images/computer.jpg") no-repeat center center;
   background-size: 100% auto;
@@ -497,7 +503,7 @@ fieldset legend {
   padding-left: 5px;
   padding-right: 5px;
   width: auto;
-} 
+}
 
 .form-group.row {
   margin-left: 10px;
@@ -511,29 +517,27 @@ fieldset legend {
 }
 
 .sub-label {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .currency {
   padding-right: 5px;
 }
 
-input[type='number'] {
-    width:50%;
+input[type="number"] {
+  width: 50%;
 }
 
 textarea {
-
 }
 
 .submit-enquiry {
-    text-align: center;
+  text-align: center;
 }
 
 .submit-enquiry button {
-    color: #fafafa;
+  color: #fafafa;
 }
-
 
 /************************************************************* Footer */
 
@@ -732,7 +736,7 @@ textarea {
     padding-bottom: 0;
   }
 
-  .enquire-form {
+  .enquire-form, .about-wrapper {
     overflow-x: hidden;
     overflow-y: auto;
   }
