@@ -522,6 +522,18 @@ input[type='number'] {
     width:50%;
 }
 
+textarea {
+
+}
+
+.submit-enquiry {
+    text-align: center;
+}
+
+.submit-enquiry button {
+    color: #fafafa;
+}
+
 
 /************************************************************* Footer */
 
