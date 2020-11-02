@@ -517,9 +517,12 @@ footer {
 }
 
 fieldset {
-  border: 1px #fafafa solid;
+  border: 2px #fafafa solid;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  border-bottom-color: rgba(228, 22, 22, 0.75);
+  border-left-color: rgba(228, 22, 22, 0.75);
+  border-radius: 8px;
 }
 
 fieldset legend {
@@ -533,6 +536,33 @@ fieldset legend {
 .form-group.row {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.form-control.form-control-sm {
+    background: transparent;
+    color: #fafafa;
+    border-radius: 8px;
+}
+
+.form-check.form-check-inline, .form-check .form-check-input {
+    margin-right: 0;
+}
+
+/* Changing Placeholder Color */
+/* https://www.w3schools.com/howto/howto_css_placeholder.asp */
+.form-control.form-control-sm::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fafafa;
+  opacity: 0.5; 
+}
+
+.form-control.form-control-sm:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fafafa;
+  opacity: 0.5; 
+}
+
+.form-control.form-control-sm::-ms-input-placeholder { /* Microsoft Edge */
+color: #fafafa;
+ opacity: 0.5; 
 }
 
 .primary-label {
