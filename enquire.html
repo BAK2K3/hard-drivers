@@ -227,6 +227,7 @@
                       class="form-control form-control-sm"
                       id="fullName"
                       placeholder="Full Name"
+                      required
                     />
                   </div>
                 </div>
@@ -244,6 +245,7 @@
                       class="form-control form-control-sm"
                       id="emailAddress"
                       placeholder="Email"
+                      required
                     />
                   </div>
                 </div>
@@ -261,6 +263,7 @@
                       class="form-control form-control-sm"
                       id="telephoneNumber"
                       placeholder="Phone Number"
+                      required
                     />
                   </div>
                 </div>
@@ -285,6 +288,7 @@
                         name="computerType"
                         id="desktop"
                         value="Desktop"
+                        required
                       />
                       <label class="form-check-label sub-label" for="desktop"
                         >Desktop</label
@@ -297,6 +301,7 @@
                         name="computerType"
                         id="laptop"
                         value="laptop"
+                        required
                       />
                       <label class="form-check-label sub-label" for="laptop"
                         >Laptop</label
@@ -363,10 +368,10 @@
                         type="number"
                         min="0.00"
                         step="0.01"
-                        max="10000.00"
-                        value="500"
+                        max="100000"
                         class="form-control form-control-sm"
                         id="yourBudget"
+                        required
                       />
                     </div>
                   </div>
@@ -392,6 +397,7 @@
                         name="yourPackage"
                         id="bronze"
                         value="Bronze"
+                        required
                       />
                       <label class="form-check-label sub-label" for="bronze"
                         >Bronze</label
@@ -404,6 +410,7 @@
                         name="yourPackage"
                         id="silver"
                         value="Silver"
+                        required
                       />
                       <label class="form-check-label sub-label" for="silver"
                         >Silver</label
@@ -416,19 +423,17 @@
                         name="yourPackage"
                         id="gold"
                         value="Gold"
+                        required
                       />
                       <label class="form-check-label sub-label" for="gold"
                         >Gold</label
                       >
                     </div>
                   </div>
-                  <div
-                    class="row d-lg-none d-md-flex package-details-section"
-                  >
-                  <div class="col-md-10 offset-md-2 col-sm-12">
-                  <p class="sub-label">Click here to find out more!</p>
-                  </div>
-                    
+                  <div class="row d-lg-none d-md-flex package-details-section">
+                    <div class="col-md-10 offset-md-2 col-sm-12">
+                      <p class="sub-label">Click here to find out more!</p>
+                    </div>
                   </div>
                 </div>
               </fieldset>
@@ -441,7 +446,7 @@
                   <label
                     for="yourRequest"
                     class="col-md-2 col-form-label col-form-label-sm primary-label"
-                    >Leave a note for your Hard Driver:</label
+                    >Leave a note for your Hard Driver (Optional):</label
                   >
                   <div class="col-md-10 text-center">
                     <textarea
