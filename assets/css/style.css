@@ -484,8 +484,6 @@ footer {
   padding-bottom: 5px;
   text-align: center;
   margin: 0;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
 }
 
 .enquire-wrapper {
@@ -614,6 +612,10 @@ p.sub-label {
 }
 
 /************************************************************* Package Table */
+
+.table-responsive {
+    margin-top: 12px;
+}
 
 .sub-cell {
   display: block;
