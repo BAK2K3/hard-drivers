@@ -589,6 +589,11 @@ textarea.form-control {
   align-items: center;
 }
 
+.enquire-wrapper .package-details-section {
+  justify-content: end;
+  text-align: center;
+}
+
 .primary-label {
   text-align: center;
   width: auto;
@@ -597,6 +602,11 @@ textarea.form-control {
 
 .sub-label {
   font-size: 0.9rem;
+}
+
+p.sub-label {
+  padding-top: 10px;
+  margin-bottom: 0;
 }
 
 .currency {
@@ -909,6 +919,12 @@ textarea.form-control {
   .about-text p {
     font-size: 1rem;
   }
+
+  /* Enquiry Page */
+
+  .peripherals-options {
+    padding-right: 0;
+  }
 }
 
 /***********  /Tablet View */
@@ -934,6 +950,10 @@ textarea.form-control {
 
   .about-text p {
     font-size: 1.1rem;
+  }
+
+  .peripherals-options {
+    padding-right: 15px;
   }
 }
 /***********  /Desktop View */
