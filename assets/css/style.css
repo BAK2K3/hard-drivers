@@ -509,6 +509,8 @@ footer {
   justify-content: space-around;
 }
 
+/************************************************************* Enquire Form*/
+
 .enquire-form {
   margin-left: 20px;
   margin-right: 20px;
@@ -539,30 +541,52 @@ fieldset legend {
 }
 
 .form-control.form-control-sm {
-    background: transparent;
-    color: #fafafa;
-    border-radius: 8px;
+  background: transparent;
+  color: #fafafa;
+  border-radius: 8px;
 }
 
-.form-check.form-check-inline, .form-check .form-check-input {
-    margin-right: 0;
+.form-check.form-check-inline,
+.form-check .form-check-input {
+  margin-right: 0;
 }
 
 /* Changing Placeholder Color */
 /* https://www.w3schools.com/howto/howto_css_placeholder.asp */
-.form-control.form-control-sm::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.form-control.form-control-sm::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fafafa;
-  opacity: 0.5; 
+  opacity: 0.5;
 }
 
-.form-control.form-control-sm:-ms-input-placeholder { /* Internet Explorer 10-11 */
+.form-control.form-control-sm:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: #fafafa;
-  opacity: 0.5; 
+  opacity: 0.5;
 }
 
-.form-control.form-control-sm::-ms-input-placeholder { /* Microsoft Edge */
-color: #fafafa;
- opacity: 0.5; 
+.form-control.form-control-sm::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fafafa;
+  opacity: 0.5;
+}
+
+textarea.form-control {
+  min-width: 80%;
+}
+
+.submit-enquiry {
+  text-align: center;
+}
+
+.submit-enquiry button {
+  color: #fafafa;
+  margin-bottom: 10px;
+}
+
+/* center-align the row of inputs vertically if text of label wraps onto second line  */
+.enquire-form .form-group.row {
+  align-items: center;
 }
 
 .primary-label {
@@ -577,19 +601,6 @@ color: #fafafa;
 
 .currency {
   padding-right: 5px;
-}
-
-textarea.form-control {
-  min-width: 80%;
-}
-
-.submit-enquiry {
-  text-align: center;
-}
-
-.submit-enquiry button {
-  color: #fafafa;
-  margin-bottom: 10px;
 }
 
 /************************************************************* Package Table */
@@ -809,6 +820,18 @@ textarea.form-control {
   .about-wrapper {
     overflow-x: hidden;
     overflow-y: auto;
+  }
+
+  /* Enquiry Form */
+
+  /* Allow all 3 peripherals to fit on one line in mobile view */
+
+  .form-check-inline {
+    margin-right: 0.5rem;
+  }
+
+  .peripherals-options {
+    padding: 0;
   }
 
   .socials i {
