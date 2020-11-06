@@ -613,15 +613,16 @@ p.sub-label {
 
 /************************************************************* Price Table */
 
-.price-table-container .price-table-heading {
+/* .price-table-container .price-table-heading {
   color: rgba(228, 22, 22, 0.75);
-}
+} */
 
 .price-table-heading {
   padding-top: 30px;
   padding-bottom: 5px;
   text-align: center;
   margin: 0;
+  color: rgba(228, 22, 22, 0.75);
 }
 
 .sub-cell {
