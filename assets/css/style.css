@@ -653,29 +653,32 @@ p.sub-label {
 /* Modal */
 
 .price-table-modal {
-    background: black;
+  background: black;
+  border: none;
+}
+
+.modal-content {
+    border: none;
 }
 
 .price-table-modal .enquire-heading {
-
-    padding-top: 15px;
-
+  padding-top: 15px;
 }
 
 .price-table-modal {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 .price-table-modal .table th {
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .close-modal-button {
-    margin: auto;
+  margin: auto;
 }
 
 .modal-footer {
-    border: none;
+  border: none;
 }
 
 /* 50% Cell border concept adapted from https://stackoverflow.com/questions/32265322/css-length-of-border-bottom */
@@ -930,6 +933,12 @@ p.sub-label {
 
   .peripherals-options {
     padding: 0;
+  }
+
+  /*Modal Enquiry*/
+
+  .price-table-modal .table th {
+    font-size: 0.7em;
   }
 
   /* Footer */
