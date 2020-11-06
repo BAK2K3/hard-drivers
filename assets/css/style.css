@@ -613,10 +613,6 @@ p.sub-label {
 
 /************************************************************* Price Table */
 
-/* .price-table-container .price-table-heading {
-  color: rgba(228, 22, 22, 0.75);
-} */
-
 .price-table-heading {
   padding-top: 30px;
   padding-bottom: 5px;
@@ -663,6 +659,11 @@ p.sub-label {
 .price-table-modal {
   background: black;
   border: none;
+  color: #fafafa;
+}
+
+.price-table-modal fieldset {
+    padding-bottom: 0px;
 }
 
 .modal-content {
@@ -670,11 +671,7 @@ p.sub-label {
 }
 
 .price-table-modal .price-table-heading {
-  padding-top: 15px;
-}
-
-.price-table-modal {
-  color: #fafafa;
+  padding-top: 10px;
 }
 
 .price-table-modal .table th {
@@ -688,6 +685,7 @@ p.sub-label {
 
 .modal-footer {
   border: none;
+  padding-top: 0;
 }
 
 /* 50% Cell border concept adapted from https://stackoverflow.com/questions/32265322/css-length-of-border-bottom */
