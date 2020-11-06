@@ -611,10 +611,17 @@ p.sub-label {
   padding-right: 5px;
 }
 
-/************************************************************* Package Table */
+/************************************************************* Price Table */
 
-.price-table-container .enquire-heading {
+.price-table-container .price-table-heading {
   color: rgba(228, 22, 22, 0.75);
+}
+
+.price-table-heading {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin: 0;
 }
 
 .sub-cell {
@@ -658,10 +665,10 @@ p.sub-label {
 }
 
 .modal-content {
-    border: none;
+  border: none;
 }
 
-.price-table-modal .enquire-heading {
+.price-table-modal .price-table-heading {
   padding-top: 15px;
 }
 
@@ -675,6 +682,7 @@ p.sub-label {
 
 .close-modal-button {
   margin: auto;
+  font-weight: 700;
 }
 
 .modal-footer {
