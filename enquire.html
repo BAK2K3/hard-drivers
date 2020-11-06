@@ -103,6 +103,20 @@
 
     <!-- Page Body -->
     <section class="body-content enquire-page viewport-control">
+      <!-- Page Headings -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Package Heading -->
+          <div class="d-none d-lg-block col-lg-6 price-table-heading">
+            <h1>Packages</h1>
+          </div>
+          <!-- Enquiry Heading -->
+          <div class="col-md-12 col-lg-6 enquire-heading">
+            <h1>Enquire</h1>
+          </div>
+        </div>
+      </div>
+
       <!-- Enquire Wrapper -->
       <div class="container-fluid enquire-wrapper">
         <div class="row">
@@ -110,10 +124,6 @@
           <div class="d-none d-lg-flex col-lg-6 price-table-container">
             <!-- Inspiration for pricing tabel: https://www.codeply.com/go/BmIqIeuNoD/bootstrap-4-comparison-table-options-table -->
             <div class="row">
-              <!-- Package Heading -->
-              <div class="col-12 price-table-heading">
-                <h1>Packages</h1>
-              </div>
               <div class="col-lg-12">
                 <div class="table-responsive">
                   <fieldset class="package-tiers">
@@ -203,10 +213,6 @@
 
           <!-- Enquire Form -->
           <div class="col-md-12 col-lg-6 enquire-container">
-            <!-- Enquire Heading -->
-            <div class="col-12 enquire-heading">
-              <h1>Enquire</h1>
-            </div>
             <form class="enquire-form">
               <!-- Your Details Fieldset -->
               <fieldset class="your-details">
@@ -430,7 +436,12 @@
                   </div>
                   <div class="row d-lg-none d-md-flex package-details-section">
                     <div class="col-md-10 offset-md-2 col-sm-12">
-                      <button data-toggle="modal" data-target="#priceTableModal">Click here to find out more!</button>
+                      <button
+                        data-toggle="modal"
+                        data-target="#priceTableModal"
+                      >
+                        Click here to find out more!
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -516,9 +527,14 @@
     <!-- Package Modal -->
     <!-- https://getbootstrap.com/docs/4.5/components/modal/ -->
 
-
-<div class="modal fade" id="priceTableModal" tabindex="-1" aria-labelledby="priceTableModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div
+      class="modal fade"
+      id="priceTableModal"
+      tabindex="-1"
+      aria-labelledby="priceTableModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
           <!-- Price Table -->
           <div class="price-table-container price-table-modal">
@@ -627,7 +643,6 @@
         </div>
       </div>
     </div>
-    
 
     <!-- Bootstrap 4.5.3 Javascript -->
     <script
