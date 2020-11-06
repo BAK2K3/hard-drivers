@@ -613,13 +613,14 @@ p.sub-label {
 
 /************************************************************* Package Table */
 
-.table-responsive {
-    margin-top: 12px;
+.price-table-container .enquire-heading {
+  color: rgba(228, 22, 22, 0.75);
 }
 
 .sub-cell {
   display: block;
   text-align: center;
+  color: rgba(228, 22, 22, 0.75);
 }
 
 .table td,
@@ -631,6 +632,17 @@ p.sub-label {
 .table th {
   font-size: 1em;
 }
+
+.table tr th {
+  border: 1px solid transparent;
+  color: #fafafa;
+}
+
+.table tr td {
+  border: 1px solid transparent;
+  color: #fafafa;
+}
+
 /************************************************************* Footer */
 
 .footer {
