@@ -650,6 +650,34 @@ p.sub-label {
   color: #fafafa;
 }
 
+/* Modal */
+
+.price-table-modal {
+    background: black;
+}
+
+.price-table-modal .enquire-heading {
+
+    padding-top: 15px;
+
+}
+
+.price-table-modal {
+    color: #fafafa;
+}
+
+.price-table-modal .table th {
+  font-size: 0.7em;
+}
+
+.close-modal-button {
+    margin: auto;
+}
+
+.modal-footer {
+    border: none;
+}
+
 /* 50% Cell border concept adapted from https://stackoverflow.com/questions/32265322/css-length-of-border-bottom */
 
 .table tr td::after {
