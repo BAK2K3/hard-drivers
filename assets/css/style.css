@@ -49,7 +49,7 @@ footer {
 
 /* 'Lava' render from Gimp Software (www.gimp.com) */
 .banner-background {
-  background: url("/assets/images/full-banner.png") black no-repeat center
+  background: url("/assets/images/banner-background.jpg") black no-repeat center
     center fixed;
   background-size: cover;
   padding: 0;
@@ -774,7 +774,7 @@ p.sub-label {
 
 .footer {
   /* 'Lava' render from Gimp Software (www.gimp.com) */
-  background: url("/assets/images/full-banner.png") black no-repeat center
+  background: url("/assets/images/banner-background.jpg") black no-repeat center
     center fixed;
   background-size: cover;
   height: 75px;
