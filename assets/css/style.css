@@ -89,7 +89,7 @@ footer {
 }
 
 .active-page {
-  color: rgba(228, 22, 22, 0.75);
+  color: #EC0000;
   font-weight: 700;
 }
 
@@ -124,7 +124,7 @@ footer {
 }
 
 .header-red {
-  color: rgba(228, 22, 22, 0.75);
+  color: #EC0000;
   font-size: 4rem;
   letter-spacing: 6px;
 }
@@ -142,7 +142,7 @@ footer {
 }
 
 .red-feature {
-  color: rgb(228, 22, 22, 0.75);
+  color: #EC0000;
 }
 
 /************************************************************* Buttons */
@@ -174,55 +174,55 @@ footer {
 
 @-webkit-keyframes glowing {
   0% {
-    -webkit-box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75),
-      inset 0 0 0px rgb(228, 22, 22, 0.75);
-    box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75),
-      inset 0 0 0px rgb(228, 22, 22, 0.75);
+    -webkit-box-shadow: 0 0 -10px #EC0000,
+      inset 0 0 0px #EC0000;
+    box-shadow: 0 0 -10px #EC0000,
+      inset 0 0 0px #EC0000;
   }
   40% {
-    -webkit-box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
-      inset 0 0 10px rgb(228, 22, 22, 0.75);
-    box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
-      inset 0 0 10px rgb(228, 22, 22, 0.75);
+    -webkit-box-shadow: 0 0 20px #EC0000,
+      inset 0 0 10px #EC0000;
+    box-shadow: 0 0 20px #EC0000,
+      inset 0 0 10px #EC0000;
   }
   60% {
-    -webkit-box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
-      inset 0 0 10px rgb(228, 22, 22, 0.75);
-    box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
-      inset 0 0 10px rgb(228, 22, 22, 0.75);
+    -webkit-box-shadow: 0 0 20px #EC0000,
+      inset 0 0 10px #EC0000;
+    box-shadow: 0 0 20px #EC0000,
+      inset 0 0 10px #EC0000;
   }
   100% {
-    -webkit-box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px
-          rgb(228, 22, 22, 0.75));
-    box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px
-          rgb(228, 22, 22, 0.75));
+    -webkit-box-shadow: 0 0 -10px #EC0000, inset 0 0 0px
+          #EC0000;
+    box-shadow: 0 0 -10px #EC0000, inset 0 0 0px
+          #EC0000;
   }
 }
 
 @keyframes glowing {
   0% {
-    -webkit-box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75),
-      inset 0 0 0px rgb(228, 22, 22, 0.75);
-    box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75),
-      inset 0 0 0px rgb(228, 22, 22, 0.75);
+    -webkit-box-shadow: 0 0 -10px #EC0000,
+      inset 0 0 0px #EC0000;
+    box-shadow: 0 0 -10px #EC0000,
+      inset 0 0 0px #EC0000;
   }
   40% {
-    -webkit-box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
-      inset 0 0 10px rgb(228, 22, 22, 0.75);
-    box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
-      inset 0 0 10px rgb(228, 22, 22, 0.75);
+    -webkit-box-shadow: 0 0 20px #EC0000,
+      inset 0 0 10px #EC0000;
+    box-shadow: 0 0 20px #EC0000,
+      inset 0 0 10px #EC0000;
   }
   60% {
-    -webkit-box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
-      inset 0 0 10px rgb(228, 22, 22, 0.75);
-    box-shadow: 0 0 20px rgb(228, 22, 22, 0.75),
-      inset 0 0 10px rgb(228, 22, 22, 0.75);
+    -webkit-box-shadow: 0 0 20px #EC0000,
+      inset 0 0 10px #EC0000;
+    box-shadow: 0 0 20px #EC0000,
+      inset 0 0 10px #EC0000;
   }
   100% {
-    -webkit-box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px
-          rgb(228, 22, 22, 0.75));
-    box-shadow: 0 0 -10px rgb(228, 22, 22, 0.75, inset 0 0 0px
-          rgb(228, 22, 22, 0.75));
+    -webkit-box-shadow: 0 0 -10px #EC0000, inset 0 0 0px
+          #EC0000;
+    box-shadow: 0 0 -10px #EC0000, inset 0 0 0px
+          #EC0000;
   }
 }
 
@@ -536,8 +536,8 @@ fieldset {
   border: 2px #fafafa solid;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  border-bottom-color: rgba(228, 22, 22, 0.75);
-  border-left-color: rgba(228, 22, 22, 0.75);
+  border-bottom-color: #EC0000;
+  border-left-color: #EC0000;
   border-radius: 8px;
 }
 
@@ -646,13 +646,14 @@ p.sub-label {
   padding-bottom: 5px;
   text-align: center;
   margin: 0;
-  color: rgba(228, 22, 22, 0.75);
+  color: #EC0000;
 }
 
 .sub-cell {
   display: block;
   text-align: center;
-  color: rgba(228, 22, 22, 0.75);
+  color: #EC0000;
+  font-weight: 400;
 }
 
 .table td,
@@ -674,7 +675,7 @@ p.sub-label {
 
 .table tr td {
   border-top: none;
-  color: rgba(228, 22, 22, 0.75);
+  color: #EC0000;
   padding: 8px;
 }
 
@@ -739,15 +740,15 @@ p.sub-label {
 }
 
 .modal-link {
-  -webkit-text-decoration: underline wavy rgba(228, 22, 22, 0.75);
-  text-decoration: underline wavy rgba(228, 22, 22, 0.75);
+  -webkit-text-decoration: underline wavy #EC0000;
+  text-decoration: underline wavy #EC0000;
   color: #fafafa;
 }
 
 .modal-link:hover {
-  -webkit-text-decoration: underline wavy rgba(228, 22, 22, 0.75);
-  text-decoration: underline wavy rgba(228, 22, 22, 0.75);
-  color: rgba(228, 22, 22, 0.75);
+  -webkit-text-decoration: underline wavy #EC0000;
+  text-decoration: underline wavy #EC0000;
+  color: #EC0000;
 }
 
 /* Thank You Modal */
@@ -762,7 +763,7 @@ p.sub-label {
   padding-top: 25px;
   padding-bottom: 5px;
   margin: 0;
-  color: rgba(228, 22, 22, 0.75);
+  color: #EC0000;
 }
 
 .thank-you-body {
