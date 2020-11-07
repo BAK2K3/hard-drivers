@@ -281,7 +281,7 @@
             <div class="d-none d-lg-block enquire-heading">
               <h1>Enquire</h1>
             </div>
-            <form class="enquire-form">
+            <form class="enquire-form" id="enquireForm">
               <!-- Your Details Fieldset -->
               <fieldset class="your-details">
                 <legend>Your Details</legend>
@@ -510,7 +510,7 @@
                         data-target="#priceTableModal"
                         class="modal-link"
                       >
-                        Click here to find out more!
+                        Click here to further details!
                       </a>
                     </div>
                   </div>
@@ -540,6 +540,7 @@
                   <button
                     class="glass-button button-glow hvr-grow"
                     type="submit"
+                    id="submitButton"
                   >
                     <a>Submit</a>
                   </button>
@@ -774,6 +775,39 @@
       </div>
     </div>
 
+    <!-- Thank you modal -->
+
+    <div
+      class="modal fade"
+      id="thankYouModal"
+      tabindex="-1"
+      aria-labelledby="thankYouModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content thank-you-modal">
+          <div class="modal-header thank-you-heading mx-auto">
+            <h1 id="thankYouModalLabel">Thank You!</h1>
+          </div>
+          <div class="modal-body thank-you-body">
+            <p>
+              Thank you for your enquiry. One of our Hard Drivers will be in
+              touch with you shortly with a no obligation specification.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-light close-modal-button"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap 4.5.3 Javascript -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -796,6 +830,19 @@
     <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip({ container: "body" });
+      });
+
+      // How to force HTML5 validation prior to Modal pop up: https://stackoverflow.com/questions/11866910/how-to-force-a-html5-form-validation-without-submitting-it-via-jquery
+
+      $(document).ready(function () {
+        $("#submitButton").on("click", function (event) {
+          var isvalidate = $("#enquireForm")[0].checkValidity();
+          if (isvalidate) {
+            event.preventDefault();
+            $("#enquireForm")[0].reset();
+            $("#thankYouModal").modal("show");
+          }
+        });
       });
     </script>
   </body>
