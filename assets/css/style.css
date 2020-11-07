@@ -629,8 +629,8 @@ p.sub-label {
 
 .table td,
 .table th {
-  vertical-align: middle;
-  padding: 0.5rem;
+  vertical-align: middle;  
+  position: relative;
 }
 
 .table th {
@@ -641,17 +641,39 @@ p.sub-label {
   border-top: none;
   border-bottom: none;
   color: #fafafa;
-  padding: 8px 8px 0px 8px;
+  padding: 8px 8px 8px 8px;
 }
 
 .table tr td {
   border-top: none;
   color: rgba(228, 22, 22, 0.75);
-  padding: 8px 8px 0px 8px;
+  padding: 8px 8px 8px 8px;
 }
 
 .table tr td i {
   color: #fafafa;
+}
+
+/* 50% Cell border concept adapted from https://stackoverflow.com/questions/32265322/css-length-of-border-bottom */
+
+.table tr td::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  left: 25%;
+  width: 50%;
+  bottom: 0;
+  border-bottom: 2px solid #fafafa;
+}
+
+.table tr th::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  left: 25%;
+  width: 50%;
+  bottom: 0;
+  border-bottom: 2px solid #fafafa;
 }
 
 /* Modal */
@@ -686,30 +708,6 @@ p.sub-label {
 .modal-footer {
   border: none;
   padding-top: 0;
-}
-
-/* 50% Cell border concept adapted from https://stackoverflow.com/questions/32265322/css-length-of-border-bottom */
-
-.table tr td::after {
-  content: " ";
-  position: relative;
-  display: block;
-  left: 25%;
-  width: 50%;
-  bottom: 0;
-  border-bottom: 2px solid #fafafa;
-  padding-top: 8px;
-}
-
-.table tr th::after {
-  content: " ";
-  position: relative;
-  display: block;
-  left: 25%;
-  width: 50%;
-  bottom: 0;
-  border-bottom: 2px solid #fafafa;
-  padding-top: 8px;
 }
 
 /************************************************************* Footer */
