@@ -89,7 +89,7 @@ footer {
 }
 
 .active-page {
-  color: #EC0000;
+  color: rgba(228, 30, 30, 0.90);
   font-weight: 700;
 }
 
@@ -124,7 +124,7 @@ footer {
 }
 
 .header-red {
-  color: #EC0000;
+  color: rgba(228, 30, 30, 0.90);
   font-size: 4rem;
   letter-spacing: 6px;
 }
@@ -142,7 +142,7 @@ footer {
 }
 
 .red-feature {
-  color: #EC0000;
+  color: rgba(228, 30, 30, 0.90);
 }
 
 /************************************************************* Buttons */
@@ -174,55 +174,55 @@ footer {
 
 @-webkit-keyframes glowing {
   0% {
-    -webkit-box-shadow: 0 0 -10px #EC0000,
-      inset 0 0 0px #EC0000;
-    box-shadow: 0 0 -10px #EC0000,
-      inset 0 0 0px #EC0000;
+    -webkit-box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90),
+      inset 0 0 0px rgba(228, 30, 30, 0.90);
+    box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90),
+      inset 0 0 0px rgba(228, 30, 30, 0.90);
   }
   40% {
-    -webkit-box-shadow: 0 0 20px #EC0000,
-      inset 0 0 10px #EC0000;
-    box-shadow: 0 0 20px #EC0000,
-      inset 0 0 10px #EC0000;
+    -webkit-box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
+      inset 0 0 10px rgba(228, 30, 30, 0.90);
+    box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
+      inset 0 0 10px rgba(228, 30, 30, 0.90);
   }
   60% {
-    -webkit-box-shadow: 0 0 20px #EC0000,
-      inset 0 0 10px #EC0000;
-    box-shadow: 0 0 20px #EC0000,
-      inset 0 0 10px #EC0000;
+    -webkit-box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
+      inset 0 0 10px rgba(228, 30, 30, 0.90);
+    box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
+      inset 0 0 10px rgba(228, 30, 30, 0.90);
   }
   100% {
-    -webkit-box-shadow: 0 0 -10px #EC0000, inset 0 0 0px
-          #EC0000;
-    box-shadow: 0 0 -10px #EC0000, inset 0 0 0px
-          #EC0000;
+    -webkit-box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90), inset 0 0 0px
+          rgba(228, 30, 30, 0.90);
+    box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90), inset 0 0 0px
+          rgba(228, 30, 30, 0.90);
   }
 }
 
 @keyframes glowing {
   0% {
-    -webkit-box-shadow: 0 0 -10px #EC0000,
-      inset 0 0 0px #EC0000;
-    box-shadow: 0 0 -10px #EC0000,
-      inset 0 0 0px #EC0000;
+    -webkit-box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90),
+      inset 0 0 0px rgba(228, 30, 30, 0.90);
+    box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90),
+      inset 0 0 0px rgba(228, 30, 30, 0.90);
   }
   40% {
-    -webkit-box-shadow: 0 0 20px #EC0000,
-      inset 0 0 10px #EC0000;
-    box-shadow: 0 0 20px #EC0000,
-      inset 0 0 10px #EC0000;
+    -webkit-box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
+      inset 0 0 10px rgba(228, 30, 30, 0.90);
+    box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
+      inset 0 0 10px rgba(228, 30, 30, 0.90);
   }
   60% {
-    -webkit-box-shadow: 0 0 20px #EC0000,
-      inset 0 0 10px #EC0000;
-    box-shadow: 0 0 20px #EC0000,
-      inset 0 0 10px #EC0000;
+    -webkit-box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
+      inset 0 0 10px rgba(228, 30, 30, 0.90);
+    box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
+      inset 0 0 10px rgba(228, 30, 30, 0.90);
   }
   100% {
-    -webkit-box-shadow: 0 0 -10px #EC0000, inset 0 0 0px
-          #EC0000;
-    box-shadow: 0 0 -10px #EC0000, inset 0 0 0px
-          #EC0000;
+    -webkit-box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90), inset 0 0 0px
+          rgba(228, 30, 30, 0.90);
+    box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90), inset 0 0 0px
+          rgba(228, 30, 30, 0.90);
   }
 }
 
@@ -536,8 +536,8 @@ fieldset {
   border: 2px #fafafa solid;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  border-bottom-color: #EC0000;
-  border-left-color: #EC0000;
+  border-bottom-color: rgba(228, 30, 30, 0.90);
+  border-left-color: rgba(228, 30, 30, 0.90);
   border-radius: 8px;
 }
 
@@ -646,14 +646,14 @@ p.sub-label {
   padding-bottom: 5px;
   text-align: center;
   margin: 0;
-  color: #EC0000;
+  color: rgba(228, 30, 30, 0.90);
 }
 
 .sub-cell {
   display: block;
   text-align: center;
-  color: #EC0000;
-  font-weight: 400;
+  color: rgba(228, 30, 30, 0.90);
+  font-weight: 500;
 }
 
 .table td,
@@ -675,7 +675,7 @@ p.sub-label {
 
 .table tr td {
   border-top: none;
-  color: #EC0000;
+  color: rgba(228, 30, 30, 0.90);
   padding: 8px;
 }
 
@@ -740,15 +740,15 @@ p.sub-label {
 }
 
 .modal-link {
-  -webkit-text-decoration: underline wavy #EC0000;
-  text-decoration: underline wavy #EC0000;
+  -webkit-text-decoration: underline wavy rgba(228, 30, 30, 0.90);
+  text-decoration: underline wavy rgba(228, 30, 30, 0.90);
   color: #fafafa;
 }
 
 .modal-link:hover {
-  -webkit-text-decoration: underline wavy #EC0000;
-  text-decoration: underline wavy #EC0000;
-  color: #EC0000;
+  -webkit-text-decoration: underline wavy rgba(228, 30, 30, 0.90);
+  text-decoration: underline wavy rgba(228, 30, 30, 0.90);
+  color: rgba(228, 30, 30, 0.90);
 }
 
 /* Thank You Modal */
@@ -763,7 +763,7 @@ p.sub-label {
   padding-top: 25px;
   padding-bottom: 5px;
   margin: 0;
-  color: #EC0000;
+  color: rgba(228, 30, 30, 0.90);
 }
 
 .thank-you-body {
