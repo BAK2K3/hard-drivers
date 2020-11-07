@@ -473,10 +473,7 @@ footer {
   font-size: 0.9rem;
 }
 
-.about-cost a {
-    text-decoration: underline wavy  rgba(228, 22, 22, 0.75);
-    color: #fafafa;
-}
+
 
 /************************************************************* Enquire Page*/
 
@@ -713,6 +710,16 @@ p.sub-label {
 .modal-footer {
   border: none;
   padding-top: 0;
+}
+
+.modal-link {
+    text-decoration: underline wavy  rgba(228, 22, 22, 0.75);
+    color: #fafafa;
+}
+
+.modal-link:hover {
+    text-decoration: underline wavy  rgba(228, 22, 22, 0.75);
+    color: rgba(228, 22, 22, 0.75);
 }
 
 /************************************************************* Footer */
