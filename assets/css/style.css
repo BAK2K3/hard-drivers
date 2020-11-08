@@ -108,7 +108,7 @@ footer {
 /************************************************************* Headings */
 
 .main-logo {
-  margin: 0 auto;
+  margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -929,8 +929,9 @@ table a:hover {
     margin: 0;
   }
 
+  /* Push Brand to center of page on mobile devices */
   .navbar-brand {
-    padding-left: 60px;
+    margin-left: 65px;
   }
 
   /* Dropdown Transition */
