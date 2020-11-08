@@ -243,6 +243,20 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ## Technologies Used
 
+* The project was primarily written in HTML and CSS. Small snippets of Javascript were used to enhance user experience.
+* The project was written and tested in the [Gitpod](https://gitpod.io/) IDE.
+* The project uses [github](https://github.com/) for hosting source code, for utilising git version control, and for hosting the site on github pages.  
+* The project's template was generated from [Code Institute's Gitpod Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+* The project uses [Boostrap](https://getbootstrap.com/) v4.5.3, a 'Mobile First' HTML/CSS Framework for simple and intuitive responsive web design.
+* The project uses [jQuery](https://jquery.com/) v3.5.1, a Javascript library, for certain Bootstrap elements, and for form validation.
+* The project uses [Popper.js](https://popper.js.org/) v1.16.1, a Tooltip and Popover Positioning Enginge, for Tooltips and dropdowns.
+* The project uses [jsDelivr](https://www.jsdelivr.com/) as a Content Delivery Network for Bootstrap and Popper.
+* The project uses [FontAwesome](https://fontawesome.com/) v5.15.1, a free icon-set/toolkit for web development.
+* The images used in this project were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
+* The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+* The project used Toptal's[Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colorblind-friendly the site was.
+* The project's contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
+
 ---
 
 ## Testing
@@ -297,17 +311,11 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 6. **Internet Explorer incompatability**
     * Flexbox
 
-7. **Safari incompatability**
-    *Navbar
-
-8. **Users informed me that on some mobile devices the Navbar disappears (akin to safari) after pressing submit**
-
 **Other technical difficulties:**
 
 1. **Github Commit Merge** 
     * On 27th October, I accidentally merged multiple git commits (df2b72005f9506c70c5d58fcb9964631462d7555/a8190a91b29cb1d4c3258e5d0f684390113bc646). While I researched how to undo the push, I was aware this would result in all of these changes being combined, and I wasn't fully comfortable 
     continuing with this as I didn't want to lose any more progress/commits. Accepted this single merge was an error, and moved on and learned from this. 
-
 
 ## Deployment
 ---
@@ -316,7 +324,22 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ### Content
 
+* All text used throughout the site was written by myself.
+* All business ideas and general development concepts were devised by myself. 
+
 ### Media
+
+* All Photographs were sourced from [Unsplash](https://unsplash.com/). 
+    * Hero-image.jpg is by [Photography Account](https://unsplash.com/@notsurewhyinamedmyselfthiss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+    * Computer.jpg is by [Christian Wiediger](https://unsplash.com/@christianw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText). 
+    * Experts.jpg is by [Sean Do](https://unsplash.com/@everywheresean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+    * processor.jpg is by [Zii Miller](https://unsplash.com/@anarchist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+* The Header and Footer banner background was created in [Gimp](https://www.gimp.org/), using the Lava Generation effect.
+* The Favicon was also greated in [Gimp](https://www.gimp.org/), and converted to appropriate format using [favicon.io](https://favicon.io/).
+
+### Code
+
+* 
 
 ### Acknowledgements
 
