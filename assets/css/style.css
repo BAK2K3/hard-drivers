@@ -1137,10 +1137,6 @@ table a:hover {
 
 @media only screen and (min-width: 1400px) {
   /* Index page */
-  .main-features h2 {
-    font-size: 2.5rem;
-  }
-
   .main-pitch h2 {
     font-size: 2rem;
   }
