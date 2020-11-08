@@ -753,14 +753,18 @@ table a:hover {
 
 .modal-link {
   text-decoration: underline;
+  -webkit-text-decoration-color: rgba(228, 30, 30, 0.9);
   text-decoration-color: rgba(228, 30, 30, 0.9);
+  -webkit-text-decoration-style: wavy;
   text-decoration-style: wavy;
   color: #fafafa;
 }
 
 .modal-link:hover {
   text-decoration: underline;
+  -webkit-text-decoration-color: rgba(228, 30, 30, 0.9);
   text-decoration-color: rgba(228, 30, 30, 0.9);
+  -webkit-text-decoration-style: wavy;
   text-decoration-style: wavy;
   color: rgba(228, 30, 30, 0.9);
 }
