@@ -252,11 +252,12 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 * The project uses [Popper.js](https://popper.js.org/) v1.16.1, a Tooltip and Popover Positioning Enginge, for Tooltips and dropdowns.
 * The project uses [jsDelivr](https://www.jsdelivr.com/) as a Content Delivery Network for Bootstrap and Popper.
 * The project uses [FontAwesome](https://fontawesome.com/) v5.15.1, a free icon-set/toolkit for web development.
-* The images used in this project were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
+* The project uses [Google Fonts](https://fonts.google.com/) for custom web-fonts.
+* The project's images were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 * The project used Toptal's[Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colorblind-friendly the site was.
 * The project's contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
-
+* The project's cross-browser compatability was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
 ---
 
 ## Testing
@@ -345,7 +346,23 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ### Code
 
-* 
+* HTML/CSS: Implementation and utilisation of Flexbox was assisted by [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+* HTML: Code Snippet taken from [StackOverflow](https://stackoverflow.com/questions/49780918/how-can-i-have-brand-and-navbar-on-separate-lines) and modified to utilise D-flex and Flex Column to create two rows for the Navbar.
+* HTML: Code Snippet taken from [StackOverflow](https://stackoverflow.com/questions/5111964/disable-auto-zoom-field-zoom-on-input-tags-on-my-mobile-site-without-disabling) and implemented into Enquiry header to prevent auto-zooming on mobile devices.
+* HTML/CSS: Inspiration for pricing table was taken from [Codeply](https://www.codeply.com/go/BmIqIeuNoD/bootstrap-4-comparison-table-options-table) and heavily modified.   
+* HTML/CSS: Guidance on Bootstrap, Tooltips, Modals and general Bootstrap integration and usage was obtained from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/).         
+* HTML/CSS: Guidance on general HTML/CSS usage was obtained from [Mozilla's Web Documentation](https://developer.mozilla.org/en-US/docs/Web/Reference).
+* Javascript: Code Snipper taken from [StackOverflow](https://stackoverflow.com/questions/11866910/how-to-force-a-html5-form-validation-without-submitting-it-via-jquery) and modified to force a HTML5 Form Validation prior to form submission/modal pop up.
+* CSS: An understanding of radial gradients was obtained from [Quirksmode](https://www.quirksmode.org/css/images/position.html).
+* CSS: Guidance on removing additional spacing around Span elements was obtained from [StackOverflow](https://stackoverflow.com/questions/25667401/how-to-remove-the-space-between-two-span-tags).
+* CSS: Code snippet taken from [CodePen](https://codepen.io/jpost-design/pen/EKZLzK) and modified to obtain a "glow button" effect.
+* CSS: Code snippet taken from [CSS-Tricks](https://css-tricks.com/almanac/properties/b/box-shadow/) and modified to obtain a "double shadow" effect on "glow button" effect.
+* CSS: Code snippet taken from [Hover.css](https://ianlunn.github.io/Hover/) for Hover Grow effect on links.
+* CSS: Guidance on fixing Flex compatability on IE11 obtained from [StackOverflow](https://stackoverflow.com/questions/21600345/flexbox-and-internet-explorer-11-displayflex-in-html).
+* CSS: Guidance on changing placeholder text color obtained from [W3Schools](https://www.w3schools.com/howto/howto_css_placeholder.asp).
+* CSS: Code snippet taken from [StackOverflow](https://stackoverflow.com/questions/32265322/css-length-of-border-bottom) and modified for the 50% border on table cells.
+* CSS: Guidance on fixing cell-padding collision with 50% border effect taken from [StackOverflow](https://stackoverflow.com/questions/10077386/how-to-display-the-after-content-outside-element). 
+* CSS: Code snipper taken from [StackOverflow](https://stackoverflow.com/questions/12115833/adding-a-slide-effect-to-bootstrap-dropdown) and modified to obtain a fluid Nav dropdown transition.
 
 ### Acknowledgements
 
