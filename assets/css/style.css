@@ -790,6 +790,9 @@ table a:hover {
   padding-bottom: 5px;
   margin: 0;
   color: rgba(228, 30, 30, 0.9);
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .thank-you-body {
