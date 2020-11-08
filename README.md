@@ -227,7 +227,12 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ### Features Left to Implement
 
-    
+* **Process details in enquiry form**
+
+* **GDPR information as personal information being processed**
+
+* **Bot/Spam prevention on form completion**
+
 * **Provide Live Service**
 
 * **Gain Presence**
@@ -288,6 +293,14 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
     * The links to images in the CSS file were defined as: "/assets/images/...". Therefore, when using Gitpod, the links would work appropriately. 
     * Given how the page is hosted on github, the assets were being searched for in: "github.io/assets/images/..."
     * This was resolved by using a relative filepath, and removing the assets/ subdirectory, as such: "./images/...".
+
+6. **Internet Explorer incompatability**
+    * Flexbox
+
+7. **Safari incompatability**
+    *Navbar
+
+8. **Users informed me that on some mobile devices the Navbar disappears (akin to safari) after pressing submit**
 
 **Other technical difficulties:**
 
