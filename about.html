@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="Description" content="About Hard Drivers; our ethod of 'your cost', 'our experts', and 'your computer'.">
+    <meta
+      name="Description"
+      content="About Hard Drivers; our ethod of 'your cost', 'our experts', and 'your computer'."
+    />
 
     <!-- Bootstrap 4.5.3 CSS Only-->
     <link
@@ -25,7 +28,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/> 
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
     <title>Hard Drivers | About</title>
   </head>
@@ -38,11 +41,12 @@
           <div class="container-fluid banner-gradient">
             <!-- D-flex and Flex Column to create two rows for Navbar -->
             <!-- https://stackoverflow.com/questions/49780918/how-can-i-have-brand-and-navbar-on-separate-lines -->
-
             <div class="w-100 d-flex flex-column">
               <div
-                class="w-100 d-flex justify-content-center align-items-center"
+                class="w-100 d-flex justify-content-between justify-content-xs-between justify-content-sm-center"
               >
+                <!-- Hidden container to allow for justify-content-between to work on small devices -->
+                <div class="d-xs-flex d-sm-none empty-container"></div>
                 <!-- Main Logo -->
                 <a class="navbar-brand text-center" href="index.html">
                   <h1 class="main-logo heading-text">
@@ -52,8 +56,8 @@
                     </span>
                     <span
                       class="header-white d-flex d-sm-inline-flex justify-content-center"
-                      >Drivers
-                    </span>
+                      >Drivers</span
+                    >
                     <span class="header-icon d-none d-sm-inline-flex"
                       ><i class="far fa-hdd" aria-hidden="true"> </i>
                     </span></h1
@@ -61,7 +65,7 @@
 
                 <!-- Nav Bar Toggle -->
                 <button
-                  class="navbar-toggler ml-auto"
+                  class="navbar-toggler"
                   type="button"
                   data-toggle="collapse"
                   data-target="#navbarNavDropdown"
@@ -119,7 +123,6 @@
 
       <!-- About-Wrapper -->
       <div class="container-fluid about-wrapper">
-      
         <!-- About Cost -->
         <div class="row container-fluid about-section about-cost">
           <div class="col-sm-6 col-12">
@@ -131,20 +134,33 @@
                 <p>
                   You tell us your budget, and we’ll send you a specification
                   for your future custom build PC free of charge, with no
-                  obligation. You can also upgrade your <a href="#" data-toggle="modal"
-                        data-target="#priceTableModal" class="modal-link">service package</a>, 
-                  or ask our Hard Drivers to pair any essential
-                  peripherals to your new computer, and you’re set!
+                  obligation. You can also upgrade your
+                  <a
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#priceTableModal"
+                    class="modal-link"
+                    >service package</a
+                  >, or ask our Hard Drivers to pair any essential peripherals
+                  to your new computer, and you’re set!
                 </p>
               </div>
             </div>
           </div>
-          <div class="d-none d-sm-flex col-4 about-image"><span class="sr-only">A picture of the inside of a desktop computer.</span></div>
+          <div class="d-none d-sm-flex col-4 about-image">
+            <span class="sr-only"
+              >A picture of the inside of a desktop computer.</span
+            >
+          </div>
         </div>
 
         <!-- About Experts -->
         <div class="row container-fluid about-section about-experts">
-          <div class="d-none d-sm-flex col-4 about-image"><span class="sr-only">A picture of a man sitting at a computer.</span></div>
+          <div class="d-none d-sm-flex col-4 about-image">
+            <span class="sr-only"
+              >A picture of a man sitting at a computer.</span
+            >
+          </div>
           <div class="col-sm-6 col-12">
             <div class="row">
               <div class="col-12 about-title">
@@ -177,7 +193,9 @@
               </div>
             </div>
           </div>
-          <div class="d-none d-sm-flex col-4 about-image"><span class="sr-only">A close up picture of a motherboard.</span></div>
+          <div class="d-none d-sm-flex col-4 about-image">
+            <span class="sr-only">A close up picture of a motherboard.</span>
+          </div>
         </div>
       </div>
     </section>
@@ -194,7 +212,11 @@
           >
         </div>
         <div class="container-fluid col-4 company-logo">
-          <button class="glass-button button-glow hvr-grow" type="button" tabindex="-1">
+          <button
+            class="glass-button button-glow hvr-grow"
+            type="button"
+            tabindex="-1"
+          >
             <a href="enquire.html">Enquire</a>
           </button>
         </div>
@@ -274,11 +296,20 @@
                               title="Our Hard Drivers will be available for you 24/7 by telephone or email to assist with any set up, troubleshooting, or general assistance queries."
                               href="#"
                               >24/7 Customer Service</a
-                            > <span class="sr-only">Included in all packages.</span>
+                            >
+                            <span class="sr-only"
+                              >Included in all packages.</span
+                            >
                           </th>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
                         </tr>
                         <tr>
                           <th>
@@ -288,11 +319,20 @@
                               title="Every component of your new computer comes with a 12 month warranty, which covers non-accidental damage and internal failures. No questions asked."
                               href="#"
                               >12 Month Warranty</a
-                            > <span class="sr-only">Included in all packages.</span>
+                            >
+                            <span class="sr-only"
+                              >Included in all packages.</span
+                            >
                           </th>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
                         </tr>
                         <tr>
                           <th>
@@ -302,11 +342,19 @@
                               title="Fast Track Build & Test puts your computer at the front of the build queue. Your computer is prioritised and is guaranteed to be ready for dispatch within 5 working days."
                               href="#"
                               >Fast Track Build & Test</a
-                            > <span class="sr-only">Included in Silver (£49.99) and Gold (£99.99) packages.</span>
+                            >
+                            <span class="sr-only"
+                              >Included in Silver (£49.99) and Gold (£99.99)
+                              packages.</span
+                            >
                           </th>
                           <td>-</td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
                         </tr>
                         <tr>
                           <th>
@@ -316,11 +364,19 @@
                               title="Our Hard Drivers will push your hardware to its limits. Our overclocking service is guaranteed to safely maximise the potential of your hardware. Every Mhz counts."
                               href="#"
                               >CPU/GPU/Ram Overclock</a
-                            > <span class="sr-only">Included in Silver (£49.99) and Gold (£99.99) packages.</span>
+                            >
+                            <span class="sr-only"
+                              >Included in Silver (£49.99) and Gold (£99.99)
+                              packages.</span
+                            >
                           </th>
                           <td>-</td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
                         </tr>
                         <tr>
                           <th>
@@ -331,11 +387,19 @@
                               href="#"
                             >
                               Live DIY Overclock Assistance
-                            </a> <span class="sr-only">Included in Silver (£49.99) and Gold (£99.99) packages.</span>
+                            </a>
+                            <span class="sr-only"
+                              >Included in Silver (£49.99) and Gold (£99.99)
+                              packages.</span
+                            >
                           </th>
                           <td>-</td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
                         </tr>
                         <tr>
                           <th>
@@ -345,11 +409,16 @@
                               title="Once your computer has been built and tested, we'll dispatch it next day delivery. Who said patience was a virtue."
                               href="#"
                               >Next Day Delivery</a
-                            > <span class="sr-only">Included in Gold (£99.99) package only.</span>
+                            >
+                            <span class="sr-only"
+                              >Included in Gold (£99.99) package only.</span
+                            >
                           </th>
                           <td>-</td>
                           <td>-</td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
                         </tr>
                         <tr>
                           <th>
@@ -359,11 +428,16 @@
                               title="Our Hard Drivers will customise the look of your computer, including LED strips for your fans, and even Decals for the casing. Everybody loves RGB."
                               href="#"
                               >Decal and LED Customisation</a
-                            > <span class="sr-only">Included in Gold (£99.99) package only.</span>
+                            >
+                            <span class="sr-only"
+                              >Included in Gold (£99.99) package only.</span
+                            >
                           </th>
                           <td>-</td>
                           <td>-</td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
                         </tr>
                         <tr>
                           <th>
@@ -373,11 +447,16 @@
                               title="Accidental damage is covered for 24 months with our custom 24 Month Hardware Protection. We'll either fix it, or replace it, but either way you'll be back online in no time."
                               href="#"
                               >24 Month Hardware Protection</a
-                            > <span class="sr-only">Included in Gold (£99.99) package only.</span>
+                            >
+                            <span class="sr-only"
+                              >Included in Gold (£99.99) package only.</span
+                            >
                           </th>
                           <td>-</td>
                           <td>-</td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
                         </tr>
                         <tr>
                           <th>
@@ -387,11 +466,16 @@
                               title="Want to upgrade to a new graphics with us? Our Doorstop Upgrades sends a Hard Driver to your house to do the dirty work for you."
                               href="#"
                               >Doorstep Upgrades</a
-                            > <span class="sr-only">Included in Gold (£99.99) package only.</span>
+                            >
+                            <span class="sr-only"
+                              >Included in Gold (£99.99) package only.</span
+                            >
                           </th>
                           <td>-</td>
                           <td>-</td>
-                          <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                          <td>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
@@ -438,6 +522,5 @@
         $('[data-toggle="tooltip"]').tooltip({ container: "body" });
       });
     </script>
-
   </body>
 </html>

@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="Description" content="Welcome to Hard Drivers, a custom build PC company suited to your budget.">
+    <meta
+      name="Description"
+      content="Welcome to Hard Drivers, a custom build PC company suited to your budget."
+    />
 
     <!-- Bootstrap 4.5.3 CSS Only-->
     <link
@@ -25,7 +28,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/> 
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
     <title>Hard Drivers | Home</title>
   </head>
@@ -38,11 +41,12 @@
           <div class="container-fluid banner-gradient">
             <!-- D-flex and Flex Column to create two rows for Navbar -->
             <!-- https://stackoverflow.com/questions/49780918/how-can-i-have-brand-and-navbar-on-separate-lines -->
-
             <div class="w-100 d-flex flex-column">
               <div
-                class="w-100 d-flex justify-content-center align-items-center"
+                class="w-100 d-flex justify-content-between justify-content-xs-between justify-content-sm-center"
               >
+                <!-- Hidden container to allow for justify-content-between to work on small devices -->
+                <div class="d-xs-flex d-sm-none empty-container"></div>
                 <!-- Main Logo -->
                 <a class="navbar-brand text-center" href="index.html">
                   <h1 class="main-logo heading-text">
@@ -52,8 +56,8 @@
                     </span>
                     <span
                       class="header-white d-flex d-sm-inline-flex justify-content-center"
-                      >Drivers
-                    </span>
+                      >Drivers</span
+                    >
                     <span class="header-icon d-none d-sm-inline-flex"
                       ><i class="far fa-hdd" aria-hidden="true"> </i>
                     </span></h1
@@ -61,7 +65,7 @@
 
                 <!-- Nav Bar Toggle -->
                 <button
-                  class="navbar-toggler ml-auto"
+                  class="navbar-toggler"
                   type="button"
                   data-toggle="collapse"
                   data-target="#navbarNavDropdown"
@@ -79,7 +83,9 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link primary-link hvr-grow active-page" href="index.html"
+                    <a
+                      class="nav-link primary-link hvr-grow active-page"
+                      href="index.html"
                       >Home</a
                     >
                   </li>
@@ -152,7 +158,11 @@
           >
         </div>
         <div class="container-fluid col-4 company-logo">
-          <button class="glass-button button-glow hvr-grow" type="button" tabindex="-1">
+          <button
+            class="glass-button button-glow hvr-grow"
+            type="button"
+            tabindex="-1"
+          >
             <a href="enquire.html">Enquire</a>
           </button>
         </div>
