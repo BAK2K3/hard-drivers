@@ -19,7 +19,7 @@ Hard Drivers is a customer budget based Custom PC Building company. Customers ca
 
 # UX
 
-## Strategy
+## Research and Preperation
 
 ### Stakeholder Interview
 
@@ -96,9 +96,7 @@ _“I want to be able to contact the company straight away”._
 
 ---
 
-## Scope
-
-### Features
+## Features
 
 Based on the research undertaken in the Strategy plane, and the considerations of satisfaction, the following features were considered for implementation:
 
@@ -123,15 +121,9 @@ Based on the research undertaken in the Strategy plane, and the considerations o
     * Be transparent about cost of additional services and peripherals. 
     * Provide detailed yet convincing breakdown of cost of service
 
-### Future Feature Consideration
+## Informational Architecture
 
-TBC
-
----
-
-## Structure
-
-**Index Page**
+### Index Page
 
 * Provides a full breakdown of the company, it's ethos, and it's purpose.
 * Grabs customer's attention, engages, and encourages user to make an enquiry.
@@ -145,7 +137,7 @@ TBC
     * Sustain the user.
     * Convey Company ethos and purpose.
 
-**About Page**
+### About Page
 
 * Explains how cost works.
 * Instils trust by selling the brand and the service.
@@ -160,7 +152,7 @@ TBC
     * Convince customer to engage with company.
     * Be transparent about cost, services, and purpose.
 
-**Enquire Page**
+### Enquire Page
 
 * Allows customer to submit enquiry by providing a small amount of information.
 * Offers a simple and intuitive method of enquiring.
@@ -198,10 +190,6 @@ without being intrusive, and can provide the user with the additional informatio
 to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
 however is not obliged to delve into the additional information if they do not wish to do so, which would potentially fulfil the customer need of not being overwhelmed with information unnecessarily.
 
----
-
-## Structure
-
 ### Wireframes
 
 * Header/Footer Wireframe: [Version 1](./assets/wireframes/header-footer-wireframe.pdf) | [Version 2](./assets/wireframes/header-footer-wireframe-v2.pdf)
@@ -209,6 +197,52 @@ however is not obliged to delve into the additional information if they do not w
 * About Page Wireframe: [Version 1](./assets/wireframes/about-wireframe.pdf) | [Version 2](./assets/wireframes/about-wireframe-v2.pdf)
 * Packages Wireframe: [Version 1](./assets/wireframes/packages-wireframe.pdf) | [Version 2](./assets/wireframes/packages-wireframe-v2.pdf)
 * Enquire Wireframe: [Version 1](./assets/wireframes/enquire-wireframe.pdf) | [Version 2](./assets/wireframes/enquire-wireframe-v2.pdf)
+
+## Feature Implementation
+
+### Site Wide
+  
+
+**Navbar**: Each page has a sticky/static navbar at the top of the page. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. 
+The navbar's background image is filtered through a radial top focused gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site. On large devices, the navbar 
+has a second row underneath the logo which displays the active page the user is on, with each link offering a mild yet visual effect when either the link is engaged with or hovered over. On mobile devices, the navigation links are hidden,
+and activated with a "sandwich" (which is a server icon), which draw the links between the page logo and the current page's sub-heading. 
+
+**Footer**: Each page has a static/sticky footer at the bottom of the page. This provides links to my Github, a second and more visually aesthetic link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
+reversed, to provide an 'enclosed' look. Once again, this effect is subtle, yet effective. The Enquire button is designed to grab the user’s attention, with a continuous glowing effect. On mobile devices, the footer is consistent in style, with the only significant change being font size and positioning of the social links for a more user-friendly interface. 
+On the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, and implements a function which fits the contextual flow of the page.
+
+**Viewport Control**: Where possible, the pages contain all information within the viewport on page load. Where this is not possible on very small mobile devices, or on the enquiry page, an intuitive navigation system has been implemented to allow for only the content
+of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, and would ensure that no information is missed.  
+
+**Package Table**: The Package Table is available on the "About" page and "Enquire" page. It provides the user with a full breakdown of the different tiers of packages they can opt into when requesting a quote for their computer. The cost and benefits 
+of these packages is explicitly clear, and a full screen-reader only accessibility description is available to explain which benefits are included in which package, and their associated costs. The colour design and structural layout of this form is representative to that of the rest of the site to maintain consistency. Each benefit contains a tooltip 
+to provide additional information on each package benefit. The cost of each tier is made explicitly clear. On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop "enquire" page, small icons sit at the end of each benefit that provide this tooltip.    
+
+### Index.html
+  
+The index page has 3 subheadings at the top of the page and centred. Each subheading is short, but combined conveys the ethos and business purpose of the website and company. Each subheading has a relevant icon to give users an emotional response to each subheading's content.
+The colour combination of the headings is consistent with that of the main logo of the site. The lower half of the page offers a call to action, addressing the user, and incentivising no-risk engagement with the website, further emphasising the ethos and company intention.
+the lower half also offers a vibrant, visually pleasing laptop, which dynamically resizes to the size and dimensions of the page. The image relates to the context and content of the page. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
+
+### About.html
+
+The About page offers further insight into the 3 selling points of the website/company. While maintaining the websites minimalistic design, each section offers a small amount of detail about each selling point, in the same informational order as displayed in the index page.
+Each section contains a relevant image for each section, which once again dynamically resizes depending on viewport. These images are not available on mobile devices; while they undoubtedly have a powerful combined effect on the page, it was decided that 
+the explicit and succinct nature of the text means displaying all of this information on a single viewport on smaller devices was much more effective (as per the viewport control discussion above). For all viewports, the user can interact with a "Service Package" link which 
+opens up a modal for the user, which displays the Package Table. 
+
+### Enquire.html
+
+The Enquire page allows a user to engage with the website, through filling in a simple form. It is therefore, ultimately, the most important page out of the site. Each field within the form is clearly separated and labelled. Out of 8 fields, 6 are required, 
+and 2 are optional. The user must supply their name, email address, and phone number. They must then decide what type of computer they want, and their budget. The user can at this stage decide to opt in to be quoted for an optional peripheral to be paired with their computer. 
+The user must then select a package tier (one of which is free), and then optionally provide more information regarding their pc if they should wish to do so. Initially, a colour picker was implemented, however this resulted in quite an arduous addition to the form,
+and considering this aspect of the engagement is essentially just an initial consultation, this would have added nothing to the initial enquiry, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily
+caused frustration from the user, and was therefore removed. On large screens, the user is presented with the package table (as seen in the package modal in the about page) next to the enquiry form. On tablets and mobile devices, this package table is hidden, and users are
+presented with a link to view package details (in the same style as that on the about page) via a modal. In the footer of the enquiry page, the "enquiry" link has been replaced with a "submit" link. The formatting and style are the same as the enquire link to ensure consistency; it has been considered
+that this may obfuscate the user, and the intention of this particular button, as it may not be initially clear that the usage of the persistent button has changed, but the alternative to this was to retain a recursive "enquiry" link at the bottom of the enquiry page, and to
+and have a separate "submit" button at the bottom of the form. It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. Form submission is validated prior to submission, and users are 
+alerted to any incomplete fields if necessary. On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
 
 ---
 
@@ -220,12 +254,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ---
 
-
-## Features
-
-### Existing Features
-
-### Features Left to Implement
+### Future Features
 
 * **Process details in enquiry form**
 
@@ -266,7 +295,9 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ### Additional Testing
 
-### Known Bugs
+**Accessability**
+
+### Significant Bugs
 
 **Validator errors:**
 
@@ -342,7 +373,6 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
     * Experts.jpg is by [Sean Do](https://unsplash.com/@everywheresean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
     * processor.jpg is by [Zii Miller](https://unsplash.com/@anarchist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
 * The Header and Footer banner background was created in [Gimp](https://www.gimp.org/), using the Lava Generation effect.
-* The Favicon was also greated in [Gimp](https://www.gimp.org/), and converted to appropriate format using [favicon.io](https://favicon.io/).
 
 ### Code
 
