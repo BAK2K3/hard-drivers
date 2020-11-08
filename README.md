@@ -373,6 +373,8 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
     * Experts.jpg is by [Sean Do](https://unsplash.com/@everywheresean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
     * processor.jpg is by [Zii Miller](https://unsplash.com/@anarchist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
 * The Header and Footer banner background was created in [Gimp](https://www.gimp.org/), using the Lava Generation effect.
+* The Favicon was also created in [Gimp](https://www.gimp.org/), and converted to appropriate format using [favicon.io](https://favicon.io/).
+* The conceptual Logo mock-ups were also created in [Gimp](https://www.gimp.org/).
 
 ### Code
 
