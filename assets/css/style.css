@@ -619,10 +619,8 @@ textarea.form-control {
 }
 
 .enquire-wrapper .package-details-section {
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: end;
   text-align: center;
+  width: 100%;
 }
 
 .primary-label {
@@ -1156,3 +1154,4 @@ table a:hover {
     font-size: 2.5rem;
   }
 }
+/***********  /Extra Large Desktop View */
