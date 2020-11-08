@@ -173,7 +173,7 @@ footer {
 
 @-webkit-keyframes glowing {
   0% {
-    -webkit-box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90),
+    -webkit-box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.90),
       inset 0 0 0px rgba(228, 30, 30, 0.90);
     box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90),
       inset 0 0 0px rgba(228, 30, 30, 0.90);
@@ -191,7 +191,7 @@ footer {
       inset 0 0 10px rgba(228, 30, 30, 0.90);
   }
   100% {
-    -webkit-box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90), inset 0 0 0px
+    -webkit-box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.90), inset 0 0 0px
           rgba(228, 30, 30, 0.90);
     box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90), inset 0 0 0px
           rgba(228, 30, 30, 0.90);
@@ -200,13 +200,13 @@ footer {
 
 @keyframes glowing {
   0% {
-    -webkit-box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90),
+    -webkit-box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.90),
       inset 0 0 0px rgba(228, 30, 30, 0.90);
     box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90),
       inset 0 0 0px rgba(228, 30, 30, 0.90);
   }
   40% {
-    -webkit-box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
+    -webkit-box-shadow: 0 0 20px 0 rgba(228, 30, 30, 0.90),
       inset 0 0 10px rgba(228, 30, 30, 0.90);
     box-shadow: 0 0 20px rgba(228, 30, 30, 0.90),
       inset 0 0 10px rgba(228, 30, 30, 0.90);
@@ -218,9 +218,9 @@ footer {
       inset 0 0 10px rgba(228, 30, 30, 0.90);
   }
   100% {
-    -webkit-box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90), inset 0 0 0px
+    -webkit-box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.90), inset 0 0 0px
           rgba(228, 30, 30, 0.90);
-    box-shadow: 0 0 -10px rgba(228, 30, 30, 0.90), inset 0 0 0px
+    box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.90), inset 0 0 0px
           rgba(228, 30, 30, 0.90);
   }
 }
