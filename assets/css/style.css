@@ -504,7 +504,8 @@ footer {
   display: flex;
   -webkit-box-flex: 1;
   -ms-flex: 1;
-  flex: 1;
+  /* How to fix Flex in IE 11 https://stackoverflow.com/questions/21600345/flexbox-and-internet-explorer-11-displayflex-in-html */
+  flex: 1 0 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -753,14 +754,18 @@ table a:hover {
 }
 
 .modal-link {
-  -webkit-text-decoration: underline wavy rgba(228, 30, 30, 0.90);
-  text-decoration: underline wavy rgba(228, 30, 30, 0.90);
-  color: #fafafa;
+text-decoration: underline;
+text-decoration-color: rgba(228, 30, 30, 0.90);
+text-decoration-style: wavy;
+color: #fafafa;
+
+
 }
 
 .modal-link:hover {
-  -webkit-text-decoration: underline wavy rgba(228, 30, 30, 0.90);
-  text-decoration: underline wavy rgba(228, 30, 30, 0.90);
+text-decoration: underline;
+text-decoration-color: rgba(228, 30, 30, 0.90);
+text-decoration-style: wavy;
   color: rgba(228, 30, 30, 0.90);
 }
 
