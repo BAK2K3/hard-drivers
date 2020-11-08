@@ -749,6 +749,10 @@ table a:hover {
 .modal-footer {
   border: none;
   padding-top: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+
 }
 
 .modal-link {
