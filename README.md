@@ -135,12 +135,11 @@ TBC
 
 * Provides a full breakdown of the company, it's ethos, and it's purpose.
 * Grabs customer's attention, engages, and encourages user to make an enquiry.
-
-* User Goal:
+* **User Goal**:
     * Simple to interact with.
     * Explains business purpose.
     * Allows and encourages easy engagement.
-* Business Goal:
+* **Business Goal**:
     * Interest the user.
     * Engage the user.
     * Sustain the user.
@@ -151,12 +150,11 @@ TBC
 * Explains how cost works.
 * Instils trust by selling the brand and the service.
 * Explains ethos and purpose.
-
-* User Goals:
+* **User Goals**:
     * Obtain information about the company.
     * Understand how the cost works.
     * Understand how to use the service.
-* Business Goals:
+* **Business Goals**:
     * Convey company ethos.
     * Sell the brand.
     * Convince customer to engage with company.
@@ -168,12 +166,11 @@ TBC
 * Offers a simple and intuitive method of enquiring.
 * Uses a user-friendly interface.
 * The feeling of achieving a lot from a small amount of input from the customer.
-
-* User Goals:
+* **User Goals**:
     * A simple an intuitive form of communication.
     * Feel like little information needed to instigate engagement.
     * A positive user experience during form filling.
-* Business Goals:
+* **Business Goals**:
     * Instigate engagement.
     * Obtain customer information to proceed with service.
     
@@ -200,8 +197,6 @@ to additional services being provided. This reference will link to a modal where
 without being intrusive, and can provide the user with the additional information if they request it. Furthermore, in the _"Enquire"_ page, under the _"packages"_ section, the decision has been made
 to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
 however is not obliged to delve into the additional information if they do not wish to do so, which would potentially fulfil the customer need of not being overwhelmed with information unnecessarily.
-Furthermore, given the base-line package will be Free, if all costs are disclosed in the package selection, the user can choose to select the free package without having to obtain further information about
-the packages.
 
 ---
 
@@ -252,7 +247,54 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 ### Additional Testing
 
 ### Known Bugs
----
+
+**Validator errors:**
+
+1. **W3 Jigsaw: CSS Validator shows errors with valid and responsive values**
+    * -10px negative values are not allowed : 0 0 -10px rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)
+    * Validator shows browster extensions as unknown (-moz, -webkit, etc)
+
+2. **W3 HTML: **Error: The element a must not appear as a descendant of the button element.**
+    * When the 'glass-button' was initially implemented, it contained an anchor link so as to use the button as a link, however W3 HTML validator threw this error.
+    * This was initially picked up when tabbing through the site, as it caused the buttons to be highlighed twice**
+    * The glass-button and glass-buton a selector classes were eventually merged. 
+
+**Development bugs:**
+
+1. **Making image fully responsive and aesthetically logic for different viewports**
+    * Started with absolute positioning of image in bottom right, but the image would sometimes overlap with content and required excessive viewport configurations.
+    * Attempted finite height definition in px, however this was a similar outcome to the above, whereby it required consideration of "Min-height" as well as "Min-width" for viewports.
+    * Attempted to add both the hero image and the "sales pitch" to a row, with Bootstrap col's, and to set the hero-image height in Viewport Height. However, this required the explicit definition of Div sizes, and image % size, which became combusersome and less fluid.
+    * Set the pages "content" size to viewport-px (height of header+footer), then set all sections of the page to be in Flex format, with the appropriate layout definitions being amended on each viewport. This allowed fully dynamic image sizing, and div resizing, for the size of the page, regardless of device height/width.
+    * This concept was then implemented into the about and enquire pages. 
+
+2. **Clicking the modal button on the Enquire page attempted to submit the form, highlightiong incomplete fields on mobile, and triggering "this field needs completing".**
+    * When initially implementing the Modal interface, a button was used to allow the user to bring up the packages modal. This issue was resolved by adding onclick="return false;" in button field. 
+    * When adding the link to the package model in the about page, it was decided that a button was too obtrusive for the context of the layout, and therefore a customer hyperlink format was added. 
+    * This also allowed the "Enquire" and "submit" button to maintain consistent, to achieve an aligned goal, without beleeding this feature onto other concepts. 
+
+3. **When the content of the 'benefits' section of the table overflowed, the corresponding 'tick' boxes generated additional padding on the bottom of the cell, which conflicted with the 50% border concept implemented**
+    * The issue arised from "vertical-align: center;", as this uses padding to align the contents. Due to the nature of the ::after 50% border, this caused the border to sit ontop of the padding, as opposed to the bottom of the cell as intended.
+    * Solution: Set the td/th tags with position: relative;, and set the psuedo element to position: absolute;, then remove any padding from the psuedo element, and move that padding to the table element. 
+    * https://stackoverflow.com/questions/10077386/how-to-display-the-after-content-outside-element
+
+4. **Tooltips were being displayed on top of the text in mobile view, despite having "data-placement: right".**
+    * This was resolved by using "data-placement: left", even though it wasn't clear why.
+
+
+5. **Issue with file locations from CSS when pushing to github pages**
+    * When the site was published to github pages, the links to internal pages were not working, and the images were not being pulled from the assets folder.
+    * The error was caused by the internal links being prefaced with "/". Once removed, the links worked appropriately.
+    * The links to images in the CSS file were defined as: "/assets/images/...". Therefore, when using Gitpod, the links would work appropriately. 
+    * Given how the page is hosted on github, the assets were being searched for in: "github.io/assets/images/..."
+    * This was resolved by using a relative filepath, and removing the assets/ subdirectory, as such: "./images/...".
+
+**Other technical difficulties:**
+
+1. **Github Commit Merge** 
+    * On 27th October, I accidentally merged multiple git commits (df2b72005f9506c70c5d58fcb9964631462d7555/a8190a91b29cb1d4c3258e5d0f684390113bc646). While I researched how to undo the push, I was aware this would result in all of these changes being combined, and I wasn't fully comfortable 
+    continuing with this as I didn't want to lose any more progress/commits. Accepted this single merge was an error, and moved on and learned from this. 
+
 
 ## Deployment
 ---
