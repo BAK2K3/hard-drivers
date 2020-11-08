@@ -1136,7 +1136,6 @@ table a:hover {
 /***********  Large Desktop View */
 
 @media only screen and (min-width: 1400px) {
-  /* Index page */
   .main-pitch h2 {
     font-size: 2rem;
   }
@@ -1148,3 +1147,12 @@ table a:hover {
 }
 
 /***********  /Large Desktop View */
+
+/***********  Extra Large Desktop View */
+
+@media only screen and (min-width: 1921px) {
+  /* Index page */
+  .main-features h2 {
+    font-size: 2.5rem;
+  }
+}
