@@ -832,11 +832,6 @@ table a:hover {
   padding: 0;
 }
 
-.socials {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
 .socials i {
   padding-left: 10px;
   padding-right: 10px;
@@ -870,11 +865,19 @@ table a:hover {
   justify-content: center;
 }
 
+.socials {
+  padding-left: 5px;
+  padding-right: 5px;
+  flex-wrap: wrap;
+}
+
 .socials-pair-one,
 .socials-pair-two {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: block;
+  justify-content: center;
+  align-content: center;
 }
 
 /************************************************************* Media Queries */
@@ -1065,11 +1068,8 @@ table a:hover {
 
   .socials-pair-one,
   .socials-pair-two {
-    display: block;
-  }
-
-  .socials-pair-one {
-    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: nowrap;
   }
 
   /* Radial gradient (centre transparent, outer black) */
