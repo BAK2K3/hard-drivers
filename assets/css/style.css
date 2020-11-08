@@ -722,6 +722,7 @@ table a:hover {
 .price-table-modal {
   background: black;
   border: none;
+  border-radius: 0;
   color: #fafafa;
 }
 
@@ -731,6 +732,8 @@ table a:hover {
 
 .modal-content {
   border: none;
+  border-style: none;
+  border-radius: 0;
 }
 
 .price-table-modal .price-table-heading {
@@ -748,6 +751,8 @@ table a:hover {
 
 .modal-footer {
   border: none;
+  border-style: none;
+  border-radius: 0;
   padding-top: 0;
   display: block;
   width: 100%;
