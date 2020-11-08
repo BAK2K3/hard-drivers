@@ -311,6 +311,12 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 6. **Internet Explorer incompatability**
     * Flexbox
 
+7. **Users informed me that on some mobile devices the Navbar disappears (akin to safari) after click on a form input or pressing submit**
+    * On some mobile devices, clicking on an input form "zooms in" on the input field. Alternatively, submitting an incomplete form "zooms in" on the input form not complete.
+    * This obfuscates the layout of the page (fixed header with embedded scrollable div), requiring users to zoom out to use the page correctly.
+    * While this doesn't neccessarily break the layout of the page, it would require the user to zoom out in order to use the site correctly, creating a poor user experience.
+    * This was fixed by adding: minimum-scale=1, maximum-scale=1 to the meta tag of the enquiry page.
+
 **Other technical difficulties:**
 
 1. **Github Commit Merge** 
