@@ -284,7 +284,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 * The project uses [Google Fonts](https://fonts.google.com/) for custom web-fonts.
 * The project's images were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
-* The project used Toptal's[Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colorblind-friendly the site was.
+* The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colorblind-friendly the site was.
 * The project's contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
 * The project's cross-browser compatability was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
 ---
@@ -305,7 +305,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
     * -10px negative values are not allowed : 0 0 -10px rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)
     * Validator shows browster extensions as unknown (-moz, -webkit, etc)
 
-2. **W3 HTML: **Error: The element a must not appear as a descendant of the button element.**
+2. **W3 HTML: Error: The element a must not appear as a descendant of the button element.**
     * When the 'glass-button' was initially implemented, it contained an anchor link so as to use the button as a link, however W3 HTML validator threw this error.
     * This was initially picked up when tabbing through the site, as it caused the buttons to be highlighed twice**
     * The glass-button and glass-buton a selector classes were eventually merged. 
