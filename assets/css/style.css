@@ -102,7 +102,7 @@ footer {
 
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link:hover {
-  color: #fafafa;
+  color: rgba(228, 30, 30, 0.90);
 }
 
 /************************************************************* Headings */
@@ -149,22 +149,21 @@ footer {
 
 .glass-button {
   display: inline-block;
-  padding-top: 0.6em;
-  padding-bottom: 0.6em;
+  padding: 8px 9px;
   background: none;
   text-decoration: none;
   font-weight: 600;
   border: none;
   border-radius: 25%;
   text-align: center;
-}
-
-.glass-button a {
-  text-decoration: none;
   color: #fafafa;
   letter-spacing: 2px;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+ 
+}
+
+.glass-button:hover {
+    text-decoration: none;
+    color: #fafafa;
 }
 
 /* Button Glow */
@@ -230,6 +229,11 @@ footer {
   -webkit-animation: glowing 5000ms infinite;
   animation: glowing 5000ms infinite;
 }
+
+.button-glow:hover {
+    color:rgba(228, 30, 30, 0.90);
+}
+
 
 /* Hover.css Effects */
 /* https://github.com/IanLunn/Hover/blob/master/css/hover.css */
@@ -809,7 +813,7 @@ table a:hover {
 .personal-logo {
 }
 
-.company-logo {
+.enquire-footer {
   padding: 0;
 }
 
@@ -837,7 +841,7 @@ table a:hover {
 }
 
 .personal-logo,
-.company-logo,
+.enquire-footer,
 .socials {
   text-align: center;
   margin: auto;
@@ -1112,7 +1116,7 @@ table a:hover {
   }
 
   /* Buttons */
-  .glass-button a {
+  .glass-button {
     font-size: 1.3em;
   }
 
