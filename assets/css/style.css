@@ -293,7 +293,7 @@ footer {
   align-self: flex-start;
 }
 
-.main-features h1 {
+.main-features h2 {
   color: #fafafa;
 }
 
@@ -368,7 +368,7 @@ footer {
   align-self: flex-start;
 }
 
-.about-heading h1 {
+.about-heading h2 {
 }
 
 .about-wrapper {
@@ -968,7 +968,7 @@ table a:hover {
     padding-top: 35px;
   }
 
-  .main-features h1 {
+  .main-features h2 {
     font-size: 1.5rem;
   }
 
@@ -983,11 +983,11 @@ table a:hover {
     padding-bottom: 10px;
   }
 
-  .about-heading h1 {
+  .about-heading h2 {
     font-size: 1.5em;
   }
 
-  .enquire-heading h1 {
+  .enquire-heading h2 {
     font-size: 1.5em;
   }
 
@@ -1136,7 +1136,7 @@ table a:hover {
 
 @media only screen and (min-width: 1400px) {
   /* Index page */
-  .main-features h1 {
+  .main-features h2 {
     font-size: 2.5rem;
   }
 
