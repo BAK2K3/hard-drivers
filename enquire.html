@@ -607,16 +607,13 @@
                   </div>
                 </div>
               </fieldset>
-              <div class="form-group row submit-enquiry">
-                <div class="col-12">
+              <div class="d-none">
                   <button
-                    class="glass-button button-glow hvr-grow"
                     type="submit"
-                    id="submitButton"
+                    id="hiddenSubmitButton"
                   >
                     Submit
                   </button>
-                </div>
               </div>
             </form>
           </div>
@@ -636,7 +633,13 @@
           >
         </div>
         <div class="container-fluid col-4 enquire-footer">
-          <a class="glass-button button-glow hvr-grow" href="#">Enquire</a>
+            <button
+                    class="glass-button button-glow hvr-grow"
+                    type="submit"
+                    id="submitButton"
+                  >
+                    Submit
+                  </button>
         </div>
         <div class="container-fluid col-4 socials">
           <div class="socials-pair-one">
@@ -981,6 +984,9 @@
             event.preventDefault();
             $("#enquireForm")[0].reset();
             $("#thankYouModal").modal("show");
+          }
+          else {
+              $("#hiddenSubmitButton").click();
           }
         });
       });
