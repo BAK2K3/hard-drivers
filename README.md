@@ -259,7 +259,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ---
 
-### Future Features
+### Future Feature Considerations
 
 * **Process details in enquiry form**
 
@@ -292,31 +292,48 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 * The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colour-blind-friendly the site was.
 * The project's contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
 * The project's cross-browser compatability was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
+* The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
+* The project's CSS was validated using [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
+* The project's Bootstrap was validated using [Bootlint](https://github.com/twbs/bootlint).
+
 ---
 
 ## Testing
 
+### Automated Testing
+
+1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
+    * The project's HTML was validated using the automated W3 Markup Validator. 
+    * The only error identified using this validator was the following: 
+        * `Error: The element a must not appear as a descendant of the button element`
+    * When the 'glass-button' and 'button-glow' classes were initially implemented, they were designed to house an anchor tag, so as to use the button as a link.
+    * An issue was identified prior to the validation, in that when tabbing through the site, it caused the buttons to be highlighted twice.
+    * In order to resolve this issue, and to fix the validation error, the glass-button and glass-button>a selector classes were merged, and applied to anchor tags only.
+    * This resulted in the same visual effect as intended, prevented the "double tabbing", and resolved the HTML Validation Error.
+
+2. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
+    * The project's CSS was validated using the automated W3 Jigsaw Validator.
+    * The only error identified using this validator was the following:
+        * `negative values are not allowed : 0 0 -10px rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9);` 
+    * Initially, when debugging this validation error, I identified that the CSS worked as intended, and responded to the negative values.
+    * I tested similar code on the validator, found on [CSS-Tricks](https://css-tricks.com/almanac/properties/b/box-shadow/):
+        * `box-shadow:   inset -5px -5px 10px blue;`
+    * This code did not throw any validation errors, therefore I determined this was a syntactical error, and amended the code as follows:
+        * `0 0 -10px 0 rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)`
+    * This produced an identical effect, and passed the validation.
+
+3. **Bootstrap Linter**
+    * Re-run and assess.
+
 ### Testing User Stories
 
-### Additional Testing
+### Logical Testing
+
+### Browser Testing
 
 **Accessibility**
 
 ### Significant Bugs
-
-**Validator errors:**
-
-1. **W3 Jigsaw: CSS Validator shows errors with valid and responsive values**
-    * -10px negative values are not allowed : 0 0 -10px rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)
-    * Validator shows browser extensions as unknown (-moz, -webkit, etc)
-
-2. **W3 HTML: Error: The element a must not appear as a descendant of the button element.**
-    * When the 'glass-button' was initially implemented, it contained an anchor link so as to use the button as a link, however W3 HTML validator threw this error.
-    * This was also identified when tabbing through the site, as it caused the buttons to be highlighted twice**
-    * The glass-button and glass-button>a selector classes were eventually merged to be applied to anchor tags only.
-
-3. **Bootstrap Linter**
-    * Re-run and assess.
 
 **Development bugs:**
 
@@ -339,7 +356,6 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 4. **Tooltips were being displayed on top of the text in mobile view, despite having "data-placement: right".**
     * This was resolved by using "data-placement: left", even though it wasn't clear why.
-
 
 5. **Issue with file locations from CSS when pushing to github pages**
     * When the site was published to github pages, the links to internal pages were not working, and the images were not being pulled from the assets folder.
