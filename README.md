@@ -2,7 +2,7 @@
 
 # Hard Drivers
 
-This project is a static website for a ficticious Custom PC Building company, called Hard Drivers.  
+This project is a static website for a fictitious Custom PC Building company, called Hard Drivers.  
 It is developed primarily using HTML and CSS, with a small amount of javascript implemented for additional functionality.
 
 ---
@@ -19,7 +19,7 @@ Hard Drivers is a customer budget based Custom PC Building company. Customers ca
 
 # UX
 
-## Research and Preperation
+## Research and Preparation
 
 ### Stakeholder Interview
 
@@ -42,7 +42,7 @@ _“I want to be able to contact the company straight away”._
 ### Project and Company Goals
 
 **Psychological Factors**
-* Envoke a positive emotional response from the branding of Hard Drivers.
+* Evoke a positive emotional response from the branding of Hard Drivers.
   * Make the logo strong, bold, and stand out.
   * Make the logo unique, and aesthetically pleasing.
   * Use the logo consistently throughout the website.
@@ -72,7 +72,7 @@ _“I want to be able to contact the company straight away”._
 **Product Considerations and Content Strategy**
 
 * Minimalistic design, so at to draw attention, avoid overwhelming the customer, and encourage engagement.
-    * The product is the _service_ provided by Hard Drivers, therefore strong colors, images, and headlines to engage with customer.
+    * The product is the _service_ provided by Hard Drivers, therefore strong colours, images, and headlines to engage with customer.
 * Thin content where necessary, providing only the most important information from the outset.
     * Provide fuller content in sections of the website where the customer specifically wants further information.
 * Every page has multiple "Enquire Now" buttons, so as to allow a user to immediately engage when they want to.
@@ -107,14 +107,14 @@ Based on the research undertaken in the Strategy plane, and the considerations o
 
 * **Convey Ethos/Purpose**
     * Outline key services on home page.
-    * Present further details on key services on seperate page.
+    * Present further details on key services on separate page.
     * Make sure the details provided are important, sellable, and merit being detailed in isolation.
     * Make the descriptions bite sized and easy to digest.
 
 * **Instil User Confidence**
     * The branding is clear, distinguishable, and recognisable.
     * Relate to and refer to the customer.
-    * The website is minimalistic where neccessary, intuitive, and user friendly. 
+    * The website is minimalistic where necessary, intuitive, and user friendly. 
 
 * **Present Cost Approach**
     * Communicate that the computer is customer budget based.
@@ -125,7 +125,7 @@ Based on the research undertaken in the Strategy plane, and the considerations o
 
 ### Index Page
 
-* Provides a full breakdown of the company, it's ethos, and it's purpose.
+* Provides a full breakdown of the company, its ethos, and its purpose.
 * Grabs customer's attention, engages, and encourages user to make an enquiry.
 * **User Goal**:
     * Simple to interact with.
@@ -284,7 +284,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 * The project uses [Google Fonts](https://fonts.google.com/) for custom web-fonts.
 * The project's images were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
-* The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colorblind-friendly the site was.
+* The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colour-blind-friendly the site was.
 * The project's contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
 * The project's cross-browser compatability was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
 ---
@@ -295,7 +295,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ### Additional Testing
 
-**Accessability**
+**Accessibility**
 
 ### Significant Bugs
 
@@ -303,30 +303,33 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 1. **W3 Jigsaw: CSS Validator shows errors with valid and responsive values**
     * -10px negative values are not allowed : 0 0 -10px rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)
-    * Validator shows browster extensions as unknown (-moz, -webkit, etc)
+    * Validator shows browser extensions as unknown (-moz, -webkit, etc)
 
 2. **W3 HTML: Error: The element a must not appear as a descendant of the button element.**
     * When the 'glass-button' was initially implemented, it contained an anchor link so as to use the button as a link, however W3 HTML validator threw this error.
-    * This was initially picked up when tabbing through the site, as it caused the buttons to be highlighed twice**
-    * The glass-button and glass-buton a selector classes were eventually merged. 
+    * This was also identified when tabbing through the site, as it caused the buttons to be highlighted twice**
+    * The glass-button and glass-button>a selector classes were eventually merged to be applied to anchor tags only.
+
+3. **Bootstrap Linter**
+    * Re-run and assess.
 
 **Development bugs:**
 
 1. **Making image fully responsive and aesthetically logic for different viewports**
     * Started with absolute positioning of image in bottom right, but the image would sometimes overlap with content and required excessive viewport configurations.
     * Attempted finite height definition in px, however this was a similar outcome to the above, whereby it required consideration of "Min-height" as well as "Min-width" for viewports.
-    * Attempted to add both the hero image and the "sales pitch" to a row, with Bootstrap col's, and to set the hero-image height in Viewport Height. However, this required the explicit definition of Div sizes, and image % size, which became combusersome and less fluid.
+    * Attempted to add both the hero image and the "sales pitch" to a row, with Bootstrap col's, and to set the hero-image height in Viewport Height. However, this required the explicit definition of Div sizes, and image % size, which became cumbersome and less fluid.
     * Set the pages "content" size to viewport-px (height of header+footer), then set all sections of the page to be in Flex format, with the appropriate layout definitions being amended on each viewport. This allowed fully dynamic image sizing, and div resizing, for the size of the page, regardless of device height/width.
     * This concept was then implemented into the about and enquire pages. 
 
-2. **Clicking the modal button on the Enquire page attempted to submit the form, highlightiong incomplete fields on mobile, and triggering "this field needs completing".**
+2. **Clicking the modal button on the Enquire page attempted to submit the form, highlighting incomplete fields on mobile, and triggering "this field needs completing".**
     * When initially implementing the Modal interface, a button was used to allow the user to bring up the packages modal. This issue was resolved by adding onclick="return false;" in button field. 
     * When adding the link to the package model in the about page, it was decided that a button was too obtrusive for the context of the layout, and therefore a customer hyperlink format was added. 
-    * This also allowed the "Enquire" and "submit" button to maintain consistent, to achieve an aligned goal, without beleeding this feature onto other concepts. 
+    * This also allowed the "Enquire" and "submit" button to maintain consistent, to achieve an aligned goal, without bleeding this feature onto other concepts. 
 
 3. **When the content of the 'benefits' section of the table overflowed, the corresponding 'tick' boxes generated additional padding on the bottom of the cell, which conflicted with the 50% border concept implemented**
-    * The issue arised from "vertical-align: center;", as this uses padding to align the contents. Due to the nature of the ::after 50% border, this caused the border to sit ontop of the padding, as opposed to the bottom of the cell as intended.
-    * Solution: Set the td/th tags with position: relative;, and set the psuedo element to position: absolute;, then remove any padding from the psuedo element, and move that padding to the table element. 
+    * The issue came from "vertical-align: center;", as this uses padding to align the contents. Due to the nature of the ::after 50% border, this caused the border to sit on top of the padding, as opposed to the bottom of the cell as intended.
+    * Solution: Set the td/th tags with position: relative;, and set the pseudo element to position: absolute;, then remove any padding from the pseudo element, and move that padding to the table element. 
     * https://stackoverflow.com/questions/10077386/how-to-display-the-after-content-outside-element
 
 4. **Tooltips were being displayed on top of the text in mobile view, despite having "data-placement: right".**
@@ -338,15 +341,15 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
     * The error was caused by the internal links being prefaced with "/". Once removed, the links worked appropriately.
     * The links to images in the CSS file were defined as: "/assets/images/...". Therefore, when using Gitpod, the links would work appropriately. 
     * Given how the page is hosted on github, the assets were being searched for in: "github.io/assets/images/..."
-    * This was resolved by using a relative filepath, and removing the assets/ subdirectory, as such: "./images/...".
+    * This was resolved by using a relative file path, and removing the assets/ subdirectory, as such: "./images/...".
 
-6. **Internet Explorer incompatability**
+6. **Internet Explorer incompatibility**
     * Flexbox
 
 7. **Users informed me that on some mobile devices the Navbar disappears (akin to safari) after click on a form input or pressing submit**
     * On some mobile devices, clicking on an input form "zooms in" on the input field. Alternatively, submitting an incomplete form "zooms in" on the input form not complete.
     * This obfuscates the layout of the page (fixed header with embedded scrollable div), requiring users to zoom out to use the page correctly.
-    * While this doesn't neccessarily break the layout of the page, it would require the user to zoom out in order to use the site correctly, creating a poor user experience.
+    * While this doesn't necessarily break the layout of the page, it would require the user to zoom out in order to use the site correctly, creating a poor user experience.
     * This was fixed by adding: minimum-scale=1, maximum-scale=1 to the meta tag of the enquiry page.
 
 **Other technical difficulties:**
@@ -390,8 +393,8 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 * CSS: Code snippet taken from [CodePen](https://codepen.io/jpost-design/pen/EKZLzK) and modified to obtain a "glow button" effect.
 * CSS: Code snippet taken from [CSS-Tricks](https://css-tricks.com/almanac/properties/b/box-shadow/) and modified to obtain a "double shadow" effect on "glow button" effect.
 * CSS: Code snippet taken from [Hover.css](https://ianlunn.github.io/Hover/) for Hover Grow effect on links.
-* CSS: Guidance on fixing Flex compatability on IE11 obtained from [StackOverflow](https://stackoverflow.com/questions/21600345/flexbox-and-internet-explorer-11-displayflex-in-html).
-* CSS: Guidance on changing placeholder text color obtained from [W3Schools](https://www.w3schools.com/howto/howto_css_placeholder.asp).
+* CSS: Guidance on fixing Flex compatibility on IE11 obtained from [StackOverflow](https://stackoverflow.com/questions/21600345/flexbox-and-internet-explorer-11-displayflex-in-html).
+* CSS: Guidance on changing placeholder text colour obtained from [W3Schools](https://www.w3schools.com/howto/howto_css_placeholder.asp).
 * CSS: Code snippet taken from [StackOverflow](https://stackoverflow.com/questions/32265322/css-length-of-border-bottom) and modified for the 50% border on table cells.
 * CSS: Guidance on fixing cell-padding collision with 50% border effect taken from [StackOverflow](https://stackoverflow.com/questions/10077386/how-to-display-the-after-content-outside-element). 
 * CSS: Code snipper taken from [StackOverflow](https://stackoverflow.com/questions/12115833/adding-a-slide-effect-to-bootstrap-dropdown) and modified to obtain a fluid Nav dropdown transition.
