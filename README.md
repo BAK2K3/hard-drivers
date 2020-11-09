@@ -168,7 +168,6 @@ Based on the research undertaken in the Strategy plane, and the considerations o
     * Instigate engagement.
     * Obtain customer information to proceed with service.
     
-
 **Packages Page: A Discussion on Informational Architecture**
 
 As a Business, Hard Drivers would primarily make the most amount of profit from the additional services provided on top of the custom build computers. 
@@ -203,7 +202,6 @@ however is not obliged to delve into the additional information if they do not w
 ## Feature Implementation
 
 ### Site Wide
-  
 
 **Navbar**: Each page has a sticky/static navbar at the top of the page. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. 
 The navbar's background image is filtered through a radial top focused gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site. On large devices, the navbar 
@@ -256,6 +254,8 @@ Form submission is validated prior to submission, and users are alerted to any i
 ### Logo Mock-Ups
 
 Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo.png)
+
+### Accessibility
 
 ---
 
@@ -332,7 +332,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 1. Considerations of Satisfaction 
     * Is the branding clear, consistent, and unambiguous?
     * Is the company ethos and purpose communicate on the splash page? 
-2. General Testing
+2. Testing Outcome
 
 **As a potential customer, I want to know what services you provide.**
 
@@ -340,27 +340,45 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
     * Have the the key services been outlined?
     * Is each service description important, sellable, and merits being detailed in isolation?
     * Are the service descriptions bite sized and easy to digest?
-2. General Testing
+2. Testing Outcome
 
 **As an interested customer, I want to know how much the service costs.**
 
 1. Considerations of Satisfaction 
     * Are the cost of parts and cost of service  transparent? 
     * Is the breakdown of cost of service clear and convincing?
-2. General Testing
+2. Testing Outcome
 
 **As a convinced customer, I want to be able to easily make an enquiry.**
 
 1. Considerations of Satisfaction 
     * Is the enquiry feature clear, and does it stand out?
     * Is the initial enquiry form simple and intuitive?  
-2. General Testing
+2. Testing Outcome
 
-### Logical Testing
+### Logic and Functionality Testing
+
+1. Nav brand
+
+2. Footer
+
+3. Index
+
+4. About
+
+5. Enquire
+
+6. Modals
+
+7. Form Submission
 
 ### Browser Testing
 
-**Accessibility**
+1. Chrome/Firefox
+
+2. Internet Explorer
+
+3. Safari
 
 ### Significant Bugs
 
