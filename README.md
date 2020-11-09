@@ -5,6 +5,8 @@
 This project is a static website for a fictitious Custom PC Building company, called Hard Drivers.  
 It is developed primarily using HTML and CSS, with a small amount of javascript implemented for additional functionality.
 
+[View website on Github Pages](https://bak2k3.github.io/hard-drivers/index.html)
+
 ---
 
 ## Project Concept
