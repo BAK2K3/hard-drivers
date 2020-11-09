@@ -225,26 +225,29 @@ to provide additional information on each package benefit. The cost of each tier
   
 The index page has 3 subheadings at the top of the page which are centred. Each subheading is short, but combined conveys the ethos and business purpose of the website and company. Each subheading has a relevant icon to give users an emotional response to each subheading's content.
 The colour combination of the headings is consistent with that of the main logo of the site. The lower half of the page offers a call to action, addressing the user, and incentivising no-risk engagement with the website, further emphasising the ethos and company intention.
-the lower half also offers a vibrant, visually pleasing laptop, which dynamically resizes to the size and dimensions of the page. The image relates to the context and content of the page. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
+The lower half also offers a vibrant, visually stimulating image of a laptop, which dynamically resizes to the size and dimensions of the page. The image relates to the context and content of the page. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
 
 ### About.html
 
 The About page offers further insight into the 3 selling points of the website/company. While maintaining the websites minimalistic design, each section offers a small amount of detail about each selling point, in the same informational order as displayed in the index page.
-Each section contains a relevant image for each section, which once again dynamically resizes depending on viewport. These images are not available on mobile devices; while they undoubtedly have a powerful combined effect on the page, it was decided that 
+Each section contains a relevant image, which once again dynamically resizes depending on viewport. These images are not available on mobile devices; while they undoubtedly have a powerful combined effect on the page, it was decided that 
 the explicit and succinct nature of the text means displaying all of this information on a single viewport on smaller devices was much more effective (as per the viewport control discussion above). For all viewports, the user can interact with a "Service Package" link which 
 opens up a modal for the user, which displays the Package Table. 
 
 ### Enquire.html
 
-The Enquire page allows a user to engage with the website, through filling in a simple form. It is therefore, ultimately, the most important page out of the site. Each field within the form is clearly separated and labelled. Out of 8 fields, 6 are required, 
-and 2 are optional. The user must supply their name, email address, and phone number. They must then decide what type of computer they want, and their budget. The user can at this stage decide to opt in to be quoted for an optional peripheral to be paired with their computer. 
-The user must then select a package tier (one of which is free), and then optionally provide more information regarding their pc if they should wish to do so. Initially, a colour picker was implemented, however this resulted in quite an arduous addition to the form,
-and considering this aspect of the engagement is essentially just an initial consultation, this would have added nothing to the initial enquiry, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily
-caused frustration from the user, and was therefore removed. On large screens, the user is presented with the package table (as seen in the package modal in the about page) next to the enquiry form. On tablets and mobile devices, this package table is hidden, and users are
-presented with a link to view package details (in the same style as that on the about page) via a modal. In the footer of the enquiry page, the "enquiry" link has been replaced with a "submit" link. The formatting and style are the same as the enquire link to ensure consistency; it has been considered
-that this may obfuscate the user, and the intention of this particular button, as it may not be initially clear that the usage of the persistent button has changed, but the alternative to this was to retain a recursive "enquiry" link at the bottom of the enquiry page, and to
-and have a separate "submit" button at the bottom of the form. It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. Form submission is validated prior to submission, and users are 
-alerted to any incomplete fields if necessary. On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
+The Enquire page allows a user to engage with the website and therefore the company, through filling in a simple form. It is therefore, ultimately, the most important page on the site. Each field is categorised and grouped into the relevant fieldset, with each individual field being clearly separated and labelled.
+Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. They must then decide what type of computer they want, and their budget. The user can at this stage decide to opt in to be quoted for an optional peripheral to be paired with their computer. 
+The user must then select a package tier, and then optionally provide more information regarding their requirements if they should wish to do so. 
+
+Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition, and considering this aspect of the engagement is essentially just an initial consultation, this would have added nothing to the initial enquiry, and was therefore removed. 
+It was also found on mobile devices that the colour picker was limited, and therefore could have easily caused frustration from the user, and was therefore removed. 
+
+On large screens, the user is presented with the package table next to the enquiry form. On tablets and mobile devices, this package table is hidden, and users are presented with a link to view package details (in the same style as that on the about page) via a modal. 
+
+In the footer of the enquiry page, the "enquiry" link has been replaced with a "submit" link. The formatting and style are the same as the enquire link to ensure consistency; it has been considered that this may obfuscate the user, and the intention of this particular button, as it may not be initially clear that the usage of the persistent button has changed, 
+but the alternative to this was to retain a recursive "enquiry" link at the bottom of the enquiry page, and to and have a separate "submit" button at the bottom of the form. It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. 
+Form submission is validated prior to submission, and users are alerted to any incomplete fields if necessary. On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
 
 ---
 
