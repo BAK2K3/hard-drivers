@@ -327,6 +327,35 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ### Testing User Stories
 
+**As a visitor to the website, I want to know what your company does.**
+
+1. Considerations of Satisfaction 
+    * Is the branding clear, consistent, and unambiguous?
+    * Is the company ethos and purpose communicate on the splash page? 
+2. General Testing
+
+**As a potential customer, I want to know what services you provide.**
+
+1. Considerations of Satisfaction 
+    * Have the the key services been outlined?
+    * Is each service description important, sellable, and merits being detailed in isolation?
+    * Are the service descriptions bite sized and easy to digest?
+2. General Testing
+
+**As an interested customer, I want to know how much the service costs.**
+
+1. Considerations of Satisfaction 
+    * Are the cost of parts and cost of service  transparent? 
+    * Is the breakdown of cost of service clear and convincing?
+2. General Testing
+
+**As a convinced customer, I want to be able to easily make an enquiry.**
+
+1. Considerations of Satisfaction 
+    * Is the enquiry feature clear, and does it stand out?
+    * Is the initial enquiry form simple and intuitive?  
+2. General Testing
+
 ### Logical Testing
 
 ### Browser Testing
