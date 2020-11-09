@@ -207,10 +207,10 @@ however is not obliged to delve into the additional information if they do not w
 
 **Navbar**: Each page has a sticky/static navbar at the top of the page. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. 
 The navbar's background image is filtered through a radial top focused gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site. On large devices, the navbar 
-has a second row underneath the logo which displays the active page the user is on, with each link offering a mild yet visual effect when either the link is engaged with or hovered over. On mobile devices, the navigation links are hidden,
+has a second row underneath the logo which displays the active page the user is on, with each link offering a mild yet stimulating visual effect when either the link is engaged with or hovered over. On mobile devices, the navigation links are hidden,
 and activated with a "sandwich" (which is a server icon), which draw the links between the page logo and the current page's sub-heading. 
 
-**Footer**: Each page has a static/sticky footer at the bottom of the page. This provides links to my Github, a second and more visually aesthetic link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
+**Footer**: Each page has a static/sticky footer at the bottom of the page. This provides links to my Github, a second and more aestheticically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
 reversed, to provide an 'enclosed' look. Once again, this effect is subtle, yet effective. The Enquire button is designed to grab the user’s attention, with a continuous glowing effect. On mobile devices, the footer is consistent in style, with the only significant change being font size and positioning of the social links for a more user-friendly interface. 
 On the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, and implements a function which fits the contextual flow of the page.
 
@@ -218,12 +218,12 @@ On the "Enquire" page, as opposed to having a second "Enquire" button on the bot
 of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, and would ensure that no information is missed.  
 
 **Package Table**: The Package Table is available on the "About" page and "Enquire" page. It provides the user with a full breakdown of the different tiers of packages they can opt into when requesting a quote for their computer. The cost and benefits 
-of these packages is explicitly clear, and a full screen-reader only accessibility description is available to explain which benefits are included in which package, and their associated costs. The colour design and structural layout of this form is representative to that of the rest of the site to maintain consistency. Each benefit contains a tooltip 
+of these packages is explicitly clear, and a full screen-reader only accessibility description is available which explains which benefits are included in which package, and their associated costs. The colour design and structural layout of this form is representative to that of the rest of the site to maintain consistency. Each benefit contains a tooltip 
 to provide additional information on each package benefit. The cost of each tier is made explicitly clear. On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop "enquire" page, small icons sit at the end of each benefit that provide this tooltip.    
 
 ### Index.html
   
-The index page has 3 subheadings at the top of the page and centred. Each subheading is short, but combined conveys the ethos and business purpose of the website and company. Each subheading has a relevant icon to give users an emotional response to each subheading's content.
+The index page has 3 subheadings at the top of the page which are centred. Each subheading is short, but combined conveys the ethos and business purpose of the website and company. Each subheading has a relevant icon to give users an emotional response to each subheading's content.
 The colour combination of the headings is consistent with that of the main logo of the site. The lower half of the page offers a call to action, addressing the user, and incentivising no-risk engagement with the website, further emphasising the ethos and company intention.
 the lower half also offers a vibrant, visually pleasing laptop, which dynamically resizes to the size and dimensions of the page. The image relates to the context and content of the page. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
 
