@@ -1,6 +1,8 @@
-<img src="/assets/images/ben-kavanagh-logo.png" style="margin: 0;">
+![Hard Drivers](https://github.com/BAK2K3/hard-drivers/blob/master/assets/images/full-logo.png "Hard Drivers Logo")
 
 # Hard Drivers
+
+## Overview
 
 This project is a static website for a fictitious Custom PC Building company, called Hard Drivers.  
 It is developed primarily using HTML and CSS, with a small amount of javascript implemented for additional functionality.
