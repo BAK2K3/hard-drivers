@@ -84,25 +84,25 @@ _“I want to be able to contact the company straight away”._
 
 ### User Stories
 
-| **User Story**        | **Considerations of Satisfaction**          |
+| **User Story**        | **Conditions of Satisfaction**          |
 | -------------         |-------------|
-| `As a visitor to the website, I want to know what your company does.`     | Make branding clear, consistent, and unambiguous. |
-|                                                                           | Communicate company ethos and purpose on the splash page.      |
-| `As a potential customer, I want to know what services you provide.`      | Outline the key services      |
-|                                                                           | Make sure each point is important, sellable, and merits being detailed in isolation.     |
-|                                                                           | Make the service descriptions bite sized and easy to digest.     |
-| `As an interested customer, I want to know how much the service costs.`   | Explain that cost of parts is customer budget based.     |
-|                                                                           | Be transparent about cost of parts vs cost of service.    |
-|                                                                           | Provide detailed yet convincing breakdown of cost of service.     |
-| `As a convinced customer, I want to be able to easily make an enquiry.`   | Make enquiry feature accessible on every page.      |
-|                                                                           | Make enquiry feature clear, and stand out.      |
-|                                                                           | Make the initial enquiry form simple and intuitive.     |
+| `As a visitor to the website, I want to know what your company does.`     | The company ethos and purpose is communicated on the splash page. |
+|                                                                           | The branding is clear, consistent across the site, and unambiguous.      |
+| `As a potential customer, I want to know what services you provide.`      | The key services are outlined.      |
+|                                                                           | Each key service is important, sellable, and merits being detailed in isolation.     |
+|                                                                           | The service descriptions are bite sized, and easy to digest.     |
+| `As an interested customer, I want to know how much the service costs.`   | It is clear that cost of parts is customer budget based.     |
+|                                                                           | The cost of parts and the cost of service is transparent and differentiated.    |
+|                                                                           | The breakdown of cost of service is detailed yet convincing.     |
+| `As a convinced customer, I want to be able to easily make an enquiry.`   | The enquiry feature is accessible on every page.      |
+|                                                                           | The enquiry feature is clear, and stands out.      |
+|                                                                           | The enquiry form simple, functional, and intuitive.     |
 
 ---
 
 ## Features
 
-Based on the research undertaken in the Strategy plane, and the considerations of satisfaction, the following features were considered for implementation:
+Based on the research undertaken in the Strategy plane, and the conditions of satisfaction, the following features were considered for implementation:
 
 * **Encourage and Allow User Engagement**
     * Every page must allow a user to engage with the business.
@@ -331,14 +331,14 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 **As a visitor to the website, I want to know what your company does.**
 
-1. Considerations of Satisfaction 
+1. Conditions of Satisfaction 
     * Is the branding clear, consistent, and unambiguous?
     * Is the company ethos and purpose communicate on the splash page? 
 2. Testing Outcome
 
 **As a potential customer, I want to know what services you provide.**
 
-1. Considerations of Satisfaction 
+1. Conditions of Satisfaction 
     * Have the the key services been outlined?
     * Is each service description important, sellable, and merits being detailed in isolation?
     * Are the service descriptions bite sized and easy to digest?
@@ -346,14 +346,14 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 **As an interested customer, I want to know how much the service costs.**
 
-1. Considerations of Satisfaction 
+1. Conditions of Satisfaction 
     * Are the cost of parts and cost of service  transparent? 
     * Is the breakdown of cost of service clear and convincing?
 2. Testing Outcome
 
 **As a convinced customer, I want to be able to easily make an enquiry.**
 
-1. Considerations of Satisfaction 
+1. Conditions of Satisfaction 
     * Is the enquiry feature clear, and does it stand out?
     * Is the initial enquiry form simple and intuitive?  
 2. Testing Outcome
