@@ -201,54 +201,6 @@ however is not obliged to delve into the additional information if they do not w
 * Packages Wireframe: [Version 1](./assets/wireframes/packages-wireframe.pdf) | [Version 2](./assets/wireframes/packages-wireframe-v2.pdf)
 * Enquire Wireframe: [Version 1](./assets/wireframes/enquire-wireframe.pdf) | [Version 2](./assets/wireframes/enquire-wireframe-v2.pdf)
 
-## Feature Implementation
-
-### Site Wide
-
-**Navbar**: Each page has a sticky/static navbar at the top of the page. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. 
-The navbar's background image is filtered through a radial top focused gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site. On large devices, the navbar 
-has a second row underneath the logo which displays the active page the user is on, with each link offering a mild yet stimulating visual effect when either the link is engaged with or hovered over. On mobile devices, the navigation links are hidden,
-and activated with a "sandwich" (which is a server icon), which draw the links between the page logo and the current page's sub-heading. 
-
-**Footer**: Each page has a static/sticky footer at the bottom of the page. This provides links to my Github, a second and more aestheticically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
-reversed, to provide an 'enclosed' look. Once again, this effect is subtle, yet effective. The Enquire button is designed to grab the user’s attention, with a continuous glowing effect. On mobile devices, the footer is consistent in style, with the only significant change being font size and positioning of the social links for a more user-friendly interface. 
-On the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, and implements a function which fits the contextual flow of the page.
-
-**Viewport Control**: Where possible, the pages contain all information within the viewport on page load. Where this is not possible on very small mobile devices, or on the enquiry page, an intuitive navigation system has been implemented to allow for only the content
-of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, and would ensure that no information is missed.  
-
-**Package Table**: The Package Table is available on the "About" page and "Enquire" page. It provides the user with a full breakdown of the different tiers of packages they can opt into when requesting a quote for their computer. The cost and benefits 
-of these packages is explicitly clear, and a full screen-reader only accessibility description is available which explains which benefits are included in which package, and their associated costs. The colour design and structural layout of this form is representative to that of the rest of the site to maintain consistency. Each benefit contains a tooltip 
-to provide additional information on each package benefit. The cost of each tier is made explicitly clear. On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop "enquire" page, small icons sit at the end of each benefit that provide this tooltip.    
-
-### Index.html
-  
-The index page has 3 subheadings at the top of the page which are centred. Each subheading is short, but combined conveys the ethos and business purpose of the website and company. Each subheading has a relevant icon to give users an emotional response to each subheading's content.
-The colour combination of the headings is consistent with that of the main logo of the site. The lower half of the page offers a call to action, addressing the user, and incentivising no-risk engagement with the website, further emphasising the ethos and company intention.
-The lower half also offers a vibrant, visually stimulating image of a laptop, which dynamically resizes to the size and dimensions of the page. The image relates to the context and content of the page. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
-
-### About.html
-
-The About page offers further insight into the 3 selling points of the website/company. While maintaining the websites minimalistic design, each section offers a small amount of detail about each selling point, in the same informational order as displayed in the index page.
-Each section contains a relevant image, which once again dynamically resizes depending on viewport. These images are not available on mobile devices; while they undoubtedly have a powerful combined effect on the page, it was decided that 
-the explicit and succinct nature of the text means displaying all of this information on a single viewport on smaller devices was much more effective (as per the viewport control discussion above). For all viewports, the user can interact with a "Service Package" link which 
-opens up a modal for the user, which displays the Package Table. 
-
-### Enquire.html
-
-The Enquire page allows a user to engage with the website and therefore the company, through filling in a simple form. It is therefore, ultimately, the most important page on the site. Each field is categorised and grouped into the relevant fieldset, with each individual field being clearly separated and labelled.
-Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. They must then decide what type of computer they want, and their budget. The user can at this stage decide to opt in to be quoted for an optional peripheral to be paired with their computer. 
-The user must then select a package tier, and then optionally provide more information regarding their requirements if they should wish to do so. 
-
-Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition, and considering this aspect of the engagement is essentially just an initial consultation, this would have added nothing to the initial enquiry, and was therefore removed. 
-It was also found on mobile devices that the colour picker was limited, and therefore could have easily caused frustration from the user, and was therefore removed. 
-
-On large screens, the user is presented with the package table next to the enquiry form. On tablets and mobile devices, this package table is hidden, and users are presented with a link to view package details (in the same style as that on the about page) via a modal. 
-
-In the footer of the enquiry page, the "enquiry" link has been replaced with a "submit" link. The formatting and style are the same as the enquire link to ensure consistency; it has been considered that this may obfuscate the user, and the intention of this particular button, as it may not be initially clear that the usage of the persistent button has changed, 
-but the alternative to this was to retain a recursive "enquiry" link at the bottom of the enquiry page, and to and have a separate "submit" button at the bottom of the form. It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. 
-Form submission is validated prior to submission, and users are alerted to any incomplete fields if necessary. On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
-
 ---
 
 ## Design
@@ -304,47 +256,93 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ### Testing User Stories
 
-To  test the User Stories, their respective Conditions of Satisfaction were assessed, along with any features relevant to the User Story.
+To test the User Stories, the respective Conditions of Satisfaction were assessed, along with any relevant features.
 
 **As a visitor to the website, I want to know what your company does.**
 
-1. Conditions of Satisfaction 
-    * The company ethos and purpose is communicated on the splash page.
-    * The branding is clear, consistent across the site, and unambiguous. 
-2. Relevant Features
-    * Convey Ethos/Purpose
-    * Instil User Confidence
+On arrival to the homepage, the user is presented with the name of the company, the three main selling points of company, a _"call to action"_, and strong, relevant, and colourful imagery. The colour scheme adopted in the Logo/Header is consistent with
+the content of the site, the images, and the footer's text, icons, and style. Three sub-headings are visible on the homepage which are extremely succinct, yet clearly convey the ethos and purpose of the business. Each subheading has a relevant icon to 
+give users an emotional response to each subheading's content. The _"call to action"_  on the home page also addresses the user, and clearly gives instructions as to how to enage with company and website on a "no-risk" basis, and what they will achieve from doing so,
+further emphasising the ethos and company intention. The concept and interface is simple, easy to use and navigate, and is responsive on all devices and viewports. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
 
+1. Conditions of Satisfaction 
+    * The company ethos and purpose is communicated on the splash page. &#x2611;
+    * The branding is clear, consistent across the site, and unambiguous. &#x2611;
+2. Relevant Features
+    * Convey Ethos/Purpose &#x2611;
+    * Instil User Confidence &#x2611;
 
 **As a potential customer, I want to know what services you provide.**
 
-1. Conditions of Satisfaction 
-    * The key services are outlined.
-    * Each key service is important, sellable, and merits being detailed in isolation.  
-    * The service descriptions are bite sized, and easy to digest.  
-2. Relevant Features
-    * Convey Ethos/Purpose
-    * Instil User Confidence
+Once the user has engaged with the site, in the knowledge of the primary purpose of the company, they can proceed to make an enquiry through the Navbar, or through the footer link. However, if they require further information with regards to the services provided 
+by the business, they have access to the _"About"_ page, which is the next contextually relevant link within the Navbar. This page offers further insight into the 3 selling points of the website/company. While maintaining the websites minimalistic design, 
+each section offers a succinct amount of detail about each selling point, in the same informational order as displayed in the index page. Each section contains a relevant image, which once again dynamically resizes depending on viewport. These images are not available 
+on mobile devices; while they undoubtedly produce a powerful emotional response, it was decided that the explicit and succinct nature of the text means displaying all of this information on a single viewport on smaller devices was much more effective 
+(as per the viewport control discussion above) than allowing a user to scroll to view all content. For all viewports, the user can interact with a "Service Package" link which opens up a modal for the user, which displays the Package Table (discussed below). 
 
+1. Conditions of Satisfaction 
+    * The key services are outlined. &#x2611;
+    * Each key service is important, sellable, and merits being detailed in isolation. &#x2611;
+    * The service descriptions are bite sized, and easy to digest. &#x2611;
+2. Relevant Features
+    * Convey Ethos/Purpose &#x2611;
+    * Instil User Confidence &#x2611;
 
 **As an interested customer, I want to know how much the service costs.**
 
-1. Conditions of Satisfaction 
-    * The cost of parts and the cost of service is transparent and differentiated.  
-    * The breakdown of cost of service is detailed yet convincing.
-2. Relevant Features
-    * Present Cost Approach
+A 'Package Table' is available on the _"About"_ page and _"Enquire"_ page. It provides the user with a full breakdown of the different tiers of service packages they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
+is explicitly clear, and a full screenreader-only description is available which explains which benefits are included in which package, and their associated costs. The colour design and structural layout of this form is representative to that of the rest of the 
+site to maintain consistency. Each tier benefit contains a tooltip to provide additional information on the service included. The cost of each tier is made explicitly clear. On Modals, the tooltips are on the text of the benefits themselves, 
+while on the Desktop "Enquire" page, small self-descriptive icons sit at the end of each benefit that provide this tooltip. In all viewports, the "Budget" field in the enquiry page also contains a tooltip which explicitly states the budget stated excludes the cost of 
+the service package requested, and any potential optional peripherals to be quoted.
 
+On the _"Enquire"_ page, on large viewports, the user is presented with the package table next to the enquiry form. On tablets and mobile devices, this package table is hidden, and users are presented with a link to view package details 
+(in the same style as that on the about page) via a modal.
+
+1. Conditions of Satisfaction 
+    * The cost of parts and the cost of service is transparent and differentiated. &#x2611;  
+    * The breakdown of cost of service is detailed yet convincing. &#x2611;
+2. Relevant Features
+    * Present Cost Approach &#x2611;
 
 **As a convinced customer, I want to be able to easily make an enquiry.**
+    
+The Enquire page is accessible within the Navbar, and within the footer of both the _"Index"_ page and _"About"_ page. The Enquire page allows a user to engage with the website through filling in a simple form. It is therefore, ultimately, the most important page on the site.
+Each field is categorised and grouped into the relevant fieldset, with each individual field being clearly separated and labelled. Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. 
+They must then decide what type of computer they want, and their budget. The user can at this stage decide to opt in to be quoted for an optional peripheral to be paired with their computer. The user must then select a package tier, and then optionally provide more 
+information regarding their requirements if they should wish to do so. Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition;  considering this aspect of the engagement is essentially just a request for an initial quote,
+this would have added nothing to the initial enquiry and added an additional unneccessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user. 
+
+In the footer of the enquiry page, the "enquiry" link is replaced with a "submit" link. The formatting and style are the same as the enquire link to ensure consistency; it was  considered that this may obfuscate the user, and the intention of this particular button, as it may 
+not initially be clear that the usage of the persistent button has changed, but the alternative to this was to retain a recursive "enquiry" link at the bottom of the enquiry page, and to have a separate "submit" button at the bottom of the enquiry form. 
+It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. Form submission is validated prior to submission, and users are alerted to any incomplete fields if necessary. 
+On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
 
 1. Conditions of Satisfaction 
-    * The enquiry feature is accessible on every page. 
-    * The enquiry feature is clear, and stands out. 
-    * The enquiry form simple, functional, and intuitive.
+    * The enquiry feature is accessible on every page. &#x2611;
+    * The enquiry feature is clear, and stands out. &#x2611;
+    * The enquiry form simple, functional, and intuitive. &#x2611;
 2. Relevant Features
-    * Encourage and Allow User Engagement
-    
+    * Encourage and Allow User Engagement &#x2611;
+
+**Aspects of the site relevant to multiple User Stories and Features**
+
+**Navbar**: Each page has a sticky navbar at the top. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. 
+The navbar's background image is filtered through a radial top focused gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site. On large devices, the navbar 
+has a second row underneath the logo which displays the active page the user is on, with each link offering a mild yet stimulating visual effect when either the link is engaged with or hovered over. On mobile devices, the navigation links are hidden,
+and activated with a "sandwich" (which is a server icon), which draw the links between the page logo and the current page's sub-heading. The consistent, simple, and intuitive navigation system would contribute to instilling user trust, and allows
+users to reach all aspects of the site which aid the satisfaction of all user-stories.
+
+**Footer**: Each page has a static footer at the bottom. This provides links Github, a second and more aestheticically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
+reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
+with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
+for a more user-friendly interface. As discussed, on the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
+and implements a function which is relevant and fits the contextual flow of the page. 
+
+**Viewport Control**: Where possible, the pages contain all information within the user's viewport. Where this is not possible on very small mobile devices, or on the enquiry page, an intuitive navigation system has been implemented to allow for only the content
+of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, as if the content had been designed for their specific needs,
+and would ensure that no information is missed.  
+
 ### Automated Testing
 
 Automated testing was completed via third party applications, in order to assess the markdown syntax and logical application of the languages/frameworks used. 
