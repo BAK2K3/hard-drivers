@@ -213,7 +213,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ---
 
-### Future Feature Considerations
+# Future Feature Considerations
 
 * **Process details in enquiry form**
 
@@ -229,7 +229,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 * The project was primarily written in HTML and CSS. Small snippets of Javascript were used to enhance user experience.
 * The project was written and tested in the [Gitpod](https://gitpod.io/) IDE.
@@ -252,7 +252,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ---
 
-## Testing
+# Testing
 
 ### Testing User Stories
 
@@ -343,7 +343,7 @@ and implements a function which is relevant and fits the contextual flow of the 
 of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, as if the content had been designed for their specific needs,
 and would ensure that no information is missed.  
 
-### Automated Testing
+## Automated Testing
 
 Automated testing was completed via third party applications, in order to assess the markdown syntax and logical application of the languages/frameworks used. 
 
@@ -371,7 +371,7 @@ Automated testing was completed via third party applications, in order to assess
     * Re-run and assess.
 
 
-### Logic and Functionality Testing
+## Logic and Functionality Testing
 
 Logic and Functionality testing was completed manually, with each feature being tested as described below. 
 
@@ -391,7 +391,7 @@ Logic and Functionality testing was completed manually, with each feature being 
 
 8. Responsive/Viewport
 
-### Browser Testing
+## Browser Testing
 
 Cross-Browser compatability was tested via applying the methodology described above within each browser detailed below.
 
@@ -401,7 +401,7 @@ Cross-Browser compatability was tested via applying the methodology described ab
 
 3. Safari
 
-### Significant Bugs
+## Significant Bugs
 
 **Development bugs:**
 
@@ -447,17 +447,17 @@ Cross-Browser compatability was tested via applying the methodology described ab
     * On 27th October, I accidentally merged multiple git commits (df2b72005f9506c70c5d58fcb9964631462d7555/a8190a91b29cb1d4c3258e5d0f684390113bc646). While I researched how to undo the push, I was aware this would result in all of these changes being combined, and I wasn't fully comfortable 
     continuing with this as I didn't want to lose any more progress/commits. Accepted this single merge was an error, and moved on and learned from this. 
 
-## Deployment
+# Deployment
 ---
 
-## Credits
+# Credits
 
-### Content
+## Content
 
 * All text used throughout the site was written by myself.
 * All business ideas and general development concepts were devised by myself. 
 
-### Media
+## Media
 
 * All Photographs were sourced from [Unsplash](https://unsplash.com/). 
     * Hero-image.jpg is by [Photography Account](https://unsplash.com/@notsurewhyinamedmyselfthiss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
@@ -468,7 +468,7 @@ Cross-Browser compatability was tested via applying the methodology described ab
 * The Favicon was also created in [Gimp](https://www.gimp.org/), and converted to appropriate format using [favicon.io](https://favicon.io/).
 * The conceptual Logo mock-ups were also created in [Gimp](https://www.gimp.org/).
 
-### Code
+## Code
 
 * HTML/CSS: Implementation and utilisation of Flexbox was assisted by [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 * HTML: Code Snippet taken from [StackOverflow](https://stackoverflow.com/questions/49780918/how-can-i-have-brand-and-navbar-on-separate-lines) and modified to utilise D-flex and Flex Column to create two rows for the Navbar.
@@ -488,6 +488,6 @@ Cross-Browser compatability was tested via applying the methodology described ab
 * CSS: Guidance on fixing cell-padding collision with 50% border effect taken from [StackOverflow](https://stackoverflow.com/questions/10077386/how-to-display-the-after-content-outside-element). 
 * CSS: Code snipper taken from [StackOverflow](https://stackoverflow.com/questions/12115833/adding-a-slide-effect-to-bootstrap-dropdown) and modified to obtain a fluid Nav dropdown transition.
 
-### Acknowledgements
+# Acknowledgements
 
 ---
