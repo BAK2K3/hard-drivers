@@ -23,7 +23,7 @@ Hard Drivers is a customer budget based Custom PC Building company. Customers ca
 
 # UX
 
-## Research and Preparation
+## Strategy
 
 ### Stakeholder Interview
 
@@ -43,7 +43,7 @@ _“I want to be able to contact the company straight away”._
 
 [Chillblast](https://www.chillblast.com/ "Chillblast Homepage"): Not very user friendly, a lot of information, a lot of options, and high selling point is pre-build next day PCs.
 
-### Project and Company Goals
+### Company Concepts
 
 **Psychological Factors**
 * Evoke a positive emotional response from the branding of Hard Drivers.
@@ -57,7 +57,6 @@ _“I want to be able to contact the company straight away”._
   * Make it clear that each customer is unique, and each computer will be build specifically for their needs.
 
 **Pricing**
-
 * Be transparent with cost.
     * The user decides the cost of the computer.
     * No hidden costs.
@@ -66,7 +65,6 @@ _“I want to be able to contact the company straight away”._
     * The customer is not required to spend any more than their budget.
 
 **Buyer Making Decision**
-
 * Offer a _"No Obligation"_ quote/specification.
     * The customer will therefore not need to justify engaging with the company/website.
     * As such, they do not need to plan to engage with the company/website, other than stating a budget.
@@ -74,7 +72,6 @@ _“I want to be able to contact the company straight away”._
     * This suggests the user only needs to put in a small amount of effort to receive a full service in return.
 
 **Product Considerations and Content Strategy**
-
 * Minimalistic design, so at to draw attention, avoid overwhelming the customer, and encourage engagement.
     * The product is the _service_ provided by Hard Drivers, therefore strong colours, images, and headlines to engage with customer.
 * Thin content where necessary, providing only the most important information from the outset.
@@ -100,9 +97,12 @@ _“I want to be able to contact the company straight away”._
 
 ---
 
-## Features
+## Scope
 
-Based on the research undertaken in the Strategy plane, and the conditions of satisfaction, the following features were considered for implementation:
+Based on the research completed in the Strategy plane, i.e the User Stories and Conditions of Satisfaction (i.e the _"why"_), the requirements were split into Non-Functional and Functional Requirements. The Non-Functional Requirements 
+describe the overall intended goals of the project (the _'what'_), and the Functional Requirements details how these are going to be achieved (the _"how"_)
+
+### Non-Functional Requirements
 
 * **Encourage and Allow User Engagement**
     * Every page must allow a user to engage with the business.
@@ -125,9 +125,29 @@ Based on the research undertaken in the Strategy plane, and the conditions of sa
     * Be transparent about cost of additional services and peripherals. 
     * Provide detailed yet convincing breakdown of cost of service
 
-## Informational Architecture
+### Functional Requirements
 
-### Index Page
+* **Navigation bar (Navbar)**
+
+* **Footer**
+
+* **Images**
+
+* **Enquiry Form**
+
+* **Price Table**
+
+* **Modals**
+
+* **Viewport Control**
+
+* **Responsive Layout**
+
+## Structure
+
+### Informational Architecture and Interaction Design
+
+#### Index Page
 
 * Provides a full breakdown of the company, its ethos, and its purpose.
 * Grabs customer's attention, engages, and encourages user to make an enquiry.
@@ -141,7 +161,7 @@ Based on the research undertaken in the Strategy plane, and the conditions of sa
     * Sustain the user.
     * Convey Company ethos and purpose.
 
-### About Page
+#### About Page
 
 * Explains how cost works.
 * Instils trust by selling the brand and the service.
@@ -156,7 +176,7 @@ Based on the research undertaken in the Strategy plane, and the conditions of sa
     * Convince customer to engage with company.
     * Be transparent about cost, services, and purpose.
 
-### Enquire Page
+#### Enquire Page
 
 * Allows customer to submit enquiry by providing a small amount of information.
 * Offers a simple and intuitive method of enquiring.
@@ -193,6 +213,8 @@ without being intrusive, and can provide the user with the additional informatio
 to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
 however is not obliged to delve into the additional information if they do not wish to do so, which would potentially fulfil the customer need of not being overwhelmed with information unnecessarily.
 
+## Skeleton
+
 ### Wireframes
 
 * Header/Footer Wireframe: [Version 1](./assets/wireframes/header-footer-wireframe.pdf) | [Version 2](./assets/wireframes/header-footer-wireframe-v2.pdf)
@@ -202,6 +224,8 @@ however is not obliged to delve into the additional information if they do not w
 * Enquire Wireframe: [Version 1](./assets/wireframes/enquire-wireframe.pdf) | [Version 2](./assets/wireframes/enquire-wireframe-v2.pdf)
 
 ---
+
+## Surface
 
 ## Design
 
@@ -254,7 +278,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 # Testing
 
-### Testing User Stories
+## Testing User Stories
 
 To test the User Stories, the respective Conditions of Satisfaction were assessed, along with any relevant features.
 
@@ -327,19 +351,25 @@ On valid completion of the form, the user is presented with a thank you modal, i
 
 **Aspects of the site relevant to multiple User Stories and Features**
 
-**Navbar**: Each page has a sticky navbar at the top. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. 
+**Navbar**
+
+Each page has a sticky navbar at the top. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. 
 The navbar's background image is filtered through a radial top focused gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site. On large devices, the navbar 
 has a second row underneath the logo which displays the active page the user is on, with each link offering a mild yet stimulating visual effect when either the link is engaged with or hovered over. On mobile devices, the navigation links are hidden,
 and activated with a "sandwich" (which is a server icon), which draw the links between the page logo and the current page's sub-heading. The consistent, simple, and intuitive navigation system would contribute to instilling user trust, and allows
 users to reach all aspects of the site which aid the satisfaction of all user-stories.
 
-**Footer**: Each page has a static footer at the bottom. This provides links Github, a second and more aestheticically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
+**Footer**
+
+Each page has a static footer at the bottom. This provides links Github, a second and more aestheticically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
 reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
 with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
 for a more user-friendly interface. As discussed, on the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
 and implements a function which is relevant and fits the contextual flow of the page. 
 
-**Viewport Control**: Where possible, the pages contain all information within the user's viewport. Where this is not possible on very small mobile devices, or on the enquiry page, an intuitive navigation system has been implemented to allow for only the content
+**Viewport Control**
+
+Where possible, the pages contain all information within the user's viewport. Where this is not possible on very small mobile devices, or on the enquiry page, an intuitive navigation system has been implemented to allow for only the content
 of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, as if the content had been designed for their specific needs,
 and would ensure that no information is missed.  
 
@@ -371,9 +401,9 @@ Automated testing was completed via third party applications, in order to assess
     * Re-run and assess.
 
 
-## Logic and Functionality Testing
+## Functional Testing
 
-Logic and Functionality testing was completed manually, with each feature being tested as described below. 
+Testing the Functional Requirements was completed manually, with each feature being tested as described below. 
 
 1. Nav brand
 
