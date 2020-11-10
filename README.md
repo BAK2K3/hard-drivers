@@ -332,30 +332,31 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 **As a visitor to the website, I want to know what your company does.**
 
 1. Conditions of Satisfaction 
-    * Is the branding clear, consistent, and unambiguous?
-    * Is the company ethos and purpose communicate on the splash page? 
+    * The company ethos and purpose is communicated on the splash page.
+    * The branding is clear, consistent across the site, and unambiguous. 
 2. Testing Outcome
 
 **As a potential customer, I want to know what services you provide.**
 
 1. Conditions of Satisfaction 
-    * Have the the key services been outlined?
-    * Is each service description important, sellable, and merits being detailed in isolation?
-    * Are the service descriptions bite sized and easy to digest?
+    * The key services are outlined.
+    * Each key service is important, sellable, and merits being detailed in isolation.  
+    * The service descriptions are bite sized, and easy to digest.  
 2. Testing Outcome
 
 **As an interested customer, I want to know how much the service costs.**
 
 1. Conditions of Satisfaction 
-    * Are the cost of parts and cost of service  transparent? 
-    * Is the breakdown of cost of service clear and convincing?
+    * The cost of parts and the cost of service is transparent and differentiated.  
+    * The breakdown of cost of service is detailed yet convincing.
 2. Testing Outcome
 
 **As a convinced customer, I want to be able to easily make an enquiry.**
 
 1. Conditions of Satisfaction 
-    * Is the enquiry feature clear, and does it stand out?
-    * Is the initial enquiry form simple and intuitive?  
+    * The enquiry feature is accessible on every page. 
+    * The enquiry feature is clear, and stands out. 
+    * The enquiry form simple, functional, and intuitive.
 2. Testing Outcome
 
 ### Logic and Functionality Testing
