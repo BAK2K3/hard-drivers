@@ -302,7 +302,43 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ## Testing
 
+### Testing User Stories
+
+To conceptually test the User Stories, their respective Conditions of Satisfaction were assessed.
+
+**As a visitor to the website, I want to know what your company does.**
+
+1. Conditions of Satisfaction 
+    * The company ethos and purpose is communicated on the splash page.
+    * The branding is clear, consistent across the site, and unambiguous. 
+
+
+**As a potential customer, I want to know what services you provide.**
+
+1. Conditions of Satisfaction 
+    * The key services are outlined.
+    * Each key service is important, sellable, and merits being detailed in isolation.  
+    * The service descriptions are bite sized, and easy to digest.  
+
+
+**As an interested customer, I want to know how much the service costs.**
+
+1. Conditions of Satisfaction 
+    * The cost of parts and the cost of service is transparent and differentiated.  
+    * The breakdown of cost of service is detailed yet convincing.
+
+
+**As a convinced customer, I want to be able to easily make an enquiry.**
+
+1. Conditions of Satisfaction 
+    * The enquiry feature is accessible on every page. 
+    * The enquiry feature is clear, and stands out. 
+    * The enquiry form simple, functional, and intuitive.
+
+
 ### Automated Testing
+
+Automated testing was completed via third party applications, in order to assess the markdown syntax and logical application of the languages/frameworks used. 
 
 1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
     * The project's HTML was validated using the automated W3 Markup Validator. 
@@ -327,39 +363,10 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 3. **Bootstrap Linter**
     * Re-run and assess.
 
-### Testing User Stories
-
-**As a visitor to the website, I want to know what your company does.**
-
-1. Conditions of Satisfaction 
-    * The company ethos and purpose is communicated on the splash page.
-    * The branding is clear, consistent across the site, and unambiguous. 
-2. Testing Outcome
-
-**As a potential customer, I want to know what services you provide.**
-
-1. Conditions of Satisfaction 
-    * The key services are outlined.
-    * Each key service is important, sellable, and merits being detailed in isolation.  
-    * The service descriptions are bite sized, and easy to digest.  
-2. Testing Outcome
-
-**As an interested customer, I want to know how much the service costs.**
-
-1. Conditions of Satisfaction 
-    * The cost of parts and the cost of service is transparent and differentiated.  
-    * The breakdown of cost of service is detailed yet convincing.
-2. Testing Outcome
-
-**As a convinced customer, I want to be able to easily make an enquiry.**
-
-1. Conditions of Satisfaction 
-    * The enquiry feature is accessible on every page. 
-    * The enquiry feature is clear, and stands out. 
-    * The enquiry form simple, functional, and intuitive.
-2. Testing Outcome
 
 ### Logic and Functionality Testing
+
+Logic and Functionality testing was completed manually, with each feature being tested as described below. 
 
 1. Nav brand
 
@@ -375,7 +382,11 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 7. Form Submission
 
+8. Responsive/Viewport
+
 ### Browser Testing
+
+Cross-Browser compatability was tested via applying the methodology above to each browser detailed below.
 
 1. Chrome/Firefox
 
