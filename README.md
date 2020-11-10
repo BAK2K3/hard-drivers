@@ -99,8 +99,8 @@ _“I want to be able to contact the company straight away”._
 
 ## Scope
 
-Based on the research completed in the Strategy plane, i.e the User Stories and Conditions of Satisfaction (i.e the _"why"_), the requirements were split into Non-Functional and Functional Requirements. The Non-Functional Requirements 
-describe the overall intended goals of the project (the _'what'_), and the Functional Requirements details how these are going to be achieved (the _"how"_)
+Based on the research completed in the Strategy plane, i.e the User Stories and Conditions of Satisfaction (the _"why"_), the requirements were split into Non-Functional and Functional Requirements. The Non-Functional Requirements 
+describe the overall intended goals of the project (the _'what'_), while the Functional Requirements details how these are going to be achieved (the _"how"_).
 
 ### Non-Functional Requirements
 
@@ -227,13 +227,13 @@ however is not obliged to delve into the additional information if they do not w
 
 ## Surface
 
-## Design
+### Design
 
-### Logo Mock-Ups
+##### Logo Mock-Ups
 
 Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo.png)
 
-### Accessibility
+##### Accessibility
 
 ---
 
