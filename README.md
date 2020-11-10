@@ -17,7 +17,7 @@ It is developed primarily using HTML and CSS, with a small amount of javascript 
 hɑːd ˈdraɪvə | **Noun**  
 *A CompTIA A+ certified computer magician, who has an abundance of love and pride for making your dream computer become a reality.*  
 
-Hard Drivers is a customer budget based Custom PC Building company. Customers can obtain a “no obligation” free specification for a custom build PC based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand new tailor-made computer. 
+Hard Drivers is a customer budget based Custom PC Building company. Customers can obtain a _“no obligation”_ free specification for a custom build PC based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand new tailor-made computer. 
 
 ---
 
@@ -47,10 +47,10 @@ _“I want to be able to contact the company straight away”._
 
 **Psychological Factors**
 * Evoke a positive emotional response from the branding of Hard Drivers.
-  * Make the logo strong, bold, and stand out.
-  * Make the logo unique, and aesthetically pleasing.
-  * Use the logo consistently throughout the website.
-  * Align the style and design of the pages to match the logo.
+  * Make the branding strong, bold, and stand out.
+  * Make the branding unique, and aesthetically pleasing.
+  * Apply the branding consistently throughout the website.
+  * Align the style and design of the pages to match the branding.
   * Minimalistic design approach, so as to not overwhelm the customer.
 * Appeal to the customer by personalising the service.
   * Address the customer directly by repeatedly using the term _"You"_ and _"Your"_.
@@ -304,13 +304,16 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 ### Testing User Stories
 
-To conceptually test the User Stories, their respective Conditions of Satisfaction were assessed.
+To  test the User Stories, their respective Conditions of Satisfaction were assessed, along with any features relevant to the User Story.
 
 **As a visitor to the website, I want to know what your company does.**
 
 1. Conditions of Satisfaction 
     * The company ethos and purpose is communicated on the splash page.
     * The branding is clear, consistent across the site, and unambiguous. 
+2. Relevant Features
+    * Convey Ethos/Purpose
+    * Instil User Confidence
 
 
 **As a potential customer, I want to know what services you provide.**
@@ -319,6 +322,9 @@ To conceptually test the User Stories, their respective Conditions of Satisfacti
     * The key services are outlined.
     * Each key service is important, sellable, and merits being detailed in isolation.  
     * The service descriptions are bite sized, and easy to digest.  
+2. Relevant Features
+    * Convey Ethos/Purpose
+    * Instil User Confidence
 
 
 **As an interested customer, I want to know how much the service costs.**
@@ -326,6 +332,8 @@ To conceptually test the User Stories, their respective Conditions of Satisfacti
 1. Conditions of Satisfaction 
     * The cost of parts and the cost of service is transparent and differentiated.  
     * The breakdown of cost of service is detailed yet convincing.
+2. Relevant Features
+    * Present Cost Approach
 
 
 **As a convinced customer, I want to be able to easily make an enquiry.**
@@ -334,8 +342,9 @@ To conceptually test the User Stories, their respective Conditions of Satisfacti
     * The enquiry feature is accessible on every page. 
     * The enquiry feature is clear, and stands out. 
     * The enquiry form simple, functional, and intuitive.
-
-
+2. Relevant Features
+    * Encourage and Allow User Engagement
+    
 ### Automated Testing
 
 Automated testing was completed via third party applications, in order to assess the markdown syntax and logical application of the languages/frameworks used. 
@@ -386,7 +395,7 @@ Logic and Functionality testing was completed manually, with each feature being 
 
 ### Browser Testing
 
-Cross-Browser compatability was tested via applying the methodology above to each browser detailed below.
+Cross-Browser compatability was tested via applying the methodology described above within each browser detailed below.
 
 1. Chrome/Firefox
 
