@@ -388,21 +388,51 @@ and users are alerted to any incomplete fields if necessary. On valid completion
 
 Testing the Functional Requirements was completed manually, with each feature being tested as described below. 
 
-1. Nav brand
+**Navigation bar (Navbar)**
+1. General: 
+    * Visit all links within the navbar in every possible order to ensure they are correc:
+        * Home -> About  // Home -> Enquire 
+        * About -> Home // About -> Enquire
+        * Enquire -> Home // Enquire -> About
+    * Click the main 'logo' on each page, to ensure it diverts the user back to the homepage.
+    * Ensure Navbar elements (logo/links) maintain their position through navigation through the site. 
+    * Ensure all navigational links are not opened externally.
+    * Ensure that the relevant active link is coloured accordingly depending on location on site.
+    * On small vertical viewports, ensure the Navbar maintains its position (i.e sticky) when the page's viewportcontrol is scrollable (on the x-axis).
+    * When adjusting the horizontal viewport, ensure the "logo" and links maintain the central position on the page.
+    * When adjusting the horizontal viewport on large , ensure the "background" image  
+    * On large horizontal viewports, ensure the Navbar's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
+    * On small horizontal viewports, ensure the Navbar collapses, hides the row of links, and provides the sandwich icon.
+    * On small horizontal viewports, ensure the "logo" changes to the 'stacked' design.
+    * When the collapsed Navbar is displayed, ensure the sandwich icon displays and hides the dropdown navigational links appropriately.
+    * When the collapsed Navbar is displayed, ensure the links (when displayed) are aligned centrally, directly underneath the 'logo'.
+    * When the collapsed Navbar is displayed, ensure the links (when displayed) move dynamically when adjusting the horizontal viewport size (in either direction). 
+    * When the collapsed Navbar is displayed, ensure the dropdown (when displayed) does not close when the user interacts with another part of the current page.
+    * When the collapsed Navbar is displayed, ensure the dropdown does not overflow onto the viewportcontrol/content of each page.
 
-2. Footer
+2. Mouse and Keyboard Based Devices: 
+    * Ensure that all on all pages, the navigation links display the appropriate effects when hovered over:
+        * The link would 'grow' and change from inactive (white) to active (red).
+        * If the link is already in an active state, it only displays the grow effect and does not change color. 
+    * Enqure that on 
 
-3. Index
+3. Touch Based Devices:
+    * Ensure that on all pages, the navigation links displayed the appropriate effects when touched:
+        * The link would 'grow', and change from inactive (white) to active (red) where applicable.
 
-4. About
 
-5. Enquire
+**Footer**
 
-6. Modals
+**Price Table**
 
-7. Form Submission
+**Enquiry Form**
+ 
 
-8. Responsive/Viewport
+**Modals**
+
+**Viewport Control**
+
+**Responsive Layout and design**
 
 ## Browser Testing
 
