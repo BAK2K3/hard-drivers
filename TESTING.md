@@ -94,22 +94,21 @@ Testing the Functional Requirements was completed manually, with each feature be
 
 **Navigation bar (Navbar)**
 1. General: 
-    * Visit all links within the navbar in every possible order to ensure they are correc:
+    * Visit all links within the navbar in every possible order to ensure they are functional and route correctly:
         * Home -> About  // Home -> Enquire 
         * About -> Home // About -> Enquire
         * Enquire -> Home // Enquire -> About
     * Click the main 'logo' on each page, to ensure it diverts the user back to the homepage.
-    * Ensure Navbar elements (logo/links) maintain their position through navigation through the site. 
-    * Ensure all navigational links are not opened externally.
-    * Ensure that the relevant active link is coloured accordingly depending on location on site.
-    * On small vertical viewports, ensure the Navbar maintains its position (i.e sticky) when the page's viewportcontrol is scrollable (on the x-axis).
-    * When adjusting the horizontal viewport, ensure the "logo" and links maintain the central position on the page.
-    * When adjusting the horizontal viewport on large , ensure the "background" image  
+    * Ensure Navbar elements (logo/links) maintain their position through navigation of the site. 
+    * Ensure all internal navigational links are not opened externally.
+    * Ensure that the relevant active link is coloured accordingly depending on user's location on site.
+    * On small vertical viewports, ensure the Navbar maintains its position (i.e sticky) when the page's viewportcontrol is scrollable (on the y-axis).
+    * When adjusting the horizontal viewport, ensure the "logo" and links reposition themselves dynamically to maintain their central position on the page.
     * On large horizontal viewports, ensure the Navbar's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
-    * On small horizontal viewports, ensure the Navbar collapses, hides the row of links, and provides the sandwich icon.
+    * On small horizontal viewports, ensure the Navbar collapses, hides the row of navigation links, and provides the sandwich icon.
     * On small horizontal viewports, ensure the "logo" changes to the 'stacked' design.
-    * When the collapsed Navbar is displayed, ensure the sandwich icon displays and hides the dropdown navigational links appropriately.
-    * When the collapsed Navbar is displayed, ensure the links (when displayed) are aligned centrally, directly underneath the 'logo'.
+    * When the collapsed Navbar is displayed, ensure that interacting with the sandwich icon displays or hides the dropdown navigational links appropriately.
+    * When the collapsed Navbar is displayed, ensure the links (when displayed) are aligned centrally, underneath the 'logo'.
     * When the collapsed Navbar is displayed, ensure the links (when displayed) move dynamically when adjusting the horizontal viewport size (in either direction). 
     * When the collapsed Navbar is displayed, ensure the dropdown (when displayed) does not close when the user interacts with another part of the current page.
     * When the collapsed Navbar is displayed, ensure the dropdown does not overflow onto the viewportcontrol/content of each page.
@@ -118,7 +117,8 @@ Testing the Functional Requirements was completed manually, with each feature be
     * Ensure that all on all pages, the navigation links display the appropriate effects when hovered over:
         * The link would 'grow' and change from inactive (white) to active (red).
         * If the link is already in an active state, it only displays the grow effect and does not change color. 
-    * Enqure that on 
+    * Enqure that on all pages, tabbing navigates the user through the logical flow of the site:
+        * Header --> Home --> About --> Enquire
 
 3. Touch Based Devices:
     * Ensure that on all pages, the navigation links displayed the appropriate effects when touched:
