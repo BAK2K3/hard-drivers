@@ -233,10 +233,9 @@ footer {
   color: rgba(228, 30, 30, 0.9);
 }
 
-/* Hover.css Effects */
+/* Hover.css Grow Effect */
 /* https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 
-/* Grow */
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
