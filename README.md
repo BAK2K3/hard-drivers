@@ -301,7 +301,8 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 * The project uses [Google Fonts](https://fonts.google.com/) for custom web-fonts.
 * The project's images were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
-* The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colour-blind-friendly the site was.
+* The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en)
+* The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colourblind-friendly the site was.
 * The project's contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
 * The project's cross-browser compatability was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
 * The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
