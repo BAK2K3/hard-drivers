@@ -93,44 +93,69 @@ and users are alerted to any incomplete fields if necessary. On valid completion
 Testing the Functional Requirements was completed manually, with each feature being tested as described below. 
 
 **Navigation bar (Navbar)**
+
+Unless specifically stated, all functionality for the Navbar was tested on every page.
+
 1. General: 
     * Visit all links within the navbar in every possible order to ensure they are functional and route correctly:
         * Home -> About  // Home -> Enquire 
         * About -> Home // About -> Enquire
         * Enquire -> Home // Enquire -> About
     * Click the main 'logo' on each page, to ensure it diverts the user back to the homepage.
+    * Ensure the height of the Navbar is a consistent height across each page. 
     * Ensure Navbar elements (logo/links) maintain their position through navigation of the site. 
     * Ensure all internal navigational links are not opened externally.
-    * Ensure that the relevant active link is coloured accordingly depending on user's location on site.
+    * Ensure the relevant active link is coloured accordingly depending on user's location on site.
     * On small vertical viewports, ensure the Navbar maintains its position (i.e sticky) when the page's viewportcontrol is scrollable (on the y-axis).
     * When adjusting the horizontal viewport, ensure the "logo" and links reposition themselves dynamically to maintain their central position on the page.
     * On large horizontal viewports, ensure the Navbar's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
+    * On all viewports, ensure the Navbar's radial gradient maintains its appearance over the background image, and remains in a static position (regardless of background image's zoom effect).
     * On small horizontal viewports, ensure the Navbar collapses, hides the row of navigation links, and provides the sandwich icon.
     * On small horizontal viewports, ensure the "logo" changes to the 'stacked' design.
     * When the collapsed Navbar is displayed, ensure that interacting with the sandwich icon displays or hides the dropdown navigational links appropriately.
     * When the collapsed Navbar is displayed, ensure the links (when displayed) are aligned centrally, underneath the 'logo'.
     * When the collapsed Navbar is displayed, ensure the links (when displayed) move dynamically when adjusting the horizontal viewport size (in either direction). 
     * When the collapsed Navbar is displayed, ensure the dropdown (when displayed) does not close when the user interacts with another part of the current page.
-    * When the collapsed Navbar is displayed, ensure the dropdown does not overflow onto the viewportcontrol/content of each page.
+    * When the collapsed Navbar is displayed, ensure the dropdown does not overflow onto the viewportcontrol/content of the page.
 
 2. Mouse and Keyboard Based Devices: 
-    * Ensure that all on all pages, the navigation links display the appropriate effects when hovered over:
-        * The link would 'grow' and change from inactive (white) to active (red).
+    * Ensure the navigation links display the appropriate effects when hovered over:
+        * The link produces the 'grow' effect, and changes from inactive (white) to active (red).
         * If the link is already in an active state, it only displays the grow effect and does not change color. 
-    * Enqure that on all pages, tabbing navigates the user through the logical flow of the site:
+    * Ensure tabbing navigates the user through the logical flow of the site:
         * Header --> Home --> About --> Enquire
 
 3. Touch Based Devices:
-    * Ensure that on all pages, the navigation links displayed the appropriate effects when touched:
+    * Ensure the navigation links display the appropriate effects when touched:
         * The link would 'grow', and change from inactive (white) to active (red) where applicable.
 
 **Footer**
 
+Unless specifically stated, all functionality for the Footer was tested on every page.
+
 1. General:
+    * On each page, ensure the Github / Social links open to the correct webpage, and are opened externally.   
+    * On the "Home" and "About" pages, ensure the "Enquire" button correctly routes the user to the "Enquire" page.
+    * On the "Enquire" page, ensure the "Enquire" button states "Submit" - Functionality testing discussed on the "Enquiry Form" section. 
+    * Ensure on page load the "Enquire/Submit" button maintains its persistent 'glow' effect.  
+    * Ensure the Footer appearance is consistent across all pages, and maintains the same height. 
+    * Ensure Footer elements (Github - Enquire/Submit - Socials) maintain their position through navigation of the site.
+    * On large horizontal viewports, ensure the Footer's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
+    * On all viewports, ensure the Footer's radial gradient maintains its appearance over the background image, and remains in a static position (regardless of background image's zoom effect).
+    * On all viewports, ensure the Enquire/Submit button's 'glow' effect does not overflow onto the viewportcontrol/content of the page. 
+    * When adjusting the horizontal viewport, ensure the Footer elements reposition themselves dynamically to maintain equal distance, and central position within their containers.
+    * When adjusting the horizontal viewport, ensure the Footer elements' font sizes adjust themselves appropriately.
+    * On small horizontal viewports, ensure the Social links stack themselves (2x2), and maintain their functionality. 
 
 2. Mouse and Keyboard Based Devices:
+    * Ensure no visual effects are produced when the Github / Social Links are hovered over with the mouse.
+    * Ensure tabbing navigates the user through the visual flow of footer:
+        * Github --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin
+    * Ensure hovering over the Submit/Enquire button produces the 'grow' effect, and changes from white to red.
 
 3. Touch Based Devices:
+    * Ensure no visual effects are produced when the Github / Social links are touched.
+    * Ensure the Enquire/Submit button produces the 'grow' effect, and changes from white to red.
 
 **Price Table**
 
