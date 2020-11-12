@@ -124,19 +124,50 @@ Testing the Functional Requirements was completed manually, with each feature be
     * Ensure that on all pages, the navigation links displayed the appropriate effects when touched:
         * The link would 'grow', and change from inactive (white) to active (red) where applicable.
 
-
 **Footer**
+
+1. General:
+
+2. Mouse and Keyboard Based Devices:
+
+3. Touch Based Devices:
 
 **Price Table**
 
-**Enquiry Form**
- 
+1. General:
 
+2. Mouse and Keyboard Based Devices:
+
+3. Touch Based Devices:
+
+**Enquiry Form**
+
+1. General:
+
+2. Mouse and Keyboard Based Devices:
+
+3. Touch Based Devices:
+ 
 **Modals**
+
+1. General:
+
+2. Mouse and Keyboard Based Devices:
+
+3. Touch Based Devices:
 
 **Viewport Control**
 
+1. General:
+
+2. Mouse and Keyboard Based Devices:
+
+3. Touch Based Devices:
+
 **Responsive Layout and design**
+
+1. General:
+
 
 ## Browser Testing
 
