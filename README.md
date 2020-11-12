@@ -96,48 +96,56 @@ through the specific features implemented.
 
 ### Non-Functional Requirements
 
-* **Encourage and Allow User Engagement**
-    * Every page must allow a user to engage with the business.
-    * The ability to engage is clear and stands out from other interactive aspects of the site.
-    * Engagement is done through completing an simple and intuitive enquiry form.
+**Encourage and Allow User Engagement**
 
-* **Convey Ethos/Purpose**
-    * Outline key services on home page.
-    * Present further details on key services on separate page.
-    * Make sure the details provided are important, sellable, and merit being detailed in isolation.
-    * Make the descriptions bite sized and easy to digest.
+* Every page must allow a user to engage with the business.
+* The ability to engage is clear and stands out from other interactive aspects of the site.
+* Engagement is done through completing an simple and intuitive enquiry form.
 
-* **Instil User Confidence**
-    * The branding is clear, distinguishable, and recognisable.
-    * Relate to and refer to the customer.
-    * The website is minimalistic where necessary, intuitive, and user friendly. 
+**Convey Ethos/Purpose**
 
-* **Present Cost Approach**
-    * Communicate that the computer is customer budget based.
-    * Be transparent about cost of additional services and peripherals. 
-    * Provide detailed yet convincing breakdown of cost of service
+* Outline key services on home page.
+* Present further details on key services on separate page.
+* Make sure the details provided are important, sellable, and merit being detailed in isolation.
+* Make the descriptions bite sized and easy to digest.
+
+**Instil User Confidence**
+
+* The branding is clear, distinguishable, and recognisable.
+* Relate to and refer to the customer.
+* The website is minimalistic where necessary, intuitive, and user friendly. 
+
+**Present Cost Approach**
+
+* Communicate that the computer is customer budget based.
+* Be transparent about cost of additional services and peripherals. 
+* Provide detailed yet convincing breakdown of cost of service
 
 ### Functional Requirements
 
-* **Navigation bar (Navbar)**
+**Navigation bar (Navbar)**
+
 Each page has a sticky navbar at the top. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. On large devices, the navbar 
 has a second row underneath the logo which displays the active page the user is on,  On mobile devices, the navigation links are hidden,
 and activated with a "sandwich" (which is a server icon), which draw the links between the page logo and the current page's sub-heading. The consistent, simple, and intuitive navigation system would contribute to instilling user trust, and allows
 users to reach all aspects of the site which aid the satisfaction of all user-stories.
 
-* **Footer**
+**Footer**
+
 Each page has a static footer at the bottom. This provides links Github, a second and more aestheticically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
 reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
 with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
 for a more user-friendly interface. As discussed, on the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
 and implements a function which is relevant and fits the contextual flow of the page. 
 
-* **Price Table**
+**Price Table**
+
 A price table is available on multiple pages of the site. It provides the user with a full breakdown of the different tiers of service packages they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
 is explicitly clear, and a full screenreader-only description is available which explains which benefits are included in which package, and their associated costs. Each tier benefit contains a tooltip to provide additional information on the service included. 
 On Modals, the tooltips are on the text of the benefits themselves,  while on the Desktop "Enquire" page, small self-descriptive icons sit at the end of each benefit that provide this tooltip.
 
-* **Enquiry Form**
+**Enquiry Form**
+
 The enquiry form allows the user to provide a small amount of personal details, and information regarding their requirements, in order to engage with the company and to receive a specification in response. 
 Each field is categorised and grouped into the relevant fieldset, with each individual field being clearly separated and labelled. Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. 
 They must then decide what type of computer they want, and their budget. In all viewports, the "Budget" field contains a tooltip which explicitly states the budget stated excludes the cost of the service package requested, and any potential optional peripherals to be quoted.
@@ -145,16 +153,19 @@ The user can at this stage decide to opt in to be quoted for an optional periphe
 information regarding their requirements if they should wish to do so. Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition;  considering this aspect of the engagement is essentially just a request for an initial quote,
 this would have added nothing to the initial enquiry and added an additional unneccessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user. 
 
-* **Modals**
+**Modals**
+
 Modals are implemented into the site to provide an additional degree of interactivity. They are also present to layer content where neccessary, so as to not compress to information into a single location. The modals either contain the price table, or a thank you message 
 once the user has completed and submitted the enquiry form. 
 
-* **Viewport Control**
+**Viewport Control**
+
 Where possible, the pages contain all information within the user's viewport. Where this is not possible on very small mobile devices, or on the enquiry page, an intuitive navigation system has been implemented to allow for only the content
 of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, as if the content had been designed for their specific needs,
 and would ensure that no information is missed.  
 
-* **Responsive Layout and design**
+**Responsive Layout and design**
+
 Using Flexbox, the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions. While certain breakpoints have been implemented to change the structure of the content, the priority was to implement flui 
 The content of each page dynamically responds and adjusts to the users screen size, regardless of what device they are using, and regardless of how big or small their screen is. 
 
