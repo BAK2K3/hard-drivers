@@ -243,6 +243,8 @@ however is not obliged to delve into the additional information if they do not w
 
 ### Wireframes
 
+Due to the resolution of the wireframe documents, it is recommended that these PDFs are downloaded, rather than using Github's native PDF viewer. 
+
 * Header/Footer Wireframe: [Version 1](./assets/wireframes/header-footer-wireframe.pdf) | [Version 2](./assets/wireframes/header-footer-wireframe-v2.pdf)
 * Index Page Wireframe: [Version 1](./assets/wireframes/index-wireframe.pdf)
 * About Page Wireframe: [Version 1](./assets/wireframes/about-wireframe.pdf) | [Version 2](./assets/wireframes/about-wireframe-v2.pdf)
@@ -298,7 +300,7 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 * The project uses [Popper.js](https://popper.js.org/) v1.16.1, a Tooltip and Popover Positioning Enginge, for Tooltips and dropdowns.
 * The project uses [jsDelivr](https://www.jsdelivr.com/) as a Content Delivery Network for Bootstrap and Popper.
 * The project uses [FontAwesome](https://fontawesome.com/) v5.15.1, a free icon-set/toolkit for web development.
-* The project uses [Google Fonts](https://fonts.google.com/) for custom web-fonts.
+* The project uses [Google Fonts](https://fonts.google.com/) for typography.
 * The project's images were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 * The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en)
@@ -314,7 +316,63 @@ Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo
 
 Testing documentation, processes, and outcomes can be found under [TESTING.md](TESTING.md).
 
+---
 # Deployment
+
+## How this Project was Deployed
+
+This project was deployed to GitHub pages via the following steps:
+
+1. Log into [GitHub](https://github.com/).
+2. From the list of Repositories, select [BAK2K3/hard-drivers](https://github.com/BAK2K3/hard-drivers).
+3. From the Repositories sub-headings, select "Settings".
+4. Under "Options", the first category of settings, scroll down to the GitHub Pages section.
+5. From the dropdown list under the "Source" heading, select "master".
+6. A second drop-down menu that appears should remain as the default value, "/root".
+7. Press Save. 
+8. On Page refresh, scroll back down to the GitHub Pages section, and the link to the deployed site will be available in a green sub-section with a tick icon next to it.
+
+As this project was developed on the master branch, all changes made to the repository are immediately reflected in the deployed project.
+
+## How to run this Project in your Browser
+
+1. Install the [Google Chrome](https://www.google.co.uk/chrome/) or [Firefox](https://www.mozilla.org/en-GB/exp/firefox/new/) browser.
+2. Install the applicable [GitPod](https://www.gitpod.io/docs/browser-extension/) Browser Extensions for your chosen browser.
+4. Create a [GitHub](https://github.com/join) account. 
+3. Log in to [Gitpod](https://gitpod.io/login/) using your GitHub account.
+4. Visit Hard Driver's [GitHub Repository](https://github.com/BAK2K3/hard-drivers).
+5. Open the respository in Gitpod:
+    * Click the green "Gitpod" icon at the top of the Repository, or
+    * Click this [link](https://gitpod.io/#https://github.com/BAK2K3/hard-drivers).
+6. A new workspace will open with the current state of the master branch. Any changes made to the master branch after this point will not be automatically updated in your Gitpod Workspace.
+
+## How to run this Project Locally
+
+### Cloning the Repository
+
+1. Visit Hard Driver's [GitHub Repository](https://github.com/BAK2K3/hard-drivers).
+2. Click the "Code" dropdown box above the repository's file explorer. 
+3. Under the "Clone" heading, click the "HTTPS" sub-heading.
+4. Click the clipboard icon, or manually copy the text presented: `https://github.com/BAK2K3/hard-drivers.git`
+5. Open your preferred IDE (VSCode, Atom, PyCharm, etc).
+6. Ensure your IDE has supoport for Git, or has the relevant Git extension.
+7. Open the terminal, and create a directory where you would like the Respository to be stored.
+8. Type `git clone` and paste the previously copied text (`https://github.com/BAK2K3/hard-drivers.git`) and press enter.
+9. The Repository will then be cloned to your selected directory. 
+
+### Manually Downloading the Respository
+
+1. Visit Hard Driver's [GitHub Repository](https://github.com/BAK2K3/hard-drivers).
+2. Click the "Code" dropdown box above the repository's file explorer. 
+3. Click the "Download ZIP" option; this will download a copy of the selected branch's repository as a zip file.
+4. Locate the ZIP file downloaded to your computer, and extract the ZIP to a designated folder which you would like the repository to be stored.
+
+### Opening the Repository 
+
+1. Open your preferred IDE (VSCode, Atom, PyCharm, etc).
+2. Navigate to the chosen directory where the Respository was Cloned/Extracted.
+3. You will not have offline access to the contents of the project.
+
 ---
 
 # Credits
