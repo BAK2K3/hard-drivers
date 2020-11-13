@@ -415,4 +415,13 @@ As this project was developed on the master branch, all changes made to the repo
 
 # Acknowledgements
 
+* The concept for this project was devised from my own deep rooted passion for technology, computers, gaming, and through my own personal experience building computers and using third party companies to do so in the past.
+* Thank you to my mentor, Dick Vlaanderen, who provided a huge amount of support for the concept behind this project from the get go, and who provided me with a wealth of moral support.   
+* Thank you to Jim Morel, the current Slack Channel Lead for the User Centric Frontend Development, for his instant responses, his fresh set of eyes on the project, and for his incredibly useful sessions on preperation for MS1.
+* Thank you to the active Slack users who take part in the regular group calls. 
+
+# Disclaimer
+
+This website is for eductional purposes only.
+
 ---
