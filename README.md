@@ -300,8 +300,7 @@ potentially incorporated into the footer, and could be engaged with on any page.
 
 **Smart Specification**
 
-An optional Smart Specification could be implemented on the "Enquiry" Page. A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using  
-hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
+An optional Smart Specification could be implemented on the "Enquiry" Page. A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
 they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
 From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
 
