@@ -1,4 +1,4 @@
-![Hard Drivers](https://github.com/BAK2K3/hard-drivers/blob/master/assets/images/full-logo.png "Hard Drivers Logo")
+![Hard Drivers](./assets/images/full-logo.png "Hard Drivers Logo")
 
 # Hard Drivers
 
@@ -256,12 +256,35 @@ Due to the resolution of the wireframe documents, it is recommended that these P
 ## Surface
 
 ### Design
+### Design
+
+The project's aesthetic design is aligned with the ethos and branding of Hard Drivers; simple, effective, and powerful. 
+
+#### Logo Mock-Up
+
+The project's 'surface' design commenced with mock-ups of the Logo. Colours, Fonts, Spacing, and Imagery was experimented with in order to achieve a colour scheme and overall theme which was relevant to the context of the project.
+This theme was subsequently applied to the project. The Mock Ups were designed personally in [Gimp](https://www.gimp.org/). 
+
+* Logo Mock Ups: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo.png).
+
+The Logo was ultimately implemented in HTML/CSS for a more dynamic and responsive user experience, rather than being presented with a static image on the website's header.
 
 #### Colour Scheme
 
-#### Logo Mock-Ups
+The primary colour scheme chosen to implement into the project was a combination of Black, White, and Red. [This combination of colours](https://www.homedit.com/black-and-red-color-combo/) is both modern, yet classic, and while powerfully 
+[aposematic](https://en.wikipedia.org/wiki/Aposematism), is relevant to the content of the website due to the [RGB Culture](https://www.pcworld.idg.com.au/article/print/680425/why-do-gamers-like-rgb-lights/#:~:text=As%20simple%20and%20obvious%20as%20it%20might%20seem,be%20more%20than%20just%20the%20function%20it%20serves)
+of PC Gaming. 
 
-Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo.png)
+On initial design, the three primary colours were:
+* Black: #000000 (Background Colour)
+* Semi-Transparent Red: rgba(228, 22, 22, 0.75) (Contrasting Title Colour)
+* Off-White: #FAFAFA (Contrasting Title Colour and Body Text Colour)
+
+The Red colour was implemented with an alpha value due to its intended interaction with the background imagery implemented into the Navbar and Footer. The semi-transparent colour also interacted 
+well with the black background to produce a deeper, more vibrant tone of red.
+
+
+#### Typography 
 
 #### Visual Effects
 
@@ -290,7 +313,7 @@ therefore this is not currently required.
 **Bot/Spam prevention on form completion**
 
 Once the Form Processing has been implemented, consideration needs to be given to how to prevent form submission being abused by bots. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
-such as Captcha, Human Tests, and bot-only forms fields.
+such as Captcha, Human Tests, and bot-only form fields.
 
 **Provide Live Service**
 
@@ -323,7 +346,7 @@ From a business perspective, this could reduce the amount of work the customer f
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 * The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en)
 * The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colourblind-friendly the site was.
-* The project's contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
+* The project's colour contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
 * The project's cross-browser compatability was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
 * The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
 * The project's CSS was validated using [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
