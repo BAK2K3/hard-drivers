@@ -257,35 +257,54 @@ Due to the resolution of the wireframe documents, it is recommended that these P
 
 ### Design
 
-### Visual Effects
+#### Colour Scheme
+
+#### Logo Mock-Ups
+
+Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo.png)
+
+#### Visual Effects
 
 **Header**: The navbar's background image is filtered through a radial top focused gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site. 
 
 **Nav Links**: Each link offering a mild yet stimulating visual effect when either the link is engaged with or hovered over.
 
-#### Colour Scheme
-
-##### Logo Mock-Ups
-
-Logo: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo.png)
-
-##### Accessibility
+#### Accessibility
 
 ---
 
 # Future Feature Considerations
 
-* **Process details in enquiry form**
+**Enquiry Form Processing**
 
-* **GDPR information as personal information being processed**
+In its current state, on completion of the Enquiry Form, the user is presented with a Thank You Modal, and the form is subsequently cleared; the information input into the form is not processed.
+Given the nature of the project is to demonstrate static content, there is no requirement for the information input into the form to be processed. However, in an ideal and practical scenario, the information input
+into this form would be inserted into a database, and assigned to a Hard driver for processing for generation of the user's specification.
 
-* **Bot/Spam prevention on form completion**
+**GDPR information as personal information being processed**
 
-* **Provide Live Service**
+Given the information input into the Enquiry Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, a GDPR/Privacy Policy tick box would be required 
+for the user to agree to in order for this personal information to be collected and the form to be submitted. In its current state, the website does not store any of this information on completion/submission of the form, 
+therefore this is not currently required.
 
-* **Gain Presence**
+**Bot/Spam prevention on form completion**
 
-* **Smart Specification**
+Once the Form Processing has been implemented, consideration needs to be given to how to prevent form submission being abused by bots. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
+such as Captcha, Human Tests, and bot-only forms fields.
+
+**Provide Live Service**
+
+A user may want to make an enquiry with the business prior to making an request for a specification. A Live Chat Service could be implemented to provide instant answers to user specific questions. This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
+whereby the user asks a question and using Natural Language Processing an appropriate answer is given to their question; if the query cannot be answered this way, the user can be passed to a Hard Driver via Live Web Chat for additional assistance. The Live Chat box could be
+potentially incorporated into the footer, and could be engaged with on any page. 
+
+**Smart Specification**
+
+An optional Smart Specification could be implemented on the "Enquiry" Page. A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using  
+hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
+they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
+From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
+
 
 ---
 
