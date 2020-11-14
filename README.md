@@ -166,9 +166,13 @@ and would ensure that no information is missed.
 
 **Responsive Layout and design**
 
-Using Flexbox, the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions. While certain breakpoints have been implemented to change the structure of the content, the priority was to implement fluid... 
-The content of each page dynamically responds and adjusts to the users screen size, regardless of what device they are using, and regardless of how big or small their screen is.
-<!-- NEEDS FINISHING -->
+Using Flexbox, the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions. While certain breakpoints have been implemented to change the structure of the content, the priority was to focus on fully flexible and responsive layout 
+than specific targeted device sizes. Each page is split into sections which expand or shrink to equal sizes responsively to the devices height and width. Where appropriate, the spacing between each section is dynamic, and equally distributed. 
+
+When changing the size of the viewport, it was important that images filled their respective container and therefore scaled appropriately; the challenge was to avoid the images overflowing or expanding their respective containers, 
+and to allow their position to change to maintain the structural integrity of the page layout. While the solution resulted in fully responsive images, it resorted to using `<div>` containers with a background image, therefore alt-text couldn't be displayed. 
+The best solution to this was to implement sr-only text for these elements. Given the images were being hosted internally (as opposed to being hosted on external CDNs), it was unlikely the links would be broken, and therefore the "alt text" was unlikely to be utilised.
+This meant that the images displayed as intended, were unlikely to be distrupted by broken links, and had accessibility.
 
 ---
 
