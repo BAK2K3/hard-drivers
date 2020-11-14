@@ -278,6 +278,12 @@ Automated testing was completed via third party applications, in order to assess
     * While this doesn't necessarily break the layout of the page, it would require the user to zoom out in order to use the site correctly, creating a poor user experience.
     * This was fixed by adding: minimum-scale=1, maximum-scale=1 to the meta tag of the enquiry page.
 
+8. **Tooltips**
+    * Multiple implementations of the tooltip were tested in order to allow the user to hover on desktop, and both click/touch to allow a persisent tooltip to appear in the Price Table.
+    The current implementation contains `tabindex=0`,which allows users to tab through the benefits and display their relevant tooltip accordingly. However, this solution
+    results on the tooltip persisting on 'click', and cannot be 'unclicked'. The user must either click/tab to another tooltip or click elsewhere on the page to remove
+    the tooltip. While this does not neccessarily diminish the user experience, it is a bug that I would prefer to remove, however I am aware this requires additional knowledge of javascript. 
+
 **Other technical difficulties:**
 
 1. **Github Commit Merge** 
