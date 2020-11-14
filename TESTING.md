@@ -214,9 +214,17 @@ Unless specifically stated, all functionality for the Footer was tested on every
 
 **Modals**
 
-1. Price Table Modal (About/Enquire Pages):
-    * 
+These tests applied to both the Price Table (About/Enquire) and Thank You (Enquire) modals:
 
+* Ensure the modal is displayed centrally, with the appropriate Header / Body / Footer.
+* Ensure the modal's "close" button functions as intended, and closes the modal.
+* Ensure the modal can be dismissed by clicking (desktop) of touching (phone/tablet) out of the modal area.
+* Ensure pressing tab navigates appropriately through the content as intended.
+* Ensure pressing tab at the end of the content highlights the "close" button:
+    * Ensure pressing enter subsequently closes the modal.
+* Ensure pressing the escape key closes the modal.
+* Ensure the content of the modal fits appropriately, and can be scrolled on the y axis if required.
+* Ensure screen readers can read the content of the modal appropriately, and can read the "close" button.
 
 **Viewport Control**
 
