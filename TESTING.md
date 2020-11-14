@@ -281,7 +281,7 @@ As I do not have access to a device which is compatable with Safari, the above i
  While the majority of functionality worked as intended for Internet Explorer 11, the following issues were identified:
 
  1. Flexbox:
-    * Internet Explorer is [not entirely compatable](https://caniuse.com/flexbox) with Flexbox.
+    * Internet Explorer is [not entirely compatible](https://caniuse.com/flexbox) with Flexbox.
     * As such, when testing the responsive design of some pages, significant functionality breaking bugs were identified. 
     * These were present on the [Index page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_index_ue1yfb.jpg) and on the [About page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_about_m2u8xz.jpg).
     * One attempted fix for this was to define Flex fully as: `flex: 1 0 0;` for the relevant sections. 
@@ -289,8 +289,8 @@ As I do not have access to a device which is compatable with Safari, the above i
     * However, when adjusting the viewport of the aforementioned pages, the bugs re-appear and do not correct themselves when the viewport is reverted back to its original state.
 
 2. Auto Margin and Text Center:
-    * Multiple fixes were attempted to resolve the issues [auto-margin](https://stackoverflow.com/questions/31903734/ie11-flexbox-max-width-and-marginauto) and other [text alignement issues](https://stackoverflow.com/questions/49668656/css-text-align-center-not-working-on-ie11).
-    * Ultimately, however, I found myself removing core functionality of the website in order to adhere to the limitations of an out of date browser. While some functionality was restored for IE11 compatability,
+    * Multiple fixes were attempted to resolve the issues [auto-margin](https://stackoverflow.com/questions/31903734/ie11-flexbox-max-width-and-marginauto) and other [text alignment issues](https://stackoverflow.com/questions/49668656/css-text-align-center-not-working-on-ie11).
+    * Ultimately, however, I found myself removing core functionality of the website in order to adhere to the limitations of an out of date browser. While some functionality was restored for IE11 compatibility,
     it was decided to focus on the capabilities of browsers which are current, up to date, and are capable of newer technology as opposed to removing functionality and limiting the capabilities of the website I had created.
 
 ## Automated Testing
@@ -317,8 +317,18 @@ Automated testing was completed via third party applications, in order to assess
         * `0 0 -10px 0 rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)`
     * This produced an identical effect, and passed the validation.
 
-3. **Bootstrap Linter**
-    * Re-run and assess.
+3. **Google Lighthouse** - Accessibility, Performance, Progressive Web Apps Best Practices Audit:
+
+**Index**  
+![Index Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Index-Lighthouse_fxhiv5.jpg)
+
+**About**  
+![About Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/About-Lighthouse_nfogiq.jpg)
+
+**Enquire**  
+![Enquire Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Enquire-Ligthouse_seuuo4.jpg)
+
+On further inspection, the main cause for the drop in Accessibility score for the Enquire page was due to the implementation of `minimum-scale=1, maximum-scale=1` in the head of Enquire.html.
 
 ## Significant Bugs
 
@@ -355,7 +365,7 @@ Automated testing was completed via third party applications, in order to assess
     * On some mobile devices, clicking on an input form "zooms in" on the input field. Alternatively, submitting an incomplete form "zooms in" on the input form not complete.
     * This obfuscates the layout of the page (fixed header with embedded scrollable div), requiring users to zoom out to use the page correctly.
     * While this doesn't necessarily break the layout of the page, it would require the user to zoom out in order to use the site correctly, creating a poor user experience.
-    * This was fixed by adding: minimum-scale=1, maximum-scale=1 to the meta tag of the enquiry page.
+    * This was fixed by adding: `minimum-scale=1, maximum-scale=1` to the meta tag of the enquiry page.
 
 7. **Tooltips** (Existing Bug)
     * Multiple implementations of the tooltip were tested in order to allow the user to hover on desktop, and both click/touch to allow a persisent tooltip to appear in the Price Table.
@@ -377,3 +387,7 @@ Automated testing was completed via third party applications, in order to assess
 1. **Github Commit Merge** 
     * On 27th October, I accidentally merged multiple git commits (df2b72005f9506c70c5d58fcb9964631462d7555/a8190a91b29cb1d4c3258e5d0f684390113bc646). While I researched how to undo the push, I was aware this would result in all of these changes being combined, and I wasn't fully comfortable 
     continuing with this as I didn't want to lose any more progress/commits. Accepted this single merge was an error, and moved on and learned from this.
+
+---
+
+[Click here](https://github.com/BAK2K3/hard-drivers/blob/master/README.md) to return to the main README.md.
