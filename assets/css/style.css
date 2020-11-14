@@ -728,7 +728,8 @@ table p {
   border: none;
   border-radius: 0;
   color: #fafafa;
-  overflow-y:auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .price-table-modal fieldset {
