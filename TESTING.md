@@ -13,7 +13,7 @@ The User Stories were evaluated in conjunction with the Non-Functional Requireme
 
 On arrival to the homepage, the user is presented with the name of the company, the three main selling points of company, a _"call to action"_, and strong, relevant, and colourful imagery. The colour scheme adopted in the Logo/Header is consistent with
 the content of the site, the images, and the footer's text, icons, and style. Three sub-headings are visible on the homepage which are extremely succinct, yet clearly convey the ethos and purpose of the business. Each subheading has a relevant icon to 
-give users an emotional response to each subheading's content. The _"call to action"_  text on the home page also addresses the user, and clearly gives instructions as to how to enage with company and website on a "no-risk" basis, and what they will achieve from doing so,
+give users an emotional response to each subheading's content. The _"call to action"_  text on the home page also addresses the user, and clearly gives instructions as to how to engage with company and website on a "no-risk" basis, and what they will achieve from doing so,
 further emphasising the ethos and company intention. The concept and interface is simple, easy to use and navigate, and is responsive on all devices and viewports. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
 
 > Non-Functional Requirement
@@ -51,7 +51,7 @@ on mobile devices; while they undoubtedly produce a powerful emotional response,
 
 **As an interested customer, I want to know how much the service costs.**
 
-All pages on the site make reference to the pricing structure of the business. The _"Home"_ page makes simple reference to it, the _"About"_ page elaborates on this pricing structure and presents users with the Package Table, and the _"Enquire"_ page provides 
+All pages on the site refer to the pricing structure of the business. The _"Home"_ page makes simple reference to it, the _"About"_ page elaborates on this pricing structure and presents users with the Package Table, and the _"Enquire"_ page provides 
 both the Package Table and a tooltip on the Budget section of the form to explain the additional packages/peripherals are excluded from the cost of the customer's budget. On the _"Enquire"_ page, on large viewports, the user is presented with the package table 
 next to the enquiry form. On tablets and mobile devices, this package table is hidden, and users are presented with a link to view package details (in the same style as that on the about page) via a modal. The colour design and structural layout of 
 the Package Table is representative to that of the rest of the site to maintain consistency.  
@@ -64,13 +64,13 @@ the Package Table is representative to that of the rest of the site to maintain 
 >        * Communicate that the computer is customer budget based &#x2611;
 >        * Be transparent about cost of additional services and peripherals &#x2611;
 >    * Instil User Confidence 
->        *  The branding is clear, distinguishable, and recognisable &#x2611;
+>        * The branding is clear, distinguishable, and recognisable &#x2611;
 >        * Relate to and refer to the customer &#x2611;
 >        * The website is minimalistic where necessary, intuitive, and user friendly &#x2611;
 
 **As a convinced customer, I want to be able to easily make an enquiry.**
     
-The Enquire page allows a user to engage with the website through filling in a simple form. It is therefore, ultimately, the most important page on the site. It is is accessible within the Navbar, and within the footer of both the _"Index"_ page and _"About"_ page. 
+The Enquire page allows a user to engage with the website through filling in a simple form. It is therefore, ultimately, the most important page on the site. It is accessible within the Navbar, and within the footer of both the _"Index"_ page and _"About"_ page. 
 In the footer of the enquiry page, the "enquiry" link is replaced with a "submit" link. The formatting and style are the same as the Enquire link (as seen in the Home page and About Page) to ensure consistency; it was considered that this may obfuscate the user, 
 and the intention of this particular button, as it may not initially be clear that the usage of the persistent button has changed, but the alternative to this was to retain a recursive "enquiry" link at the bottom of the enquiry page, and to have a separate "submit" 
 button at the bottom of the enquiry form. It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. Form submission is validated prior to submission, 
@@ -78,13 +78,13 @@ and users are alerted to any incomplete fields if necessary. On valid completion
 
 > Non-Functional Requirements
 >    * Encourage and Allow User Engagement 
->        * Engagement is done through completing an simple and intuitive enquiry form &#x2611;
+>        * Engagement is done through completing a simple and intuitive enquiry form &#x2611;
 >        * The ability to engage is clear and stands out from other interactive aspects of the site &#x2611;
 >    * Present Cost Approach 
 >        * Communicate that the computer is customer budget based &#x2611;
 >        * Be transparent about cost of additional services and peripherals &#x2611; 
 >    * Instil User Confidence 
->        *  The branding is clear, distinguishable, and recognisable &#x2611;
+>        * The branding is clear, distinguishable, and recognisable &#x2611;
 >        * Relate to and refer to the customer &#x2611;
 >        * The website is minimalistic where necessary, intuitive, and user friendly &#x2611;
 
@@ -98,7 +98,7 @@ Unless specifically stated, all functionality for the Navbar was tested on every
 
 1. General: 
     * Visit all links within the navbar in every possible order to ensure they are functional and route correctly:
-        * Home -> About  // Home -> Enquire 
+        * Home -> About // Home -> Enquire 
         * About -> Home // About -> Enquire
         * Enquire -> Home // Enquire -> About
     * Click the main 'logo' on each page, to ensure it diverts the user back to the homepage.
@@ -106,7 +106,7 @@ Unless specifically stated, all functionality for the Navbar was tested on every
     * Ensure Navbar elements (logo/links) maintain their position through navigation of the site. 
     * Ensure all internal navigational links are not opened externally.
     * Ensure the relevant active link is coloured accordingly depending on user's location on site.
-    * On small vertical viewports, ensure the Navbar maintains its position (i.e sticky) when the page's viewportcontrol is scrollable (on the y-axis).
+    * On small vertical viewports, ensure the Navbar maintains its position (i.e sticky) when the page's Viewport Control is scrollable (on the y-axis).
     * When adjusting the horizontal viewport, ensure the "logo" and links reposition themselves dynamically to maintain their central position on the page.
     * On large horizontal viewports, ensure the Navbar's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
     * On all viewports, ensure the Navbar's radial gradient maintains its appearance over the background image, and remains in a static position (regardless of background image's zoom effect).
@@ -116,12 +116,12 @@ Unless specifically stated, all functionality for the Navbar was tested on every
     * When the collapsed Navbar is displayed, ensure the links (when displayed) are aligned centrally, underneath the 'logo'.
     * When the collapsed Navbar is displayed, ensure the links (when displayed) move dynamically when adjusting the horizontal viewport size (in either direction). 
     * When the collapsed Navbar is displayed, ensure the dropdown (when displayed) does not close when the user interacts with another part of the current page.
-    * When the collapsed Navbar is displayed, ensure the dropdown does not overflow onto the viewportcontrol/content of the page.
+    * When the collapsed Navbar is displayed, ensure the dropdown does not overflow onto the Viewport Control/content of the page.
 
 2. Mouse and Keyboard Based Devices: 
     * Ensure the navigation links display the appropriate effects when hovered over:
         * The link produces the 'grow' effect, and changes from inactive (white) to active (red).
-        * If the link is already in an active state, it only displays the grow effect and does not change color. 
+        * If the link is already in an active state, it only displays the grow effect and does not change colour. 
     * Ensure tabbing navigates the user through the logical flow of the site:
         * Header --> Home --> About --> Enquire
 
@@ -142,7 +142,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
     * Ensure Footer elements (Github - Enquire/Submit - Socials) maintain their position through navigation of the site.
     * On large horizontal viewports, ensure the Footer's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
     * On all viewports, ensure the Footer's radial gradient maintains its appearance over the background image, and remains in a static position (regardless of background image's zoom effect).
-    * On all viewports, ensure the Enquire/Submit button's 'glow' effect does not overflow onto the viewportcontrol/content of the page. 
+    * On all viewports, ensure the Enquire/Submit button's 'glow' effect does not overflow onto the Viewport Control/content of the page. 
     * When adjusting the horizontal viewport, ensure the Footer elements reposition themselves dynamically to maintain equal distance, and central position within their containers.
     * When adjusting the horizontal viewport, ensure the Footer elements' font sizes adjust themselves appropriately.
     * On small horizontal viewports, ensure the Social links stack themselves (2x2), and maintain their functionality. 
@@ -160,7 +160,12 @@ Unless specifically stated, all functionality for the Footer was tested on every
 **Price Table**
 
 1. General:
+    * Modal Design (About Page/Enquire Page):
+        * 
 
+    * Full-Screen Design (Enquire Page):
+        * 
+    
 2. Mouse and Keyboard Based Devices:
 
 3. Touch Based Devices:
@@ -196,7 +201,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
 
 ## Browser Testing
 
-Cross-Browser compatability was tested via applying the methodology described above within each browser detailed below.
+Cross-Browser compatibility was tested via applying the methodology described above within each browser detailed below.
 
 1. Chrome/Firefox
 
@@ -239,7 +244,7 @@ Automated testing was completed via third party applications, in order to assess
     * Started with absolute positioning of image in bottom right, but the image would sometimes overlap with content and required excessive viewport configurations.
     * Attempted finite height definition in px, however this was a similar outcome to the above, whereby it required consideration of "Min-height" as well as "Min-width" for viewports.
     * Attempted to add both the hero image and the "sales pitch" to a row, with Bootstrap col's, and to set the hero-image height in Viewport Height. However, this required the explicit definition of Div sizes, and image % size, which became cumbersome and less fluid.
-    * Set the pages "content" size to viewport-px (height of header+footer), then set all sections of the page to be in Flex format, with the appropriate layout definitions being amended on each viewport. This allowed fully dynamic image sizing, and div resizing, for the size of the page, regardless of device height/width.
+    * Set the pages "content" size to viewport-px (height of header + footer), then set all sections of the page to be in Flex format, with the appropriate layout definitions being amended on each viewport. This allowed fully dynamic image sizing, and div resizing, for the size of the page, regardless of device height/width.
     * This concept was then implemented into the about and enquire pages. 
 
 2. **Clicking the modal button on the Enquire page attempted to submit the form, highlighting incomplete fields on mobile, and triggering "this field needs completing".**
@@ -275,4 +280,4 @@ Automated testing was completed via third party applications, in order to assess
 
 1. **Github Commit Merge** 
     * On 27th October, I accidentally merged multiple git commits (df2b72005f9506c70c5d58fcb9964631462d7555/a8190a91b29cb1d4c3258e5d0f684390113bc646). While I researched how to undo the push, I was aware this would result in all of these changes being combined, and I wasn't fully comfortable 
-    continuing with this as I didn't want to lose any more progress/commits. Accepted this single merge was an error, and moved on and learned from this. 
+    continuing with this as I didn't want to lose any more progress/commits. Accepted this single merge was an error, and moved on and learned from this.
