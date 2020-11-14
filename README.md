@@ -395,7 +395,8 @@ From a business perspective, this could reduce the amount of work the customer f
 
 * The project was primarily written in HTML and CSS. Small snippets of Javascript were used to enhance user experience.
 * The project was written and tested in the [Gitpod](https://gitpod.io/) IDE.
-* The project uses [github](https://github.com/) for hosting source code, for utilising git version control, and for hosting the site on github pages.  
+* The project was debugged using [Google Chrome](https://www.google.com/intl/en_uk/chrome/) [Dev Tools](https://developers.google.com/web/tools/chrome-devtools).
+* The project uses [GitHub](https://github.com/) for hosting source code, for utilising git version control, and for hosting the site on github pages.  
 * The project's template was generated from [Code Institute's Gitpod Template](https://github.com/Code-Institute-Org/gitpod-full-template).
 * The project uses [Boostrap](https://getbootstrap.com/) v4.5.3, a 'Mobile First' HTML/CSS Framework for simple and intuitive responsive web design.
 * The project uses [jQuery](https://jquery.com/) v3.5.1, a Javascript library, for certain Bootstrap elements, and for form validation.
