@@ -54,7 +54,7 @@ _“I want to be able to contact the company straight away”._
   * Minimalistic design approach, so as to not overwhelm the customer.
 * Appeal to the customer by personalising the service.
   * Address the customer directly by repeatedly using the term _"You"_ and _"Your"_.
-  * Make it clear that each customer is unique, and each computer will be build specifically for their needs.
+  * Make it clear that each customer is unique, and each computer will be built specifically for their needs.
 
 **Pricing**
 * Be transparent with cost.
@@ -77,7 +77,7 @@ _“I want to be able to contact the company straight away”._
 * Thin content where necessary, providing only the most important information from the outset.
     * Provide fuller content in sections of the website where the customer specifically wants further information.
 * Every page has multiple "Enquire Now" buttons, so as to allow a user to immediately engage when they want to.
-    * This "Enquire Now" should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible.
+    * This "Enquire Now" should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible. 
 
 ### User Stories
 
@@ -119,20 +119,20 @@ through the specific features implemented.
 
 * Communicate that the computer is customer budget based.
 * Be transparent about cost of additional services and peripherals. 
-* Provide detailed yet convincing breakdown of cost of service
+* Provide detailed yet convincing breakdown of cost of service.
 
 ### Functional Requirements
 
 **Navigation bar (Navbar)**
 
 Each page has a sticky navbar at the top. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. On large devices, the navbar 
-has a second row underneath the logo which displays the active page the user is on,  On mobile devices, the navigation links are hidden,
+has a second row underneath the logo which displays the active page the user is on.  On mobile devices, the navigation links are hidden,
 and activated with a "sandwich" (which is a server icon), which draw the links between the page logo and the current page's sub-heading. The consistent, simple, and intuitive navigation system would contribute to instilling user trust, and allows
 users to reach all aspects of the site which aid the satisfaction of all user-stories.
 
 **Footer**
 
-Each page has a static footer at the bottom. This provides links Github, a second and more aestheticically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
+Each page has a static footer at the bottom. This provides links Github, a second and more aesthetically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
 reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
 with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
 for a more user-friendly interface. As discussed, on the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
@@ -141,21 +141,21 @@ and implements a function which is relevant and fits the contextual flow of the 
 **Price Table**
 
 A price table is available on multiple pages of the site. It provides the user with a full breakdown of the different tiers of service packages they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
-is explicitly clear, and a full screenreader-only description is available which explains which benefits are included in which package, and their associated costs. Each tier benefit contains a tooltip to provide additional information on the service included. 
-On Modals, the tooltips are on the text of the benefits themselves,  while on the Desktop "Enquire" page, small self-descriptive icons sit at the end of each benefit that provide this tooltip.
+is explicitly clear, and a full screen reader-only description is available which explains which benefits are included in which package, and their associated costs. Each tier benefit contains a tooltip to provide additional information on the service included. 
+On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop "Enquire" page, small self-descriptive icons sit at the end of each benefit that provide this tooltip.
 
 **Enquiry Form**
 
 The enquiry form allows the user to provide a small amount of personal details, and information regarding their requirements, in order to engage with the company and to receive a specification in response. 
-Each field is categorised and grouped into the relevant fieldset, with each individual field being clearly separated and labelled. Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. 
+Each field is categorised and grouped into the relevant field set, with each individual field being clearly separated and labelled. Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. 
 They must then decide what type of computer they want, and their budget. In all viewports, the "Budget" field contains a tooltip which explicitly states the budget stated excludes the cost of the service package requested, and any potential optional peripherals to be quoted.
 The user can at this stage decide to opt in to be quoted for an optional peripheral to be paired with their computer. The user must then select a package tier, and then optionally provide more 
-information regarding their requirements if they should wish to do so. Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition;  considering this aspect of the engagement is essentially just a request for an initial quote,
-this would have added nothing to the initial enquiry and added an additional unneccessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user. 
+information regarding their requirements if they should wish to do so. Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition; considering this aspect of the engagement is essentially just a request for an initial quote,
+this would have added nothing to the initial enquiry and added an additional unnecessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user. 
 
 **Modals**
 
-Modals are implemented into the site to provide an additional degree of interactivity. They are also present to layer content where neccessary, so as to not compress to information into a single location. The modals either contain the price table, or a thank you message 
+Modals are implemented into the site to provide an additional degree of interactivity. They are also present to layer content where necessary, so as to not compress to information into a single location. The modals either contain the price table, or a thank you message 
 once the user has completed and submitted the enquiry form. 
 
 **Viewport Control**
@@ -166,8 +166,9 @@ and would ensure that no information is missed.
 
 **Responsive Layout and design**
 
-Using Flexbox, the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions. While certain breakpoints have been implemented to change the structure of the content, the priority was to implement flui 
-The content of each page dynamically responds and adjusts to the users screen size, regardless of what device they are using, and regardless of how big or small their screen is. 
+Using Flexbox, the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions. While certain breakpoints have been implemented to change the structure of the content, the priority was to implement fluid... 
+The content of each page dynamically responds and adjusts to the users screen size, regardless of what device they are using, and regardless of how big or small their screen is.
+<!-- NEEDS FINISHING -->
 
 ## Structure
 
@@ -256,7 +257,6 @@ Due to the resolution of the wireframe documents, it is recommended that these P
 ## Surface
 
 ### Design
-### Design
 
 The project's aesthetic design is aligned with the ethos and branding of Hard Drivers; simple, effective, and powerful. 
 
@@ -338,16 +338,16 @@ From a business perspective, this could reduce the amount of work the customer f
 * The project's template was generated from [Code Institute's Gitpod Template](https://github.com/Code-Institute-Org/gitpod-full-template).
 * The project uses [Boostrap](https://getbootstrap.com/) v4.5.3, a 'Mobile First' HTML/CSS Framework for simple and intuitive responsive web design.
 * The project uses [jQuery](https://jquery.com/) v3.5.1, a Javascript library, for certain Bootstrap elements, and for form validation.
-* The project uses [Popper.js](https://popper.js.org/) v1.16.1, a Tooltip and Popover Positioning Enginge, for Tooltips and dropdowns.
+* The project uses [Popper.js](https://popper.js.org/) v1.16.1, a Tooltip and Popover Positioning Engine, for Tooltips and dropdowns.
 * The project uses [jsDelivr](https://www.jsdelivr.com/) as a Content Delivery Network for Bootstrap and Popper.
 * The project uses [FontAwesome](https://fontawesome.com/) v5.15.1, a free icon-set/toolkit for web development.
 * The project uses [Google Fonts](https://fonts.google.com/) for typography.
 * The project's images were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 * The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en)
-* The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colourblind-friendly the site was.
+* The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colour-blind-friendly the site was.
 * The project's colour contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
-* The project's cross-browser compatability was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
+* The project's cross-browser compatibility was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
 * The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
 * The project's CSS was validated using [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
 * The project's Bootstrap was validated using [Bootlint](https://github.com/twbs/bootlint).
@@ -382,7 +382,7 @@ As this project was developed on the master branch, all changes made to the repo
 4. Create a [GitHub](https://github.com/join) account. 
 3. Log in to [Gitpod](https://gitpod.io/login/) using your GitHub account.
 4. Visit Hard Driver's [GitHub Repository](https://github.com/BAK2K3/hard-drivers).
-5. Open the respository in Gitpod:
+5. Open the repository in Gitpod:
     * Click the green "Gitpod" icon at the top of the Repository, or
     * Click this [link](https://gitpod.io/#https://github.com/BAK2K3/hard-drivers).
 6. A new workspace will open with the current state of the master branch. Any changes made to the master branch after this point will not be automatically updated in your Gitpod Workspace.
@@ -396,12 +396,12 @@ As this project was developed on the master branch, all changes made to the repo
 3. Under the "Clone" heading, click the "HTTPS" sub-heading.
 4. Click the clipboard icon, or manually copy the text presented: `https://github.com/BAK2K3/hard-drivers.git`
 5. Open your preferred IDE (VSCode, Atom, PyCharm, etc).
-6. Ensure your IDE has supoport for Git, or has the relevant Git extension.
-7. Open the terminal, and create a directory where you would like the Respository to be stored.
+6. Ensure your IDE has support for Git, or has the relevant Git extension.
+7. Open the terminal, and create a directory where you would like the Repository to be stored.
 8. Type `git clone` and paste the previously copied text (`https://github.com/BAK2K3/hard-drivers.git`) and press enter.
 9. The Repository will then be cloned to your selected directory. 
 
-### Manually Downloading the Respository
+### Manually Downloading the Repository
 
 1. Visit Hard Driver's [GitHub Repository](https://github.com/BAK2K3/hard-drivers).
 2. Click the "Code" dropdown box above the repository's file explorer. 
@@ -411,8 +411,9 @@ As this project was developed on the master branch, all changes made to the repo
 ### Opening the Repository 
 
 1. Open your preferred IDE (VSCode, Atom, PyCharm, etc).
-2. Navigate to the chosen directory where the Respository was Cloned/Extracted.
-3. You will not have offline access to the contents of the project.
+2. Navigate to the chosen directory where the Repository was Cloned/Extracted.
+3. You will now have offline access to the contents of the project.
+
 
 ---
 
@@ -420,8 +421,8 @@ As this project was developed on the master branch, all changes made to the repo
 
 ## Content
 
-* All text used throughout the site was written by myself.
-* All business ideas and general development concepts were devised by myself. 
+* All text used throughout the site was written by me.
+* All business ideas and general development concepts were devised by me. 
 
 ## Media
 
@@ -456,13 +457,13 @@ As this project was developed on the master branch, all changes made to the repo
 
 # Acknowledgements
 
-* The concept for this project was devised from my own deep rooted passion for technology, computers, gaming, and through my own personal experience building computers and using third party companies to do so in the past.
-* Thank you to my mentor, Dick Vlaanderen, who provided a huge amount of support for the concept behind this project from the get go, and who provided me with a wealth of moral support.   
-* Thank you to Jim Morel, the current Slack Channel Lead for the User Centric Frontend Development, for his instant responses, his fresh set of eyes on the project, and for his incredibly useful sessions on preperation for MS1.
+* The concept for this project was devised from my own deep-rooted passion for technology, computers, gaming, and through my own personal experience building computers and using third party companies to do so in the past.
+* Thank you to my mentor, Dick Vlaanderen, who provided a huge amount of support for the concept behind this project from the get-go, and who provided me with a wealth of moral support.   
+* Thank you to Jim Morel, the current Slack Channel Lead for the User Centric Frontend Development, for his instant responses, his fresh set of eyes on the project, and for his incredibly useful sessions on preparation for MS1.
 * Thank you to the active Slack users who take part in the regular group calls. 
 
 # Disclaimer
 
-This website is for eductional purposes only.
+This website is for educational purposes only.
 
 ---
