@@ -170,6 +170,8 @@ Using Flexbox, the site is designed to be fluid, dynamic, and responsive to all 
 The content of each page dynamically responds and adjusts to the users screen size, regardless of what device they are using, and regardless of how big or small their screen is.
 <!-- NEEDS FINISHING -->
 
+---
+
 ## Structure
 
 ### Informational Architecture and Interaction Design
@@ -239,6 +241,8 @@ to additional services being provided. This reference will link to a modal where
 without being intrusive, and can provide the user with the additional information if they request it. Furthermore, in the _"Enquire"_ page, under the _"packages"_ section, the decision has been made
 to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
 however is not obliged to delve into the additional information if they do not wish to do so, which would potentially fulfil the customer need of not being overwhelmed with information unnecessarily.
+
+---
 
 ## Skeleton
 
@@ -381,7 +385,6 @@ An optional Smart Specification could be implemented on the "Enquiry" Page. A us
 they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
 From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
 
-
 ---
 
 # Technologies Used
@@ -408,11 +411,13 @@ From a business perspective, this could reduce the amount of work the customer f
 * The images used in the project's README and TESTING documentation were hosted and served through [Cloudinary](https://cloudinary.com/console).
 
 ---
+
 # Testing
 
 Testing documentation, processes, and outcomes can be found under [TESTING.md](TESTING.md).
 
 ---
+
 # Deployment
 
 ## How this Project was Deployed
@@ -509,12 +514,16 @@ As this project was developed on the master branch, all changes made to the repo
 * CSS: Guidance on fixing cell-padding collision with 50% border effect taken from [StackOverflow](https://stackoverflow.com/questions/10077386/how-to-display-the-after-content-outside-element). 
 * CSS: Code snipper taken from [StackOverflow](https://stackoverflow.com/questions/12115833/adding-a-slide-effect-to-bootstrap-dropdown) and modified to obtain a fluid Nav dropdown transition.
 
+---
+
 # Acknowledgements
 
 * The concept for this project was devised from my own deep-rooted passion for technology, computers, gaming, and through my own personal experience building computers and using third party companies to do so in the past.
 * Thank you to my mentor, Dick Vlaanderen, who provided a huge amount of support for the concept behind this project from the get-go, and who provided me with a wealth of moral support.   
 * Thank you to Jim Morel, the current Slack Channel Lead for the User Centric Frontend Development, for his instant responses, his fresh set of eyes on the project, and for his incredibly useful sessions on preparation for MS1.
 * Thank you to the active Slack users who take part in the regular group calls. 
+
+---
 
 # Disclaimer
 
