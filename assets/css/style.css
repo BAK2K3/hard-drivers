@@ -716,6 +716,11 @@ table a:hover {
   border-bottom: 2px solid #fafafa;
 }
 
+table p {
+    padding: 0;
+    margin: 0;
+}
+
 /* Price Table Modal */
 
 .price-table-modal {
