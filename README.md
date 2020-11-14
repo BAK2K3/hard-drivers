@@ -1,4 +1,4 @@
-![Hard Drivers](./assets/images/full-logo.png "Hard Drivers Logo")
+![Hard Drivers Logo](https://res.cloudinary.com/bak2k3/image/upload/v1605345690/full-logo_wrg0un.png)
 
 # Hard Drivers
 
@@ -265,7 +265,7 @@ The project's aesthetic design is aligned with the ethos and branding of Hard Dr
 The project's 'surface' design commenced with mock-ups of the Logo. Colours, Fonts, Spacing, and Imagery was experimented with in order to achieve a colour scheme and overall theme which was relevant to the context of the project.
 This theme was subsequently applied to the project. The Mock Ups were designed personally in [Gimp](https://www.gimp.org/). 
 
-* Logo Mock Ups: [Full](./assets/images/full-logo.png) / [Small](./assets/images/small-logo.png).
+* Logo Mock Ups: [Full](https://res.cloudinary.com/bak2k3/image/upload/v1605345690/full-logo_wrg0un.png) / [Small](https://res.cloudinary.com/bak2k3/image/upload/v1605345690/small-logo_ktx7jg.png).
 
 The Logo was ultimately implemented in HTML/CSS for a more dynamic and responsive user experience, rather than being presented with a static image on the website's header.
 
@@ -438,7 +438,6 @@ As this project was developed on the master branch, all changes made to the repo
 1. Open your preferred IDE (VSCode, Atom, PyCharm, etc).
 2. Navigate to the chosen directory where the Repository was Cloned/Extracted.
 3. You will now have offline access to the contents of the project.
-
 
 ---
 
