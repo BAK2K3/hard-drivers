@@ -317,7 +317,7 @@ Automated testing was completed via third party applications, in order to assess
         * `0 0 -10px 0 rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)`
     * This produced an identical effect, and passed the validation.
 
-3. **Google Lighthouse** - Accessibility, Performance, Progressive Web Apps Best Practices Audit:
+3. **Google Lighthouse** - Accessibility, Performance, Progressive Web Apps, and Best Practices Audit:
 
 **Index**  
 ![Index Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Index-Lighthouse_fxhiv5.jpg)
