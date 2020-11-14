@@ -283,7 +283,6 @@ On initial design, the three primary colours were:
 The Red colour was implemented with an alpha value due to its intended interaction with the background imagery implemented into the Navbar and Footer. The semi-transparent colour also interacted 
 well with the black background to produce a deeper, more vibrant tone of red.
 
-
 #### Typography 
 
 #### Visual Effects
@@ -346,7 +345,7 @@ From a business perspective, this could reduce the amount of work the customer f
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 * The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en)
 * The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colour-blind-friendly the site was.
-* The project's colour contract ratio was assessed using WebAim's [Contract Checker](https://webaim.org/resources/contrastchecker/)
+* The project's colour contrast ratio was assessed using [Contract-Ratio.com](https://contrast-ratio.com/)
 * The project's cross-browser compatibility was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
 * The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
 * The project's CSS was validated using [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
