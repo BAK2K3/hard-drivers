@@ -332,55 +332,62 @@ On further inspection, the main cause for the drop in Accessibility score for th
 
 ## Significant Bugs
 
-**Development bugs:**
-
-1. **Making image fully responsive and aesthetically logic for different viewports**
-    * Started with absolute positioning of image in bottom right, but the image would sometimes overlap with content and required excessive viewport configurations.
-    * Attempted finite height definition in px, however this was a similar outcome to the above, whereby it required consideration of "Min-height" as well as "Min-width" for viewports.
-    * Attempted to add both the hero image and the "sales pitch" to a row, with Bootstrap col's, and to set the hero-image height in Viewport Height. However, this required the explicit definition of Div sizes, and image % size, which became cumbersome and less fluid.
-    * Set the pages "content" size to viewport-px (height of header + footer), then set all sections of the page to be in Flex format, with the appropriate layout definitions being amended on each viewport. This allowed fully dynamic image sizing, and div resizing, for the size of the page, regardless of device height/width.
-    * This concept was then implemented into the about and enquire pages. 
+1. **Making image fully responsive and aesthetically fluid for different viewports**
+    * When first implementing the concept for the Viewport Control and the subsequent responsive images, I started with the Hero Image on the Index page. 
+    * I first attempted absolute positioning of image in bottom right, but the image would sometimes overlap content and overflow from its container.
+    * I then attempted finite height definition in px, however this was a similar outcome to the above, whereby it required consideration of "Min-height" as well as "Min-width" for viewports.
+    * I subsequently attempted to add both the hero image and the "call to action" text to a Bootstrap row, with respective columns, and to set the hero-image height in Viewport Height (vh). 
+    However, this required the explicit definition of `<div>` height and width, and image % size, which became cumbersome, with strict and finite instructions, which resulted in a less fluid and responsive layout.
+    * The solution to this was to set the page's 'Viewport Control' size to 100% height (minus the height of header + footer), then set all sections of the page to be in Flex format, with the appropriate layout definitions being amended on each viewport. 
+     This allowed fully dynamic image sizing, and div resizing, for the size of the page, regardless of device height/width.
+    * This concept subsequently became the 'Viewport Control' concept, and was then implemented into the About and Enquire pages. 
 
 2. **Clicking the modal button on the Enquire page attempted to submit the form, highlighting incomplete fields on mobile, and triggering "this field needs completing".**
-    * When initially implementing the Modal interface, a button was used to allow the user to bring up the packages modal. This issue was resolved by adding onclick="return false;" in button field. 
-    * When adding the link to the package model in the about page, it was decided that a button was too obtrusive for the context of the layout, and therefore a customer hyperlink format was added. 
-    * This also allowed the "Enquire" and "submit" button to maintain consistent, to achieve an aligned goal, without bleeding this feature onto other concepts. 
+    * When initially implementing the Modal interface, a button was used to allow the user to bring up the Price Table modal. This issue was resolved by adding `onclick="return false;"` in the button field. 
+    * When adding the link to the Price Table model in the About page, it was decided that a 'Button' was visually obtrusive, and therefore a custom `<a>` class was implemented instead. 
+    * This custom `<a>` class also replaced the button for the Price Table modal in the Enquire page. This also allowed the "Enquire/Submit" button to maintain its unique design, without bleeding this feature onto other concepts. 
 
 3. **When the content of the 'benefits' section of the table overflowed, the corresponding 'tick' boxes generated additional padding on the bottom of the cell, which conflicted with the 50% border concept implemented**
-    * The issue came from "vertical-align: center;", as this uses padding to align the contents. Due to the nature of the ::after 50% border, this caused the border to sit on top of the padding, as opposed to the bottom of the cell as intended.
-    * Solution: Set the td/th tags with position: relative;, and set the pseudo element to position: absolute;, then remove any padding from the pseudo element, and move that padding to the table element. 
-    * https://stackoverflow.com/questions/10077386/how-to-display-the-after-content-outside-element
+    * The issue came from `vertical-align: center;`, as this uses padding to align cell contents. Due to the nature of the ::after 50% border, this caused the border to sit on top of the padding, as opposed to the bottom of the cell as intended.
+    * The solution was to set the `td` and `th` tags with `position: relative;`, and set the pseudo element to `position: absolute;`, then remove any padding from the pseudo element, and move that padding to the table element. 
+
+Screenshot of the bug:  
+![Border Padding Bug](https://res.cloudinary.com/bak2k3/image/upload/v1605371763/cell_border_c6jzdi.jpg)
+
+Screenshot of the solution:  
+![Border Padding Solution](https://res.cloudinary.com/bak2k3/image/upload/v1605371838/cell_border_solution_gaulce.jpg)
 
 4. **Tooltips were being displayed on top of the text in mobile view, despite having "data-placement: right".**
-    * This was resolved by using "data-placement: left", even though it wasn't clear why.
+    * This was resolved by using `data-placement: left`, even though it was not clear why.
 
-5. **Issue with file locations from CSS when pushing to github pages**
-    * When the site was published to github pages, the links to internal pages were not working, and the images were not being pulled from the assets folder.
-    * The error was caused by the internal links being prefaced with "/". Once removed, the links worked appropriately.
-    * The links to images in the CSS file were defined as: "/assets/images/...". Therefore, when using Gitpod, the links would work appropriately. 
-    * Given how the page is hosted on github, the assets were being searched for in: "github.io/assets/images/..."
-    * This was resolved by using a relative file path, and removing the assets/ subdirectory, as such: "./images/...".
+5. **Issue with file locations from CSS when pushing to Github pages**
+    * When the site was published to Github pages, the links to internal pages were not working, and the images were not being pulled from the assets folder.
+    * The error was caused by the internal links being prefaced with `/`. Once removed, the links worked appropriately.
+    * The links to images in the CSS file were defined as: `/assets/images/...`. Therefore, when using Gitpod, the links would work appropriately. 
+    * Given how the page is hosted on Github, the assets were being searched for in: `github.io/assets/images/...` as opposed to `github.io/hard-drivers/assets/images/..`
+    * This was resolved by using a relative file path, and removing the `assets/` subdirectory from the location reference, as such: `./images/...`.
 
-6. **Users informed me that on some mobile devices the Navbar disappears (akin to safari) after click on a form input or pressing submit**
-    * On some mobile devices, clicking on an input form "zooms in" on the input field. Alternatively, submitting an incomplete form "zooms in" on the input form not complete.
-    * This obfuscates the layout of the page (fixed header with embedded scrollable div), requiring users to zoom out to use the page correctly.
-    * While this doesn't necessarily break the layout of the page, it would require the user to zoom out in order to use the site correctly, creating a poor user experience.
+6. **Users informed me that on some mobile devices the Navbar disappears (Safari) after clicking on a form input or pressing Submit**
+    * On some mobile devices using Safari, clicking on an input form would "zoom in" on the input field. Alternatively, submitting an incomplete form would also "zoom in" on the incomplete input form.
+    * This obfuscated the implementation of Viewport Control (fixed header with embedded scrollable div), requiring users to zoom out to use the page correctly.
+    * While this did not necessarily break the layout of the page, it would require the user to zoom out in order to use the site correctly, creating a poor user experience.
     * This was fixed by adding: `minimum-scale=1, maximum-scale=1` to the meta tag of the enquiry page.
+    * As discussed in the Lighthouse section, this significantly reduced the Accessibility score for the page, however based on the layout and structure of the page, I am satisfied this was a suitable solution.
 
 7. **Tooltips** (Existing Bug)
-    * Multiple implementations of the tooltip were tested in order to allow the user to hover on desktop, and both click/touch to allow a persisent tooltip to appear in the Price Table.
+    * Multiple implementations of the tooltip were tested in order to allow the user to hover on desktop, and both click/touch to allow a persistent tooltip to appear in the Price Table.
     * The current implementation contains `tabindex=0`,which allows users to tab through the benefits and display their relevant tooltip accordingly. 
     * However, this solution results on the tooltip persisting on 'click', and cannot be 'unclicked'. The user must either click/tab to another tooltip or click elsewhere on the page to remove
     the tooltip. 
-    * While this does not neccessarily diminish the user experience, it is a bug that I would prefer to remove, however I am aware this requires additional knowledge of javascript. 
+    * While this does not necessarily diminish the user experience, it is a bug that I would prefer to remove, however I am aware this requires additional knowledge of javascript. 
 
 8. **Tabbing through the Enquire Menu** (Existing Bug)
     * When the user reaches the "Your Request" field of the Enquire Form, they need to tab twice, to bypass the "Github" icon, in order to reach the submit button. 
     * Setting `tabindex=1` to the submit button causes this item to be selected first when tabbing through the document, and results in the user having to press tab more times to reach the submit button.
     * Given the final input field is a "Free Text" box, pressing the enter button on this form generates a new line, as opposed to most other form inputs in which enter submits the form.
     * A solution to this would be to add set `tabindex=3` to all elements prior to the submit button, `tabindex=2` on the submit button, and `tabindex=1` on the rest of the footer icons.
-    * This solution seems long winded, and would potentially result in unexpected results and goes against the recomendation to [not use 'tabindex=1+'](https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/#:~:text=When%20tabindex%20is%20set%20to,it%20in%20the%20tab%20order.).
-    * A solution to this could also be implemented in Javascript, however additional experience would be needed to attempt this.
+    * This solution seems long winded, and would potentially result in unexpected results and goes against the recommendation to [not use 'tabindex=1+'](https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/#:~:text=When%20tabindex%20is%20set%20to,it%20in%20the%20tab%20order.).
+    * A solution to this could also be implemented in javascript, however additional experience would be needed to attempt this.
 
 **Other technical difficulties:**
 
