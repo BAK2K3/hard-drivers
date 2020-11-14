@@ -312,9 +312,9 @@ colour combination, the project was also tested for colour-blind-friendliness th
 
 [Staatliches](https://fonts.google.com/specimen/Staatliches?query=Staatliches) was chosen as the font for the Page "logo".  This font is sharp, loud, and powerful. Initially, this font was intended to be used on all headings,
 however the appearance of this font being repeated across the page produced quite an intense result, and it was decided that a softer font should be used for the page's subsequent headings and body text. This also
-isolateed the main logo branding, seperating it with the content of the page.
+isolated the main logo branding, separating it with the content of the page.
 
-[Montserrat](https://fonts.google.com/specimen/Montserrat?query=Montserrat) was chosen as the font for the page's sub-headings and body text. The font is much softer than the heading, described above, and is easy to read. 
+[Montserrat](https://fonts.google.com/specimen/Montserrat?query=Montserrat) was chosen as the font for the page's sub-headings and body text. The font is much softer than the heading, described above, and is easy to read.  
 
 #### Visual Effects
 
