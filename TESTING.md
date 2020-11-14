@@ -226,18 +226,43 @@ These tests applied to both the Price Table (About/Enquire) and Thank You (Enqui
 * Ensure the content of the modal fits appropriately, and can be scrolled on the y axis if required.
 * Ensure screen readers can read the content of the modal appropriately, and can read the "close" button.
 
-**Viewport Control**
+**Viewport Control and Responsive Layout / Design**
 
-1. General:
+The testing for these sections were combined. While the implementation of these functions are different, and serve different purposes, the testing process for each section coincided with each other and therefore
+have been discussed together.
 
-2. Mouse and Keyboard Based Devices:
+* Ensure that on all pages, the header and footer remains static, and the content in-between (i.e the Viewport Control) is dynamic.
+    * On all pages where content overflowed the Viewport Control, ensure the Viewport Control is scrollable on the y-axis.
+    * On all pages where the content fits within the Viewport Control, ensure the positioning of the content remains proportionate, and scales equally and proportionately.
+* Ensure that on mobile devices (or on small horizontal viewports), the Navbar collapses, providing a taller vertical Viewport Control. 
+* Ensure that on all pages, the distance between the "Logo" and the individual page heading is equal, and the dropdown menu fits perfectly between the two. 
+* Ensure that on the Home and About pages, the text size is adjusted by the specified amount on specified viewports:
+    * Ensure that on all viewports, all text is visible and legible. 
 
-3. Touch Based Devices:
+**Home Page**:
+* On all viewports, ensure the Feature Statements appears on its own row.
+* On large viewports, ensure the 'call to action' statement and Hero Image are split into equal columns, with both items being aligned and justified centrally.
+* On medium to small viewports, ensure the 'call to action' statement and Hero Image are stacked vertically.
+* On all viewports, ensure the Hero Image resizes according to its container, does not overflow, and does not expand the size of the container. 
+* On extra small vertical viewports, ensure the Hero Image is ultimately removed from view.
 
-**Responsive Layout and design**
+**About Page**:
+* On all viewports, ensure that each section has its own horizontal row.
+* On all viewports, ensure each section/row resizes proportionately (as can be seen from the respective size of the image on each row.)
+* On medium to large viewports, ensure each section contains an image, which is fit horizontally to its container (allowing invisible overflow from the top and bottom of the image).
+* on medium to large viewports, ensure the section images resize according to their respective container.
+* Ensure that on small viewports, the images are removed from their respective section.
+* Ensure that on small viewports, each section is proportionately spaced according to the size of the vertical viewport. 
+* Ensure that on small viewports, if the section containers no longer have any space between them, that the Viewport Control is scrollable, and that all content is visible.   
 
-1. General:
-
+**Enquire Page**:
+* On large viewports, ensure the Package and Enquire sections are visible, and are container within equal column widths.
+* On large viewports, ensure the Package and Enquire sections resize dynamically when the horizontal viewport is adjusted.  
+* On medium to small viewports, ensure the Package section is removed from view, and the Enquire section fills the Viewport Control.
+* On medium to small viewports, ensure the Enquire Form's fieldsets and input sections resize dynamically when the horizontal viewport is adjusted.
+* On large viewports, ensure the `"Click here for further details!"` section within "your package" fieldset is hidden from view.
+* On medium to small viewports, ensure the `"Click here for further details!"` section within "your package" fieldset added to view.
+* On small viewports, ensure the positioning of the Enquiry Form's labels are repositioned accordingly to a "stacked" view for better user viewing and control.  
 
 ## Browser Testing
 
