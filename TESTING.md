@@ -268,11 +268,30 @@ have been discussed together.
 
 Cross-Browser compatibility was tested via applying the methodology described above within each browser detailed below.
 
-1. Chrome/Firefox
+**Chrome/Firefox**
 
-2. Internet Explorer
+All functionality worked as intended.
 
-3. Safari
+**Safari**
+
+As I do not have access to a device which is compatable with Safari, the above instructions were carried out by a friend using Mac OS and iOS. The only unintended effect produced was that described in the "bugs" selection below, regarding input zooming.
+
+**Internet Explorer**
+
+ While the majority of functionality worked as intended for Internet Explorer 11, the following issues were identified:
+
+ 1. Flexbox:
+    * Internet Explorer is [not entirely compatable](https://caniuse.com/flexbox) with Flexbox.
+    * As such, when testing the responsive design of some pages, significant functionality breaking bugs were identified. 
+    * These were present on the [Index page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_index_ue1yfb.jpg) and on the [About page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_about_m2u8xz.jpg).
+    * One attempted fix for this was to define Flex fully as: `flex: 1 0 0;` for the relevant sections. 
+    * This appears to have fixed some functionality, for instance when the page is full screen the website can be navigated without issue.
+    * However, when adjusting the viewport of the aforementioned pages, the bugs re-appear and do not correct themselves when the viewport is reverted back to its original state.
+
+2. Auto Margin and Text Center:
+    * Multiple fixes were attempted to resolve the issues [auto-margin](https://stackoverflow.com/questions/31903734/ie11-flexbox-max-width-and-marginauto) and other [text alignement issues](https://stackoverflow.com/questions/49668656/css-text-align-center-not-working-on-ie11).
+    * Ultimately, however, I found myself removing core functionality of the website in order to adhere to the limitations of an out of date browser. While some functionality was restored for IE11 compatability,
+    it was decided to focus on the capabilities of browsers which are current, up to date, and are capable of newer technology as opposed to removing functionality and limiting the capabilities of the website I had created.
 
 ## Automated Testing
 
@@ -332,28 +351,25 @@ Automated testing was completed via third party applications, in order to assess
     * Given how the page is hosted on github, the assets were being searched for in: "github.io/assets/images/..."
     * This was resolved by using a relative file path, and removing the assets/ subdirectory, as such: "./images/...".
 
-6. **Internet Explorer incompatibility**
-    * Flexbox
-
-7. **Users informed me that on some mobile devices the Navbar disappears (akin to safari) after click on a form input or pressing submit**
+6. **Users informed me that on some mobile devices the Navbar disappears (akin to safari) after click on a form input or pressing submit**
     * On some mobile devices, clicking on an input form "zooms in" on the input field. Alternatively, submitting an incomplete form "zooms in" on the input form not complete.
     * This obfuscates the layout of the page (fixed header with embedded scrollable div), requiring users to zoom out to use the page correctly.
     * While this doesn't necessarily break the layout of the page, it would require the user to zoom out in order to use the site correctly, creating a poor user experience.
     * This was fixed by adding: minimum-scale=1, maximum-scale=1 to the meta tag of the enquiry page.
 
-8. **Tooltips**
+7. **Tooltips** (Existing Bug)
     * Multiple implementations of the tooltip were tested in order to allow the user to hover on desktop, and both click/touch to allow a persisent tooltip to appear in the Price Table.
     * The current implementation contains `tabindex=0`,which allows users to tab through the benefits and display their relevant tooltip accordingly. 
     * However, this solution results on the tooltip persisting on 'click', and cannot be 'unclicked'. The user must either click/tab to another tooltip or click elsewhere on the page to remove
     the tooltip. 
     * While this does not neccessarily diminish the user experience, it is a bug that I would prefer to remove, however I am aware this requires additional knowledge of javascript. 
 
-9. **Tabbing through the Enquire Menu**
+8. **Tabbing through the Enquire Menu** (Existing Bug)
     * When the user reaches the "Your Request" field of the Enquire Form, they need to tab twice, to bypass the "Github" icon, in order to reach the submit button. 
     * Setting `tabindex=1` to the submit button causes this item to be selected first when tabbing through the document, and results in the user having to press tab more times to reach the submit button.
     * Given the final input field is a "Free Text" box, pressing the enter button on this form generates a new line, as opposed to most other form inputs in which enter submits the form.
     * A solution to this would be to add set `tabindex=3` to all elements prior to the submit button, `tabindex=2` on the submit button, and `tabindex=1` on the rest of the footer icons.
-    * This solution seems long winded, and would potentially result in unexpected results and goes against the recomendation to [not use tabindex=1+](https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/#:~:text=When%20tabindex%20is%20set%20to,it%20in%20the%20tab%20order.).
+    * This solution seems long winded, and would potentially result in unexpected results and goes against the recomendation to [not use 'tabindex=1+'](https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/#:~:text=When%20tabindex%20is%20set%20to,it%20in%20the%20tab%20order.).
     * A solution to this could also be implemented in Javascript, however additional experience would be needed to attempt this.
 
 **Other technical difficulties:**
