@@ -153,24 +153,29 @@ Unless specifically stated, all functionality for the Footer was tested on every
 **Price Table**
 
 1. Modal Design (About/Enquire Pages):
+    * Ensure the price of each tier is clear, and what benefits included in the respective tier is clear. 
     * Ensure the table is displayed centrally, and that all text is clear and visible.
+    * Ensure on larger viewports, the table fits comfortably on the page, and does not require unneccessary scrolling.
     * Ensure on smaller vertical viewports, the table is scrollable on the y axis.
     * Ensure the user can interact with each 'benefit':
         * Ensure that on hover (desktop), the correct tooltip is displayed, and that the tooltip displays to the right of the relevant text, and that the text is legible. 
-        * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks a different benefit, or clicks elsewhere.
+        * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks/touches a different benefit, or clicks/touches elsewhere.
     * Ensure Screenreaders read the text within the table in the correct order:
-        * Heading --> Price
+        * Heading --> Price.
         * Benefit --> Benefit Description --> In what packages the benefit is included. 
-        
 
 2. Full-Screen Design (Enquire Page):
-    * 
-
-3. Known bug:
-    * Multiple implementations of the tooltip were tested in order to allow the user to hover on desktop, and both click/touch to allow a persisent tooltip to appear.
-    The current implementation contains `tabindex=0` to allow a user to tab through the benefits and display their relevant tooltip accordingly. However, this solution
-    results on the tooltip persisting on 'click', and cannot be 'unclicked'. The user must either click/tab to another tooltip or click elsewhere on the page to remove
-    the tooltip. While this does not neccessarily diminish the user experience, it is a bug that I would prefer to remove, however this requires additional knowledge of javascript. 
+    * Ensure the price of each tier is clear, and what benefits included in the respective tier is clear. 
+    * Ensure the table size is equally proportionate to the size of the enquiry form.
+    * Ensure the width of the surrounding 'Package Tiers' fieldset adjusts dynamically when adjusting the horizontal viewport.
+    * Ensure the table is viewable on smaller vertical viewports, and can scroll through the content appropriately.
+    * Ensure the user can interact with each `?` icon tooltip:
+        * Ensure that on hover (desktop), the correct tooltip is displayed, and that the tooltip displays to the right of the relevant text, and that the text is legible. 
+        * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks/touches a different benefit, or clicks/touches elsewhere.
+    * Ensure Screenreaders read the Package table before the Enquire table, and that the table itself is read immediately after the heading.
+    * Ensure Screenreaders read the text within the table in the correct order:
+        * Heading --> Price.
+        * Benefit --> Benefit Description --> In what packages the benefit is included. 
 
 **Enquiry Form**
 
