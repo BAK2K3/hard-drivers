@@ -122,7 +122,7 @@ Unless specifically stated, all functionality for the Navbar was tested on every
     * Header --> Home --> About --> Enquire
 * Ensure the navigation links display the appropriate effects when touched (mobile/tablet):
     * The link would 'grow', and change from inactive (white) to active (red) where applicable.
-* Ensure Screenreaders read the text in the correct order:
+* Ensure screen readers read the text in the correct order:
     * Logo/Title --> Home --> About --> Enquire
 
 **Footer**
@@ -147,7 +147,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
 * Ensure hovering (desktop) over the Submit/Enquire button produces the 'grow' effect, and changes from white to red.
 * Ensure no visual effects are produced when the Github / Social links are touched (mobile/table).
 * Ensure the Enquire/Submit button produces the 'grow' effect, and changes from white to red when touched (mobile/table).
-* Ensure Screenreaders read the text in the correct order:
+* Ensure screen readers read the text in the correct order:
     * Github --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin.
 
 **Price Table**
@@ -155,13 +155,13 @@ Unless specifically stated, all functionality for the Footer was tested on every
 1. Modal Design (About/Enquire Pages):
     * Ensure the price of each tier is clear, and what benefits included in the respective tier is clear. 
     * Ensure the table is displayed centrally, and that all text is clear and visible.
-    * Ensure on larger viewports, the table fits comfortably on the page, and does not require unneccessary scrolling.
+    * Ensure on larger viewports, the table fits comfortably on the page, and does not require unnecessary scrolling.
     * Ensure on smaller vertical viewports, the table is scrollable on the y axis.
     * Ensure the user can interact with each 'benefit':
         * Ensure that on hover (desktop), the correct tooltip is displayed, and that the tooltip displays to the right of the relevant text, and that the text is legible. 
         * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks/touches a different benefit, or clicks/touches elsewhere.
         * Ensure the user can tab (desktop) through each tooltip, in logical order, from top to bottom.
-    * Ensure Screenreaders read the text within the table in the correct order:
+    * Ensure screen readers read the text within the table in the correct order:
         * Heading --> Price.
         * Benefit --> Benefit Description --> In what packages the benefit is included. 
 
@@ -174,12 +174,12 @@ Unless specifically stated, all functionality for the Footer was tested on every
         * Ensure that on hover (desktop), the correct tooltip is displayed, and that the tooltip displays to the right of the relevant text, and that the text is legible. 
         * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks/touches a different benefit, or clicks/touches elsewhere.
         * Ensure the user can tab (desktop) through each tooltip, in logical order, from top to bottom.
-    * Ensure Screenreaders read the Package table before the Enquire table, and that the table itself is read immediately after the heading.
-    * Ensure Screenreaders read the text within the table in the correct order:
+    * Ensure screen readers read the Package table before the Enquire table, and that the table itself is read immediately after the heading.
+    * Ensure screen readers read the text within the table in the correct order:
         * Heading --> Price.
         * Benefit --> Benefit Description --> In what packages the benefit is included. 
 
-**Enquiry Form**
+**Enquire Form**
 
 * Ensure each input is correctly grouped into its relevant fieldset.
 * Ensure the Legend for each fieldset is clear and distinguishable.
@@ -194,8 +194,8 @@ Unless specifically stated, all functionality for the Footer was tested on every
 * Ensure Full Name field accepts any value, but requires at least one character to be deemed valid.
 * Ensure Email Address field does not accept input that is not in the format of an email address.
     * On entry of an invalid email address, the default email validation message appears.
-* Ensure Phone Number field only accepts numbers (plus an an optional + at the beginning).
-    * On entry of an invalid telehone number, the title is presented to the user: `Valid numbers only, with no spaces`.
+* Ensure Phone Number field only accepts numbers (plus an optional + at the beginning).
+    * On entry of an invalid telephone number, the title is presented to the user: `Valid numbers only, with no spaces`.
 * Ensure Type selection is required for valid submission, and that both cannot be selected.
 * Ensure the form can be submitted with none of the peripherals selected.
 * Ensure the budget tooltip is appropriately displayed on hover/click (desktop) or touch (mobile/tablet).
@@ -204,14 +204,14 @@ Unless specifically stated, all functionality for the Footer was tested on every
     * Values greater than 100,000 are presented with `Value must be less than 100000`.
 * Ensure Package selection is required for valid submission, and that all three cannot be selected.
 * Ensure on valid form submission that the Thank You model is presented, and that the form is cleared in full.  
-* Ensure Screenreaders read through the Enquire form in the correct sequence:
+* Ensure screen readers read through the Enquire form in the correct sequence:
     * Your Details (legend) --> Full Name --> Email Address --> Phone Number 
     * Your Computer (legend) --> Type --> Desktop --> Laptop 
     * Optional Peripherals --> Monitor --> Keyboard --> Mouse 
     * Budget --> Budget Tooltip --> Budget input 
     * Your Package (legend) --> Your Package --> Bronze --> Silver --> Gold
     * Your Request (legend) --> Leave a note for your Hard Driver (optional)
- 
+
 **Modals**
 
 1. Price Table Modal (About/Enquire Pages):
