@@ -256,11 +256,9 @@ Due to the resolution of the wireframe documents, it is recommended that these P
 
 ## Surface
 
-### Design
-
 The project's aesthetic design is aligned with the ethos and branding of Hard Drivers; simple, effective, and powerful. 
 
-#### Logo Mock-Up
+### Logo Mock-Up
 
 The project's 'surface' design commenced with mock-ups of the Logo. Colours, Fonts, Spacing, and Imagery was experimented with in order to achieve a colour scheme and overall theme which was relevant to the context of the project.
 This theme was subsequently applied to the project. The Mock Ups were designed personally in [Gimp](https://www.gimp.org/). 
@@ -269,7 +267,7 @@ This theme was subsequently applied to the project. The Mock Ups were designed p
 
 The Logo was ultimately implemented in HTML/CSS for a more dynamic and responsive user experience, rather than being presented with a static image on the website's header.
 
-#### Colour Scheme
+### Colour Scheme
 
 The primary colour scheme chosen to implement into the project was a combination of Black, White, and Red. [This combination of colours](https://www.homedit.com/black-and-red-color-combo/) is both modern, yet classic, and while powerfully 
 [aposematic](https://en.wikipedia.org/wiki/Aposematism), is relevant to the content of the website due to the [RGB Culture](https://www.pcworld.idg.com.au/article/print/680425/why-do-gamers-like-rgb-lights/#:~:text=As%20simple%20and%20obvious%20as%20it%20might%20seem,be%20more%20than%20just%20the%20function%20it%20serves)
@@ -308,7 +306,7 @@ shade of red:
 This final colour combination allowed the intended blending interaction with the Navbar and Footer's background image, and retained the original aesthetic _feel_ of the project, whilst adhering to the Minimum (AA) WCAG 2.0 standard for colour contrast. Using this 
 colour combination, the project was also tested for colour-blind-friendliness through Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/), which produced acceptable and practical results.  
 
-#### Typography 
+### Typography 
 
 [Staatliches](https://fonts.google.com/specimen/Staatliches?query=Staatliches) was chosen as the font for the Page "logo".  This font is sharp, loud, and powerful. Initially, this font was intended to be used on all headings,
 however the appearance of this font being repeated across the page produced quite an intense result, and it was decided that a softer font should be used for the page's subsequent headings and body text. This also
@@ -316,13 +314,26 @@ isolated the main logo branding, separating it with the content of the page.
 
 [Montserrat](https://fonts.google.com/specimen/Montserrat?query=Montserrat) was chosen as the font for the page's sub-headings and body text. The font is much softer than the heading, described above, and is easy to read.  
 
-#### Visual Effects
+### Images
 
-**Header**: The navbar's background image is filtered through a radial top focused gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site. 
+The images used in this project were selected from [Unsplash](https://unsplash.com/). The pictures were specifically selected due to their contextual relevance and colour schemes; all images relate to computers, and 
+contain the primary colour scheme incorporated into the project. 
 
-**Nav Links**: Each link offering a mild yet stimulating visual effect when either the link is engaged with or hovered over.
+### Visual Effects
 
-#### Accessibility
+**Navbar / Footer**  
+The Navbar and Footer's background image is filtered through a radial gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site.
+The Navbar's radial gradient starts from the top of the page, and produces a semi-circle effect protrudes downwards towards the page content. The Footer's gradient starts from the bottom of the page, and produces a semi-circle effect which 
+protrudes upwards towards the page content. This combined effect produces an "enclosed" aesthetic, and assists the overall intended aesthetic impact of the design. 
+
+**Nav Links and Enquire/Submit button**
+Each link offers a mild yet stimulating visual effect when either engaged with or hovered over with a mouse. This applies to all links within the navbar, and the Enquire/Submit button within the footer. This 'growing' effect was adapted from [Hover.css](https://ianlunn.github.io/Hover/).
+For links within the Navbar, the user's location is depicted by a change of colour (Red = Active, White = Not Active). When the user hovers over or engages with the link, the colour is changed from white to red. These effects are subtle, yet
+incorporate a degree of interactivity with the user, producing a responsive effect.  
+
+**Enquire/Submit Button**
+Given the Enquire/Submit button contained in the footer (regardless of whether it states Enquire or Submit) is the most important link on every page, an additional effect has been applied to this button. 
+A continuous pulsing glowing effect has been applied to it, which draws the users attention, encouraging engagement and interaction regardless of the user's location on the site.   
 
 ---
 
