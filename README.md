@@ -283,6 +283,31 @@ On initial design, the three primary colours were:
 The Red colour was implemented with an alpha value due to its intended interaction with the background imagery implemented into the Navbar and Footer. The semi-transparent colour also interacted 
 well with the black background to produce a deeper, more vibrant tone of red.
 
+The [WCAG 2.0](https://www.w3.org/TR/WCAG20/) minimum contrast ratio (AA) for accessibility purposes is 4.5:1 for normal text, and 3:0 for large text. The colour scheme chosen was assessed for contrast ratio via [Contrast-Ratio](https://contrast-ratio.com/),
+and the following results were obtained:
+
+* Off White (`#FAFAFA`) against Black Background: `20.11:1` **(AAA Standard)**  
+* Semi-Transparent Red (`rgba(228, 22, 22, 0.75)`) against Black Background: `2.81:1` **(Failed WCAG 2.0)**
+
+![Red and Black Comparison 1](https://res.cloudinary.com/bak2k3/image/upload/v1605344997/red-and-black-combo-1_gebmns.jpg)
+
+Whilst the Semi-Transparent Red was primarily intended to be for Large Text and Headings within the project, adjustments needed to be made in order to adhere to the minimum requirements for contrast ratio (especially given the Enhanced (AAA) requirement for 
+large text is 4.5:1). Therefore, the second tone of red implemented was a block colour of `#EC0000`. The contrast checker confirmed that this colour produced a AAA standard enhanced contrast ratio of `4.56:1`. However, in practice, this produced an excessively vibrant 
+result, diminished the intended effect of the blended background for the header and footer, and significantly impacted the aesthetic _feel_ of the project. 
+
+![Red and Black Comparison 2](https://res.cloudinary.com/bak2k3/image/upload/v1605345050/red-and-black-combo-2_mqmddd.jpg)
+
+After researching the [myths of colour contrast accessibility](https://uxmovement.com/buttons/the-myths-of-color-contrast-accessibility/), I concluded that this acted as more 'guidance' than explicit requirements, and that 
+the practical application of such guidance can in some circumstances hinder the design direction or produce ill results. As such, I settled on a 'middle ground' colour for my choice of red; I reverted to a subtle alpha value, and slightly darker
+shade of red:
+
+* Semi-Transparent Red (`rgba(228, 30, 30, 0.90)`) against Black Background: `3.77:1` **(AA Standard)**
+
+![Red and Black Comparison 3](https://res.cloudinary.com/bak2k3/image/upload/v1605345051/red-and-black-combo-3_a6cgrz.jpg)
+
+This final colour combination allowed the intended blending interaction with the Navbar and Footer's background image, and retained the original aesthetic _feel_ of the project, whilst adhering to the Minimum (AA) WCAG 2.0 standard for colour contrast. Using this 
+colour combination, the project was also tested for colour-blind-friendliness through Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/), which produced acceptable and practical results.  
+
 #### Typography 
 
 #### Visual Effects
@@ -345,11 +370,12 @@ From a business perspective, this could reduce the amount of work the customer f
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 * The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en)
 * The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colour-blind-friendly the site was.
-* The project's colour contrast ratio was assessed using [Contract-Ratio.com](https://contrast-ratio.com/)
+* The project's colour contrast ratio was assessed using [Contract-Ratio](https://contrast-ratio.com/)
 * The project's cross-browser compatibility was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
 * The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
 * The project's CSS was validated using [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
 * The project's Bootstrap was validated using [Bootlint](https://github.com/twbs/bootlint).
+* The images used in the project's README and TESTING documentation were hosted and served through [Cloudinary](https://cloudinary.com/console).
 
 ---
 # Testing
