@@ -138,7 +138,7 @@
                   <a
                     href="#"
                     data-toggle="modal"
-                    data-target="#priceTableModal"
+                    data-target="#priceTableModalAbout"
                     class="modal-link"
                     >service package</a
                   >, or ask our Hard Drivers to pair any essential peripherals
@@ -246,285 +246,285 @@
 
     <div
       class="modal fade"
-      id="priceTableModal"
+      id="priceTableModalAbout"
       tabindex="-1"
-      aria-labelledby="priceTableModalLabel"
+      aria-labelledby="priceTableModalAboutLabel"
       aria-hidden="true"
+      role="dialog"
     >
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-          <!-- Price Table -->
-          <div class="price-table-container price-table-modal">
-            <!-- Inspiration for pricing tabel: https://www.codeply.com/go/BmIqIeuNoD/bootstrap-4-comparison-table-options-table -->
-            <div class="row">
-              <!-- Package Heading -->
-              <div class="col-12 price-table-heading">
-                <h2 id="priceTableModalLabel">Packages</h2>
-              </div>
-              <div class="col-lg-12">
-                <div class="table-responsive">
-                  <fieldset class="package-tiers">
-                    <legend>Package Tiers</legend>
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <!-- Price Table -->
+        <div class="modal-content price-table-container price-table-modal">
+          <!-- Inspiration for pricing tabel: https://www.codeply.com/go/BmIqIeuNoD/bootstrap-4-comparison-table-options-table -->
+          <div class="row">
+            <!-- Package Heading -->
+            <div class="col-12 price-table-heading">
+              <h2 id="priceTableModalAboutLabel">Packages</h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="table-responsive">
+                <fieldset class="package-tiers">
+                  <legend>Package Tiers</legend>
 
-                    <table class="table text-center">
-                      <thead>
-                        <tr>
-                          <th class="w-33"></th>
-                          <th>
-                            Bronze <span class="sub-cell mx-auto">FREE</span>
-                          </th>
-                          <th>
-                            Silver
-                            <span class="sub-cell mx-auto">£49.99</span>
-                          </th>
-                          <th>
-                            Gold
-                            <span class="sub-cell mx-auto">£99.99</span>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th>
-                            <p
-                              data-toggle="tooltip"
-                              data-placement="left"
-                              tabindex="0"
-                              title="Our Hard Drivers will be available for you 24/7 by telephone or email to assist with any set up, troubleshooting, or general assistance queries."
-                            >
-                              24/7 Customer Service
-                            </p>
-                            <span class="sr-only"
-                              >Our Hard Drivers will be available for you 24/7
-                              by telephone or email to assist with any set up,
-                              troubleshooting, or general assistance queries.
-                              Included in all packages.</span
-                            >
-                          </th>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th>
-                            <p
-                              data-toggle="tooltip"
-                              data-placement="left"
-                              title="Every component of your new computer comes with a 12 month warranty, which covers non-accidental damage and internal failures. No questions asked."
-                              tabindex="0"
-                            >
-                              12 Month Warranty
-                            </p>
-                            <span class="sr-only"
-                              >Every component of your new computer comes with a
-                              12 month warranty, which covers non-accidental
-                              damage and internal failures. No questions asked.
-                              Included in all packages.</span
-                            >
-                          </th>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th>
-                            <p
-                              data-toggle="tooltip"
-                              data-placement="left"
-                              title="Fast Track Build & Test puts your computer at the front of the build queue. Your computer is prioritised and is guaranteed to be ready for dispatch within 5 working days."
-                              tabindex="0"
-                            >
-                              Fast Track Build & Test
-                            </p>
-                            <span class="sr-only"
-                              >Fast Track Build & Test puts your computer at the
-                              front of the build queue. Your computer is
-                              prioritised and is guaranteed to be ready for
-                              dispatch within 5 working days. Included in Silver
-                              and Gold packages.</span
-                            >
-                          </th>
-                          <td>-</td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th>
-                            <p
-                              data-toggle="tooltip"
-                              data-placement="left"
-                              title="Our Hard Drivers will push your hardware to its limits. Our overclocking service is guaranteed to safely maximise the potential of your hardware. Every Mhz counts."
-                              tabindex="0"
-                            >
-                              CPU/GPU/Ram Overclock
-                            </p>
-                            <span class="sr-only"
-                              >Our Hard Drivers will push your hardware to its
-                              limits. Our overclocking service is guaranteed to
-                              safely maximise the potential of your hardware.
-                              Every Megahertz counts. Included in Silver and
-                              Gold packages.</span
-                            >
-                          </th>
-                          <td>-</td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th>
-                            <p
-                              data-toggle="tooltip"
-                              data-placement="left"
-                              title="Want to customise your overclocking from home? Our Live DIY Overclock Service allows you to get step-by-step instructions over the phone or via email to allow you amend your overclock to your needs."
-                              tabindex="0"
-                            >
-                              Live DIY Overclock Assistance
-                            </p>
-                            <span class="sr-only"
-                              >Want to customise your overclocking from home?
-                              Our Live DIY Overclock Service allows you to get
-                              step-by-step instructions over the phone or via
-                              email to allow you amend your overclock to your
-                              needs. Included in Silver and Gold packages.</span
-                            >
-                          </th>
-                          <td>-</td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th>
-                            <p
-                              data-toggle="tooltip"
-                              data-placement="left"
-                              title="Once your computer has been built and tested, we'll dispatch it next day delivery. Who said patience was a virtue."
-                              tabindex="0"
-                            >
-                              Next Day Delivery
-                            </p>
-                            <span class="sr-only"
-                              >Once your computer has been built and tested,
-                              we'll dispatch it next day delivery. Who said
-                              patience was a virtue. Included in Gold package
-                              only.</span
-                            >
-                          </th>
-                          <td>-</td>
-                          <td>-</td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th>
-                            <p
-                              data-toggle="tooltip"
-                              data-placement="left"
-                              title="Our Hard Drivers will customise the look of your computer, including LED strips for your fans, and even Decals for the casing. Everybody loves RGB."
-                              tabindex="0"
-                            >
-                              Decal and LED Customisation
-                            </p>
-                            <span class="sr-only"
-                              >Our Hard Drivers will customise the look of your
-                              computer, including LED strips for your fans, and
-                              even Decals for the casing. Everybody loves RGB.
-                              Included in Gold package only.</span
-                            >
-                          </th>
-                          <td>-</td>
-                          <td>-</td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th>
-                            <p
-                              data-toggle="tooltip"
-                              data-placement="left"
-                              title="Accidental damage is covered for 24 months with our custom 24 Month Hardware Protection. We'll either fix it, or replace it, but either way you'll be back online in no time."
-                              tabindex="0"
-                            >
-                              24 Month Hardware Protection
-                            </p>
-                            <span class="sr-only"
-                              >Accidental damage is covered for 24 months with
-                              our custom 24 Month Hardware Protection. We'll
-                              either fix it, or replace it, but either way
-                              you'll be back online in no time. Included in Gold
-                              package only.</span
-                            >
-                          </th>
-                          <td>-</td>
-                          <td>-</td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th>
-                            <p
-                              data-toggle="tooltip"
-                              data-placement="left"
-                              title="Want to upgrade to a new graphics with us? Our Doorstop Upgrades sends a Hard Driver to your house to do the dirty work for you."
-                              tabindex="0"
-                            >
-                              Doorstep Upgrades
-                            </p>
-                            <span class="sr-only"
-                              >Want to upgrade to a new graphics with us? Our
-                              Doorstop Upgrades sends a Hard Driver to your
-                              house to do the dirty work for you. Included in
-                              Gold package only.</span
-                            >
-                          </th>
-                          <td>-</td>
-                          <td>-</td>
-                          <td>
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </fieldset>
-                </div>
+                  <table class="table text-center">
+                    <thead>
+                      <tr>
+                        <th class="w-33"></th>
+                        <th>
+                          Bronze <span class="sub-cell mx-auto">FREE</span>
+                        </th>
+                        <th>
+                          Silver
+                          <span class="sub-cell mx-auto">£49.99</span>
+                        </th>
+                        <th>
+                          Gold
+                          <span class="sub-cell mx-auto">£99.99</span>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>
+                          <p
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            tabindex="0"
+                            title="Our Hard Drivers will be available for you 24/7 by telephone or email to assist with any set up, troubleshooting, or general assistance queries."
+                          >
+                            24/7 Customer Service
+                          </p>
+                          <span class="sr-only"
+                            >Our Hard Drivers will be available for you 24/7 by
+                            telephone or email to assist with any set up,
+                            troubleshooting, or general assistance queries.
+                            Included in all packages.</span
+                          >
+                        </th>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <p
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            title="Every component of your new computer comes with a 12 month warranty, which covers non-accidental damage and internal failures. No questions asked."
+                            tabindex="0"
+                          >
+                            12 Month Warranty
+                          </p>
+                          <span class="sr-only"
+                            >Every component of your new computer comes with a
+                            12 month warranty, which covers non-accidental
+                            damage and internal failures. No questions asked.
+                            Included in all packages.</span
+                          >
+                        </th>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <p
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            title="Fast Track Build & Test puts your computer at the front of the build queue. Your computer is prioritised and is guaranteed to be ready for dispatch within 5 working days."
+                            tabindex="0"
+                          >
+                            Fast Track Build & Test
+                          </p>
+                          <span class="sr-only"
+                            >Fast Track Build & Test puts your computer at the
+                            front of the build queue. Your computer is
+                            prioritised and is guaranteed to be ready for
+                            dispatch within 5 working days. Included in Silver
+                            and Gold packages.</span
+                          >
+                        </th>
+                        <td>-</td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <p
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            title="Our Hard Drivers will push your hardware to its limits. Our overclocking service is guaranteed to safely maximise the potential of your hardware. Every Mhz counts."
+                            tabindex="0"
+                          >
+                            CPU/GPU/Ram Overclock
+                          </p>
+                          <span class="sr-only"
+                            >Our Hard Drivers will push your hardware to its
+                            limits. Our overclocking service is guaranteed to
+                            safely maximise the potential of your hardware.
+                            Every Megahertz counts. Included in Silver and Gold
+                            packages.</span
+                          >
+                        </th>
+                        <td>-</td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <p
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            title="Want to customise your overclocking from home? Our Live DIY Overclock Service allows you to get step-by-step instructions over the phone or via email to allow you amend your overclock to your needs."
+                            tabindex="0"
+                          >
+                            Live DIY Overclock Assistance
+                          </p>
+                          <span class="sr-only"
+                            >Want to customise your overclocking from home? Our
+                            Live DIY Overclock Service allows you to get
+                            step-by-step instructions over the phone or via
+                            email to allow you amend your overclock to your
+                            needs. Included in Silver and Gold packages.</span
+                          >
+                        </th>
+                        <td>-</td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <p
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            title="Once your computer has been built and tested, we'll dispatch it next day delivery. Who said patience was a virtue."
+                            tabindex="0"
+                          >
+                            Next Day Delivery
+                          </p>
+                          <span class="sr-only"
+                            >Once your computer has been built and tested, we'll
+                            dispatch it next day delivery. Who said patience was
+                            a virtue. Included in Gold package only.</span
+                          >
+                        </th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <p
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            title="Our Hard Drivers will customise the look of your computer, including LED strips for your fans, and even Decals for the casing. Everybody loves RGB."
+                            tabindex="0"
+                          >
+                            Decal and LED Customisation
+                          </p>
+                          <span class="sr-only"
+                            >Our Hard Drivers will customise the look of your
+                            computer, including LED strips for your fans, and
+                            even Decals for the casing. Everybody loves RGB.
+                            Included in Gold package only.</span
+                          >
+                        </th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <p
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            title="Accidental damage is covered for 24 months with our custom 24 Month Hardware Protection. We'll either fix it, or replace it, but either way you'll be back online in no time."
+                            tabindex="0"
+                          >
+                            24 Month Hardware Protection
+                          </p>
+                          <span class="sr-only"
+                            >Accidental damage is covered for 24 months with our
+                            custom 24 Month Hardware Protection. We'll either
+                            fix it, or replace it, but either way you'll be back
+                            online in no time. Included in Gold package
+                            only.</span
+                          >
+                        </th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <p
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            title="Want to upgrade to a new graphics with us? Our Doorstop Upgrades sends a Hard Driver to your house to do the dirty work for you."
+                            tabindex="0"
+                          >
+                            Doorstep Upgrades
+                          </p>
+                          <span class="sr-only"
+                            >Want to upgrade to a new graphics with us? Our
+                            Doorstop Upgrades sends a Hard Driver to your house
+                            to do the dirty work for you. Included in Gold
+                            package only.</span
+                          >
+                        </th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>
+                          <i class="fa fa-check" aria-hidden="true"></i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </fieldset>
               </div>
             </div>
-
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-light close-modal-button"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-light close-modal-button"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
           </div>
         </div>
       </div>
