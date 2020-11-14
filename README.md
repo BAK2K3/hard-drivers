@@ -172,7 +172,7 @@ than specific targeted device sizes. Each page is split into sections which expa
 When changing the size of the viewport, it was important that images filled their respective container and therefore scaled appropriately; the challenge was to avoid the images overflowing or expanding their respective containers, 
 and to allow their position to change to maintain the structural integrity of the page layout. While the solution resulted in fully responsive images, it resorted to using `<div>` containers with a background image, therefore alt-text couldn't be displayed. 
 The best solution to this was to implement sr-only text for these elements. Given the images were being hosted internally (as opposed to being hosted on external CDNs), it was unlikely the links would be broken, and therefore the "alt text" was unlikely to be utilised.
-This meant that the images displayed as intended, were unlikely to be distrupted by broken links, and had accessibility.
+This meant that the images displayed as intended, were unlikely to be disrupted by broken links, and had accessibility.
 
 ---
 
