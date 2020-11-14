@@ -306,6 +306,9 @@ shade of red:
 This final colour combination allowed the intended blending interaction with the Navbar and Footer's background image, and retained the original aesthetic _feel_ of the project, whilst adhering to the Minimum (AA) WCAG 2.0 standard for colour contrast. Using this 
 colour combination, the project was also tested for colour-blind-friendliness through Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/), which produced acceptable and practical results.  
 
+This colour combination was utilised in all aspects of the project, and all content within the body of each page was inherited from the style and design choices implemented within the pages' Logo. From text colouring, border colouring, colour ordering, and visual effects; 
+the combined application of the colour scheme produced a cohesive and powerful design effect.
+
 ### Typography 
 
 [Staatliches](https://fonts.google.com/specimen/Staatliches?query=Staatliches) was chosen as the font for the Page "logo".  This font is sharp, loud, and powerful. Initially, this font was intended to be used on all headings,
@@ -326,14 +329,24 @@ The Navbar and Footer's background image is filtered through a radial gradient, 
 The Navbar's radial gradient starts from the top of the page, and produces a semi-circle effect protrudes downwards towards the page content. The Footer's gradient starts from the bottom of the page, and produces a semi-circle effect which 
 protrudes upwards towards the page content. This combined effect produces an "enclosed" aesthetic, and assists the overall intended aesthetic impact of the design. 
 
-**Nav Links and Enquire/Submit button**
+**Nav Links and Enquire/Submit button**  
 Each link offers a mild yet stimulating visual effect when either engaged with or hovered over with a mouse. This applies to all links within the navbar, and the Enquire/Submit button within the footer. This 'growing' effect was adapted from [Hover.css](https://ianlunn.github.io/Hover/).
 For links within the Navbar, the user's location is depicted by a change of colour (Red = Active, White = Not Active). When the user hovers over or engages with the link, the colour is changed from white to red. These effects are subtle, yet
 incorporate a degree of interactivity with the user, producing a responsive effect.  
 
-**Enquire/Submit Button**
+**Enquire/Submit Button**  
 Given the Enquire/Submit button contained in the footer (regardless of whether it states Enquire or Submit) is the most important link on every page, an additional effect has been applied to this button. 
 A continuous pulsing glowing effect has been applied to it, which draws the users attention, encouraging engagement and interaction regardless of the user's location on the site.   
+
+**Price Table Link**  
+The Price Table link available on the About page, and on smaller viewports in the Enquiry page, was initially designed with a red wavy underline text decoration style. 
+
+![Wavey underline hyperlink](https://res.cloudinary.com/bak2k3/image/upload/v1605350432/service-package-1_xpt5mh.jpg)
+
+User feedback suggested this had "spelling mistake" connotations, and that while it produced the intended effect of wanting a user to interact with it, it produced overall negative emotional responses from users. As such, the text decoration was amended 
+to a double underline. This retained the powerful aesthetic design without the negative connotations that came with the wavy red underline decoration.
+
+![Double underline hyperlink](https://res.cloudinary.com/bak2k3/image/upload/v1605350432/service-package-2_xzirpw.jpg)
 
 ---
 
