@@ -4,7 +4,6 @@ The Main README documentation can be found under [README.md](README.md)
 
 [View website on Github Pages](https://bak2k3.github.io/hard-drivers/index.html)
 
-
 ## Testing User Stories
 
 The User Stories were evaluated in conjunction with the Non-Functional Requirements and relevant Conditions of Satisfaction.
@@ -96,79 +95,82 @@ Testing the Functional Requirements was completed manually, with each feature be
 
 Unless specifically stated, all functionality for the Navbar was tested on every page.
 
-1. General: 
-    * Visit all links within the navbar in every possible order to ensure they are functional and route correctly:
-        * Home -> About // Home -> Enquire 
-        * About -> Home // About -> Enquire
-        * Enquire -> Home // Enquire -> About
-    * Click the main 'logo' on each page, to ensure it diverts the user back to the homepage.
-    * Ensure the height of the Navbar is a consistent height across each page. 
-    * Ensure Navbar elements (logo/links) maintain their position through navigation of the site. 
-    * Ensure all internal navigational links are not opened externally.
-    * Ensure the relevant active link is coloured accordingly depending on user's location on site.
-    * On small vertical viewports, ensure the Navbar maintains its position (i.e sticky) when the page's Viewport Control is scrollable (on the y-axis).
-    * When adjusting the horizontal viewport, ensure the "logo" and links reposition themselves dynamically to maintain their central position on the page.
-    * On large horizontal viewports, ensure the Navbar's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
-    * On all viewports, ensure the Navbar's radial gradient maintains its appearance over the background image, and remains in a static position (regardless of background image's zoom effect).
-    * On small horizontal viewports, ensure the Navbar collapses, hides the row of navigation links, and provides the sandwich icon.
-    * On small horizontal viewports, ensure the "logo" changes to the 'stacked' design.
-    * When the collapsed Navbar is displayed, ensure that interacting with the sandwich icon displays or hides the dropdown navigational links appropriately.
-    * When the collapsed Navbar is displayed, ensure the links (when displayed) are aligned centrally, underneath the 'logo'.
-    * When the collapsed Navbar is displayed, ensure the links (when displayed) move dynamically when adjusting the horizontal viewport size (in either direction). 
-    * When the collapsed Navbar is displayed, ensure the dropdown (when displayed) does not close when the user interacts with another part of the current page.
-    * When the collapsed Navbar is displayed, ensure the dropdown does not overflow onto the Viewport Control/content of the page.
-
-2. Mouse and Keyboard Based Devices: 
-    * Ensure the navigation links display the appropriate effects when hovered over:
-        * The link produces the 'grow' effect, and changes from inactive (white) to active (red).
-        * If the link is already in an active state, it only displays the grow effect and does not change colour. 
-    * Ensure tabbing navigates the user through the logical flow of the site:
-        * Header --> Home --> About --> Enquire
-
-3. Touch Based Devices:
-    * Ensure the navigation links display the appropriate effects when touched:
-        * The link would 'grow', and change from inactive (white) to active (red) where applicable.
+* Visit all links within the navbar in every possible order to ensure they are functional and route correctly:
+    * Home -> About // Home -> Enquire 
+    * About -> Home // About -> Enquire
+    * Enquire -> Home // Enquire -> About
+* Click the main 'logo' on each page, to ensure it diverts the user back to the homepage.
+* Ensure the height of the Navbar is a consistent height across each page. 
+* Ensure Navbar elements (logo/links) maintain their position through navigation of the site. 
+* Ensure all internal navigational links are not opened externally.
+* Ensure the relevant active link is coloured accordingly depending on user's location on site.
+* On small vertical viewports, ensure the Navbar maintains its position (i.e sticky) when the page's Viewport Control is scrollable (on the y-axis).
+* When adjusting the horizontal viewport, ensure the "logo" and links reposition themselves dynamically to maintain their central position on the page.
+* On large horizontal viewports, ensure the Navbar's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
+* On all viewports, ensure the Navbar's radial gradient maintains its appearance over the background image, and remains in a static position (regardless of background image's zoom effect).
+* On small horizontal viewports, ensure the Navbar collapses, hides the row of navigation links, and provides the sandwich icon.
+* On small horizontal viewports, ensure the "logo" changes to the 'stacked' design.
+* When the collapsed Navbar is displayed, ensure that interacting with the sandwich icon displays or hides the dropdown navigational links appropriately.
+* When the collapsed Navbar is displayed, ensure the links (when displayed) are aligned centrally, underneath the 'logo'.
+* When the collapsed Navbar is displayed, ensure the links (when displayed) move dynamically when adjusting the horizontal viewport size (in either direction). 
+* When the collapsed Navbar is displayed, ensure the dropdown (when displayed) does not close when the user interacts with another part of the current page.
+* When the collapsed Navbar is displayed, ensure the dropdown does not overflow onto the Viewport Control/content of the page.
+* Ensure the navigation links display the appropriate effects when hovered (desktop) over:
+    * The link produces the 'grow' effect, and changes from inactive (white) to active (red).
+    * If the link is already in an active state, it only displays the grow effect and does not change colour. 
+* Ensure tabbing (desktop) navigates the user through the logical flow of the site:
+    * Header --> Home --> About --> Enquire
+* Ensure the navigation links display the appropriate effects when touched (mobile/tablet):
+    * The link would 'grow', and change from inactive (white) to active (red) where applicable.
+* Ensure Screenreaders read the text in the correct order:
+    * Logo/Title --> Home --> About --> Enquire
 
 **Footer**
 
 Unless specifically stated, all functionality for the Footer was tested on every page.
 
-1. General:
-    * On each page, ensure the Github / Social links open to the correct webpage, and are opened externally.   
-    * On the "Home" and "About" pages, ensure the "Enquire" button correctly routes the user to the "Enquire" page.
-    * On the "Enquire" page, ensure the "Enquire" button states "Submit" - Functionality testing discussed on the "Enquiry Form" section. 
-    * Ensure on page load the "Enquire/Submit" button maintains its persistent 'glow' effect.  
-    * Ensure the Footer appearance is consistent across all pages, and maintains the same height. 
-    * Ensure Footer elements (Github - Enquire/Submit - Socials) maintain their position through navigation of the site.
-    * On large horizontal viewports, ensure the Footer's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
-    * On all viewports, ensure the Footer's radial gradient maintains its appearance over the background image, and remains in a static position (regardless of background image's zoom effect).
-    * On all viewports, ensure the Enquire/Submit button's 'glow' effect does not overflow onto the Viewport Control/content of the page. 
-    * When adjusting the horizontal viewport, ensure the Footer elements reposition themselves dynamically to maintain equal distance, and central position within their containers.
-    * When adjusting the horizontal viewport, ensure the Footer elements' font sizes adjust themselves appropriately.
-    * On small horizontal viewports, ensure the Social links stack themselves (2x2), and maintain their functionality. 
-
-2. Mouse and Keyboard Based Devices:
-    * Ensure no visual effects are produced when the Github / Social Links are hovered over with the mouse.
-    * Ensure tabbing navigates the user through the visual flow of footer:
-        * Github --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin
-    * Ensure hovering over the Submit/Enquire button produces the 'grow' effect, and changes from white to red.
-
-3. Touch Based Devices:
-    * Ensure no visual effects are produced when the Github / Social links are touched.
-    * Ensure the Enquire/Submit button produces the 'grow' effect, and changes from white to red.
+* On each page, ensure the Github / Social links open to the correct webpage, and are opened externally.   
+* On the "Home" and "About" pages, ensure the "Enquire" button correctly routes the user to the "Enquire" page.
+* On the "Enquire" page, ensure the "Enquire" button states "Submit" - Functionality testing discussed on the "Enquiry Form" section. 
+* Ensure on page load the "Enquire/Submit" button maintains its persistent 'glow' effect.  
+* Ensure the Footer appearance is consistent across all pages, and maintains the same height. 
+* Ensure Footer elements (Github - Enquire/Submit - Socials) maintain their position through navigation of the site.
+* On large horizontal viewports, ensure the Footer's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
+* On all viewports, ensure the Footer's radial gradient maintains its appearance over the background image, and remains in a static position (regardless of background image's zoom effect).
+* On all viewports, ensure the Enquire/Submit button's 'glow' effect does not overflow onto the Viewport Control/content of the page. 
+* When adjusting the horizontal viewport, ensure the Footer elements reposition themselves dynamically to maintain equal distance, and central position within their containers.
+* When adjusting the horizontal viewport, ensure the Footer elements' font sizes adjust themselves appropriately.
+* On small horizontal viewports, ensure the Social links stack themselves (2x2), and maintain their functionality. 
+* Ensure no visual effects are produced when the Github / Social Links are hovered over with the mouse (desktop).
+* Ensure tabbing (desktop) navigates the user through the visual flow of footer:
+    * Github --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin.
+* Ensure hovering (desktop) over the Submit/Enquire button produces the 'grow' effect, and changes from white to red.
+* Ensure no visual effects are produced when the Github / Social links are touched (mobile/table).
+* Ensure the Enquire/Submit button produces the 'grow' effect, and changes from white to red when touched (mobile/table).
+* Ensure Screenreaders read the text in the correct order:
+    * Github --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin.
 
 **Price Table**
 
-1. General:
-    * Modal Design (About Page/Enquire Page):
-        * 
+1. Modal Design (About/Enquire Pages):
+    * Ensure the table is displayed centrally, and that all text is clear and visible.
+    * Ensure on smaller vertical viewports, the table is scrollable on the y axis.
+    * Ensure the user can interact with each 'benefit':
+        * Ensure that on hover (desktop), the correct tooltip is displayed, and that the tooltip displays to the right of the relevant text, and that the text is legible. 
+        * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks a different benefit, or clicks elsewhere.
+    * Ensure Screenreaders read the text within the table in the correct order:
+        * Heading --> Price
+        * Benefit --> Benefit Description --> In what packages the benefit is included. 
+        
 
-    * Full-Screen Design (Enquire Page):
-        * 
-    
-2. Mouse and Keyboard Based Devices:
+2. Full-Screen Design (Enquire Page):
+    * 
 
-3. Touch Based Devices:
+3. Known bug:
+    * Multiple implementations of the tooltip were tested in order to allow the user to hover on desktop, and both click/touch to allow a persisent tooltip to appear.
+    The current implementation contains `tabindex=0` to allow a user to tab through the benefits and display their relevant tooltip accordingly. However, this solution
+    results on the tooltip persisting on 'click', and cannot be 'unclicked'. The user must either click/tab to another tooltip or click elsewhere on the page to remove
+    the tooltip. While this does not neccessarily diminish the user experience, it is a bug that I would prefer to remove, however this requires additional knowledge of javascript. 
 
 **Enquiry Form**
 
