@@ -160,6 +160,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
     * Ensure the user can interact with each 'benefit':
         * Ensure that on hover (desktop), the correct tooltip is displayed, and that the tooltip displays to the right of the relevant text, and that the text is legible. 
         * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks/touches a different benefit, or clicks/touches elsewhere.
+        * Ensure the user can tab (desktop) through each tooltip, in logical order, from top to bottom.
     * Ensure Screenreaders read the text within the table in the correct order:
         * Heading --> Price.
         * Benefit --> Benefit Description --> In what packages the benefit is included. 
@@ -172,6 +173,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
     * Ensure the user can interact with each `?` icon tooltip:
         * Ensure that on hover (desktop), the correct tooltip is displayed, and that the tooltip displays to the right of the relevant text, and that the text is legible. 
         * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks/touches a different benefit, or clicks/touches elsewhere.
+        * Ensure the user can tab (desktop) through each tooltip, in logical order, from top to bottom.
     * Ensure Screenreaders read the Package table before the Enquire table, and that the table itself is read immediately after the heading.
     * Ensure Screenreaders read the text within the table in the correct order:
         * Heading --> Price.
@@ -179,19 +181,42 @@ Unless specifically stated, all functionality for the Footer was tested on every
 
 **Enquiry Form**
 
-1. General:
-
-2. Mouse and Keyboard Based Devices:
-
-3. Touch Based Devices:
+* Ensure each input is correctly grouped into its relevant fieldset.
+* Ensure the Legend for each fieldset is clear and distinguishable.
+* Ensure each input's label is clear and distinguishable, and highlights the correct field on click (desktop)/touch (mobile/tablet).
+* Ensure the form's size is equally proportionate to the size of the Package Table.
+* Ensure the form is viewable on smaller vertical viewports, and can scroll through the content appropriately.
+* Ensure the width of the fieldsets and form inputs adjust dynamically when changing the horizontal viewport.
+* Ensure tabbing through the Enquire form correctly navigates through the form:
+    * Full Name --> Email Address --> Phone Number --> Type (Option 1) --> Optional Peripherals (Option 1) --> (Option 2) --> (Option 3) --> Budget Tooltip --> Budget Input --> Your Package (Option 1) --> Your Request.
+    * See known bugs below for discussion on tabbing from the 'Your Request' field to the 'Submit' button.
+* Ensure on any invalid input entry, the default browser validation messages are presented. 
+* Ensure Full Name field accepts any value, but requires at least one character to be deemed valid.
+* Ensure Email Address field does not accept input that is not in the format of an email address.
+    * On entry of an invalid email address, the default email validation message appears.
+* Ensure Phone Number field only accepts numbers (plus an an optional + at the beginning).
+    * On entry of an invalid telehone number, the title is presented to the user: `Valid numbers only, with no spaces`.
+* Ensure Type selection is required for valid submission, and that both cannot be selected.
+* Ensure the form can be submitted with none of the peripherals selected.
+* Ensure the budget tooltip is appropriately displayed on hover/click (desktop) or touch (mobile/tablet).
+* Ensure the form cannot be submitted without a valid budget value entered.
+    * Values less than 1 are presented with `Value must be greater than 0`.
+    * Values greater than 100,000 are presented with `Value must be less than 100000`.
+* Ensure Package selection is required for valid submission, and that all three cannot be selected.
+* Ensure on valid form submission that the Thank You model is presented, and that the form is cleared in full.  
+* Ensure Screenreaders read through the Enquire form in the correct sequence:
+    * Your Details (legend) --> Full Name --> Email Address --> Phone Number 
+    * Your Computer (legend) --> Type --> Desktop --> Laptop 
+    * Optional Peripherals --> Monitor --> Keyboard --> Mouse 
+    * Budget --> Budget Tooltip --> Budget input 
+    * Your Package (legend) --> Your Package --> Bronze --> Silver --> Gold
+    * Your Request (legend) --> Leave a note for your Hard Driver (optional)
  
 **Modals**
 
-1. General:
+1. Price Table Modal (About/Enquire Pages):
+    * 
 
-2. Mouse and Keyboard Based Devices:
-
-3. Touch Based Devices:
 
 **Viewport Control**
 
@@ -285,9 +310,18 @@ Automated testing was completed via third party applications, in order to assess
 
 8. **Tooltips**
     * Multiple implementations of the tooltip were tested in order to allow the user to hover on desktop, and both click/touch to allow a persisent tooltip to appear in the Price Table.
-    The current implementation contains `tabindex=0`,which allows users to tab through the benefits and display their relevant tooltip accordingly. However, this solution
-    results on the tooltip persisting on 'click', and cannot be 'unclicked'. The user must either click/tab to another tooltip or click elsewhere on the page to remove
-    the tooltip. While this does not neccessarily diminish the user experience, it is a bug that I would prefer to remove, however I am aware this requires additional knowledge of javascript. 
+    * The current implementation contains `tabindex=0`,which allows users to tab through the benefits and display their relevant tooltip accordingly. 
+    * However, this solution results on the tooltip persisting on 'click', and cannot be 'unclicked'. The user must either click/tab to another tooltip or click elsewhere on the page to remove
+    the tooltip. 
+    * While this does not neccessarily diminish the user experience, it is a bug that I would prefer to remove, however I am aware this requires additional knowledge of javascript. 
+
+9. **Tabbing through the Enquire Menu**
+    * When the user reaches the "Your Request" field of the Enquire Form, they need to tab twice, to bypass the "Github" icon, in order to reach the submit button. 
+    * Setting `tabindex=1` to the submit button causes this item to be selected first when tabbing through the document, and results in the user having to press tab more times to reach the submit button.
+    * Given the final input field is a "Free Text" box, pressing the enter button on this form generates a new line, as opposed to most other form inputs in which enter submits the form.
+    * A solution to this would be to add set `tabindex=3` to all elements prior to the submit button, `tabindex=2` on the submit button, and `tabindex=1` on the rest of the footer icons.
+    * This solution seems long winded, and would potentially result in unexpected results and goes against the recomendation to [not use tabindex=1+](https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/#:~:text=When%20tabindex%20is%20set%20to,it%20in%20the%20tab%20order.).
+    * A solution to this could also be implemented in Javascript, however additional experience would be needed to attempt this.
 
 **Other technical difficulties:**
 
