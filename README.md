@@ -7,7 +7,7 @@
 This project is a static website for a fictitious Custom PC Building company, called Hard Drivers.  
 It is developed primarily using HTML and CSS, with a small amount of javascript implemented for additional functionality.
 
-[View website on Github Pages](https://bak2k3.github.io/hard-drivers/index.html)
+[View website on GitHub Pages](https://bak2k3.GitHub.io/hard-drivers/index.html)
 
 ---
 
@@ -132,7 +132,7 @@ users to reach all aspects of the site which aid the satisfaction of all user-st
 
 **Footer**
 
-Each page has a static footer at the bottom. This provides links Github, a second and more aesthetically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
+Each page has a static footer at the bottom. This provides links GitHub, a second and more aesthetically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
 reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
 with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
 for a more user-friendly interface. As discussed, on the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
@@ -252,7 +252,7 @@ however is not obliged to delve into the additional information if they do not w
 
 ### Wireframes
 
-Due to the resolution of the wireframe documents, it is recommended that these PDFs are downloaded, rather than using Github's native PDF viewer. 
+Due to the resolution of the wireframe documents, it is recommended that these PDFs are downloaded, rather than using GitHub's native PDF viewer. 
 
 * Header/Footer Wireframe: [Version 1](./assets/wireframes/header-footer-wireframe.pdf) | [Version 2](./assets/wireframes/header-footer-wireframe-v2.pdf)
 * Index Page Wireframe: [Version 1](./assets/wireframes/index-wireframe.pdf)
@@ -338,7 +338,7 @@ The Navbar's radial gradient starts from the top of the page, and produces a sem
 protrudes upwards towards the page content. This combined effect produces an "enclosed" aesthetic, and assists the overall intended aesthetic impact of the design. 
 
 **Nav Links and Enquire/Submit button**  
-Each link offers a mild yet stimulating visual effect when either engaged with or hovered over with a mouse. This applies to all links within the navbar, and the Enquire/Submit button within the footer. This 'growing' effect was adapted from [Hover.css](https://ianlunn.github.io/Hover/).
+Each link offers a mild yet stimulating visual effect when either engaged with or hovered over with a mouse. This applies to all links within the navbar, and the Enquire/Submit button within the footer. This 'growing' effect was adapted from [Hover.css](https://ianlunn.GitHub.io/Hover/).
 For links within the Navbar, the user's location is depicted by a change of colour (Red = Active, White = Not Active). When the user hovers over or engages with the link, the colour is changed from white to red. These effects are subtle, yet
 incorporate a degree of interactivity with the user, producing a responsive effect.  
 
@@ -396,8 +396,8 @@ From a business perspective, this could reduce the amount of work the customer f
 * The project was primarily written in HTML and CSS. Small snippets of Javascript were used to enhance user experience.
 * The project was written and tested in the [Gitpod](https://gitpod.io/) IDE.
 * The project was debugged using [Google Chrome](https://www.google.com/intl/en_uk/chrome/) [Dev Tools](https://developers.google.com/web/tools/chrome-devtools).
-* The project uses [GitHub](https://github.com/) for hosting source code, for utilising git version control, and for hosting the site on github pages.  
-* The project's template was generated from [Code Institute's Gitpod Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+* The project uses [GitHub](https://GitHub.com/) for hosting source code, for utilising git version control, and for hosting the site on GitHub pages.  
+* The project's template was generated from [Code Institute's Gitpod Template](https://GitHub.com/Code-Institute-Org/gitpod-full-template).
 * The project uses [Boostrap](https://getbootstrap.com/) v4.5.3, a 'Mobile First' HTML/CSS Framework for simple and intuitive responsive web design.
 * The project uses [jQuery](https://jquery.com/) v3.5.1, a Javascript library, for certain Bootstrap elements, and for form validation.
 * The project uses [Popper.js](https://popper.js.org/) v1.16.1, a Tooltip and Popover Positioning Engine, for Tooltips and dropdowns.
@@ -409,10 +409,10 @@ From a business perspective, this could reduce the amount of work the customer f
 * The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en)
 * The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colour-blind-friendly the site was.
 * The project's colour contrast ratio was assessed using [Contract-Ratio](https://contrast-ratio.com/)
-* The project's cross-browser compatibility was enhanced using [Autoprefixer.io](https://autoprefixer.github.io).
+* The project's cross-browser compatibility was enhanced using [Autoprefixer.io](https://autoprefixer.GitHub.io).
 * The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
 * The project's CSS was validated using [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
-* The project's Bootstrap was validated using [Bootlint](https://github.com/twbs/bootlint).
+* The project's Bootstrap was validated using [Bootlint](https://GitHub.com/twbs/bootlint).
 * The images used in the project's README and TESTING documentation were hosted and served through [Cloudinary](https://cloudinary.com/console).
 
 ---
@@ -429,8 +429,8 @@ Testing documentation, processes, and outcomes can be found under [TESTING.md](T
 
 This project was deployed to GitHub pages via the following steps:
 
-1. Log into [GitHub](https://github.com/).
-2. From the list of Repositories, select [BAK2K3/hard-drivers](https://github.com/BAK2K3/hard-drivers).
+1. Log into [GitHub](https://GitHub.com/).
+2. From the list of Repositories, select [BAK2K3/hard-drivers](https://GitHub.com/BAK2K3/hard-drivers).
 3. From the Repositories sub-headings, select "Settings".
 4. Under "Options", the first category of settings, scroll down to the GitHub Pages section.
 5. From the dropdown list under the "Source" heading, select "master".
@@ -444,31 +444,31 @@ As this project was developed on the master branch, all changes made to the repo
 
 1. Install the [Google Chrome](https://www.google.co.uk/chrome/) or [Firefox](https://www.mozilla.org/en-GB/exp/firefox/new/) browser.
 2. Install the applicable [GitPod](https://www.gitpod.io/docs/browser-extension/) Browser Extensions for your chosen browser.
-4. Create a [GitHub](https://github.com/join) account. 
+4. Create a [GitHub](https://GitHub.com/join) account. 
 3. Log in to [Gitpod](https://gitpod.io/login/) using your GitHub account.
-4. Visit Hard Driver's [GitHub Repository](https://github.com/BAK2K3/hard-drivers).
+4. Visit Hard Driver's [GitHub Repository](https://GitHub.com/BAK2K3/hard-drivers).
 5. Open the repository in Gitpod:
     * Click the green "Gitpod" icon at the top of the Repository, or
-    * Click this [link](https://gitpod.io/#https://github.com/BAK2K3/hard-drivers).
+    * Click this [link](https://gitpod.io/#https://GitHub.com/BAK2K3/hard-drivers).
 6. A new workspace will open with the current state of the master branch. Any changes made to the master branch after this point will not be automatically updated in your Gitpod Workspace.
 
 ## How to run this Project Locally
 
 ### Cloning the Repository
 
-1. Visit Hard Driver's [GitHub Repository](https://github.com/BAK2K3/hard-drivers).
+1. Visit Hard Driver's [GitHub Repository](https://GitHub.com/BAK2K3/hard-drivers).
 2. Click the "Code" dropdown box above the repository's file explorer. 
 3. Under the "Clone" heading, click the "HTTPS" sub-heading.
-4. Click the clipboard icon, or manually copy the text presented: `https://github.com/BAK2K3/hard-drivers.git`
+4. Click the clipboard icon, or manually copy the text presented: `https://GitHub.com/BAK2K3/hard-drivers.git`
 5. Open your preferred IDE (VSCode, Atom, PyCharm, etc).
 6. Ensure your IDE has support for Git, or has the relevant Git extension.
 7. Open the terminal, and create a directory where you would like the Repository to be stored.
-8. Type `git clone` and paste the previously copied text (`https://github.com/BAK2K3/hard-drivers.git`) and press enter.
+8. Type `git clone` and paste the previously copied text (`https://GitHub.com/BAK2K3/hard-drivers.git`) and press enter.
 9. The Repository will then be cloned to your selected directory. 
 
 ### Manually Downloading the Repository
 
-1. Visit Hard Driver's [GitHub Repository](https://github.com/BAK2K3/hard-drivers).
+1. Visit Hard Driver's [GitHub Repository](https://GitHub.com/BAK2K3/hard-drivers).
 2. Click the "Code" dropdown box above the repository's file explorer. 
 3. Click the "Download ZIP" option; this will download a copy of the selected branch's repository as a zip file.
 4. Locate the ZIP file downloaded to your computer, and extract the ZIP to a designated folder which you would like the repository to be stored.
@@ -512,7 +512,7 @@ As this project was developed on the master branch, all changes made to the repo
 * CSS: Guidance on removing additional spacing around Span elements was obtained from [StackOverflow](https://stackoverflow.com/questions/25667401/how-to-remove-the-space-between-two-span-tags).
 * CSS: Code snippet taken from [CodePen](https://codepen.io/jpost-design/pen/EKZLzK) and modified to obtain a "glow button" effect.
 * CSS: Code snippet taken from [CSS-Tricks](https://css-tricks.com/almanac/properties/b/box-shadow/) and modified to obtain a "double shadow" effect on "glow button" effect.
-* CSS: Code snippet taken from [Hover.css](https://ianlunn.github.io/Hover/) for Hover Grow effect on links.
+* CSS: Code snippet taken from [Hover.css](https://ianlunn.GitHub.io/Hover/) for Hover Grow effect on links.
 * CSS: Guidance on fixing Flex compatibility on IE11 obtained from [StackOverflow](https://stackoverflow.com/questions/21600345/flexbox-and-internet-explorer-11-displayflex-in-html).
 * CSS: Guidance on changing placeholder text colour obtained from [W3Schools](https://www.w3schools.com/howto/howto_css_placeholder.asp).
 * CSS: Code snippet taken from [StackOverflow](https://stackoverflow.com/questions/32265322/css-length-of-border-bottom) and modified for the 50% border on table cells.
