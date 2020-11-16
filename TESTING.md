@@ -2,7 +2,7 @@
 
 The Main README documentation can be found under [README.md](README.md)
 
-[View website on GitHub Pages](https://bak2k3.GitHub.io/hard-drivers/index.html)
+[View website on GitHub Pages](https://bak2k3.GitHub.io/hard-drivers/Home.html)
 
 ## Testing User Stories
 
@@ -31,7 +31,7 @@ further emphasising the ethos and company intention. The concept and interface i
 
 Once the user has engaged with the site, in the knowledge of the primary purpose of the business, they can proceed to make an enquiry through the Navbar, or through the footer link. However, if they require further information with regards to the services provided 
 by the business, they have access to the _"About"_ page, which is the next contextually relevant link within the Navbar. This page offers further insight into the 3 selling points of the website/company. While maintaining the websites minimalistic design, 
-each section offers a succinct amount of detail about each selling point, in the same informational order as displayed in the index page. Each section contains a relevant image, which once again dynamically resizes depending on viewport. These images are not available 
+each section offers a succinct amount of detail about each selling point, in the same informational order as displayed in the Home page. Each section contains a relevant image, which once again dynamically resizes depending on viewport. These images are not available 
 on mobile devices; while they undoubtedly produce a powerful emotional response, it was decided that the explicit and succinct nature of the text means displaying all of this information on a single viewport on smaller devices was much more effective 
 (as per the viewport control discussion above) than allowing a user to scroll to view all content. For all viewports, the user can interact with a "Service Package" link which opens up a modal for the user, which displays the Package Table. 
 
@@ -69,7 +69,7 @@ the Package Table is representative to that of the rest of the site to maintain 
 
 **As a convinced customer, I want to be able to easily make an enquiry.**
     
-The Enquire page allows a user to engage with the website through filling in a simple form. It is therefore, ultimately, the most important page on the site. It is accessible within the Navbar, and within the footer of both the _"Index"_ page and _"About"_ page. 
+The Enquire page allows a user to engage with the website through filling in a simple form. It is therefore, ultimately, the most important page on the site. It is accessible within the Navbar, and within the footer of both the _"Home"_ page and _"About"_ page. 
 In the footer of the enquiry page, the "enquiry" link is replaced with a "submit" link. The formatting and style are the same as the Enquire link (as seen in the Home page and About Page) to ensure consistency; it was considered that this may obfuscate the user, 
 and the intention of this particular button, as it may not initially be clear that the usage of the persistent button has changed, but the alternative to this was to retain a recursive "enquiry" link at the bottom of the enquiry page, and to have a separate "submit" 
 button at the bottom of the enquiry form. It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. Form submission is validated prior to submission, 
@@ -283,7 +283,7 @@ As I do not have access to a device which is compatable with Safari, the above i
  1. Flexbox:
     * Internet Explorer is [not entirely compatible](https://caniuse.com/flexbox) with Flexbox.
     * As such, when testing the responsive design of some pages, significant functionality breaking bugs were identified. 
-    * These were present on the [Index page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_index_ue1yfb.jpg) and on the [About page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_about_m2u8xz.jpg).
+    * These were present on the [Home page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_index_ue1yfb.jpg) and on the [About page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_about_m2u8xz.jpg).
     * One attempted fix for this was to define Flex fully as: `flex: 1 0 0;` for the relevant sections. 
     * This appears to have fixed some functionality, for instance when the page is full screen the website can be navigated without issue.
     * However, when adjusting the viewport of the aforementioned pages, the bugs re-appear and do not correct themselves when the viewport is reverted back to its original state.
@@ -319,8 +319,8 @@ Automated testing was completed via third party applications, in order to assess
 
 3. **Google Lighthouse** - Accessibility, Performance, Progressive Web Apps, and Best Practices Audit:
 
-**Index**  
-![Index Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Index-Lighthouse_fxhiv5.jpg)
+**Home**  
+![Home Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Index-Lighthouse_fxhiv5.jpg)
 
 **About**  
 ![About Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/About-Lighthouse_nfogiq.jpg)
@@ -333,7 +333,7 @@ On further inspection, the main cause for the drop in Accessibility score for th
 ## Significant Bugs
 
 1. **Making image fully responsive and aesthetically fluid for different viewports**
-    * When first implementing the concept for the Viewport Control and the subsequent responsive images, I started with the Hero Image on the Index page. 
+    * When first implementing the concept for the Viewport Control and the subsequent responsive images, I started with the Hero Image on the Home page. 
     * I first attempted absolute positioning of image in bottom right, but the image would sometimes overlap content and overflow from its container.
     * I then attempted finite height definition in px, however this was a similar outcome to the above, whereby it required consideration of "Min-height" as well as "Min-width" for viewports.
     * I subsequently attempted to add both the hero image and the "call to action" text to a Bootstrap row, with respective columns, and to set the hero-image height in Viewport Height (vh). 
