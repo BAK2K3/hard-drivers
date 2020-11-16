@@ -126,9 +126,9 @@ through the specific features implemented.
 **Navigation bar (Navbar)**
 
 Each page has a sticky navbar at the top. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. On large devices, the navbar 
-has a second row underneath the logo which displays the active page the user is on.  On mobile devices, the navigation links are hidden,
-and activated with a "sandwich" (which is a server icon), which draw the links between the page logo and the current page's sub-heading. The consistent, simple, and intuitive navigation system would contribute to instilling user trust, and allows
-users to reach all aspects of the site which aid the satisfaction of all user-stories.
+has a second row underneath the logo which displays the active page the user is on.  On mobile devices, the navigation links are hidden, and activated with a "sandwich" (which is a server icon), 
+which draw the links between the page logo and the current page's sub-heading. The consistent, simple, and intuitive navigation system would contribute to instilling user trust, and allows users to reach all aspects 
+of the site which aid the satisfaction of all user-stories.
 
 **Footer**
 
@@ -180,7 +180,7 @@ This meant that the images displayed as intended, were unlikely to be disrupted 
 
 ### Informational Architecture and Interaction Design
 
-#### Index Page
+#### Home Page
 
 * Provides a full breakdown of the company, its ethos, and its purpose.
 * Grabs customer's attention, engages, and encourages user to make an enquiry.
@@ -229,20 +229,20 @@ As a Business, Hard Drivers would primarily make the most amount of profit from 
 As such, an additional page was initially planned called _"Packages"_, which provided the customer with a detailed breakdown of the additional services 
 they could purchase in conjunction with their new computer. This can be seen from the original wireframe designs.
 
-After reviewing the original plans and wireframes, and after additional consideration, it was considered that this information in isolation appeared to be quite _'content thin'_,
-and could potentially make having a separate page for this content feel empty and isolated. In addition to this, it would be entirely possible for a customer to visit the index page,
+After reviewing the original plans and wireframes, and after additional consideration, it was considered that this information in isolation appeared to be quite _content thin_,
+and could potentially make having a separate page for this content feel empty and isolated. In addition to this, it would be entirely possible for a customer to visit the _"Home"_ page,
 engage with the site immediately as intended, and forgo this page entirely.  Given this information is integral for the business, consideration needed to be made as to 
-where this content could be added. Having this information appear on the _"Index"_ page would defer from its minimalistic design and intention, and could potentially feel like 
-over-selling from a customer perspective, and considering the intention, context, and grouping of information on the _"About"_ page, it was decided that the _"packages"_ information would 
+where this content could be added. Having this information appear on the _"Home"_ page would defer from its minimalistic design and intention, and could potentially feel like 
+over-selling from a customer perspective, and considering the intention, context, and grouping of information on the _"About"_ page, it was decided that the _"Packages"_ information would 
 overload this page or side-track its intention.
 
 From a business perspective, this information needed to be accessible and hard to miss. However, as a consumer, you would not want to be over-burdened with aggressive overselling. 
 The positioning of this information needed to be relevant, compliment the flow and structure of the other pages, along with their features and content, and needed to fulfil its business purpose
 of being a mandatory part of the selling process, without being intrusive. 
 
-A work-around to this was explored, and has been considered for implementation, whereby the _"packages"_ page is removed entirely, and reference can be made in the _"About"_ page, under Cost, 
-to additional services being provided. This reference will link to a modal whereby the content initially planned for the _"packages"_ page is displayed. In doing this, the services can be subtly referenced,
-without being intrusive, and can provide the user with the additional information if they request it. Furthermore, in the _"Enquire"_ page, under the _"packages"_ section, the decision has been made
+A work-around to this was explored, and has been considered for implementation, whereby the _"Packages"_ page is removed entirely, and reference can be made in the _"About"_ page, under Cost, 
+to additional services being provided. This reference will link to a modal whereby the content initially planned for the _"Packages"_ page is displayed. In doing this, the services can be subtly referenced,
+without being intrusive, and can provide the user with the additional information if they request it. Furthermore, in the _"Enquire"_ page, under the _"Packages"_ section, the decision has been made
 to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
 however is not obliged to delve into the additional information if they do not wish to do so, which would potentially fulfil the customer need of not being overwhelmed with information unnecessarily.
 
@@ -255,7 +255,7 @@ however is not obliged to delve into the additional information if they do not w
 Due to the resolution of the wireframe documents, it is recommended that these PDFs are downloaded, rather than using GitHub's native PDF viewer. 
 
 * Header/Footer Wireframe: [Version 1](./assets/wireframes/header-footer-wireframe.pdf) | [Version 2](./assets/wireframes/header-footer-wireframe-v2.pdf)
-* Index Page Wireframe: [Version 1](./assets/wireframes/index-wireframe.pdf)
+* Home (Index) Page Wireframe: [Version 1](./assets/wireframes/index-wireframe.pdf)
 * About Page Wireframe: [Version 1](./assets/wireframes/about-wireframe.pdf) | [Version 2](./assets/wireframes/about-wireframe-v2.pdf)
 * Packages Wireframe: [Version 1](./assets/wireframes/packages-wireframe.pdf) | [Version 2](./assets/wireframes/packages-wireframe-v2.pdf)
 * Enquire Wireframe: [Version 1](./assets/wireframes/enquire-wireframe.pdf) | [Version 2](./assets/wireframes/enquire-wireframe-v2.pdf)
