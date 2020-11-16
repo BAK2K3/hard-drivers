@@ -2,7 +2,7 @@
 
 The Main README documentation can be found under [README.md](README.md)
 
-[View website on Github Pages](https://bak2k3.github.io/hard-drivers/index.html)
+[View website on GitHub Pages](https://bak2k3.GitHub.io/hard-drivers/index.html)
 
 ## Testing User Stories
 
@@ -129,26 +129,26 @@ Unless specifically stated, all functionality for the Navbar was tested on every
 
 Unless specifically stated, all functionality for the Footer was tested on every page.
 
-* On each page, ensure the Github / Social links open to the correct webpage, and are opened externally.   
+* On each page, ensure the GitHub / Social links open to the correct webpage, and are opened externally.   
 * On the "Home" and "About" pages, ensure the "Enquire" button correctly routes the user to the "Enquire" page.
 * On the "Enquire" page, ensure the "Enquire" button states "Submit" - Functionality testing discussed on the "Enquiry Form" section. 
 * Ensure on page load the "Enquire/Submit" button maintains its persistent 'glow' effect.  
 * Ensure the Footer appearance is consistent across all pages, and maintains the same height. 
-* Ensure Footer elements (Github - Enquire/Submit - Socials) maintain their position through navigation of the site.
+* Ensure Footer elements (GitHub - Enquire/Submit - Socials) maintain their position through navigation of the site.
 * On large horizontal viewports, ensure the Footer's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
 * On all viewports, ensure the Footer's radial gradient maintains its appearance over the background image, and remains in a static position (regardless of background image's zoom effect).
 * On all viewports, ensure the Enquire/Submit button's 'glow' effect does not overflow onto the Viewport Control/content of the page. 
 * When adjusting the horizontal viewport, ensure the Footer elements reposition themselves dynamically to maintain equal distance, and central position within their containers.
 * When adjusting the horizontal viewport, ensure the Footer elements' font sizes adjust themselves appropriately.
 * On small horizontal viewports, ensure the Social links stack themselves (2x2), and maintain their functionality. 
-* Ensure no visual effects are produced when the Github / Social Links are hovered over with the mouse (desktop).
+* Ensure no visual effects are produced when the GitHub / Social Links are hovered over with the mouse (desktop).
 * Ensure tabbing (desktop) navigates the user through the visual flow of footer:
-    * Github --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin.
+    * GitHub --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin.
 * Ensure hovering (desktop) over the Submit/Enquire button produces the 'grow' effect, and changes from white to red.
-* Ensure no visual effects are produced when the Github / Social links are touched (mobile/table).
+* Ensure no visual effects are produced when the GitHub / Social links are touched (mobile/table).
 * Ensure the Enquire/Submit button produces the 'grow' effect, and changes from white to red when touched (mobile/table).
 * Ensure screen readers read the text in the correct order:
-    * Github --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin.
+    * GitHub --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin.
 
 **Price Table**
 
@@ -268,7 +268,7 @@ have been discussed together.
 
 Cross-Browser compatibility was tested via applying the methodology described above within each browser detailed below.
 
-**Chrome/Firefox**
+**Chrome/Firefox/Edge**
 
 All functionality worked as intended.
 
@@ -360,11 +360,11 @@ Screenshot of the solution:
 4. **Tooltips were being displayed on top of the text in mobile view, despite having "data-placement: right".**
     * This was resolved by using `data-placement: left`, even though it was not clear why.
 
-5. **Issue with file locations from CSS when pushing to Github pages**
-    * When the site was published to Github pages, the links to internal pages were not working, and the images were not being pulled from the assets folder.
+5. **Issue with file locations from CSS when pushing to GitHub pages**
+    * When the site was published to GitHub pages, the links to internal pages were not working, and the images were not being pulled from the assets folder.
     * The error was caused by the internal links being prefaced with `/`. Once removed, the links worked appropriately.
     * The links to images in the CSS file were defined as: `/assets/images/...`. Therefore, when using Gitpod, the links would work appropriately. 
-    * Given how the page is hosted on Github, the assets were being searched for in: `github.io/assets/images/...` as opposed to `github.io/hard-drivers/assets/images/..`
+    * Given how the page is hosted on GitHub, the assets were being searched for in: `GitHub.io/assets/images/...` as opposed to `GitHub.io/hard-drivers/assets/images/..`
     * This was resolved by using a relative file path, and removing the `assets/` subdirectory from the location reference, as such: `./images/...`.
 
 6. **Users informed me that on some mobile devices the Navbar disappears (Safari) after clicking on a form input or pressing Submit**
@@ -382,7 +382,7 @@ Screenshot of the solution:
     * While this does not necessarily diminish the user experience, it is a bug that I would prefer to remove, however I am aware this requires additional knowledge of javascript. 
 
 8. **Tabbing through the Enquire Menu** (Existing Bug)
-    * When the user reaches the "Your Request" field of the Enquire Form, they need to tab twice, to bypass the "Github" icon, in order to reach the submit button. 
+    * When the user reaches the "Your Request" field of the Enquire Form, they need to tab twice, to bypass the "GitHub" icon, in order to reach the submit button. 
     * Setting `tabindex=1` to the submit button causes this item to be selected first when tabbing through the document, and results in the user having to press tab more times to reach the submit button.
     * Given the final input field is a "Free Text" box, pressing the enter button on this form generates a new line, as opposed to most other form inputs in which enter submits the form.
     * A solution to this would be to add set `tabindex=3` to all elements prior to the submit button, `tabindex=2` on the submit button, and `tabindex=1` on the rest of the footer icons.
@@ -391,10 +391,10 @@ Screenshot of the solution:
 
 **Other technical difficulties:**
 
-1. **Github Commit Merge** 
+1. **GitHub Commit Merge** 
     * On 27th October, I accidentally merged multiple git commits (df2b72005f9506c70c5d58fcb9964631462d7555/a8190a91b29cb1d4c3258e5d0f684390113bc646). While I researched how to undo the push, I was aware this would result in all of these changes being combined, and I wasn't fully comfortable 
     continuing with this as I didn't want to lose any more progress/commits. Accepted this single merge was an error, and moved on and learned from this.
 
 ---
 
-[Click here](https://github.com/BAK2K3/hard-drivers/blob/master/README.md) to return to the main README.md.
+[Click here](https://GitHub.com/BAK2K3/hard-drivers/blob/master/README.md) to return to the main README.md.
