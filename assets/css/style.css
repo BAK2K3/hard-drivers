@@ -507,7 +507,7 @@ footer {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  overflow: auto;
+
   padding: 0;
 }
 
@@ -1045,6 +1045,11 @@ table p {
 
   .price-table-heading {
     padding-top: 35px;
+  }
+
+   .enquire-wrapper {
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   /* Enquire Form */
