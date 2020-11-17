@@ -7,7 +7,13 @@ This project is a static website for a fictitious Custom PC Building company, ca
 >1. [Overview](#overview)
 >2. [UX](#ux)
 >    1. [Strategy](#1-strategy)
+>        * [Stakeholder Interview](#stakeholder-interview)
+>        * [Business Strategy](#business-strategy)
+>        * [Business Goals](#business-goals)
+>        * [User Stories](#user-stories)
 >    2. [Scope](#2-scope)
+>        * [Features](#features)
+>        * [Future Feature Considerations](#future-feature-considerations)
 >    3. [Structure](#3-structure)
 >    4. [Skeleton](#4-skeleton)
 >    5. [Surface](#5-surface)
@@ -55,7 +61,7 @@ _“I want to be able to contact the company straight away”._
 
 [Chillblast](https://www.chillblast.com/ "Chillblast Homepage"): Not very user friendly, a lot of information, a lot of options, and high selling point is pre-build next day PCs.
 
-### Company Strategy
+### Business Strategy
 
 **Psychological Factors**
 * Evoke a positive emotional response from the branding of Hard Drivers.
@@ -91,6 +97,29 @@ _“I want to be able to contact the company straight away”._
 * Every page has multiple "Enquire Now" buttons, so as to allow a user to immediately engage when they want to.
     * This "Enquire Now" should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible. 
 
+### Business Goals
+
+**Encourage and Allow User Engagement**
+* Every page must allow a user to engage with the business.
+* The ability to engage is clear and stands out from other interactive aspects of the site.
+* Engagement is done through completing an simple and intuitive enquiry form.
+
+**Convey Ethos/Purpose**
+* Outline key services on home page.
+* Present further details on key services on separate page.
+* Make sure the details provided are important, sellable, and merit being detailed in isolation.
+* Make the descriptions bite sized and easy to digest.
+
+**Instil User Confidence**
+* The branding is clear, distinguishable, and recognisable.
+* Relate to and refer to the customer.
+* The website is minimalistic where necessary, intuitive, and user friendly. 
+
+**Present Cost Approach**
+* Communicate that the computer is customer budget based.
+* Be transparent about cost of additional services and peripherals. 
+* Provide detailed yet convincing breakdown of cost of service.
+
 ### User Stories
 
 1. `As a visitor to the website, I want to know what your company does.`  
@@ -100,38 +129,7 @@ _“I want to be able to contact the company straight away”._
 
 ## 2. Scope
 
-Based on the research completed in the Strategy plane, and the subsequent User Stories (the _"why"_), the requirements were split into Non-Functional and Functional Requirements. The Non-Functional Requirements 
-describe the overall intended goals of the project (the _'what'_) and when broken down act as 'Conditions of Satisfaction' for the User Stories, while the Functional Requirements details how these are going to be achieved (the _"how"_) 
-through the specific features implemented.
-
-### Non-Functional Requirements
-
-**Encourage and Allow User Engagement**
-
-* Every page must allow a user to engage with the business.
-* The ability to engage is clear and stands out from other interactive aspects of the site.
-* Engagement is done through completing an simple and intuitive enquiry form.
-
-**Convey Ethos/Purpose**
-
-* Outline key services on home page.
-* Present further details on key services on separate page.
-* Make sure the details provided are important, sellable, and merit being detailed in isolation.
-* Make the descriptions bite sized and easy to digest.
-
-**Instil User Confidence**
-
-* The branding is clear, distinguishable, and recognisable.
-* Relate to and refer to the customer.
-* The website is minimalistic where necessary, intuitive, and user friendly. 
-
-**Present Cost Approach**
-
-* Communicate that the computer is customer budget based.
-* Be transparent about cost of additional services and peripherals. 
-* Provide detailed yet convincing breakdown of cost of service.
-
-### Functional Requirements
+### Features
 
 **Navigation bar (Navbar)**
 
