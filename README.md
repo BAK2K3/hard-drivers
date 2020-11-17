@@ -44,7 +44,7 @@ The project is developed primarily using **HTML** and **CSS**, with a small amou
 
 # UX
 
-## 1. Strategy
+## Strategy
 
 ### Stakeholder Interview
 
@@ -107,7 +107,7 @@ _“I want to be able to contact the company straight away”._
 3. `As an interested customer, I want to know how much the service costs.` 
 4. `As a convinced customer, I want to be able to easily make an enquiry.`
 
-## 2. Scope
+## Scope
 
 ### Requirements
 
@@ -132,7 +132,7 @@ _“I want to be able to contact the company straight away”._
 * Be transparent about cost of additional services and peripherals. 
 * Provide detailed yet convincing breakdown of cost of service.
 
-## 3. Structure
+## Structure
 
 ### Home Page
 
@@ -201,7 +201,7 @@ _“I want to be able to contact the company straight away”._
 >Under the _"Packages"_ section of the _"Enquire"_ page, the decision has been made to ensure no package is pre-selected. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
 >and fulfilling the user requirement of not being overwhelmed with information unnecessarily.
 
-## 4. Skeleton
+## Skeleton
 
 ### Wireframes
 
@@ -213,7 +213,7 @@ Due to the resolution of the wireframe documents, it is recommended that these P
 * Packages Wireframe: [Version 1](./assets/wireframes/packages-wireframe.pdf) | [Version 2](./assets/wireframes/packages-wireframe-v2.pdf)
 * Enquire Wireframe: [Version 1](./assets/wireframes/enquire-wireframe.pdf) | [Version 2](./assets/wireframes/enquire-wireframe-v2.pdf)
 
-## 5. Surface
+## Surface
 
 The project's aesthetic design is aligned with the ethos and branding of Hard Drivers; simple, effective, and powerful. 
 
