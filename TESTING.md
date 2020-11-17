@@ -15,14 +15,14 @@ The Main README documentation can be found under [README.md](README.md)
 
 # User Story Testing
 
-**As a visitor to the website, I want to know what your company does.**
+## As a visitor to the website, I want to know what your company does.
 
 On arrival to the homepage, the user is presented with the name of the company, the three main selling points of company, a _"call to action"_, and strong, relevant, and colourful imagery. The colour scheme adopted in the Logo/Header is consistent with
 the content of the site, the images, and the footer's text, icons, and style. Three sub-headings are visible on the homepage which are extremely succinct, yet clearly convey the ethos and purpose of the business. Each subheading has a relevant icon to 
 give users an emotional response to each subheading's content. The _"call to action"_  text on the home page also addresses the user, and clearly gives instructions as to how to engage with company and website on a "no-risk" basis, and what they will achieve from doing so,
 further emphasising the ethos and company intention. The concept and interface is simple, easy to use and navigate, and is responsive on all devices and viewports. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
 
-**As a potential customer, I want to know what services you provide.**
+## As a potential customer, I want to know what services you provide.
 
 Once the user has engaged with the site, in the knowledge of the primary purpose of the business, they can proceed to make an enquiry through the Navbar, or through the footer link. However, if they require further information with regards to the services provided 
 by the business, they have access to the _"About"_ page, which is the next contextually relevant link within the Navbar. This page offers further insight into the 3 selling points of the website/company. While maintaining the websites minimalistic design, 
@@ -30,14 +30,14 @@ each section offers a succinct amount of detail about each selling point, in the
 on mobile devices; while they undoubtedly produce a powerful emotional response, it was decided that the explicit and succinct nature of the text means displaying all of this information on a single viewport on smaller devices was much more effective 
 (as per the viewport control discussion above) than allowing a user to scroll to view all content. For all viewports, the user can interact with a "Service Package" link which opens up a modal for the user, which displays the Package Table. 
 
-**As an interested customer, I want to know how much the service costs.**
+## As an interested customer, I want to know how much the service costs.
 
 All pages on the site refer to the pricing structure of the business. The _"Home"_ page makes simple reference to it, the _"About"_ page elaborates on this pricing structure and presents users with the Package Table, and the _"Enquire"_ page provides 
 both the Package Table and a tooltip on the Budget section of the form to explain the additional packages/peripherals are excluded from the cost of the customer's budget. On the _"Enquire"_ page, on large viewports, the user is presented with the package table 
 next to the enquiry form. On tablets and mobile devices, this package table is hidden, and users are presented with a link to view package details (in the same style as that on the about page) via a modal. The colour design and structural layout of 
 the Package Table is representative to that of the rest of the site to maintain consistency.  
 
-**As a convinced customer, I want to be able to easily make an enquiry.**
+## As a convinced customer, I want to be able to easily make an enquiry.
     
 The Enquire page allows a user to engage with the website through filling in a simple form. It is therefore, ultimately, the most important page on the site. It is accessible within the Navbar, and within the footer of both the _"Home"_ page and _"About"_ page. 
 In the footer of the enquiry page, the "enquiry" link is replaced with a "submit" link. The formatting and style are the same as the Enquire link (as seen in the Home page and About Page) to ensure consistency; it was considered that this may obfuscate the user, 
@@ -49,7 +49,7 @@ and users are alerted to any incomplete fields if necessary. On valid completion
 
 _Testing the Functional Requirements was completed manually, with each feature being tested as described below._ 
 
-**Navigation bar (Navbar)**
+## Navigation bar (Navbar)
 
 Unless specifically stated, all functionality for the Navbar was tested on every page.
 
@@ -83,7 +83,7 @@ Unless specifically stated, all functionality for the Navbar was tested on every
 * Ensure screen readers read the text in the correct order:
     * Logo/Title --> Home --> About --> Enquire
 
-**Footer**
+## Footer
 
 Unless specifically stated, all functionality for the Footer was tested on every page.
 
@@ -108,7 +108,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
 * Ensure screen readers read the text in the correct order:
     * GitHub --> Enquire/Submit --> Facebook --> Twitter --> Instagram --> Linkedin.
 
-**Price Table**
+## Package Table
 
 1. Modal Design (About/Enquire Pages):
     * Ensure the price of each tier is clear, and what benefits included in the respective tier is clear. 
@@ -137,7 +137,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
         * Heading --> Price.
         * Benefit --> Benefit Description --> In what packages the benefit is included. 
 
-**Enquire Form**
+## Enquire Form
 
 * Ensure each input is correctly grouped into its relevant fieldset.
 * Ensure the Legend for each fieldset is clear and distinguishable.
@@ -170,7 +170,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
     * Your Package (legend) --> Your Package --> Bronze --> Silver --> Gold
     * Your Request (legend) --> Leave a note for your Hard Driver (optional)
 
-**Modals**
+## Modals
 
 These tests applied to both the Price Table (About/Enquire) and Thank You (Enquire) modals:
 
@@ -184,7 +184,7 @@ These tests applied to both the Price Table (About/Enquire) and Thank You (Enqui
 * Ensure the content of the modal fits appropriately, and can be scrolled on the y axis if required.
 * Ensure screen readers can read the content of the modal appropriately, and can read the "close" button.
 
-**Viewport Control and Responsive Layout / Design**
+## Viewport Control and Responsive Layout / Design
 
 The testing for these sections were combined. While the implementation of these functions are different, and serve different purposes, the testing process for each section coincided with each other and therefore
 have been discussed together.
@@ -226,15 +226,15 @@ have been discussed together.
 
 Cross-Browser compatibility was tested via applying the methodology described above within each browser detailed below.
 
-**Chrome/Firefox/Edge**
+## Chrome/Firefox/Edge
 
 All functionality worked as intended.
 
-**Safari**
+## Safari
 
 As I do not have access to a device which is compatable with Safari, the above instructions were carried out by a friend using Mac OS and iOS. The only unintended effect produced was that described in the "bugs" selection below, regarding input zooming.
 
-**Internet Explorer**
+## Internet Explorer
 
  While the majority of functionality worked as intended for Internet Explorer 11, the following issues were identified:
 
