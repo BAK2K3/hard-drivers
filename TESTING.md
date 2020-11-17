@@ -6,26 +6,12 @@ The Main README documentation can be found under [README.md](README.md)
 
 ## Testing User Stories
 
-The User Stories were evaluated in conjunction with the Non-Functional Requirements and relevant Conditions of Satisfaction.
-
 **As a visitor to the website, I want to know what your company does.**
 
 On arrival to the homepage, the user is presented with the name of the company, the three main selling points of company, a _"call to action"_, and strong, relevant, and colourful imagery. The colour scheme adopted in the Logo/Header is consistent with
 the content of the site, the images, and the footer's text, icons, and style. Three sub-headings are visible on the homepage which are extremely succinct, yet clearly convey the ethos and purpose of the business. Each subheading has a relevant icon to 
 give users an emotional response to each subheading's content. The _"call to action"_  text on the home page also addresses the user, and clearly gives instructions as to how to engage with company and website on a "no-risk" basis, and what they will achieve from doing so,
 further emphasising the ethos and company intention. The concept and interface is simple, easy to use and navigate, and is responsive on all devices and viewports. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
-
-> Non-Functional Requirement
-> * Convey Ethos/Purpose 
->   * Outline key services on home page &#x2611;
-> * Instil User Confidence 
->   * The branding is clear, distinguishable, and recognisable &#x2611;
->   * Relate to and refer to the customer &#x2611;
->   * The website is minimalistic where necessary, intuitive, and user friendly &#x2611;
-> * Present Cost Approach 
->   * Communicate that the computer is customer budget based &#x2611;
-> * Encourage and Allow User Engagement 
->    * Every page must allow a user to engage with the business &#x2611;
 
 **As a potential customer, I want to know what services you provide.**
 
@@ -35,37 +21,12 @@ each section offers a succinct amount of detail about each selling point, in the
 on mobile devices; while they undoubtedly produce a powerful emotional response, it was decided that the explicit and succinct nature of the text means displaying all of this information on a single viewport on smaller devices was much more effective 
 (as per the viewport control discussion above) than allowing a user to scroll to view all content. For all viewports, the user can interact with a "Service Package" link which opens up a modal for the user, which displays the Package Table. 
 
-> Non-Functional Requirement
->   * Encourage and Allow User Engagement 
->       * Every page must allow a user to engage with the business &#x2611;
->       * The ability to engage is clear and stands out from other interactive aspects of the site &#x2611;
->    * Convey Ethos/Purpose 
->        * Present further details on key services on separate page &#x2611;
->        * Make sure the details provided are important, sellable, and merit being detailed in isolation &#x2611;
->        * Make the descriptions bite sized and easy to digest &#x2611;
->    * Instil User Confidence 
->        *  The branding is clear, distinguishable, and recognisable &#x2611;
->        * Relate to and refer to the customer &#x2611;
->        * The website is minimalistic where necessary, intuitive, and user friendly &#x2611;
-
 **As an interested customer, I want to know how much the service costs.**
 
 All pages on the site refer to the pricing structure of the business. The _"Home"_ page makes simple reference to it, the _"About"_ page elaborates on this pricing structure and presents users with the Package Table, and the _"Enquire"_ page provides 
 both the Package Table and a tooltip on the Budget section of the form to explain the additional packages/peripherals are excluded from the cost of the customer's budget. On the _"Enquire"_ page, on large viewports, the user is presented with the package table 
 next to the enquiry form. On tablets and mobile devices, this package table is hidden, and users are presented with a link to view package details (in the same style as that on the about page) via a modal. The colour design and structural layout of 
 the Package Table is representative to that of the rest of the site to maintain consistency.  
-
-> Non-Functional Requirement
->    * Encourage and Allow User Engagement 
->        * Every page must allow a user to engage with the business &#x2611;
->        * The ability to engage is clear and stands out from other interactive aspects of the site &#x2611;
->   * Present Cost Approach 
->        * Communicate that the computer is customer budget based &#x2611;
->        * Be transparent about cost of additional services and peripherals &#x2611;
->    * Instil User Confidence 
->        * The branding is clear, distinguishable, and recognisable &#x2611;
->        * Relate to and refer to the customer &#x2611;
->        * The website is minimalistic where necessary, intuitive, and user friendly &#x2611;
 
 **As a convinced customer, I want to be able to easily make an enquiry.**
     
@@ -75,21 +36,9 @@ and the intention of this particular button, as it may not initially be clear th
 button at the bottom of the enquiry form. It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. Form submission is validated prior to submission, 
 and users are alerted to any incomplete fields if necessary. On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
 
-> Non-Functional Requirements
->    * Encourage and Allow User Engagement 
->        * Engagement is done through completing a simple and intuitive enquiry form &#x2611;
->        * The ability to engage is clear and stands out from other interactive aspects of the site &#x2611;
->    * Present Cost Approach 
->        * Communicate that the computer is customer budget based &#x2611;
->        * Be transparent about cost of additional services and peripherals &#x2611; 
->    * Instil User Confidence 
->        * The branding is clear, distinguishable, and recognisable &#x2611;
->        * Relate to and refer to the customer &#x2611;
->        * The website is minimalistic where necessary, intuitive, and user friendly &#x2611;
-
 ## Functional Testing
 
-Testing the Functional Requirements was completed manually, with each feature being tested as described below. 
+_Testing the Functional Requirements was completed manually, with each feature being tested as described below._ 
 
 **Navigation bar (Navbar)**
 
