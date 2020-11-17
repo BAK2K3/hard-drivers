@@ -215,9 +215,9 @@ _“I want to be able to contact the company straight away”._
 >
 >The solution to this was to **remove the _"Packages"_ page entirely**, and **implement references to the packages in the _"About"_ page and _"Enquire"_ page.** In the _"About"_ page, under Cost,
 >the packages can be referenced, **linking to a modal whereby the content initially planned for the _"Packages"_ page is displayed**. In doing this, the services can be subtly referenced,
->without being intrusive, and can provide the user with the additional information if they request it. Furthermore, **in the _"Enquire"_ page, under the _"Packages"_ section**, the decision has been made
->to ensure no package is preselected, and to **provide a link to the same modal as previously referenced**. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
->hand fulfilling the user requirement of not being overwhelmed with information unnecessarily.
+>without being intrusive, and can provide the user with the additional information if they request it. Furthermore, **in the _"Enquire"_ page, on large viewports, this table will be fully visible on the page, with a link to the aforementioned modal on smaller viewports**. 
+>Under the _"Packages"_ section of the _"Enquire"_ page, the decision has been made to ensure no package is pre-selected. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
+>and fulfilling the user requirement of not being overwhelmed with information unnecessarily.
 
 ## 4. Skeleton
 
@@ -315,8 +315,8 @@ incorporate a degree of interactivity with the user, producing a responsive effe
 Given the Enquire/Submit button contained in the footer (regardless of whether it states Enquire or Submit) is the most important link on every page, an additional effect has been applied to this button. 
 A continuous pulsing glowing effect has been applied to it, which draws the users attention, encouraging engagement and interaction regardless of the user's location on the site.   
 
-**Price Table Link**  
-The Price Table link available on the About page, and on smaller viewports in the Enquiry page, was initially designed with a red wavy underline text decoration style. 
+**Package Table Link**  
+The Package Table link available on the About page, and on smaller viewports in the Enquiry page, was initially designed with a red wavy underline text decoration style. 
 
 ![Wavey underline hyperlink](https://res.cloudinary.com/bak2k3/image/upload/v1605350432/service-package-1_xpt5mh.jpg)
 
@@ -332,52 +332,58 @@ to a double underline. This retained the powerful aesthetic design without the n
 
 **Navigation bar (Navbar)**
 
-Each page has a sticky navbar at the top. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. On large devices, the navbar 
-has a second row underneath the logo which displays the active page the user is on.  On mobile devices, the navigation links are hidden, and activated with a "sandwich" (which is a server icon), 
-which draw the links between the page logo and the current page's sub-heading. The consistent, simple, and intuitive navigation system would contribute to instilling user trust, and allows users to reach all aspects 
-of the site which aid the satisfaction of all user-stories.
+Each page has a sticky navbar at the top. **This consistent, simple, and intuitive navigation system contributes to instilling user trust, and allows users to reach all aspects of the website.**
+The navbar retains its layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. On large devices, the navbar 
+has a second row which highlights the active page the user is on. On mobile devices, the navigation links are hidden, and activated with a "sandwich" (which is a server icon), 
+drawing the links between the page logo and the current page's sub-heading. 
 
 **Footer**
 
-Each page has a static footer at the bottom. This provides links GitHub, a second and more aesthetically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
+Each page has a sticky footer at the bottom. **This provides links GitHub, a second and more aesthetically stimulating link to the enquire page, and links to socials.** The same background effect is used on the footer, but with the gradient
 reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
 with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
-for a more user-friendly interface. As discussed, on the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
+for a more user-friendly interface. 
+
+On the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
 and implements a function which is relevant and fits the contextual flow of the page. 
 
-**Price Table**
+**Package Table**
 
-A price table is available on multiple pages of the site. It provides the user with a full breakdown of the different tiers of service packages they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
-is explicitly clear, and a full screen reader-only description is available which explains which benefits are included in which package, and their associated costs. Each tier benefit contains a tooltip to provide additional information on the service included. 
+A package table is available on multiple pages of the site. **It provides the user with a full breakdown of the different tiers of service packages** they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
+are explicitly clear. Each tier benefit contains a tooltip to provide additional information on the service included. These tooltips are also available in screen reader-only descriptions, which explain each benefit, which package they are included in, and their associated costs. 
 On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop "Enquire" page, small self-descriptive icons sit at the end of each benefit that provide this tooltip.
 
 **Enquire Form**
 
-The enquiry form allows the user to provide a small amount of personal details, and information regarding their requirements, in order to engage with the company and to receive a specification in response. 
+**The enquiry form allows the user to provide a small amount of personal details, and information regarding their requirements, in order to engage with the company and to receive a specification in response.** 
+The colour scheme, structure, and layout of the Enquire form is consistent with theme of the project.
+
 Each field is categorised and grouped into the relevant field set, with each individual field being clearly separated and labelled. Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. 
-They must then decide what type of computer they want, and their budget. In all viewports, the "Budget" field contains a tooltip which explicitly states the budget stated excludes the cost of the service package requested, and any potential optional peripherals to be quoted.
+They must then decide what type of computer they want, and their budget. The "Budget" field contains a tooltip which confirms the budget stated excludes the cost of the service package requested, and any potential optional peripherals to be quoted.
 The user can at this stage decide to opt in to be quoted for an optional peripheral to be paired with their computer. The user must then select a package tier, and then optionally provide more 
-information regarding their requirements if they should wish to do so. Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition; considering this aspect of the engagement is essentially just a request for an initial quote,
-this would have added nothing to the initial enquiry and added an additional unnecessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user. 
+information regarding their requirements if they should wish to do so. 
+
+Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition; considering this aspect of the engagement is essentially just a request for an initial quote,
+this would have added nothing to the initial enquiry and added an additional unnecessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user.
 
 **Modals**
 
-Modals are implemented into the site to provide an additional degree of interactivity. They are also present to layer content where necessary, so as to not compress to information into a single location. The modals either contain the price table, or a thank you message 
+**Modals are implemented into the site to provide an additional degree of interactivity.** They layer content where necessary, so as to not compress too much information into a single location. The modals either contain the package table, or a thank you message 
 once the user has completed and submitted the enquiry form. 
 
 **Viewport Control**
 
-Where possible, the pages contain all information within the user's viewport. Where this is not possible on very small mobile devices, or on the enquiry page, an intuitive navigation system has been implemented to allow for only the content
+**Where possible, the pages content is contained within the user's viewport.** Where this is not possible, for example on very small mobile devices, an intuitive navigation system has been implemented to allow for only the content
 of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, as if the content had been designed for their specific needs,
 and would ensure that no information is missed.  
 
 **Responsive Layout and design**
 
-Using Flexbox, the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions. While certain breakpoints have been implemented to change the structure of the content, the priority was to focus on fully flexible and responsive layout 
+Using `Flexbox`, **the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions.** While certain breakpoints have been implemented to change the structure of the content, the priority was to focus on fully flexible and responsive layout 
 than specific targeted device sizes. Each page is split into sections which expand or shrink to equal sizes responsively to the devices height and width. Where appropriate, the spacing between each section is dynamic, and equally distributed. 
 
 When changing the size of the viewport, it was important that images filled their respective container and therefore scaled appropriately; the challenge was to avoid the images overflowing or expanding their respective containers, 
-and to allow their position to change to maintain the structural integrity of the page layout. While the solution resulted in fully responsive images, it resorted to using `<div>` containers with a background image, therefore alt-text couldn't be displayed. 
+while retaining their position, in order maintain each page's structural integrity and layout. While the solution resulted in fully responsive images, it resorted to using `<div>` containers with a background image, therefore alt-text could not be implemented. 
 The best solution to this was to implement sr-only text for these elements. Given the images were being hosted internally (as opposed to being hosted on external CDNs), it was unlikely the links would be broken, and therefore the "alt text" was unlikely to be utilised.
 This meant that the images displayed as intended, were unlikely to be disrupted by broken links, and had accessibility.
 
@@ -385,33 +391,30 @@ This meant that the images displayed as intended, were unlikely to be disrupted 
 
 **Enquiry Form Processing**
 
-In its current state, on completion of the Enquiry Form, the user is presented with a Thank You Modal, and the form is subsequently cleared; the information input into the form is not processed.
-Given the nature of the project is to demonstrate static content, there is no requirement for the information input into the form to be processed. However, in an ideal and practical scenario, the information input
-into this form would be inserted into a database, and assigned to a Hard driver for processing for generation of the user's specification.
+Currently, on submission of the Enquiry Form, the user is presented with a Thank You Modal and the form is subsequently cleared; the information input into the form is not processed.
+With additional experience of Python and SQL, **the information input into this form could be processed and inserted into a database**, before being assigned to a Hard driver to create a the user's specification**.
 
 **GDPR information as personal information being processed**
 
-Given the information input into the Enquiry Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, a GDPR/Privacy Policy tick box would be required 
-for the user to agree to in order for this personal information to be collected and the form to be submitted. In its current state, the website does not store any of this information on completion/submission of the form, 
-therefore this is not currently required.
+Given the information input into the Enquiry Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, **a GDPR/Privacy Policy tick box would be required** 
+for the user to agree to in order for this personal information to be collected and the form to be stored.
 
 **Bot/Spam prevention on form completion**
 
-Once the Form Processing has been implemented, consideration needs to be given to how to prevent form submission being abused by bots. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
+Once the Form Processing has been implemented, **consideration needs to be given to how to prevent form submission being abused by bots**. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
 such as Captcha, Human Tests, and bot-only form fields.
 
 **Provide Live Service**
 
-A user may want to make an enquiry with the business prior to making an request for a specification. A Live Chat Service could be implemented to provide instant answers to user specific questions. This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
+A user may want to make an enquiry with the business prior to making an request for a specification. **A Live Chat Service could be implemented to provide instant answers to user specific questions.** This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
 whereby the user asks a question and using Natural Language Processing an appropriate answer is given to their question; if the query cannot be answered this way, the user can be passed to a Hard Driver via Live Web Chat for additional assistance. The Live Chat box could be
 potentially incorporated into the footer, and could be engaged with on any page. 
 
 **Smart Specification**
 
-An optional Smart Specification could be implemented on the "Enquiry" Page. A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
+**An optional Smart Specification could be implemented on the "Enquiry" Page.** A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
 they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
 From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
-
 
 ---
 
