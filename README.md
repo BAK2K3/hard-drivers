@@ -20,11 +20,26 @@ This project is a static website for a fictitious Custom PC Building company, ca
 >        * [Enquire Page](#enquire-page)
 >        * [Packages Page](#packages-page)
 >    4. [Skeleton](#4-skeleton)
+>        * [Wireframes](#wireframes)
 >    5. [Surface](#5-surface)
+>        * [Logo](#logo)
+>        * [Colour Scheme](#colour-scheme)
+>        * [Typography](#typography)
+>        * [Images](#images)
+>        * [Visual Effects](#visual-effects)
 >3. [Technologies Used](#technologies-used) 
 >4. [Testing](#testing)
 >5. [Deployment](#deployment)
+>    1. [How this project was deployed](#how-this-project-was-deployed)
+>    2. [How to run this Project in your Browser](#how-to-run-this-project-in-your-browser)
+>    3. [How to run this Project Locally](#how-to-run-this-project-locally)
+>        * [Cloning the Repository](#cloning-the-repository)
+>        * [Manually Downloading the Repository](#manually-downloading-the-repository)
+>        * [Opening the Repository](#opening-the-repository)
 >6. [Credits](#credits)
+>    1. [Content](#content)
+>    1. [Media](#media)
+>    1. [Code](#code)
 >7. [Acknowledgements](#acknowledgements)
 >8. [Disclaimer](#disclaimer)
 
@@ -303,7 +318,7 @@ Due to the resolution of the wireframe documents, it is recommended that these P
 
 The project's aesthetic design is aligned with the ethos and branding of Hard Drivers; simple, effective, and powerful. 
 
-### Logo Mock-Up
+### Logo
 
 The project's 'surface' design commenced with mock-ups of the Logo. Colours, Fonts, Spacing, and Imagery was experimented with in order to achieve a colour scheme and overall theme which was relevant to the context of the project.
 This theme was subsequently applied to the project. The Mock Ups were designed personally in [Gimp](https://www.gimp.org/). 
