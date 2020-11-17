@@ -283,21 +283,25 @@ contain the primary colour scheme incorporated into the project.
 
 ### Visual Effects
 
-**Navbar / Footer**  
+#### Navbar / Footer 
+
 The Navbar and Footer's background image is filtered through a radial gradient, and is intended to provide a subtle yet effective "electrical" effect, with a colour scheme consistent with the rest of the site.
 The Navbar's radial gradient starts from the top of the page, and produces a semi-circle effect protrudes downwards towards the page content. The Footer's gradient starts from the bottom of the page, and produces a semi-circle effect which 
 protrudes upwards towards the page content. This combined effect produces an "enclosed" aesthetic, and assists the overall intended aesthetic impact of the design. 
 
-**Nav Links and Enquire/Submit button**  
+#### Nav Links and Enquire/Submit button 
+
 Each link offers a mild yet stimulating visual effect when either engaged with or hovered over with a mouse. This applies to all links within the navbar, and the Enquire/Submit button within the footer. This 'growing' effect was adapted from [Hover.css](https://ianlunn.GitHub.io/Hover/).
 For links within the Navbar, the user's location is depicted by a change of colour (Red = Active, White = Not Active). When the user hovers over or engages with the link, the colour is changed from white to red. These effects are subtle, yet
 incorporate a degree of interactivity with the user, producing a responsive effect.  
 
-**Enquire/Submit Button**  
+#### Enquire/Submit Button  
+
 Given the Enquire/Submit button contained in the footer (regardless of whether it states Enquire or Submit) is the most important link on every page, an additional effect has been applied to this button. 
 A continuous pulsing glowing effect has been applied to it, which draws the user's attention, encouraging engagement and interaction regardless of the user's location on the site.   
 
-**Package Table Link**  
+#### Package Table Link  
+
 The Package Table link available on the About page, and on smaller viewports in the Enquiry page, was initially designed with a red wavy underline text decoration style. 
 
 ![Wavey underline hyperlink](https://res.cloudinary.com/bak2k3/image/upload/v1605350432/service-package-1_xpt5mh.jpg)
