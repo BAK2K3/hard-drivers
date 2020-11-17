@@ -4,7 +4,16 @@ The Main README documentation can be found under [README.md](README.md)
 
 [View website on GitHub Pages](https://bak2k3.GitHub.io/hard-drivers/Home.html)
 
-## Testing User Stories
+# Table of contents
+
+>1. [User Story Testing](#user-story-testing)
+>2. [Feature Testing](#feature-testing)
+>3. [Browser Testing](#browser-testing)
+>4. [Automated Testing](#automated-testing)
+>5. [Significant Bugs](#significant-bugs)
+>6. [Other Technical Difficulties](#other-technical-difficulties)
+
+# User Story Testing
 
 **As a visitor to the website, I want to know what your company does.**
 
@@ -36,7 +45,7 @@ and the intention of this particular button, as it may not initially be clear th
 button at the bottom of the enquiry form. It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. Form submission is validated prior to submission, 
 and users are alerted to any incomplete fields if necessary. On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
 
-## Functional Testing
+# Feature Testing
 
 _Testing the Functional Requirements was completed manually, with each feature being tested as described below._ 
 
@@ -213,7 +222,7 @@ have been discussed together.
 * On medium to small viewports, ensure the `"Click here for further details!"` section within "your package" fieldset added to view.
 * On small viewports, ensure the positioning of the Enquiry Form's labels are repositioned accordingly to a "stacked" view for better user viewing and control.  
 
-## Browser Testing
+# Browser Testing
 
 Cross-Browser compatibility was tested via applying the methodology described above within each browser detailed below.
 
@@ -242,7 +251,7 @@ As I do not have access to a device which is compatable with Safari, the above i
     * Ultimately, however, I found myself removing core functionality of the website in order to adhere to the limitations of an out of date browser. While some functionality was restored for IE11 compatibility,
     it was decided to focus on the capabilities of browsers which are current, up to date, and are capable of newer technology as opposed to removing functionality and limiting the capabilities of the website I had created.
 
-## Automated Testing
+# Automated Testing
 
 Automated testing was completed via third party applications, in order to assess the markdown syntax and logical application of the languages/frameworks used. 
 
@@ -279,7 +288,7 @@ Automated testing was completed via third party applications, in order to assess
 
 On further inspection, the main cause for the drop in Accessibility score for the Enquire page was due to the implementation of `minimum-scale=1, maximum-scale=1` in the head of Enquire.html.
 
-## Significant Bugs
+# Significant Bugs
 
 1. **Making image fully responsive and aesthetically fluid for different viewports**
     * When first implementing the concept for the Viewport Control and the subsequent responsive images, I started with the Hero Image on the Home page. 
@@ -338,7 +347,7 @@ Screenshot of the solution:
     * This solution seems long winded, and would potentially result in unexpected results and goes against the recommendation to [not use 'tabindex=1+'](https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/#:~:text=When%20tabindex%20is%20set%20to,it%20in%20the%20tab%20order.).
     * A solution to this could also be implemented in javascript, however additional experience would be needed to attempt this.
 
-**Other technical difficulties:**
+# Other Technical Difficulties
 
 1. **GitHub Commit Merge** 
     * On 27th October, I accidentally merged multiple git commits (df2b72005f9506c70c5d58fcb9964631462d7555/a8190a91b29cb1d4c3258e5d0f684390113bc646). While I researched how to undo the push, I was aware this would result in all of these changes being combined, and I wasn't fully comfortable 
