@@ -330,14 +330,14 @@ to a double underline. This retained the powerful aesthetic design without the n
 
 ## Existing Features
 
-**Navigation bar (Navbar)**
+### Navigation bar (Navbar)
 
 Each page has a sticky navbar at the top. **This consistent, simple, and intuitive navigation system contributes to instilling user trust, and allows users to reach all aspects of the website.**
 The navbar retains its layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. On large devices, the navbar 
 has a second row which highlights the active page the user is on. On mobile devices, the navigation links are hidden, and activated with a "sandwich" (which is a server icon), 
 drawing the links between the page logo and the current page's sub-heading. 
 
-**Footer**
+### Footer
 
 Each page has a sticky footer at the bottom. **This provides links GitHub, a second and more aesthetically stimulating link to the enquire page, and links to socials.** The same background effect is used on the footer, but with the gradient
 reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
@@ -347,13 +347,13 @@ for a more user-friendly interface.
 On the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
 and implements a function which is relevant and fits the contextual flow of the page. 
 
-**Package Table**
+### Package Table
 
 A package table is available on multiple pages of the site. **It provides the user with a full breakdown of the different tiers of service packages** they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
 are explicitly clear. Each tier benefit contains a tooltip to provide additional information on the service included. These tooltips are also available in screen reader-only descriptions, which explain each benefit, which package they are included in, and their associated costs. 
 On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop "Enquire" page, small self-descriptive icons sit at the end of each benefit that provide this tooltip.
 
-**Enquire Form**
+### Enquire Form
 
 **The enquiry form allows the user to provide a small amount of personal details, and information regarding their requirements, in order to engage with the company and to receive a specification in response.** 
 The colour scheme, structure, and layout of the Enquire form is consistent with theme of the project.
@@ -366,18 +366,18 @@ information regarding their requirements if they should wish to do so.
 Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition; considering this aspect of the engagement is essentially just a request for an initial quote,
 this would have added nothing to the initial enquiry and added an additional unnecessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user.
 
-**Modals**
+### Modals
 
 **Modals are implemented into the site to provide an additional degree of interactivity.** They layer content where necessary, so as to not compress too much information into a single location. The modals either contain the package table, or a thank you message 
 once the user has completed and submitted the enquiry form. 
 
-**Viewport Control**
+### Viewport Control
 
 **Where possible, the pages content is contained within the user's viewport.** Where this is not possible, for example on very small mobile devices, an intuitive navigation system has been implemented to allow for only the content
 of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, as if the content had been designed for their specific needs,
 and would ensure that no information is missed.  
 
-**Responsive Layout and design**
+### Responsive Layout and design
 
 Using `Flexbox`, **the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions.** While certain breakpoints have been implemented to change the structure of the content, the priority was to focus on fully flexible and responsive layout 
 than specific targeted device sizes. Each page is split into sections which expand or shrink to equal sizes responsively to a device's height and width. Where appropriate, the spacing between each section is dynamic, and equally distributed. 
@@ -389,28 +389,28 @@ This meant that the images displayed as intended, were unlikely to be disrupted 
 
 ## Future Feature Considerations
 
-**Enquiry Form Processing**
+### Enquiry Form Processing
 
 Currently, on submission of the Enquiry Form, the user is presented with a Thank You Modal and the form is subsequently cleared; the information input into the form is not processed.
 With additional experience of Python and SQL, **the information input into this form could be processed and inserted into a database**, before being assigned to a Hard driver to prepare a specification**.
 
-**GDPR information as personal information being processed**
+### GDPR information as personal information being processed
 
 Given the information input into the Enquiry Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, **a GDPR/Privacy Policy tick box would be required** 
 for the user to agree to in order for this personal information to be collected and the form to be stored.
 
-**Bot/Spam prevention on form completion**
+### Bot/Spam prevention on form completion
 
 Once the Form Processing has been implemented, **consideration needs to be given to how to prevent form submission being abused by bots**. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
 such as Captcha, Human Tests, and bot-only form fields.
 
-**Provide Live Service**
+### Provide Live Service
 
 A user may want to make an enquiry with the business prior to making a request for a specification. **A Live Chat Service could be implemented to provide instant answers to user specific questions.** This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
 whereby the user asks a question and using Natural Language Processing an appropriate answer is given to their question; if the query cannot be answered this way, the user can be passed to a Hard Driver via Live Web Chat for additional assistance. The Live Chat box could be
 potentially incorporated into the footer, and could be engaged with on any page. 
 
-**Smart Specification**
+### Smart Specification
 
 **An optional Smart Specification could be implemented on the "Enquiry" Page.** A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
 they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
