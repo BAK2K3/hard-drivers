@@ -19,9 +19,9 @@ This project is a static website for a fictitious Custom PC Building company, ca
 >4. [Technologies Used](#technologies-used) 
 >5. [Testing](#testing)
 >6. [Deployment](#deployment)
->    1. [How this project was deployed](#how-this-project-was-deployed)
->    2. [How to run this Project in your Browser](#how-to-run-this-project-in-your-browser)
->    3. [How to run this Project Locally](#how-to-run-this-project-locally)
+>    1. [How this Project was Deployed](#how-this-project-was-deployed)
+>    2. [How to Run this Project in your Browser](#how-to-run-this-project-in-your-browser)
+>    3. [How to Run this Project Locally](#how-to-run-this-project-locally)
 >7. [Credits](#credits)
 >    1. [Content](#content)
 >    2. [Media](#media)
@@ -449,7 +449,7 @@ This project was deployed to GitHub pages via the following steps:
 
 As this project was developed on the master branch, all changes made to the repository are immediately reflected in the deployed project.
 
-## How to run this Project in your Browser
+## How to Run this Project in your Browser
 
 1. Install the [Google Chrome](https://www.google.co.uk/chrome/) or [Firefox](https://www.mozilla.org/en-GB/exp/firefox/new/) browser.
 2. Install the applicable [GitPod](https://www.gitpod.io/docs/browser-extension/) Browser Extensions for your chosen browser.
@@ -461,7 +461,7 @@ As this project was developed on the master branch, all changes made to the repo
     * Click this [link](https://gitpod.io/#https://GitHub.com/BAK2K3/hard-drivers).
 6. A new workspace will open with the current state of the master branch. Any changes made to the master branch after this point will not be automatically updated in your Gitpod Workspace.
 
-## How to run this Project Locally
+## How to Run this Project Locally
 
 ### Cloning the Repository
 
