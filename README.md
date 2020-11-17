@@ -2,6 +2,8 @@
 
 This project is a static website for a fictitious Custom PC Building company, called **Hard Drivers**.
 
+[View website on GitHub Pages](https://bak2k3.GitHub.io/hard-drivers/index.html).
+
 # Table of contents
 
 >1. [Overview](#overview)
@@ -55,8 +57,6 @@ Hard Drivers is a customer budget based Custom PC Building Company. Customers ca
 based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand-new tailor-made computer. 
 
 The project is developed primarily using **HTML** and **CSS**, with a small amount of **JavaScript** implemented for additional functionality.
-
-[View website on GitHub Pages](https://bak2k3.GitHub.io/hard-drivers/index.html)
 
 ---
 
