@@ -374,7 +374,7 @@ This meant that the images displayed as intended, were unlikely to be disrupted 
 ### Enquiry Form Processing
 
 Currently, on submission of the Enquiry Form, the user is presented with a Thank You Modal and the form is subsequently cleared; the information input into the form is not processed.
-With additional experience of Python and SQL, **the information input into this form could be processed and inserted into a database**, before being assigned to a Hard driver to prepare a specification**.
+With additional experience of Python and SQL, **the information input into this form could be processed and inserted into a database**, before being assigned to a Hard driver to prepare a specification.
 
 ### GDPR information as personal information being processed
 
