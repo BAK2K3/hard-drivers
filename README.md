@@ -12,8 +12,7 @@ This project is a static website for a fictitious Custom PC Building company, ca
 >        * [Business Goals](#business-goals)
 >        * [User Stories](#user-stories)
 >    2. [Scope](#2-scope)
->        * [Features](#features)
->        * [Future Feature Considerations](#future-feature-considerations)
+>        * [Requirements](#requirements)
 >    3. [Structure](#3-structure)
 >        * [Home Page](#home-page)
 >        * [About Page](#about-page)
@@ -27,21 +26,24 @@ This project is a static website for a fictitious Custom PC Building company, ca
 >        * [Typography](#typography)
 >        * [Images](#images)
 >        * [Visual Effects](#visual-effects)
->3. [Technologies Used](#technologies-used) 
->4. [Testing](#testing)
->5. [Deployment](#deployment)
+>3. [Features](#features)
+>        * [Existing Features](#existing-features)
+>        * [Future Feature Considerations](#future-feature-considerations)
+>4. [Technologies Used](#technologies-used) 
+>5. [Testing](#testing)
+>6. [Deployment](#deployment)
 >    1. [How this project was deployed](#how-this-project-was-deployed)
 >    2. [How to run this Project in your Browser](#how-to-run-this-project-in-your-browser)
 >    3. [How to run this Project Locally](#how-to-run-this-project-locally)
 >        * [Cloning the Repository](#cloning-the-repository)
 >        * [Manually Downloading the Repository](#manually-downloading-the-repository)
 >        * [Opening the Repository](#opening-the-repository)
->6. [Credits](#credits)
+>7. [Credits](#credits)
 >    1. [Content](#content)
->    1. [Media](#media)
->    1. [Code](#code)
->7. [Acknowledgements](#acknowledgements)
->8. [Disclaimer](#disclaimer)
+>    2. [Media](#media)
+>    3. [Code](#code)
+>8. [Acknowledgements](#acknowledgements)
+>9. [Disclaimer](#disclaimer)
 
 # Overview
 
@@ -116,7 +118,16 @@ _“I want to be able to contact the company straight away”._
 * Every page has multiple "Enquire Now" buttons, so as to allow a user to immediately engage when they want to.
     * This "Enquire Now" should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible. 
 
-### Business Goals
+### User Stories
+
+1. `As a visitor to the website, I want to know what your company does.`  
+2. `As a potential customer, I want to know what services you provide.`  
+3. `As an interested customer, I want to know how much the service costs.` 
+4. `As a convinced customer, I want to be able to easily make an enquiry.`
+
+## 2. Scope
+
+### Requirements
 
 **Encourage and Allow User Engagement**
 * Every page must allow a user to engage with the business.
@@ -138,99 +149,6 @@ _“I want to be able to contact the company straight away”._
 * Communicate that the computer is customer budget based.
 * Be transparent about cost of additional services and peripherals. 
 * Provide detailed yet convincing breakdown of cost of service.
-
-### User Stories
-
-1. `As a visitor to the website, I want to know what your company does.`  
-2. `As a potential customer, I want to know what services you provide.`  
-3. `As an interested customer, I want to know how much the service costs.` 
-4. `As a convinced customer, I want to be able to easily make an enquiry.`
-
-## 2. Scope
-
-### Features
-
-**Navigation bar (Navbar)**
-
-Each page has a sticky navbar at the top. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. On large devices, the navbar 
-has a second row underneath the logo which displays the active page the user is on.  On mobile devices, the navigation links are hidden, and activated with a "sandwich" (which is a server icon), 
-which draw the links between the page logo and the current page's sub-heading. The consistent, simple, and intuitive navigation system would contribute to instilling user trust, and allows users to reach all aspects 
-of the site which aid the satisfaction of all user-stories.
-
-**Footer**
-
-Each page has a static footer at the bottom. This provides links GitHub, a second and more aesthetically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
-reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
-with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
-for a more user-friendly interface. As discussed, on the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
-and implements a function which is relevant and fits the contextual flow of the page. 
-
-**Price Table**
-
-A price table is available on multiple pages of the site. It provides the user with a full breakdown of the different tiers of service packages they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
-is explicitly clear, and a full screen reader-only description is available which explains which benefits are included in which package, and their associated costs. Each tier benefit contains a tooltip to provide additional information on the service included. 
-On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop "Enquire" page, small self-descriptive icons sit at the end of each benefit that provide this tooltip.
-
-**Enquire Form**
-
-The enquiry form allows the user to provide a small amount of personal details, and information regarding their requirements, in order to engage with the company and to receive a specification in response. 
-Each field is categorised and grouped into the relevant field set, with each individual field being clearly separated and labelled. Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. 
-They must then decide what type of computer they want, and their budget. In all viewports, the "Budget" field contains a tooltip which explicitly states the budget stated excludes the cost of the service package requested, and any potential optional peripherals to be quoted.
-The user can at this stage decide to opt in to be quoted for an optional peripheral to be paired with their computer. The user must then select a package tier, and then optionally provide more 
-information regarding their requirements if they should wish to do so. Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition; considering this aspect of the engagement is essentially just a request for an initial quote,
-this would have added nothing to the initial enquiry and added an additional unnecessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user. 
-
-**Modals**
-
-Modals are implemented into the site to provide an additional degree of interactivity. They are also present to layer content where necessary, so as to not compress to information into a single location. The modals either contain the price table, or a thank you message 
-once the user has completed and submitted the enquiry form. 
-
-**Viewport Control**
-
-Where possible, the pages contain all information within the user's viewport. Where this is not possible on very small mobile devices, or on the enquiry page, an intuitive navigation system has been implemented to allow for only the content
-of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, as if the content had been designed for their specific needs,
-and would ensure that no information is missed.  
-
-**Responsive Layout and design**
-
-Using Flexbox, the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions. While certain breakpoints have been implemented to change the structure of the content, the priority was to focus on fully flexible and responsive layout 
-than specific targeted device sizes. Each page is split into sections which expand or shrink to equal sizes responsively to the devices height and width. Where appropriate, the spacing between each section is dynamic, and equally distributed. 
-
-When changing the size of the viewport, it was important that images filled their respective container and therefore scaled appropriately; the challenge was to avoid the images overflowing or expanding their respective containers, 
-and to allow their position to change to maintain the structural integrity of the page layout. While the solution resulted in fully responsive images, it resorted to using `<div>` containers with a background image, therefore alt-text couldn't be displayed. 
-The best solution to this was to implement sr-only text for these elements. Given the images were being hosted internally (as opposed to being hosted on external CDNs), it was unlikely the links would be broken, and therefore the "alt text" was unlikely to be utilised.
-This meant that the images displayed as intended, were unlikely to be disrupted by broken links, and had accessibility.
-
-### Future Feature Considerations
-
-**Enquiry Form Processing**
-
-In its current state, on completion of the Enquiry Form, the user is presented with a Thank You Modal, and the form is subsequently cleared; the information input into the form is not processed.
-Given the nature of the project is to demonstrate static content, there is no requirement for the information input into the form to be processed. However, in an ideal and practical scenario, the information input
-into this form would be inserted into a database, and assigned to a Hard driver for processing for generation of the user's specification.
-
-**GDPR information as personal information being processed**
-
-Given the information input into the Enquiry Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, a GDPR/Privacy Policy tick box would be required 
-for the user to agree to in order for this personal information to be collected and the form to be submitted. In its current state, the website does not store any of this information on completion/submission of the form, 
-therefore this is not currently required.
-
-**Bot/Spam prevention on form completion**
-
-Once the Form Processing has been implemented, consideration needs to be given to how to prevent form submission being abused by bots. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
-such as Captcha, Human Tests, and bot-only form fields.
-
-**Provide Live Service**
-
-A user may want to make an enquiry with the business prior to making an request for a specification. A Live Chat Service could be implemented to provide instant answers to user specific questions. This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
-whereby the user asks a question and using Natural Language Processing an appropriate answer is given to their question; if the query cannot be answered this way, the user can be passed to a Hard Driver via Live Web Chat for additional assistance. The Live Chat box could be
-potentially incorporated into the footer, and could be engaged with on any page. 
-
-**Smart Specification**
-
-An optional Smart Specification could be implemented on the "Enquiry" Page. A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
-they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
-From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
 
 ## 3. Structure
 
@@ -407,6 +325,94 @@ User feedback suggested this had "spelling mistake" connotations, and that while
 to a double underline. This retained the powerful aesthetic design without the negative connotations that came with the wavy red underline decoration.
 
 ![Double underline hyperlink](https://res.cloudinary.com/bak2k3/image/upload/v1605350432/service-package-2_xzirpw.jpg)
+
+---
+# Features
+
+## Existing Features
+
+**Navigation bar (Navbar)**
+
+Each page has a sticky navbar at the top. This provides a consistent layout and structure as the user navigates through the site. The logo is always centred, and is always the most prominent header on each page. On large devices, the navbar 
+has a second row underneath the logo which displays the active page the user is on.  On mobile devices, the navigation links are hidden, and activated with a "sandwich" (which is a server icon), 
+which draw the links between the page logo and the current page's sub-heading. The consistent, simple, and intuitive navigation system would contribute to instilling user trust, and allows users to reach all aspects 
+of the site which aid the satisfaction of all user-stories.
+
+**Footer**
+
+Each page has a static footer at the bottom. This provides links GitHub, a second and more aesthetically stimulating link to the enquire page, and links to socials. The same background effect is used on the footer, but with the gradient
+reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
+with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
+for a more user-friendly interface. As discussed, on the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
+and implements a function which is relevant and fits the contextual flow of the page. 
+
+**Price Table**
+
+A price table is available on multiple pages of the site. It provides the user with a full breakdown of the different tiers of service packages they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
+is explicitly clear, and a full screen reader-only description is available which explains which benefits are included in which package, and their associated costs. Each tier benefit contains a tooltip to provide additional information on the service included. 
+On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop "Enquire" page, small self-descriptive icons sit at the end of each benefit that provide this tooltip.
+
+**Enquire Form**
+
+The enquiry form allows the user to provide a small amount of personal details, and information regarding their requirements, in order to engage with the company and to receive a specification in response. 
+Each field is categorised and grouped into the relevant field set, with each individual field being clearly separated and labelled. Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. 
+They must then decide what type of computer they want, and their budget. In all viewports, the "Budget" field contains a tooltip which explicitly states the budget stated excludes the cost of the service package requested, and any potential optional peripherals to be quoted.
+The user can at this stage decide to opt in to be quoted for an optional peripheral to be paired with their computer. The user must then select a package tier, and then optionally provide more 
+information regarding their requirements if they should wish to do so. Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition; considering this aspect of the engagement is essentially just a request for an initial quote,
+this would have added nothing to the initial enquiry and added an additional unnecessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user. 
+
+**Modals**
+
+Modals are implemented into the site to provide an additional degree of interactivity. They are also present to layer content where necessary, so as to not compress to information into a single location. The modals either contain the price table, or a thank you message 
+once the user has completed and submitted the enquiry form. 
+
+**Viewport Control**
+
+Where possible, the pages contain all information within the user's viewport. Where this is not possible on very small mobile devices, or on the enquiry page, an intuitive navigation system has been implemented to allow for only the content
+of the page (not the headings) to be scrollable. By presenting all information on the screen at once, due to having a minimalistic design, this should produce a powerful emotional response from the user, as if the content had been designed for their specific needs,
+and would ensure that no information is missed.  
+
+**Responsive Layout and design**
+
+Using Flexbox, the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions. While certain breakpoints have been implemented to change the structure of the content, the priority was to focus on fully flexible and responsive layout 
+than specific targeted device sizes. Each page is split into sections which expand or shrink to equal sizes responsively to the devices height and width. Where appropriate, the spacing between each section is dynamic, and equally distributed. 
+
+When changing the size of the viewport, it was important that images filled their respective container and therefore scaled appropriately; the challenge was to avoid the images overflowing or expanding their respective containers, 
+and to allow their position to change to maintain the structural integrity of the page layout. While the solution resulted in fully responsive images, it resorted to using `<div>` containers with a background image, therefore alt-text couldn't be displayed. 
+The best solution to this was to implement sr-only text for these elements. Given the images were being hosted internally (as opposed to being hosted on external CDNs), it was unlikely the links would be broken, and therefore the "alt text" was unlikely to be utilised.
+This meant that the images displayed as intended, were unlikely to be disrupted by broken links, and had accessibility.
+
+## Future Feature Considerations
+
+**Enquiry Form Processing**
+
+In its current state, on completion of the Enquiry Form, the user is presented with a Thank You Modal, and the form is subsequently cleared; the information input into the form is not processed.
+Given the nature of the project is to demonstrate static content, there is no requirement for the information input into the form to be processed. However, in an ideal and practical scenario, the information input
+into this form would be inserted into a database, and assigned to a Hard driver for processing for generation of the user's specification.
+
+**GDPR information as personal information being processed**
+
+Given the information input into the Enquiry Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, a GDPR/Privacy Policy tick box would be required 
+for the user to agree to in order for this personal information to be collected and the form to be submitted. In its current state, the website does not store any of this information on completion/submission of the form, 
+therefore this is not currently required.
+
+**Bot/Spam prevention on form completion**
+
+Once the Form Processing has been implemented, consideration needs to be given to how to prevent form submission being abused by bots. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
+such as Captcha, Human Tests, and bot-only form fields.
+
+**Provide Live Service**
+
+A user may want to make an enquiry with the business prior to making an request for a specification. A Live Chat Service could be implemented to provide instant answers to user specific questions. This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
+whereby the user asks a question and using Natural Language Processing an appropriate answer is given to their question; if the query cannot be answered this way, the user can be passed to a Hard Driver via Live Web Chat for additional assistance. The Live Chat box could be
+potentially incorporated into the footer, and could be engaged with on any page. 
+
+**Smart Specification**
+
+An optional Smart Specification could be implemented on the "Enquiry" Page. A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
+they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
+From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
+
 
 ---
 
