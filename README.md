@@ -15,6 +15,10 @@ This project is a static website for a fictitious Custom PC Building company, ca
 >        * [Features](#features)
 >        * [Future Feature Considerations](#future-feature-considerations)
 >    3. [Structure](#3-structure)
+>        * [Home Page](#home-page)
+>        * [About Page](#about-page)
+>        * [Enquire Page](#enquire-page)
+>        * [Packages Page](#packages-page)
 >    4. [Skeleton](#4-skeleton)
 >    5. [Surface](#5-surface)
 >3. [Technologies Used](#technologies-used) 
@@ -213,12 +217,9 @@ An optional Smart Specification could be implemented on the "Enquiry" Page. A us
 they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
 From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
 
-
 ## 3. Structure
 
-### Informational Architecture and Interaction Design
-
-#### Home Page
+### Home Page
 
 * Provides a full breakdown of the company, its ethos, and its purpose.
 * Grabs customer's attention, engages, and encourages user to make an enquiry.
@@ -232,7 +233,7 @@ From a business perspective, this could reduce the amount of work the customer f
     * Sustain the user.
     * Convey Company ethos and purpose.
 
-#### About Page
+### About Page
 
 * Explains how cost works.
 * Instils trust by selling the brand and the service.
@@ -247,7 +248,7 @@ From a business perspective, this could reduce the amount of work the customer f
     * Convince customer to engage with company.
     * Be transparent about cost, services, and purpose.
 
-#### Enquire Page
+### Enquire Page
 
 * Allows customer to submit enquiry by providing a small amount of information.
 * Offers a simple and intuitive method of enquiring.
@@ -261,28 +262,30 @@ From a business perspective, this could reduce the amount of work the customer f
     * Instigate engagement.
     * Obtain customer information to proceed with service.
     
-**Packages Page: A Discussion on Informational Architecture**
+### Packages Page
 
-As a Business, Hard Drivers would primarily make the most amount of profit from the additional services provided on top of the custom build computers. 
-As such, an additional page was initially planned called _"Packages"_, which provided the customer with a detailed breakdown of the additional services 
-they could purchase in conjunction with their new computer. This can be seen from the original wireframe designs.
-
-After reviewing the original plans and wireframes, and after additional consideration, it was considered that this information in isolation appeared to be quite _content thin_,
-and could potentially make having a separate page for this content feel empty and isolated. In addition to this, it would be entirely possible for a customer to visit the _"Home"_ page,
-engage with the site immediately as intended, and forgo this page entirely.  Given this information is integral for the business, consideration needed to be made as to 
-where this content could be added. Having this information appear on the _"Home"_ page would defer from its minimalistic design and intention, and could potentially feel like 
-over-selling from a customer perspective, and considering the intention, context, and grouping of information on the _"About"_ page, it was decided that the _"Packages"_ information would 
-overload this page or side-track its intention.
-
-From a business perspective, this information needed to be accessible and hard to miss. However, as a consumer, you would not want to be over-burdened with aggressive overselling. 
-The positioning of this information needed to be relevant, compliment the flow and structure of the other pages, along with their features and content, and needed to fulfil its business purpose
-of being a mandatory part of the selling process, without being intrusive. 
-
-A work-around to this was explored, and has been considered for implementation, whereby the _"Packages"_ page is removed entirely, and reference can be made in the _"About"_ page, under Cost, 
-to additional services being provided. This reference will link to a modal whereby the content initially planned for the _"Packages"_ page is displayed. In doing this, the services can be subtly referenced,
-without being intrusive, and can provide the user with the additional information if they request it. Furthermore, in the _"Enquire"_ page, under the _"Packages"_ section, the decision has been made
-to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
-however is not obliged to delve into the additional information if they do not wish to do so, which would potentially fulfil the customer need of not being overwhelmed with information unnecessarily.
+> **A Discussion on Informational Architecture**
+>
+>As a Business, Hard Drivers would primarily make the most amount of profit from the additional services provided on top of the custom build computers. 
+>As such, **an additional page was initially planned called _"Packages"_**, which provided the customer with a detailed breakdown of the additional services 
+>they could purchase in conjunction with their new computer. This can be seen from the original wireframe designs.
+>
+>After reviewing the original plans and wireframes, and after additional consideration, **it was considered that this information in isolation appeared to be quite _content thin_**,
+>and could potentially make having a separate page for this content feel empty and isolated. In addition to this, it would be entirely possible for a customer to visit the _"Home"_ page,
+>engage with the site immediately as intended, and forgo this page entirely.  Given this information is integral for the business, consideration needed to be made as to 
+>where this content could be added. Having this information appear on the _"Home"_ page would defer from its minimalistic design and intention, and could potentially feel like 
+>over-selling from a customer perspective, and considering the intention, context, and grouping of information on the _"About"_ page, it was decided that the _"Packages"_ information would 
+>overload this page or side-track its intention.
+>
+>From a business perspective, **this information needed to be accessible and hard to miss**. However, as a consumer, you would not want to be over-burdened with aggressive overselling. 
+>The positioning of this information needed to be relevant, compliment the flow and structure of the other pages, along with their features and content, and needed to fulfil its business purpose
+>of being a mandatory part of the selling process, without being intrusive.
+>
+>A work-around to this was explored, and has been considered for implementation, whereby the _"Packages"_ page is removed entirely, and reference can be made in the _"About"_ page, under Cost, 
+>to additional services being provided. This reference will link to a modal whereby the content initially planned for the _"Packages"_ page is displayed. In doing this, the services can be subtly referenced,
+>without being intrusive, and can provide the user with the additional information if they request it. Furthermore, in the _"Enquire"_ page, under the _"Packages"_ section, the decision has been made
+>to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
+>however is not obliged to delve into the additional information if they do not wish to do so, which would potentially fulfil the customer need of not being overwhelmed with information unnecessarily.
 
 ## 4. Skeleton
 
