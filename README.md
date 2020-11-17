@@ -90,10 +90,10 @@ _“I want to be able to contact the company straight away”._
   * Make the branding unique, and aesthetically pleasing.
   * Apply the branding consistently throughout the website.
   * Align the style and design of the pages to match the branding.
-  * Minimalistic design approach, so as to not overwhelm the customer.
-* Appeal to the customer by personalising the service.
-  * Address the customer directly by repeatedly using the term _"You"_ and _"Your"_.
-  * Make it clear that each customer is unique, and each computer will be built specifically for their needs.
+  * Minimalistic design approach, so as to not overwhelm the user.
+* Appeal to the user by personalising the service.
+  * Address the user directly by repeatedly using the term _"You"_ and _"Your"_.
+  * Make it clear that each user is unique, and each computer will be built specifically for their needs.
 
 **Pricing**
 * Be transparent with cost.
@@ -101,20 +101,20 @@ _“I want to be able to contact the company straight away”._
     * No hidden costs.
 * Upsell as a separate entity.
     * Peripherals and Service packages are not included in initial budget.
-    * The customer is not required to spend any more than their budget.
+    * The user is not required to spend any more than their budget.
 
 **Buyer Making Decision**
 * Offer a _"No Obligation"_ quote/specification.
-    * The customer will therefore not need to justify engaging with the company/website.
+    * The user will therefore not need to justify engaging with the company/website.
     * As such, they do not need to plan to engage with the company/website, other than stating a budget.
-* Communicate that the hard work is taken away from the customer.
+* Communicate that the hard work is taken away from the user.
     * This suggests the user only needs to put in a small amount of effort to receive a full service in return.
 
 **Product Considerations and Content Strategy**
-* Minimalistic design, so at to draw attention, avoid overwhelming the customer, and encourage engagement.
-    * The product is the _service_ provided by Hard Drivers, therefore strong colours, images, and headlines to engage with customer.
+* Minimalistic design, so at to draw attention, avoid overwhelming the user, and encourage engagement.
+    * The product is the _service_ provided by Hard Drivers, therefore strong colours, images, and headlines to engage with user.
 * Thin content where necessary, providing only the most important information from the outset.
-    * Provide fuller content in sections of the website where the customer specifically wants further information.
+    * Provide fuller content in sections of the website where the user specifically wants further information.
 * Every page has multiple "Enquire Now" buttons, so as to allow a user to immediately engage when they want to.
     * This "Enquire Now" should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible. 
 
@@ -142,11 +142,11 @@ _“I want to be able to contact the company straight away”._
 
 **Instil User Confidence**
 * The branding is clear, distinguishable, and recognisable.
-* Relate to and refer to the customer.
+* Relate to and refer to the user.
 * The website is minimalistic where necessary, intuitive, and user friendly. 
 
 **Present Cost Approach**
-* Communicate that the computer is customer budget based.
+* Communicate that the computer is user budget based.
 * Be transparent about cost of additional services and peripherals. 
 * Provide detailed yet convincing breakdown of cost of service.
 
@@ -155,7 +155,7 @@ _“I want to be able to contact the company straight away”._
 ### Home Page
 
 * Provides a full breakdown of the company, its ethos, and its purpose.
-* Grabs customer's attention, engages, and encourages user to make an enquiry.
+* Grabs user's attention, engages, and encourages user to make an enquiry.
 * **User Goal**:
     * Simple to interact with.
     * Explains business purpose.
@@ -178,53 +178,52 @@ _“I want to be able to contact the company straight away”._
 * **Business Goals**:
     * Convey company ethos.
     * Sell the brand.
-    * Convince customer to engage with company.
+    * Convince user to engage with company.
     * Be transparent about cost, services, and purpose.
 
 ### Enquire Page
 
-* Allows customer to submit enquiry by providing a small amount of information.
+* Allows user to submit enquiry by providing a small amount of information.
 * Offers a simple and intuitive method of enquiring.
 * Uses a user-friendly interface.
-* The feeling of achieving a lot from a small amount of input from the customer.
+* The feeling of achieving a lot from a small amount of input from the user.
 * **User Goals**:
     * A simple an intuitive form of communication.
     * Feel like little information needed to instigate engagement.
     * A positive user experience during form filling.
 * **Business Goals**:
     * Instigate engagement.
-    * Obtain customer information to proceed with service.
+    * Obtain user information to proceed with service.
     
 ### Packages Page
 
 > **A Discussion on Informational Architecture**
 >
->As a Business, Hard Drivers would primarily make the most amount of profit from the additional services provided on top of the custom build computers. 
->As such, **an additional page was initially planned called _"Packages"_**, which provided the customer with a detailed breakdown of the additional services 
+>As a Business, Hard Drivers would profit most from the additional services provided on top of the custom built computers. 
+>As such, **an additional page was initially planned called _"Packages"_**, which provided the user with a detailed breakdown of the additional services 
 >they could purchase in conjunction with their new computer. This can be seen from the original wireframe designs.
 >
->After reviewing the original plans and wireframes, and after additional consideration, **it was considered that this information in isolation appeared to be quite _content thin_**,
->and could potentially make having a separate page for this content feel empty and isolated. In addition to this, it would be entirely possible for a customer to visit the _"Home"_ page,
->engage with the site immediately as intended, and forgo this page entirely.  Given this information is integral for the business, consideration needed to be made as to 
->where this content could be added. Having this information appear on the _"Home"_ page would defer from its minimalistic design and intention, and could potentially feel like 
->over-selling from a customer perspective, and considering the intention, context, and grouping of information on the _"About"_ page, it was decided that the _"Packages"_ information would 
->overload this page or side-track its intention.
+>After considering the implementation of this page, **it was decided that seperating this information into an individual page would result in an _empty_ and _isolated_ page**.
+>In addition to this, it would be entirely possible for a user to visit the _"Home"_ page, engage with the site immediately, and forgo this page entirely.  
+>Given this information is integral to the business, consideration needed to be made as to where this content could be added. 
+>Having this information appear on the _"Home"_ page would divert from its intention, and minimalistic design, and and could potentially feel ebrasive to a user. Considering the intention, context, and grouping of information on the _"About"_ page, 
+>it was decided that the _"Packages"_ information in its entiritey would overload this page with information.
 >
->From a business perspective, **this information needed to be accessible and hard to miss**. However, as a consumer, you would not want to be over-burdened with aggressive overselling. 
->The positioning of this information needed to be relevant, compliment the flow and structure of the other pages, along with their features and content, and needed to fulfil its business purpose
+>From a business perspective, **this information needed to be accessible and hard to miss**. However, as a user, you would not want to be over-burdened with aggressive overselling. 
+>The positioning of this information needed to be relevant, compliment the flow and structure of the other pages, along with their respective features and content, and needed to fulfil its business purpose
 >of being a mandatory part of the selling process, without being intrusive.
 >
->A work-around to this was explored, and has been considered for implementation, whereby the _"Packages"_ page is removed entirely, and reference can be made in the _"About"_ page, under Cost, 
->to additional services being provided. This reference will link to a modal whereby the content initially planned for the _"Packages"_ page is displayed. In doing this, the services can be subtly referenced,
->without being intrusive, and can provide the user with the additional information if they request it. Furthermore, in the _"Enquire"_ page, under the _"Packages"_ section, the decision has been made
->to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
->however is not obliged to delve into the additional information if they do not wish to do so, which would potentially fulfil the customer need of not being overwhelmed with information unnecessarily.
+>The solution to this was to **remove the _"Packages"_ page entirely**, and **implement references to the packages in the _"About"_ page and _"Enquire"_ page.** In the _"About"_ page, under Cost,
+>the packages can be referenced, **linking to a modal whereby the content initially planned for the _"Packages"_ page is displayed**. In doing this, the services can be subtly referenced,
+>without being intrusive, and can provide the user with the additional information if they request it. Furthermore, **in the _"Enquire"_ page, under the _"Packages"_ section**, the decision has been made
+>to ensure no package is preselected, and to **provide a link to the same modal as previously referenced**. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
+>hand fulfilling the user requirement of not being overwhelmed with information unnecessarily.
 
 ## 4. Skeleton
 
 ### Wireframes
 
-Due to the resolution of the wireframe documents, it is recommended that these PDFs are downloaded, rather than using GitHub's native PDF viewer. 
+Due to the resolution of the wireframe documents, it is recommended that these PDFs are downloaded to be viewed in the browser, rather than using GitHub's native PDF viewer. 
 
 * Header/Footer Wireframe: [Version 1](./assets/wireframes/header-footer-wireframe.pdf) | [Version 2](./assets/wireframes/header-footer-wireframe-v2.pdf)
 * Home (Index) Page Wireframe: [Version 1](./assets/wireframes/index-wireframe.pdf)
