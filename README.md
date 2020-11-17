@@ -51,8 +51,8 @@ This project is a static website for a fictitious Custom PC Building company, ca
 hɑːd ˈdraɪvə | **Noun**  
 *A CompTIA A+ certified computer magician, who has an abundance of love and pride for making your dream computer become a reality.*  
 
-Hard Drivers is a customer budget based Custom PC Building company. Customers can obtain a _“no obligation”_ free specification for a custom build PC 
-based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand new tailor-made computer. 
+Hard Drivers is a customer budget based Custom PC Building Company. Customers can obtain a _“no obligation”_ free specification for a custom build PC 
+based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand-new tailor-made computer. 
 
 The project is developed primarily using **HTML** and **CSS**, with a small amount of **JavaScript** implemented for additional functionality.
 
@@ -132,7 +132,7 @@ _“I want to be able to contact the company straight away”._
 **Encourage and Allow User Engagement**
 * Every page must allow a user to engage with the business.
 * The ability to engage is clear and stands out from other interactive aspects of the site.
-* Engagement is done through completing an simple and intuitive enquiry form.
+* Engagement is done through completing a simple and intuitive enquiry form.
 
 **Convey Ethos/Purpose**
 * Outline key services on home page.
@@ -237,10 +237,10 @@ The project's aesthetic design is aligned with the ethos and branding of Hard Dr
 
 ### Logo
 
-The project's 'surface' design commenced with mock-ups of the Logo. Colours, Fonts, Spacing, and Imagery was experimented with in order to achieve a colour scheme and overall theme which was relevant to the context of the project.
-This theme was subsequently applied to the project. The Mock Ups were designed personally in [Gimp](https://www.gimp.org/). 
+The project's 'surface' design commenced with mockups of the Logo. Colours, Fonts, Spacing, and Imagery was experimented with in order to achieve a colour scheme and overall theme which was relevant to the context of the project.
+This theme was subsequently applied to the project. The mockups were designed personally in [Gimp](https://www.gimp.org/). 
 
-* Logo Mock Ups: [Full](https://res.cloudinary.com/bak2k3/image/upload/v1605345690/full-logo_wrg0un.png) / [Small](https://res.cloudinary.com/bak2k3/image/upload/v1605345690/small-logo_ktx7jg.png).
+* Logo Mockups: [Full](https://res.cloudinary.com/bak2k3/image/upload/v1605345690/full-logo_wrg0un.png) / [Small](https://res.cloudinary.com/bak2k3/image/upload/v1605345690/small-logo_ktx7jg.png).
 
 The Logo was ultimately implemented in HTML/CSS for a more dynamic and responsive user experience, rather than being presented with a static image on the website's header.
 
@@ -313,7 +313,7 @@ incorporate a degree of interactivity with the user, producing a responsive effe
 
 **Enquire/Submit Button**  
 Given the Enquire/Submit button contained in the footer (regardless of whether it states Enquire or Submit) is the most important link on every page, an additional effect has been applied to this button. 
-A continuous pulsing glowing effect has been applied to it, which draws the users attention, encouraging engagement and interaction regardless of the user's location on the site.   
+A continuous pulsing glowing effect has been applied to it, which draws the user's attention, encouraging engagement and interaction regardless of the user's location on the site.   
 
 **Package Table Link**  
 The Package Table link available on the About page, and on smaller viewports in the Enquiry page, was initially designed with a red wavy underline text decoration style. 
@@ -380,7 +380,7 @@ and would ensure that no information is missed.
 **Responsive Layout and design**
 
 Using `Flexbox`, **the site is designed to be fluid, dynamic, and responsive to all screen sizes and resolutions.** While certain breakpoints have been implemented to change the structure of the content, the priority was to focus on fully flexible and responsive layout 
-than specific targeted device sizes. Each page is split into sections which expand or shrink to equal sizes responsively to the devices height and width. Where appropriate, the spacing between each section is dynamic, and equally distributed. 
+than specific targeted device sizes. Each page is split into sections which expand or shrink to equal sizes responsively to a device's height and width. Where appropriate, the spacing between each section is dynamic, and equally distributed. 
 
 When changing the size of the viewport, it was important that images filled their respective container and therefore scaled appropriately; the challenge was to avoid the images overflowing or expanding their respective containers, 
 while retaining their position, in order maintain each page's structural integrity and layout. While the solution resulted in fully responsive images, it resorted to using `<div>` containers with a background image, therefore alt-text could not be implemented. 
@@ -392,7 +392,7 @@ This meant that the images displayed as intended, were unlikely to be disrupted 
 **Enquiry Form Processing**
 
 Currently, on submission of the Enquiry Form, the user is presented with a Thank You Modal and the form is subsequently cleared; the information input into the form is not processed.
-With additional experience of Python and SQL, **the information input into this form could be processed and inserted into a database**, before being assigned to a Hard driver to create a the user's specification**.
+With additional experience of Python and SQL, **the information input into this form could be processed and inserted into a database**, before being assigned to a Hard driver to prepare a specification**.
 
 **GDPR information as personal information being processed**
 
@@ -406,7 +406,7 @@ such as Captcha, Human Tests, and bot-only form fields.
 
 **Provide Live Service**
 
-A user may want to make an enquiry with the business prior to making an request for a specification. **A Live Chat Service could be implemented to provide instant answers to user specific questions.** This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
+A user may want to make an enquiry with the business prior to making a request for a specification. **A Live Chat Service could be implemented to provide instant answers to user specific questions.** This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
 whereby the user asks a question and using Natural Language Processing an appropriate answer is given to their question; if the query cannot be answered this way, the user can be passed to a Hard Driver via Live Web Chat for additional assistance. The Live Chat box could be
 potentially incorporated into the footer, and could be engaged with on any page. 
 
