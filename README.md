@@ -1,29 +1,41 @@
 ![Hard Drivers Logo](https://res.cloudinary.com/bak2k3/image/upload/v1605345690/full-logo_wrg0un.png)
 
-# Hard Drivers
+This project is a static website for a fictitious Custom PC Building company, called **Hard Drivers**.
 
-## Overview
+# Table of contents
 
-This project is a static website for a fictitious Custom PC Building company, called Hard Drivers.  
-It is developed primarily using HTML and CSS, with a small amount of javascript implemented for additional functionality.
+>1. [Overview](#overview)
+>2. [UX](#ux)
+>    1. [Strategy](#1.-strategy)
+>    2. [Scope](#2.-scope)
+>    3. [Structure](#3.-structure)
+>    4. [Skeleton](#4.-skeleton)
+>    5. [Surface](#5.-surface)
+>3. [Technologies Used](#technologies-used) 
+>4. [Testing](#testing)
+>5. [Deployment](#deployment)
+>6. [Credits](#credits)
+>7. [Acknowledgements](#acknowledgements)
+>8. [Disclaimer](#disclaimer)
 
-[View website on GitHub Pages](https://bak2k3.GitHub.io/hard-drivers/index.html)
-
----
-
-## Project Concept
+# Overview
 
 >**Hard Driver**  
 hɑːd ˈdraɪvə | **Noun**  
 *A CompTIA A+ certified computer magician, who has an abundance of love and pride for making your dream computer become a reality.*  
 
-Hard Drivers is a customer budget based Custom PC Building company. Customers can obtain a _“no obligation”_ free specification for a custom build PC based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand new tailor-made computer. 
+Hard Drivers is a customer budget based Custom PC Building company. Customers can obtain a _“no obligation”_ free specification for a custom build PC 
+based on a budget of their choosing. Customers can also choose to include additional service packages to their specification, and request additional peripherals (i.e Monitor, Keyboard, Mouse, etc) to be paired perfectly with their brand new tailor-made computer. 
+
+The project is developed primarily using **HTML** and **CSS**, with a small amount of **JavaScript** implemented for additional functionality.
+
+[View website on GitHub Pages](https://bak2k3.GitHub.io/hard-drivers/index.html)
 
 ---
 
 # UX
 
-## Strategy
+## 1. Strategy
 
 ### Stakeholder Interview
 
@@ -86,9 +98,7 @@ _“I want to be able to contact the company straight away”._
 3. `As an interested customer, I want to know how much the service costs.` 
 4. `As a convinced customer, I want to be able to easily make an enquiry.`
 
----
-
-## Scope
+## 2. Scope
 
 Based on the research completed in the Strategy plane, and the subsequent User Stories (the _"why"_), the requirements were split into Non-Functional and Functional Requirements. The Non-Functional Requirements 
 describe the overall intended goals of the project (the _'what'_) and when broken down act as 'Conditions of Satisfaction' for the User Stories, while the Functional Requirements details how these are going to be achieved (the _"how"_) 
@@ -174,9 +184,39 @@ and to allow their position to change to maintain the structural integrity of th
 The best solution to this was to implement sr-only text for these elements. Given the images were being hosted internally (as opposed to being hosted on external CDNs), it was unlikely the links would be broken, and therefore the "alt text" was unlikely to be utilised.
 This meant that the images displayed as intended, were unlikely to be disrupted by broken links, and had accessibility.
 
----
+### Future Feature Considerations
 
-## Structure
+**Enquiry Form Processing**
+
+In its current state, on completion of the Enquiry Form, the user is presented with a Thank You Modal, and the form is subsequently cleared; the information input into the form is not processed.
+Given the nature of the project is to demonstrate static content, there is no requirement for the information input into the form to be processed. However, in an ideal and practical scenario, the information input
+into this form would be inserted into a database, and assigned to a Hard driver for processing for generation of the user's specification.
+
+**GDPR information as personal information being processed**
+
+Given the information input into the Enquiry Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, a GDPR/Privacy Policy tick box would be required 
+for the user to agree to in order for this personal information to be collected and the form to be submitted. In its current state, the website does not store any of this information on completion/submission of the form, 
+therefore this is not currently required.
+
+**Bot/Spam prevention on form completion**
+
+Once the Form Processing has been implemented, consideration needs to be given to how to prevent form submission being abused by bots. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
+such as Captcha, Human Tests, and bot-only form fields.
+
+**Provide Live Service**
+
+A user may want to make an enquiry with the business prior to making an request for a specification. A Live Chat Service could be implemented to provide instant answers to user specific questions. This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
+whereby the user asks a question and using Natural Language Processing an appropriate answer is given to their question; if the query cannot be answered this way, the user can be passed to a Hard Driver via Live Web Chat for additional assistance. The Live Chat box could be
+potentially incorporated into the footer, and could be engaged with on any page. 
+
+**Smart Specification**
+
+An optional Smart Specification could be implemented on the "Enquiry" Page. A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
+they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
+From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
+
+
+## 3. Structure
 
 ### Informational Architecture and Interaction Design
 
@@ -246,9 +286,7 @@ without being intrusive, and can provide the user with the additional informatio
 to ensure no package is preselected, and to provide a link to the same modal as previously referenced. In doing so, the user must engage with this aspect of the sales process, fulfilling the business need,
 however is not obliged to delve into the additional information if they do not wish to do so, which would potentially fulfil the customer need of not being overwhelmed with information unnecessarily.
 
----
-
-## Skeleton
+## 4. Skeleton
 
 ### Wireframes
 
@@ -260,9 +298,7 @@ Due to the resolution of the wireframe documents, it is recommended that these P
 * Packages Wireframe: [Version 1](./assets/wireframes/packages-wireframe.pdf) | [Version 2](./assets/wireframes/packages-wireframe-v2.pdf)
 * Enquire Wireframe: [Version 1](./assets/wireframes/enquire-wireframe.pdf) | [Version 2](./assets/wireframes/enquire-wireframe-v2.pdf)
 
----
-
-## Surface
+## 5. Surface
 
 The project's aesthetic design is aligned with the ethos and branding of Hard Drivers; simple, effective, and powerful. 
 
@@ -358,48 +394,15 @@ to a double underline. This retained the powerful aesthetic design without the n
 
 ---
 
-# Future Feature Considerations
-
-**Enquiry Form Processing**
-
-In its current state, on completion of the Enquiry Form, the user is presented with a Thank You Modal, and the form is subsequently cleared; the information input into the form is not processed.
-Given the nature of the project is to demonstrate static content, there is no requirement for the information input into the form to be processed. However, in an ideal and practical scenario, the information input
-into this form would be inserted into a database, and assigned to a Hard driver for processing for generation of the user's specification.
-
-**GDPR information as personal information being processed**
-
-Given the information input into the Enquiry Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, a GDPR/Privacy Policy tick box would be required 
-for the user to agree to in order for this personal information to be collected and the form to be submitted. In its current state, the website does not store any of this information on completion/submission of the form, 
-therefore this is not currently required.
-
-**Bot/Spam prevention on form completion**
-
-Once the Form Processing has been implemented, consideration needs to be given to how to prevent form submission being abused by bots. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
-such as Captcha, Human Tests, and bot-only form fields.
-
-**Provide Live Service**
-
-A user may want to make an enquiry with the business prior to making an request for a specification. A Live Chat Service could be implemented to provide instant answers to user specific questions. This could be implemented with an initial "smart" FAQ, such as a Chat Bot, 
-whereby the user asks a question and using Natural Language Processing an appropriate answer is given to their question; if the query cannot be answered this way, the user can be passed to a Hard Driver via Live Web Chat for additional assistance. The Live Chat box could be
-potentially incorporated into the footer, and could be engaged with on any page. 
-
-**Smart Specification**
-
-An optional Smart Specification could be implemented on the "Enquiry" Page. A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
-they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
-From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
-
----
-
 # Technologies Used
 
-* The project was primarily written in HTML and CSS. Small snippets of Javascript were used to enhance user experience.
+* The project was primarily written in HTML and CSS. Small snippets of JavaScript were used to enhance user experience.
 * The project was written and tested in the [Gitpod](https://gitpod.io/) IDE.
 * The project was debugged using [Google Chrome](https://www.google.com/intl/en_uk/chrome/) [Dev Tools](https://developers.google.com/web/tools/chrome-devtools).
 * The project uses [GitHub](https://GitHub.com/) for hosting source code, for utilising git version control, and for hosting the site on GitHub pages.  
 * The project's template was generated from [Code Institute's Gitpod Template](https://GitHub.com/Code-Institute-Org/gitpod-full-template).
 * The project uses [Boostrap](https://getbootstrap.com/) v4.5.3, a 'Mobile First' HTML/CSS Framework for simple and intuitive responsive web design.
-* The project uses [jQuery](https://jquery.com/) v3.5.1, a Javascript library, for certain Bootstrap elements, and for form validation.
+* The project uses [jQuery](https://jquery.com/) v3.5.1, a JavaScript library, for certain Bootstrap elements, and for form validation.
 * The project uses [Popper.js](https://popper.js.org/) v1.16.1, a Tooltip and Popover Positioning Engine, for Tooltips and dropdowns.
 * The project uses [jsDelivr](https://www.jsdelivr.com/) as a Content Delivery Network for Bootstrap and Popper.
 * The project uses [FontAwesome](https://fontawesome.com/) v5.15.1, a free icon-set/toolkit for web development.
@@ -507,7 +510,7 @@ As this project was developed on the master branch, all changes made to the repo
 * HTML/CSS: Inspiration for pricing table was taken from [Codeply](https://www.codeply.com/go/BmIqIeuNoD/bootstrap-4-comparison-table-options-table) and heavily modified.   
 * HTML/CSS: Guidance on Bootstrap, Tooltips, Modals and general Bootstrap integration and usage was obtained from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/).         
 * HTML/CSS: Guidance on general HTML/CSS usage was obtained from [Mozilla's Web Documentation](https://developer.mozilla.org/en-US/docs/Web/Reference).
-* Javascript: Code Snipper taken from [StackOverflow](https://stackoverflow.com/questions/11866910/how-to-force-a-html5-form-validation-without-submitting-it-via-jquery) and modified to force a HTML5 Form Validation prior to form submission/modal pop up.
+* JavaScript: Code Snipper taken from [StackOverflow](https://stackoverflow.com/questions/11866910/how-to-force-a-html5-form-validation-without-submitting-it-via-jquery) and modified to force a HTML5 Form Validation prior to form submission/modal pop up.
 * CSS: An understanding of radial gradients was obtained from [Quirksmode](https://www.quirksmode.org/css/images/position.html).
 * CSS: Guidance on removing additional spacing around Span elements was obtained from [StackOverflow](https://stackoverflow.com/questions/25667401/how-to-remove-the-space-between-two-span-tags).
 * CSS: Code snippet taken from [CodePen](https://codepen.io/jpost-design/pen/EKZLzK) and modified to obtain a "glow button" effect.
