@@ -54,7 +54,7 @@ further emphasising the ethos and company intention.
 
 # Feature Testing
 
-_Testing the Functional Requirements was completed manually, with each feature being tested as described below._ 
+_Testing the Features was completed manually, with each feature being tested as described below._ 
 
 ## Navigation bar (Navbar)
 
