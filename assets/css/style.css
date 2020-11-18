@@ -876,6 +876,7 @@ table p {
 .socials {
   padding-left: 5px;
   padding-right: 5px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -884,7 +885,10 @@ table p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: block;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-line-pack: center;
   align-content: center;
 }
 
@@ -978,8 +982,6 @@ table p {
 
   .navbar-collapse .navbar-nav {
     -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
     max-height: 0;
@@ -1080,7 +1082,10 @@ table p {
 
   .socials-pair-one,
   .socials-pair-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
 
