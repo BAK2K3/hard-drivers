@@ -17,33 +17,40 @@ The Main README documentation can be found under [README.md](README.md)
 
 ## As a visitor to the website, I want to know what your company does.
 
-On arrival to the homepage, the user is presented with the name of the company, the three main selling points of company, a _"call to action"_, and strong, relevant, and colourful imagery. The colour scheme adopted in the Logo/Header is consistent with
-the content of the site, the images, and the footer's text, icons, and style. Three sub-headings are visible on the homepage which are extremely succinct, yet clearly convey the ethos and purpose of the business. Each subheading has a relevant icon to 
-give users an emotional response to each subheading's content. The _"call to action"_  text on the home page also addresses the user, and clearly gives instructions as to how to engage with company and website on a "no-risk" basis, and what they will achieve from doing so,
-further emphasising the ethos and company intention. The concept and interface is simple, easy to use and navigate, and is responsive on all devices and viewports. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
+**On arrival to the homepage, the user is presented with the name of the company, the three main selling points of company, a _"call to action"_, and strong, relevant, and colourful imagery.**
+* The colour scheme adopted in the Logo/Header is consistent with the content of the site, the images, and the footer's text, icons, and style. 
+* Three sub-headings are visible on the homepage which are extremely succinct, yet clearly convey the ethos and purpose of the business. 
+* Each subheading has a relevant icon to give users an emotional response to each subheading's content. 
+* The _"call to action"_  text on the home page also addresses the user, and clearly gives instructions as to how to engage with company and website on a "no-risk" basis, and what they will achieve from doing so,
+further emphasising the ethos and company intention. 
+* The concept and interface is simple, easy to use and navigate, and is responsive on all devices and viewports. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
 
 ## As a potential customer, I want to know what services you provide.
 
-Once the user has engaged with the site, in the knowledge of the primary purpose of the business, they can proceed to make an enquiry through the Navbar, or through the footer link. However, if they require further information with regards to the services provided 
-by the business, they have access to the _"About"_ page, which is the next contextually relevant link within the Navbar. This page offers further insight into the 3 selling points of the website/company. While maintaining the websites minimalistic design, 
-each section offers a succinct amount of detail about each selling point, in the same informational order as displayed in the Home page. Each section contains a relevant image, which once again dynamically resizes depending on viewport. These images are not available 
-on mobile devices; while they undoubtedly produce a powerful emotional response, it was decided that the explicit and succinct nature of the text means displaying all of this information on a single viewport on smaller devices was much more effective 
-(as per the viewport control discussion above) than allowing a user to scroll to view all content. For all viewports, the user can interact with a "Service Package" link which opens up a modal for the user, which displays the Package Table. 
+**If a user requires further information with regards to the services provided by the business, they have access to the _"About"_ page, which is the next contextually relevant link within the Navbar.**
+* This page offers further insight into the 3 selling points of the website/company. 
+* While maintaining the websites minimalistic design, each section offers a succinct amount of detail about each selling point, in the same informational order as displayed in the Home page.
+* Each section contains a relevant image, which once again dynamically resizes depending on viewport, however these images are not available on small horizontal viewports, emphasising the content rather than imagery.
 
 ## As an interested customer, I want to know how much the service costs.
 
-All pages on the site refer to the pricing structure of the business. The _"Home"_ page makes simple reference to it, the _"About"_ page elaborates on this pricing structure and presents users with the Package Table, and the _"Enquire"_ page provides 
-both the Package Table and a tooltip on the Budget section of the form to explain the additional packages/peripherals are excluded from the cost of the customer's budget. On the _"Enquire"_ page, on large viewports, the user is presented with the package table 
-next to the enquiry form. On tablets and mobile devices, this package table is hidden, and users are presented with a link to view package details (in the same style as that on the about page) via a modal. The colour design and structural layout of 
-the Package Table is representative to that of the rest of the site to maintain consistency.  
+**All pages on the site refer to the pricing structure of the business.** 
+* The _"Home"_ page makes general reference to cost.
+* The _"About"_ page elaborates on this pricing structure and presents users with the "Service Package" link which opens up a modal for the user, which displays the Package Table in full.
+* The _"Enquire"_ page provides both the Package Table, and a tooltip on the Budget section of the form to explain the additional packages/peripherals are excluded from the cost of the customer's budget. 
+    * On the _"Enquire"_ page, on large viewports, the user is presented with the package table next to the enquiry form. 
+    * On smaller viewports, this package table is hidden, and users are presented with a link to view package details (in the same style as that on the _"About"_ page) via a modal. 
+* The colour design and structural layout of the Package Table is representative to that of the rest of the site to maintain consistency.  
 
 ## As a convinced customer, I want to be able to easily make an enquiry.
     
-The Enquire page allows a user to engage with the website through filling in a simple form. It is therefore, ultimately, the most important page on the site. It is accessible within the Navbar, and within the footer of both the _"Home"_ page and _"About"_ page. 
-In the footer of the enquiry page, the "enquiry" link is replaced with a "submit" link. The formatting and style are the same as the Enquire link (as seen in the Home page and About Page) to ensure consistency; it was considered that this may obfuscate the user, 
-and the intention of this particular button, as it may not initially be clear that the usage of the persistent button has changed, but the alternative to this was to retain a recursive "enquiry" link at the bottom of the enquiry page, and to have a separate "submit" 
-button at the bottom of the enquiry form. It was decided that the best solution to this was to replace the enquiry button with the submit button; this also works best for the mobile layout. Form submission is validated prior to submission, 
-and users are alerted to any incomplete fields if necessary. On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
+**The Enquire page allows a user to engage with the website through filling in a simple form.** 
+
+* The _"Enquire"_ page is ultimately the most important page on the site. It is accessible within the Navbar, and within the footer of both the _"Home"_ page and _"About"_ page.
+* In the footer of the _"Enquire"_ page, the _"Enquire"_ link is replaced with a _"Submit"_ link. 
+* The formatting and style are the same as the Enquire link (as seen in the Home page and About Page) to ensure consistency. 
+* Form submission is validated prior to submission, and users are alerted to any incomplete fields if necessary. 
+* On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
 
 # Feature Testing
 
@@ -247,9 +254,10 @@ As I do not have access to a device which is compatable with Safari, the above i
     * However, when adjusting the viewport of the aforementioned pages, the bugs re-appear and do not correct themselves when the viewport is reverted back to its original state.
 
 2. Auto Margin and Text Center:
-    * Multiple fixes were attempted to resolve the issues [auto-margin](https://stackoverflow.com/questions/31903734/ie11-flexbox-max-width-and-marginauto) and other [text alignment issues](https://stackoverflow.com/questions/49668656/css-text-align-center-not-working-on-ie11).
-    * Ultimately, however, I found myself removing core functionality of the website in order to adhere to the limitations of an out of date browser. While some functionality was restored for IE11 compatibility,
-    it was decided to focus on the capabilities of browsers which are current, up to date, and are capable of newer technology as opposed to removing functionality and limiting the capabilities of the website I had created.
+    * Multiple fixes were explored to resolve [auto-margin](https://stackoverflow.com/questions/31903734/ie11-flexbox-max-width-and-marginauto) issues and other [text alignment](https://stackoverflow.com/questions/49668656/css-text-align-center-not-working-on-ie11) issues.
+
+Ultimately, however, I found myself removing core functionality of the website in order to adhere to the limitations of an out of date browser. While some functionality was restored for IE11 compatibility,
+it was decided to focus on the capabilities of browsers which are current, up to date, and are capable of newer technology as opposed to removing functionality and limiting the capabilities of the website.
 
 # Automated Testing
 
@@ -275,7 +283,7 @@ Automated testing was completed via third party applications, in order to assess
         * `0 0 -10px 0 rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)`
     * This produced an identical effect, and passed the validation.
 
-3. **Google Lighthouse** - Accessibility, Performance, Progressive Web Apps, and Best Practices Audit:
+3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)** - Accessibility, Performance, Progressive Web Apps, and Best Practices Audit:
 
 **Home**  
 ![Home Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Index-Lighthouse_fxhiv5.jpg)
