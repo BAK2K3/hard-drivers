@@ -330,8 +330,9 @@ reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet e
 with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
 for a more user-friendly interface. 
 
-On the "Enquire" page, as opposed to having a second "Enquire" button on the bottom, this button has been converted into a "Submit" button, which removes the redundancy of a recursive link, 
-and implements a function which is relevant and fits the contextual flow of the page. 
+On the "Enquire" page, as opposed to maintaining the "Enquire" link within the footer, this has been converted into a "Submit" button. It was considered that this may obfuscate both the user and the intention of the button, 
+as it may not initially be clear that its usage had changed. However, the alternative was to retain a recursive "Enquire" link at the bottom of the enquiry page, and to have a separate "Submit" 
+button of the enquiry form. It was decided that the best solution to this was to replace the "Enquire" button with the "Submit" button so as to implement a function which is relevant and fits the contextual flow of the page; this also works best for the mobile layout.
 
 ### Package Table
 
