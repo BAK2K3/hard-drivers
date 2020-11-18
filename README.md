@@ -97,8 +97,8 @@ _“I want to be able to contact the company straight away”._
     * The product is the _service_ provided by Hard Drivers, therefore strong colours, images, and headlines to engage with user.
 * Thin content where necessary, providing only the most important information from the outset.
     * Provide fuller content in sections of the website where the user specifically wants further information.
-* Every page has multiple "Enquire Now" buttons, so as to allow a user to immediately engage when they want to.
-    * This "Enquire Now" should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible. 
+* Every page has multiple "Enquire" buttons, so as to allow a user to immediately engage when they want to.
+    * This "Enquire" button should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible. 
 
 ### User Stories
 
@@ -114,10 +114,10 @@ _“I want to be able to contact the company straight away”._
 **Encourage and Allow User Engagement**
 * Every page must allow a user to engage with the business.
 * The ability to engage is clear and stands out from other interactive aspects of the site.
-* Engagement is done through completing a simple and intuitive enquiry form.
+* Engagement is done through completing a simple and intuitive Enquire Form.
 
 **Convey Ethos/Purpose**
-* Outline key services on home page.
+* Outline key services on _"Home"_ page.
 * Present further details on key services on separate page.
 * Make sure the details provided are important, sellable, and merit being detailed in isolation.
 * Make the descriptions bite sized and easy to digest.
@@ -302,7 +302,7 @@ A continuous pulsing glowing effect has been applied to it, which draws the user
 
 #### Package Table Link  
 
-The Package Table link available on the About page, and on smaller viewports in the Enquiry page, was initially designed with a red wavy underline text decoration style. 
+The Package Table link available on the _"About"_ page, and on smaller viewports in the _"Enquire"_ page, was initially designed with a red wavy underline text decoration style. 
 
 ![Wavey underline hyperlink](https://res.cloudinary.com/bak2k3/image/upload/v1605350432/service-package-1_xpt5mh.jpg)
 
@@ -325,25 +325,25 @@ drawing the links between the page logo and the current page's sub-heading.
 
 ### Footer
 
-Each page has a sticky footer at the bottom. **This provides links GitHub, a second and more aesthetically stimulating link to the enquire page, and links to socials.** The same background effect is used on the footer, but with the gradient
+Each page has a sticky footer at the bottom. **This provides links GitHub, a second and more aesthetically stimulating link to the _"Enquire"_ page, and links to socials.** The same background effect is used on the footer, but with the gradient
 reversed, to provide an 'enclosed' look. Once again, this effect is subtle yet effective, and intends to produce a strong positive emotional response in order to instil trust in the user. The Enquire button is designed to grab the user’s attention, 
 with a continuous glowing effect. This effect encourages the user to interact with the link, and therefore engage with the website. On mobile devices, the footer is similar in layout, with the only significant change being font size and positioning of the social links 
 for a more user-friendly interface. 
 
-On the "Enquire" page, as opposed to maintaining the "Enquire" link within the footer, this has been converted into a "Submit" button. It was considered that this may obfuscate both the user and the intention of the button, 
-as it may not initially be clear that its usage had changed. However, the alternative was to retain a recursive "Enquire" link at the bottom of the enquiry page, and to have a separate "Submit" 
-button of the enquiry form. It was decided that the best solution to this was to replace the "Enquire" button with the "Submit" button so as to implement a function which is relevant and fits the contextual flow of the page; this also works best for the mobile layout.
+On the _"Enquire"_ page, the 'Enquire' link within the footer has been converted into a "Submit" button. It was considered that this may obfuscate both the user and the intention of the button, 
+as it may not initially be clear that its usage had changed. However, the alternative was to retain a recursive "Enquire" link at the bottom of the _"Enquire"_ page, and to have a separate "Submit" 
+button of the Enquire Form. It was decided that the best solution to this was to replace the "Enquire" button with the "Submit" button so as to implement a function which is relevant and fits the contextual flow of the page; this also works best for the mobile layout.
 
 ### Package Table
 
-A package table is available on multiple pages of the site. **It provides the user with a full breakdown of the different tiers of service packages** they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
+A Package Table is available on multiple pages of the site. **It provides the user with a full breakdown of the different tiers of service packages** they can opt into when requesting a quote for their computer. The cost and benefits of these packages 
 are explicitly clear. Each tier benefit contains a tooltip to provide additional information on the service included. These tooltips are also available in screen reader-only descriptions, which explain each benefit, which package they are included in, and their associated costs. 
-On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop "Enquire" page, small self-descriptive icons sit at the end of each benefit that provide this tooltip.
+On Modals, the tooltips are on the text of the benefits themselves, while on the Desktop _"Enquire"_ page, small self-descriptive icons sit at the end of each benefit that provide this tooltip.
 
 ### Enquire Form
 
-**The enquiry form allows the user to provide a small amount of personal details, and information regarding their requirements, in order to engage with the company and to receive a specification in response.** 
-The colour scheme, structure, and layout of the Enquire form is consistent with theme of the project.
+**The Enquire Form allows the user to provide a small amount of personal details, and information regarding their requirements, in order to engage with the company and to receive a specification in response.** 
+The colour scheme, structure, and layout of the Enquire Form is consistent with theme of the project.
 
 Each field is categorised and grouped into the relevant field set, with each individual field being clearly separated and labelled. Out of 8 fields, 6 are required, and 2 are optional. The user must supply their name, email address, and phone number. 
 They must then decide what type of computer they want, and their budget. The "Budget" field contains a tooltip which confirms the budget stated excludes the cost of the service package requested, and any potential optional peripherals to be quoted.
@@ -355,8 +355,8 @@ this would have added nothing to the initial enquiry and added an additional unn
 
 ### Modals
 
-**Modals are implemented into the site to provide an additional degree of interactivity.** They layer content where necessary, so as to not compress too much information into a single location. The modals either contain the package table, or a thank you message 
-once the user has completed and submitted the enquiry form. 
+**Modals are implemented into the site to provide an additional degree of interactivity.** They layer content where necessary, so as to not compress too much information into a single location. The modals either contain the Package Table, or a Thank You message 
+once the user has completed and submitted the Enquire Form. 
 
 ### Viewport Control
 
@@ -376,14 +376,14 @@ This meant that the images displayed as intended, were unlikely to be disrupted 
 
 ## Future Feature Considerations
 
-### Enquiry Form Processing
+### Enquire Form Processing
 
-Currently, on submission of the Enquiry Form, the user is presented with a Thank You Modal and the form is subsequently cleared; the information input into the form is not processed.
+Currently, on submission of the Enquire Form, the user is presented with a Thank You Modal and the form is subsequently cleared; the information input into the form is not processed.
 With additional experience of Python and SQL, **the information input into this form could be processed and inserted into a database**, before being assigned to a Hard driver to prepare a specification.
 
 ### GDPR information as personal information being processed
 
-Given the information input into the Enquiry Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, **a GDPR/Privacy Policy tick box would be required** 
+Given the information input into the Enquire Form is classified as _'personal data'_, if the data is to be processed and stored as per the above future feature implementation, **a GDPR/Privacy Policy tick box would be required** 
 for the user to agree to in order for this personal information to be collected and the form to be stored.
 
 ### Bot/Spam prevention on form completion
@@ -399,7 +399,7 @@ potentially incorporated into the footer, and could be engaged with on any page.
 
 ### Smart Specification
 
-**An optional Smart Specification could be implemented on the "Enquiry" Page.** A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
+**An optional Smart Specification could be implemented on the _"Enquire"_ Page.** A user can choose to initiate an initial Smart Specification, whereby a specification can be pre-generated prior to submission. This could be implemented in Python using hardware information stored in a database, such as prices and compatibility, and based on a few simple questions can generate a 'quick specification' for the Hard Drivers to work off. This could work if the user knew from the outset a specific piece of hardware
 they wanted, along with a budget, and a script could be implemented which matches the requested piece of hardware with other compatible pieces of hardware, and could even inform the user if their budget is too low for the specific hardware selected.
 From a business perspective, this could reduce the amount of work the customer facing Hard Drivers face, and could also reduce the amount of 'non-customers' who engage with the business with little to no intention of paying for the service.
 
@@ -517,7 +517,7 @@ As this project was developed on the master branch, all changes made to the repo
 
 * HTML/CSS: Implementation and utilisation of Flexbox was assisted by [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 * HTML: Code Snippet taken from [StackOverflow](https://stackoverflow.com/questions/49780918/how-can-i-have-brand-and-navbar-on-separate-lines) and modified to utilise D-flex and Flex Column to create two rows for the Navbar.
-* HTML: Code Snippet taken from [StackOverflow](https://stackoverflow.com/questions/5111964/disable-auto-zoom-field-zoom-on-input-tags-on-my-mobile-site-without-disabling) and implemented into Enquiry header to prevent auto-zooming on mobile devices.
+* HTML: Code Snippet taken from [StackOverflow](https://stackoverflow.com/questions/5111964/disable-auto-zoom-field-zoom-on-input-tags-on-my-mobile-site-without-disabling) and implemented into _"Enquire"_ page's header to prevent auto-zooming on mobile devices.
 * HTML/CSS: Inspiration for pricing table was taken from [Codeply](https://www.codeply.com/go/BmIqIeuNoD/bootstrap-4-comparison-table-options-table) and heavily modified.   
 * HTML/CSS: Guidance on Bootstrap, Tooltips, Modals and general Bootstrap integration and usage was obtained from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/).         
 * HTML/CSS: Guidance on general HTML/CSS usage was obtained from [Mozilla's Web Documentation](https://developer.mozilla.org/en-US/docs/Web/Reference).
