@@ -6,6 +6,7 @@
 */
 
 /************************************************************* Google Font Imports */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap");
 
 /*************************************************************  HTML and Body Reset and basic display settings */
@@ -48,6 +49,7 @@ footer {
 }
 
 /* 'Lava' render from Gimp Software (www.gimp.com) */
+
 .banner-background {
   background: url("../images/banner-background.jpg") black no-repeat center
     center fixed;
@@ -57,6 +59,7 @@ footer {
 
 /* Radial gradient (centre transparent, outer black) */
 /* https://www.quirksmode.org/css/images/position.html */
+
 .banner-gradient {
   background: -o-radial-gradient(at top, transparent 0%, black 80%);
   background: radial-gradient(at top, transparent 0%, black 80%);
@@ -120,6 +123,7 @@ footer {
 
   /* Removing spaces around span elements */
   /* https://stackoverflow.com/questions/25667401/how-to-remove-the-space-between-two-span-tags */
+
   font-size: 0;
 }
 
@@ -365,9 +369,6 @@ footer {
   align-self: flex-start;
 }
 
-.about-heading h2 {
-}
-
 .about-wrapper {
   padding: 0;
   display: -webkit-box;
@@ -375,7 +376,9 @@ footer {
   display: flex;
   -webkit-box-flex: 1;
   -ms-flex: 1;
+
   /* How to fix Flex in IE 11 https://stackoverflow.com/questions/21600345/flexbox-and-internet-explorer-11-displayflex-in-html */
+
   flex: 1 0 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -394,9 +397,6 @@ footer {
   flex-grow: 1;
 }
 
-.about-experts {
-}
-
 .about-experts .about-image {
   background: url("../images/experts.jpg") no-repeat center center;
   background-size: 100% auto;
@@ -406,9 +406,6 @@ footer {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-}
-
-.about-computer {
 }
 
 .about-computer .about-image {
@@ -501,7 +498,9 @@ footer {
   display: flex;
   -webkit-box-flex: 1;
   -ms-flex: 1;
+
   /* How to fix Flex in IE 11 https://stackoverflow.com/questions/21600345/flexbox-and-internet-explorer-11-displayflex-in-html */
+
   flex: 1 0 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -570,6 +569,7 @@ fieldset legend {
 
 /* Changing Placeholder Color */
 /* https://www.w3schools.com/howto/howto_css_placeholder.asp */
+
 .form-control.form-control-sm::-webkit-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fafafa;
@@ -610,6 +610,7 @@ textarea.form-control {
 }
 
 /* center-align the row of inputs vertically if text of label wraps onto second line  */
+
 .enquire-form .form-group.row {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -694,6 +695,7 @@ table a:hover {
   text-decoration: none;
   color: #fafafa;
 }
+
 /* 50% Cell border concept adapted from https://stackoverflow.com/questions/32265322/css-length-of-border-bottom */
 
 .table tr td::after {
@@ -717,8 +719,8 @@ table a:hover {
 }
 
 table p {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /* Price Table Modal */
@@ -811,6 +813,7 @@ table p {
 
 .footer {
   /* 'Lava' render from Gimp Software (www.gimp.com) */
+
   background: url("../images/banner-background.jpg") black no-repeat center
     center fixed;
   background-size: cover;
@@ -820,6 +823,7 @@ table p {
 
 /* Radial gradient (centre transparent, outer black) */
 /* https://www.quirksmode.org/css/images/position.html */
+
 .footer-gradient {
   background: -o-radial-gradient(at bottom, transparent 0%, black 70%);
   background: radial-gradient(at bottom, transparent 0%, black 70%);
@@ -830,9 +834,6 @@ table p {
   height: inherit;
   width: 100%;
   margin: 0;
-}
-
-.personal-logo {
 }
 
 .enquire-footer {
@@ -893,6 +894,7 @@ table p {
 
 @media only screen and (max-width: 576px) {
   /* Viewport */
+
   .viewport-control {
     height: calc(100% - 173px);
   }
@@ -966,6 +968,7 @@ table p {
   }
 
   /* Push Brand to center of page on mobile devices */
+
   .navbar-brand {
     margin-left: 65px;
   }
@@ -1044,7 +1047,7 @@ table p {
     padding-top: 35px;
   }
 
-   .enquire-wrapper {
+  .enquire-wrapper {
     overflow-x: hidden;
     overflow-y: auto;
   }
@@ -1096,6 +1099,7 @@ table p {
 
 @media only screen and (min-width: 992px) {
   /* Index Page */
+
   .lower-screen .row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1138,6 +1142,7 @@ table p {
 
 @media only screen and (min-width: 1200px) {
   /* Footer */
+
   .personal-logo {
     font-size: 1.2em;
   }
@@ -1147,6 +1152,7 @@ table p {
   }
 
   /* Buttons */
+
   .glass-button {
     font-size: 1.3em;
   }
@@ -1161,16 +1167,20 @@ table p {
     padding-right: 15px;
   }
 }
+
 /***********  /Desktop View */
 
 /***********  Large Desktop View */
 
 @media only screen and (min-width: 1400px) {
+  /* Index Page */
+
   .main-pitch h2 {
     font-size: 2rem;
   }
 
   /* About Page  */
+
   .about-text p {
     font-size: 1.2rem;
   }
@@ -1186,4 +1196,5 @@ table p {
     font-size: 2.5rem;
   }
 }
+
 /***********  /Extra Large Desktop View */
