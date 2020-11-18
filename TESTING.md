@@ -17,11 +17,11 @@ The Main README documentation can be found under [README.md](README.md)
 
 ## As a visitor to the website, I want to know what your company does.
 
-**On arrival to the homepage, the user is presented with the name of the company, the three main selling points of company, a _"call to action"_, and strong, relevant, and colourful imagery.**
+**On arrival to the _"Home"_ page, the user is presented with the name of the company, the three main selling points of company, a _"call to action"_, and strong, relevant, and colourful imagery.**
 * The colour scheme adopted in the Logo/Header is consistent with the content of the site, the images, and the footer's text, icons, and style. 
-* Three sub-headings are visible on the homepage which are extremely succinct, yet clearly convey the ethos and purpose of the business. 
+* Three sub-headings are visible on the _"Home"_ page which are extremely succinct, yet clearly convey the ethos and purpose of the business. 
 * Each subheading has a relevant icon to give users an emotional response to each subheading's content. 
-* The _"call to action"_  text on the home page also addresses the user, and clearly gives instructions as to how to engage with company and website on a "no-risk" basis, and what they will achieve from doing so,
+* The _"call to action"_  text on the _"Home"_ page also addresses the user, and clearly gives instructions as to how to engage with company and website on a "no-risk" basis, and what they will achieve from doing so,
 further emphasising the ethos and company intention. 
 * The concept and interface is simple, easy to use and navigate, and is responsive on all devices and viewports. Viewing this page on a mobile device stacks the content in order of most importance from top to bottom.
 
@@ -38,7 +38,7 @@ further emphasising the ethos and company intention.
 * The _"Home"_ page makes general reference to cost.
 * The _"About"_ page elaborates on this pricing structure and presents users with the "Service Package" link which opens up a modal for the user, which displays the Package Table in full.
 * The _"Enquire"_ page provides both the Package Table, and a tooltip on the Budget section of the form to explain the additional packages/peripherals are excluded from the cost of the customer's budget. 
-    * On the _"Enquire"_ page, on large viewports, the user is presented with the package table next to the enquiry form. 
+    * On the _"Enquire"_ page, on large viewports, the user is presented with the package table next to the Enquire Form. 
     * On smaller viewports, this package table is hidden, and users are presented with a link to view package details (in the same style as that on the _"About"_ page) via a modal. 
 * The colour design and structural layout of the Package Table is representative to that of the rest of the site to maintain consistency.  
 
@@ -48,7 +48,7 @@ further emphasising the ethos and company intention.
 
 * The _"Enquire"_ page is ultimately the most important page on the site. It is accessible within the Navbar, and within the footer of both the _"Home"_ page and _"About"_ page.
 * In the footer of the _"Enquire"_ page, the _"Enquire"_ link is replaced with a _"Submit"_ link. 
-* The formatting and style are the same as the Enquire link (as seen in the Home page and About Page) to ensure consistency. 
+* The formatting and style are the same as the _"Enquire"_ link (as seen in the _"Home"_ page and _"About"_ Page) to ensure consistency. 
 * Form submission is validated prior to submission, and users are alerted to any incomplete fields if necessary. 
 * On valid completion of the form, the user is presented with a thank you modal, informing them of the next steps, and the form is reset.
 
@@ -64,7 +64,7 @@ Unless specifically stated, all functionality for the Navbar was tested on every
     * Home -> About // Home -> Enquire 
     * About -> Home // About -> Enquire
     * Enquire -> Home // Enquire -> About
-* Click the main 'logo' on each page, to ensure it diverts the user back to the homepage.
+* Click the main 'logo' on each page, to ensure it diverts the user back to the _"Home"_ page.
 * Ensure the height of the Navbar is a consistent height across each page. 
 * Ensure Navbar elements (logo/links) maintain their position through navigation of the site. 
 * Ensure all internal navigational links are not opened externally.
@@ -95,9 +95,9 @@ Unless specifically stated, all functionality for the Navbar was tested on every
 Unless specifically stated, all functionality for the Footer was tested on every page.
 
 * On each page, ensure the GitHub / Social links open to the correct webpage, and are opened externally.   
-* On the "Home" and "About" pages, ensure the "Enquire" button correctly routes the user to the "Enquire" page.
-* On the "Enquire" page, ensure the "Enquire" button states "Submit" - Functionality testing discussed on the "Enquiry Form" section. 
-* Ensure on page load the "Enquire/Submit" button maintains its persistent 'glow' effect.  
+* On the _"Home"_ and _"About"_ pages, ensure the _"Enquire"_ button correctly routes the user to the _"Enquire"_ page.
+* On the _"Enquire"_ page, ensure the _"Enquire"_ button states _"Submit"_ - Functionality testing discussed on the 'Enquire Form' section. 
+* Ensure on page load the Enquire/Submit button maintains its persistent 'glow' effect.  
 * Ensure the Footer appearance is consistent across all pages, and maintains the same height. 
 * Ensure Footer elements (GitHub - Enquire/Submit - Socials) maintain their position through navigation of the site.
 * On large horizontal viewports, ensure the Footer's background image zooms in/out accordingly when increasing/decreasing horizontal viewport. 
@@ -117,7 +117,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
 
 ## Package Table
 
-1. Modal Design (About/Enquire Pages):
+1. Modal Design (_"About"_/_"Enquire"_ Pages):
     * Ensure the price of each tier is clear, and what benefits included in the respective tier is clear. 
     * Ensure the table is displayed centrally, and that all text is clear and visible.
     * Ensure on larger viewports, the table fits comfortably on the page, and does not require unnecessary scrolling.
@@ -130,16 +130,16 @@ Unless specifically stated, all functionality for the Footer was tested on every
         * Heading --> Price.
         * Benefit --> Benefit Description --> In what packages the benefit is included. 
 
-2. Full-Screen Design (Enquire Page):
+2. Full-Screen Design (_"Enquire"_ Page):
     * Ensure the price of each tier is clear, and what benefits included in the respective tier is clear. 
-    * Ensure the table size is equally proportionate to the size of the enquiry form.
+    * Ensure the table size is equally proportionate to the size of the Enquire Form.
     * Ensure the width of the surrounding 'Package Tiers' fieldset adjusts dynamically when adjusting the horizontal viewport.
     * Ensure the table is viewable on smaller vertical viewports, and can scroll through the content appropriately.
     * Ensure the user can interact with each `?` icon tooltip:
         * Ensure that on hover (desktop), the correct tooltip is displayed, and that the tooltip displays to the right of the relevant text, and that the text is legible. 
         * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks/touches a different benefit, or clicks/touches elsewhere.
         * Ensure the user can tab (desktop) through each tooltip, in logical order, from top to bottom.
-    * Ensure screen readers read the Package table before the Enquire table, and that the table itself is read immediately after the heading.
+    * Ensure screen readers read the Package table before the Enquire Table, and that the table itself is read immediately after the heading.
     * Ensure screen readers read the text within the table in the correct order:
         * Heading --> Price.
         * Benefit --> Benefit Description --> In what packages the benefit is included. 
@@ -152,7 +152,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
 * Ensure the form's size is equally proportionate to the size of the Package Table.
 * Ensure the form is viewable on smaller vertical viewports, and can scroll through the content appropriately.
 * Ensure the width of the fieldsets and form inputs adjust dynamically when changing the horizontal viewport.
-* Ensure tabbing through the Enquire form correctly navigates through the form:
+* Ensure tabbing through the Enquire Form correctly navigates through the form:
     * Full Name --> Email Address --> Phone Number --> Type (Option 1) --> Optional Peripherals (Option 1) --> (Option 2) --> (Option 3) --> Budget Tooltip --> Budget Input --> Your Package (Option 1) --> Your Request.
     * See known bugs below for discussion on tabbing from the 'Your Request' field to the 'Submit' button.
 * Ensure on any invalid input entry, the default browser validation messages are presented. 
@@ -169,7 +169,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
     * Values greater than 100,000 are presented with `Value must be less than 100000`.
 * Ensure Package selection is required for valid submission, and that all three cannot be selected.
 * Ensure on valid form submission that the Thank You model is presented, and that the form is cleared in full.  
-* Ensure screen readers read through the Enquire form in the correct sequence:
+* Ensure screen readers read through the Enquire Form in the correct sequence:
     * Your Details (legend) --> Full Name --> Email Address --> Phone Number 
     * Your Computer (legend) --> Type --> Desktop --> Laptop 
     * Optional Peripherals --> Monitor --> Keyboard --> Mouse 
@@ -179,7 +179,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
 
 ## Modals
 
-These tests applied to both the Price Table (About/Enquire) and Thank You (Enquire) modals:
+These tests applied to both the Price Table (_"About"_/_"Enquire"_ Pages) and Thank You (_"Enquire"_ Page) modals:
 
 * Ensure the modal is displayed centrally, with the appropriate Header / Body / Footer.
 * Ensure the modal's "close" button functions as intended, and closes the modal.
@@ -201,7 +201,7 @@ have been discussed together.
     * On all pages where the content fits within the Viewport Control, ensure the positioning of the content remains proportionate, and scales equally and proportionately.
 * Ensure that on mobile devices (or on small horizontal viewports), the Navbar collapses, providing a taller vertical Viewport Control. 
 * Ensure that on all pages, the distance between the "Logo" and the individual page heading is equal, and the dropdown menu fits perfectly between the two. 
-* Ensure that on the Home and About pages, the text size is adjusted by the specified amount on specified viewports:
+* Ensure that on the _"Home"_ and _"About"_ pages, the text size is adjusted by the specified amount on specified viewports:
     * Ensure that on all viewports, all text is visible and legible. 
 
 **Home Page**:
@@ -227,7 +227,7 @@ have been discussed together.
 * On medium to small viewports, ensure the Enquire Form's fieldsets and input sections resize dynamically when the horizontal viewport is adjusted.
 * On large viewports, ensure the `"Click here for further details!"` section within "your package" fieldset is hidden from view.
 * On medium to small viewports, ensure the `"Click here for further details!"` section within "your package" fieldset added to view.
-* On small viewports, ensure the positioning of the Enquiry Form's labels are repositioned accordingly to a "stacked" view for better user viewing and control.  
+* On small viewports, ensure the positioning of the Enquire Form's labels are repositioned accordingly to a "stacked" view for better user viewing and control.  
 
 # Browser Testing
 
@@ -294,24 +294,24 @@ Automated testing was completed via third party applications, in order to assess
 **Enquire**  
 ![Enquire Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Enquire-Ligthouse_seuuo4.jpg)
 
-On further inspection, the main cause for the drop in Accessibility score for the Enquire page was due to the implementation of `minimum-scale=1, maximum-scale=1` in the head of Enquire.html.
+On further inspection, the main cause for the drop in Accessibility score for the _"Enquire"_ page was due to the implementation of `minimum-scale=1, maximum-scale=1` in the head of Enquire.html.
 
 # Significant Bugs
 
 1. **Making image fully responsive and aesthetically fluid for different viewports**
-    * When first implementing the concept for the Viewport Control and the subsequent responsive images, I started with the Hero Image on the Home page. 
+    * When first implementing the concept for the Viewport Control and the subsequent responsive images, I started with the Hero Image on the _"Home"_ page. 
     * I first attempted absolute positioning of image in bottom right, but the image would sometimes overlap content and overflow from its container.
     * I then attempted finite height definition in px, however this was a similar outcome to the above, whereby it required consideration of "Min-height" as well as "Min-width" for viewports.
     * I subsequently attempted to add both the hero image and the "call to action" text to a Bootstrap row, with respective columns, and to set the hero-image height in Viewport Height (vh). 
     However, this required the explicit definition of `<div>` height and width, and image % size, which became cumbersome, with strict and finite instructions, which resulted in a less fluid and responsive layout.
     * The solution to this was to set the page's 'Viewport Control' size to 100% height (minus the height of header + footer), then set all sections of the page to be in Flex format, with the appropriate layout definitions being amended on each viewport. 
      This allowed fully dynamic image sizing, and div resizing, for the size of the page, regardless of device height/width.
-    * This concept subsequently became the 'Viewport Control' concept, and was then implemented into the About and Enquire pages. 
+    * This concept subsequently became the 'Viewport Control' concept, and was then implemented into the _"About"_ and _"Enquire"_ pages. 
 
 2. **Clicking the modal button on the Enquire page attempted to submit the form, highlighting incomplete fields on mobile, and triggering "this field needs completing".**
     * When initially implementing the Modal interface, a button was used to allow the user to bring up the Price Table modal. This issue was resolved by adding `onclick="return false;"` in the button field. 
-    * When adding the link to the Price Table model in the About page, it was decided that a 'Button' was visually obtrusive, and therefore a custom `<a>` class was implemented instead. 
-    * This custom `<a>` class also replaced the button for the Price Table modal in the Enquire page. This also allowed the "Enquire/Submit" button to maintain its unique design, without bleeding this feature onto other concepts. 
+    * When adding the link to the Price Table model in the _"About"_ page, it was decided that a 'Button' was visually obtrusive, and therefore a custom `<a>` class was implemented instead. 
+    * This custom `<a>` class also replaced the button for the Price Table modal in the _"Enquire"_ page. This also allowed the Enquire/Submit button to maintain its unique design, without bleeding this feature onto other concepts. 
 
 3. **When the content of the 'benefits' section of the table overflowed, the corresponding 'tick' boxes generated additional padding on the bottom of the cell, which conflicted with the 50% border concept implemented**
     * The issue came from `vertical-align: center;`, as this uses padding to align cell contents. Due to the nature of the ::after 50% border, this caused the border to sit on top of the padding, as opposed to the bottom of the cell as intended.
@@ -337,7 +337,7 @@ Screenshot of the solution:
     * On some mobile devices using Safari, clicking on an input form would "zoom in" on the input field. Alternatively, submitting an incomplete form would also "zoom in" on the incomplete input form.
     * This obfuscated the implementation of Viewport Control (fixed header with embedded scrollable div), requiring users to zoom out to use the page correctly.
     * While this did not necessarily break the layout of the page, it would require the user to zoom out in order to use the site correctly, creating a poor user experience.
-    * This was fixed by adding: `minimum-scale=1, maximum-scale=1` to the meta tag of the enquiry page.
+    * This was fixed by adding: `minimum-scale=1, maximum-scale=1` to the meta tag of the _"Enquire"_ page.
     * As discussed in the Lighthouse section, this significantly reduced the Accessibility score for the page, however based on the layout and structure of the page, I am satisfied this was a suitable solution.
 
 7. **Tooltips** (Existing Bug)
