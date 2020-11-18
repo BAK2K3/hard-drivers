@@ -62,7 +62,7 @@ _“I want to be able to contact the company straight away”._
 
 [Box](https://www.box.co.uk/ "Box Homepage"): A less specific focus on builds, with immediate attention drawn to peripherals rather than computer.
 
-[Chillblast](https://www.chillblast.com/ "Chillblast Homepage"): Not very user friendly, a lot of information, a lot of options, and high selling point is pre-build next day PCs.
+[Chillblast](https://www.chillblast.com/ "Chillblast Homepage"): Not very user-friendly, a lot of information, a lot of options, and high selling point is pre-built next day PCs.
 
 ### Business Strategy
 
@@ -93,11 +93,11 @@ _“I want to be able to contact the company straight away”._
     * This suggests the user only needs to put in a small amount of effort to receive a full service in return.
 
 **Product Considerations and Content Strategy**
-* Minimalistic design, so at to draw attention, avoid overwhelming the user, and encourage engagement.
+* Minimalistic design, so as to draw attention, avoid overwhelming the user, and encourage engagement.
     * The product is the _service_ provided by Hard Drivers, therefore strong colours, images, and headlines to engage with user.
 * Thin content where necessary, providing only the most important information from the outset.
     * Provide fuller content in sections of the website where the user specifically wants further information.
-* Every page has multiple "Enquire" buttons, so as to allow a user to immediately engage when they want to.
+* Every page has multiple "Enquire" buttons, to allow a user to immediately engage when they want to.
     * This "Enquire" button should ultimately be a "Fast Track" service to allow a user to go from making the decision to enquire, to having made the enquiry, in as few interactions as possible. 
 
 ### User Stories
@@ -125,7 +125,7 @@ _“I want to be able to contact the company straight away”._
 **Instil User Confidence**
 * The branding is clear, distinguishable, and recognisable.
 * Relate to and refer to the user.
-* The website is minimalistic where necessary, intuitive, and user friendly. 
+* The website is minimalistic where necessary, intuitive, and user-friendly. 
 
 **Present Cost Approach**
 * Communicate that the computer is user budget based.
@@ -181,15 +181,15 @@ _“I want to be able to contact the company straight away”._
 
 > **A Discussion on Informational Architecture**
 >
->As a Business, Hard Drivers would profit most from the additional services provided on top of the custom built computers. 
+>As a Business, Hard Drivers would profit most from the additional services provided on top of the custom-built computers. 
 >As such, **an additional page was initially planned called _"Packages"_**, which provided the user with a detailed breakdown of the additional services 
 >they could purchase in conjunction with their new computer. This can be seen from the original wireframe designs.
 >
->After considering the implementation of this page, **it was decided that seperating this information into an individual page would result in an _empty_ and _isolated_ page**.
+>After considering the implementation of this page, **it was decided that separating this information into an individual page would result in an _empty_ and _isolated_ page**.
 >In addition to this, it would be entirely possible for a user to visit the _"Home"_ page, engage with the site immediately, and forgo this page entirely.  
 >Given this information is integral to the business, consideration needed to be made as to where this content could be added. 
->Having this information appear on the _"Home"_ page would divert from its intention, and minimalistic design, and and could potentially feel ebrasive to a user. Considering the intention, context, and grouping of information on the _"About"_ page, 
->it was decided that the _"Packages"_ information in its entiritey would overload this page with information.
+>Having this information appear on the _"Home"_ page would divert from its intention, and minimalistic design, and could potentially feel abrasive to a user. Considering the intention, context, and grouping of information on the _"About"_ page, 
+>it was decided that the _"Packages"_ information in its entirety would overload this page with information.
 >
 >From a business perspective, **this information needed to be accessible and hard to miss**. However, as a user, you would not want to be over-burdened with aggressive overselling. 
 >The positioning of this information needed to be relevant, compliment the flow and structure of the other pages, along with their respective features and content, and needed to fulfil its business purpose
@@ -351,7 +351,7 @@ The user can at this stage decide to opt in to be quoted for an optional periphe
 information regarding their requirements if they should wish to do so. 
 
 Initially, a colour picker was implemented into the form, however this resulted in quite an arduous addition; considering this aspect of the engagement is essentially just a request for an initial quote,
-this would have added nothing to the initial enquiry and added an additional unnecessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user.
+this would have added nothing to the initial enquiry and added an unnecessary step towards requesting a quote, and was therefore removed. It was also found on mobile devices that the colour picker was limited, and therefore could have easily frustrated the user.
 
 ### Modals
 
@@ -389,7 +389,7 @@ for the user to agree to in order for this personal information to be collected 
 ### Bot/Spam prevention on form completion
 
 Once the Form Processing has been implemented, **consideration needs to be given to how to prevent form submission being abused by bots**. There are [many intuitive](https://www.lifewire.com/solutions-to-protect-web-forms-from-spam-3467469) ways this could be implemented,
-such as Captcha, Human Tests, and bot-only form fields.
+such as CAPTCHA, Human Tests, and bot-only form fields.
 
 ### Provide Live Service
 
