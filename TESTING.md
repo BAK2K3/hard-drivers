@@ -121,7 +121,7 @@ Unless specifically stated, all functionality for the Footer was tested on every
     * Ensure the price of each tier is clear, and what benefits included in the respective tier is clear. 
     * Ensure the table is displayed centrally, and that all text is clear and visible.
     * Ensure on larger viewports, the table fits comfortably on the page, and does not require unnecessary scrolling.
-    * Ensure on smaller vertical viewports, the table is scrollable on the y axis.
+    * Ensure on smaller vertical viewports, the table is scrollable on the y-axis.
     * Ensure the user can interact with each 'benefit':
         * Ensure that on hover (desktop), the correct tooltip is displayed, and that the tooltip displays to the right of the relevant text, and that the text is legible. 
         * Ensure that on click (desktop)/touch (mobile/tablet), the correct tooltip is displayed, and persists until either the user clicks/touches a different benefit, or clicks/touches elsewhere.
@@ -188,7 +188,7 @@ These tests applied to both the Price Table (_"About"_/_"Enquire"_ Pages) and Th
 * Ensure pressing tab at the end of the content highlights the "close" button:
     * Ensure pressing enter subsequently closes the modal.
 * Ensure pressing the escape key closes the modal.
-* Ensure the content of the modal fits appropriately, and can be scrolled on the y axis if required.
+* Ensure the content of the modal fits appropriately, and can be scrolled on the y-axis if required.
 * Ensure screen readers can read the content of the modal appropriately, and can read the "close" button.
 
 ## Viewport Control and Responsive Layout / Design
@@ -251,7 +251,7 @@ As I do not have access to a device which is compatable with Safari, the above i
     * These were present on the [Home page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_index_ue1yfb.jpg) and on the [About page](https://res.cloudinary.com/bak2k3/image/upload/v1605367671/flex_about_m2u8xz.jpg).
     * One attempted fix for this was to define Flex fully as: `flex: 1 0 0;` for the relevant sections. 
     * This appears to have fixed some functionality, for instance when the page is full screen the website can be navigated without issue.
-    * However, when adjusting the viewport of the aforementioned pages, the bugs re-appear and do not correct themselves when the viewport is reverted back to its original state.
+    * However, when adjusting the viewport of the aforementioned pages, the bugs re-appear and do not correct themselves when the viewport is reverted to its original state.
 
 2. Auto Margin and Text Center:
     * Multiple fixes were explored to resolve [auto-margin](https://stackoverflow.com/questions/31903734/ie11-flexbox-max-width-and-marginauto) issues and other [text alignment](https://stackoverflow.com/questions/49668656/css-text-align-center-not-working-on-ie11) issues.
@@ -345,7 +345,7 @@ Screenshot of the solution:
     * The current implementation contains `tabindex=0`,which allows users to tab through the benefits and display their relevant tooltip accordingly. 
     * However, this solution results on the tooltip persisting on 'click', and cannot be 'unclicked'. The user must either click/tab to another tooltip or click elsewhere on the page to remove
     the tooltip. 
-    * While this does not necessarily diminish the user experience, it is a bug that I would prefer to remove, however I am aware this requires additional knowledge of javascript. 
+    * While this does not necessarily diminish the user experience, it is a bug that I would prefer to remove, however I am aware this requires additional knowledge of JavaScript. 
 
 8. **Tabbing through the Enquire Menu** (Existing Bug)
     * When the user reaches the "Your Request" field of the Enquire Form, they need to tab twice, to bypass the "GitHub" icon, in order to reach the submit button. 
@@ -353,7 +353,7 @@ Screenshot of the solution:
     * Given the final input field is a "Free Text" box, pressing the enter button on this form generates a new line, as opposed to most other form inputs in which enter submits the form.
     * A solution to this would be to add set `tabindex=3` to all elements prior to the submit button, `tabindex=2` on the submit button, and `tabindex=1` on the rest of the footer icons.
     * This solution seems long winded, and would potentially result in unexpected results and goes against the recommendation to [not use 'tabindex=1+'](https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/#:~:text=When%20tabindex%20is%20set%20to,it%20in%20the%20tab%20order.).
-    * A solution to this could also be implemented in javascript, however additional experience would be needed to attempt this.
+    * A solution to this could also be implemented in JavaScript, however additional experience would be needed to attempt this.
 
 # Other Technical Difficulties
 
