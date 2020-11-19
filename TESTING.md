@@ -274,14 +274,24 @@ Automated testing was completed via third party applications, in order to assess
 
 2. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
     * The project's CSS was validated using the automated W3 Jigsaw Validator.
-    * The only error identified using this validator was the following:
-        * `negative values are not allowed : 0 0 -10px rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9);` 
-    * Initially, when debugging this validation error, I identified that the CSS worked as intended, and responded to the negative values.
-    * I tested similar code on the validator, found on [CSS-Tricks](https://css-tricks.com/almanac/properties/b/box-shadow/):
-        * `box-shadow:   inset -5px -5px 10px blue;`
-    * This code did not throw any validation errors, therefore I determined this was a syntactical error, and amended the code as follows:
-        * `0 0 -10px 0 rgb(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)`
-    * This produced an identical effect, and passed the validation.
+    * The only error identified using this validator was the following excerpt from the box-shadow rule within the button glow `@keyframe` animation:
+        * `negative values are not allowed : 0 0 -10px rgba(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9);` 
+    * While the documentation states [negative values are not allowed](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) for the `blur-radius` (argument 3), this produced the intended effect:
+
+    ![Box-Shadow Negative Value](https://res.cloudinary.com/bak2k3/image/upload/v1605762635/box-shadow-negative_bxkyys.jpg)
+
+    * At the first and last keyframe, the button has no border.
+    * In order to prevent the validation error, the following was tested:
+         * `0 0 0 rgba(228, 30, 30, 0.9), inset 0 0 0 rgba(228, 30, 30, 0.9)`
+    * However at the first and last keyframe, a thin but visible border was visible around the curved border (all browsers).
+
+    ![Box-Shadow Zero Value](https://res.cloudinary.com/bak2k3/image/upload/v1605762635/box-shadow-zero_l1uhlc.jpg)
+
+    * A solution was implemented which set the animation's Keyframes at 0% and 100% to: `box-shadow: 0 0 0 0 transparent, inset 0 0 0 0 transparent;`.
+
+    ![Box-Shadow Zero Alternative](https://res.cloudinary.com/bak2k3/image/upload/v1605762635/box-shadow-alternative_jtpmtn.jpg)
+
+    * This produced an identical effect to that intended, and passed the validation.
 
 3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)** - Accessibility, Performance, Progressive Web Apps, and Best Practices Audit:
 
