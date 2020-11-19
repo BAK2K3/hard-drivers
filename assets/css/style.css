@@ -222,9 +222,9 @@ footer {
 
 .button-glow {
   -webkit-animation: glowing 5000ms infinite;
-
   animation: glowing 5000ms infinite;
 }
+
 .button-glow:hover {
   color: rgba(228, 30, 30, 0.9);
 }
