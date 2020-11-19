@@ -420,13 +420,13 @@ From a business perspective, this could reduce the amount of work the customer f
 * The project uses [Google Fonts](https://fonts.google.com/) for typography.
 * The project's images were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
 * The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
-* The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en)
+* The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en).
 * The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colour-blind-friendly the site was.
 * The project's colour contrast ratio was assessed using [Contract-Ratio](https://contrast-ratio.com/)
 * The project's cross-browser compatibility was enhanced using [Autoprefixer.io](https://autoprefixer.GitHub.io).
 * The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
 * The project's CSS was validated using [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
-* The project's Bootstrap was validated using [Bootlint](https://GitHub.com/twbs/bootlint).
+* The project's wireframes were designed in [Balsamiq](https://balsamiq.com/wireframes/).
 * The images used in the project's README and TESTING documentation were hosted and served through [Cloudinary](https://cloudinary.com/console).
 
 ---
