@@ -295,14 +295,14 @@ Automated testing was completed via third party applications, in order to assess
 
 3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)** - Accessibility, Performance, Progressive Web Apps, and Best Practices Audit:
 
-**Home**  
-![Home Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Index-Lighthouse_fxhiv5.jpg)
+    **Home**  
+    ![Home Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Index-Lighthouse_fxhiv5.jpg)
 
-**About**  
-![About Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/About-Lighthouse_nfogiq.jpg)
+    **About**  
+    ![About Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/About-Lighthouse_nfogiq.jpg)
 
-**Enquire**  
-![Enquire Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Enquire-Ligthouse_seuuo4.jpg)
+    **Enquire**  
+    ![Enquire Lighthouse Score](https://res.cloudinary.com/bak2k3/image/upload/v1605370521/Enquire-Ligthouse_seuuo4.jpg)
 
 On further inspection, the main cause for the drop in Accessibility score for the _"Enquire"_ page was due to the implementation of `minimum-scale=1, maximum-scale=1` in the head of Enquire.html.
 
@@ -327,11 +327,11 @@ On further inspection, the main cause for the drop in Accessibility score for th
     * The issue came from `vertical-align: center;`, as this uses padding to align cell contents. Due to the nature of the ::after 50% border, this caused the border to sit on top of the padding, as opposed to the bottom of the cell as intended.
     * The solution was to set the `td` and `th` tags with `position: relative;`, and set the pseudo element to `position: absolute;`, then remove any padding from the pseudo element, and move that padding to the table element. 
 
-Screenshot of the bug:  
-![Border Padding Bug](https://res.cloudinary.com/bak2k3/image/upload/v1605371763/cell_border_c6jzdi.jpg)
+    Screenshot of the bug:  
+    ![Border Padding Bug](https://res.cloudinary.com/bak2k3/image/upload/v1605371763/cell_border_c6jzdi.jpg)
 
-Screenshot of the solution:  
-![Border Padding Solution](https://res.cloudinary.com/bak2k3/image/upload/v1605371838/cell_border_solution_gaulce.jpg)
+    Screenshot of the solution:  
+    ![Border Padding Solution](https://res.cloudinary.com/bak2k3/image/upload/v1605371838/cell_border_solution_gaulce.jpg)
 
 4. **Tooltips were being displayed on top of the text in mobile view, despite having "data-placement: right".**
     * This was resolved by using `data-placement: left`, even though it was not clear why.
