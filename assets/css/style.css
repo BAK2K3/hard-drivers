@@ -176,63 +176,55 @@ footer {
 
 @-webkit-keyframes glowing {
   0% {
-    -webkit-box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.9),
-      inset 0 0 0px rgba(228, 30, 30, 0.9);
-    box-shadow: 0 0 -10px rgba(228, 30, 30, 0.9),
-      inset 0 0 0px rgba(228, 30, 30, 0.9);
+    -webkit-box-shadow: 0 0 0 0px transparent, inset 0 0 0 0px transparent;
+    box-shadow: 0 0 0 0px transparent, inset 0 0 0 0px transparent;
   }
   40% {
-    -webkit-box-shadow: 0 0 20px rgba(228, 30, 30, 0.9),
-      inset 0 0 10px rgba(228, 30, 30, 0.9);
-    box-shadow: 0 0 20px rgba(228, 30, 30, 0.9),
-      inset 0 0 10px rgba(228, 30, 30, 0.9);
+    -webkit-box-shadow: 0 0 20px 1px rgba(228, 30, 30, 0.9),
+      inset 0px 0px 10px 0px rgba(228, 30, 30, 0.9);
+    box-shadow: 0 0 20px 1px rgba(228, 30, 30, 0.9),
+      inset 0px 0px 10px 0px rgba(228, 30, 30, 0.9);
   }
   60% {
-    -webkit-box-shadow: 0 0 20px rgba(228, 30, 30, 0.9),
-      inset 0 0 10px rgba(228, 30, 30, 0.9);
-    box-shadow: 0 0 20px rgba(228, 30, 30, 0.9),
-      inset 0 0 10px rgba(228, 30, 30, 0.9);
+    -webkit-box-shadow: 0 0 20px 1px rgba(228, 30, 30, 0.9),
+      inset 0 0 10px 0px rgba(228, 30, 30, 0.9);
+    box-shadow: 0 0 20px 1px rgba(228, 30, 30, 0.9),
+      inset 0 0 10px 0px rgba(228, 30, 30, 0.9);
   }
   100% {
-    -webkit-box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.9),
-      inset 0 0 0px rgba(228, 30, 30, 0.9);
-    box-shadow: 0 0 -10px rgba(228, 30, 30, 0.9),
-      inset 0 0 0px rgba(228, 30, 30, 0.9);
+    -webkit-box-shadow: 0 0 0 0px transparent, inset 0 0 0 0px transparent;
+    box-shadow: 0 0 0 0px transparent, inset 0 0 0 0px transparent;
   }
 }
 
 @keyframes glowing {
   0% {
-    -webkit-box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.9),
-      inset 0 0 0px rgba(228, 30, 30, 0.9);
-    box-shadow: 0 0 -10px rgba(228, 30, 30, 0.9),
-      inset 0 0 0px rgba(228, 30, 30, 0.9);
+    -webkit-box-shadow: 0 0 0 0px transparent, inset 0 0 0 0px transparent;
+    box-shadow: 0 0 0 0px transparent, inset 0 0 0 0px transparent;
   }
   40% {
-    -webkit-box-shadow: 0 0 20px 0 rgba(228, 30, 30, 0.9),
-      inset 0 0 10px rgba(228, 30, 30, 0.9);
-    box-shadow: 0 0 20px rgba(228, 30, 30, 0.9),
-      inset 0 0 10px rgba(228, 30, 30, 0.9);
+    -webkit-box-shadow: 0 0 20px 1px rgba(228, 30, 30, 0.9),
+      inset 0px 0px 10px 0px rgba(228, 30, 30, 0.9);
+    box-shadow: 0 0 20px 1px rgba(228, 30, 30, 0.9),
+      inset 0px 0px 10px 0px rgba(228, 30, 30, 0.9);
   }
   60% {
-    -webkit-box-shadow: 0 0 20px rgba(228, 30, 30, 0.9),
-      inset 0 0 10px rgba(228, 30, 30, 0.9);
-    box-shadow: 0 0 20px rgba(228, 30, 30, 0.9),
-      inset 0 0 10px rgba(228, 30, 30, 0.9);
+    -webkit-box-shadow: 0 0 20px 1px rgba(228, 30, 30, 0.9),
+      inset 0 0 10px 0px rgba(228, 30, 30, 0.9);
+    box-shadow: 0 0 20px 1px rgba(228, 30, 30, 0.9),
+      inset 0 0 10px 0px rgba(228, 30, 30, 0.9);
   }
   100% {
-    -webkit-box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.9),
-      inset 0 0 0px rgba(228, 30, 30, 0.9);
-    box-shadow: 0 0 -10px 0 rgba(228, 30, 30, 0.9),
-      inset 0 0 0px rgba(228, 30, 30, 0.9);
+    -webkit-box-shadow: 0 0 0 0px transparent, inset 0 0 0 0px transparent;
+    box-shadow: 0 0 0 0px transparent, inset 0 0 0 0px transparent;
   }
 }
 
 .button-glow {
   -webkit-animation: glowing 5000ms infinite;
+
   animation: glowing 5000ms infinite;
 }
-
 .button-glow:hover {
   color: rgba(228, 30, 30, 0.9);
 }
